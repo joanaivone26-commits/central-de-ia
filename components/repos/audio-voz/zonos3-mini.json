@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/Zyphra/ZONOS3-Mini",
+  "title": "ZONOS3-Mini (Zyphra)",
+  "description": "TTS multilíngue (43 idiomas, incl. Portuguese) com clonagem, lançado em 2026-11-09, com servidores de inferência incl. MLX.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 34,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Candidato forte para clonagem PT no M1 com pesos Apache (avaliar, é muito novo).",
+    "Entrada → saída": "Texto + referência → WAV (HTTP/servidor ou API Python offline).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Servidor MLX oficial (servers/mlx) e mlx-community/ZONOS3-Mini.",
+    "Hardware": "GPU NVIDIA, Apple Silicon (MLX) e WebGPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Apache-2.0 (Zyphra/ZONOS3-Mini)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "ZONOS3-Mini (2026-11-09)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "não confirmado (instalar pelo repositório; o 'zonos' do PyPI não é oficial)",
+    "Observações": "Lançado 2 dias antes desta pesquisa (poucas estrelas ainda). Antecessores: Zyphra/Zonos v0.1 (Apache-2.0, 2025-02, sem PT confirmado) e Zyphra/ZONOS2 (2026, PT no 'Tier 2')."
+  },
+  "fontes": [
+    "https://github.com/Zyphra/ZONOS3-Mini",
+    "https://huggingface.co/Zyphra/ZONOS3-Mini",
+    "https://github.com/Zyphra/Zonos",
+    "https://github.com/Zyphra/ZONOS2"
+  ]
+}

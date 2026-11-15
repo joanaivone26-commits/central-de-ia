@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ali-vilab/VACE",
+  "title": "VACE (Alibaba)",
+  "description": "Modelo 'tudo-em-um' de criação e edição de vídeo sobre o Wan2.1: referência→vídeo, vídeo→vídeo, inpainting/outpainting por máscara, mover/animar objetos.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 4100,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Editar vídeo existente com IA: trocar objetos, estender bordas (ex.: 16:9→9:16 por outpainting), animar referências.",
+    "Entrada → saída": "Vídeo/máscaras/referências + texto → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O código oficial é para CUDA; no Mac só via ComfyUI (MPS) ou mlx-video, com 32–64 GB de memória unificada. Inviável no M1 8 GB.",
+    "Hardware": "1.3B (480p): GPU de 12–16 GB; 14B (720p): 24 GB+ com fp8 (estimativas)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (Wan2.1-VACE-1.3B/14B)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou nós nativos do ComfyUI)",
+    "Observações": "Último push em 2025-10; integrado nativamente no ComfyUI."
+  },
+  "fontes": [
+    "https://github.com/ali-vilab/VACE",
+    "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B"
+  ]
+}

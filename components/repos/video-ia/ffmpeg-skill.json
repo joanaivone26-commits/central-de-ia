@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/kajisho5/ffmpeg-skill",
+  "title": "ffmpeg-skill",
+  "description": "Toolkit local com 42 scripts FFmpeg (cortes, legendas, reframe, loudness, export por plataforma) + servidor MCP para agentes.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 4900,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Dar ao agente comandos FFmpeg testados em vez de improvisados; roda 100% local.",
+    "Entrada → saída": "Vídeo → vídeo/legendas/exports",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "A CI roda em macOS; transcrição local opcional (parakeet-mlx/faster-whisper).",
+    "Hardware": "CPU (VideoToolbox opcional)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.2.3 (2026-11-07)",
+    "Nível": "iniciante",
+    "Instalação": "npx ffmpeg-skill  (--codex / --cursor / --all)",
+    "Observações": "Criado em 2026-09. As métricas de qualidade do README são autodeclaradas; teste antes de adotar."
+  },
+  "fontes": [
+    "https://github.com/kajisho5/ffmpeg-skill"
+  ]
+}

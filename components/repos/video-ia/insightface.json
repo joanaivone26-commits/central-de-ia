@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/deepinsight/insightface",
+  "title": "InsightFace",
+  "description": "Toolkit de análise facial 2D/3D: detecção (SCRFD/RetinaFace), alinhamento, reconhecimento (ArcFace) e atributos.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 30200,
+  "license": "MIT (código)",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Detectar/identificar rostos com alta precisão (ex.: seguir uma pessoa específica no reframe).",
+    "Entrada → saída": "Imagens/frames → caixas, landmarks, embeddings",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU via onnxruntime; a instalação pode exigir compilar (Cython).",
+    "Hardware": "CPU ou GPU (onnxruntime)",
+    "Licença do código": "MIT (código)",
+    "Licença dos pesos": "Modelos pré-treinados (buffalo_l etc.) apenas para pesquisa NÃO comercial",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "insightface 2.1 (PyPI, 2026-10-03)",
+    "Nível": "avancado",
+    "Instalação": "pip install insightface onnxruntime",
+    "Observações": "O README diz que tanto os modelos baixados manualmente quanto os auto-baixados pela lib são só para pesquisa não comercial. Para uso comercial, treine/licencie modelos próprios ou use MediaPipe/YuNet."
+  },
+  "fontes": [
+    "https://github.com/deepinsight/insightface",
+    "https://pypi.org/project/insightface/"
+  ]
+}

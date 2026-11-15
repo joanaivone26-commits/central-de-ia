@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/smacke/ffsubsync",
+  "title": "ffsubsync",
+  "description": "Sincroniza automaticamente uma legenda com o áudio do vídeo (VAD + correlação), corrigindo atraso e diferença de framerate.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 7900,
+  "license": "MIT",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Correção de sincronia: legenda adiantada/atrasada ou baixada de outra fonte.",
+    "Entrada → saída": "Vídeo/áudio ou legenda de referência + .srt → .srt sincronizado.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Precisa de FFmpeg.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "0.5.1 (2026-07)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install ffsubsync",
+    "Observações": "Uso: ffs video.mp4 -i fora.srt -o certo.srt. Use --vad=auditok em áudio ruim. A versão atual menciona alinhamento por partes 'estilo alass'."
+  },
+  "fontes": [
+    "https://github.com/smacke/ffsubsync",
+    "https://pypi.org/project/ffsubsync"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "firecrawl/firecrawl",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/firecrawl/firecrawl"
+  },
+  "author": "firecrawl",
+  "addedAt": "2026-11-15"
+}

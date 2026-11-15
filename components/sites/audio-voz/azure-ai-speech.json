@@ -1,0 +1,10 @@
+{
+  "url": "https://learn.microsoft.com/azure/ai-services/speech-service/",
+  "title": "Azure AI Speech (Microsoft)",
+  "description": "TTS neural com as mesmas vozes pt-BR do edge-tts (com contrato/SLA), STT, tradução de fala e voz personalizada com consentimento.",
+  "tags": [
+    "ferramenta comercial",
+    "Voz e áudio"
+  ],
+  "pricing": "pago ou freemium"
+}

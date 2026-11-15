@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/yuvraj108c/ComfyUI-FLOAT",
+  "title": "ComfyUI-FLOAT",
+  "description": "Wrapper ComfyUI do FLOAT (existe também set-soft/ComfyUI-FLOAT_Optimized).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 273,
+  "license": "CC BY-NC-SA 4.0 (badge/README)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar FLOAT dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPU NVIDIA; RAM/VRAM crescem com áudios longos.",
+    "Licença do código": "CC BY-NC-SA 4.0 (badge/README)",
+    "Licença dos pesos": "FLOAT: não comercial",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-06",
+    "Versão recente": "sem releases (2026-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Rápido para foto falante; licença NC.",
+    "No ComfyUI": "yuvraj108c/ComfyUI-FLOAT"
+  },
+  "fontes": [
+    "https://github.com/yuvraj108c/ComfyUI-FLOAT",
+    "https://ungh.cc/repos/yuvraj108c/ComfyUI-FLOAT",
+    "https://github.com/set-soft/ComfyUI-FLOAT_Optimized"
+  ]
+}

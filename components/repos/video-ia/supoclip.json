@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/FujiwaraChoki/supoclip",
+  "title": "SupoClip",
+  "description": "Alternativa open-source ao OpusClip: encontra os melhores momentos, corta, reenquadra e legenda.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 2700,
+  "license": "AGPL-3.0",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Clipping self-hosted para equipes.",
+    "Entrada → saída": "Vídeo longo → clipes 9:16 legendados",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Docker; execução nativa em Apple Silicon não confirmada.",
+    "Hardware": "CPU",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "docker compose up (ver README)",
+    "Observações": "Do mesmo autor do MoneyPrinter original. AGPL: se oferecer como serviço, publique o código."
+  },
+  "fontes": [
+    "https://github.com/FujiwaraChoki/supoclip"
+  ]
+}

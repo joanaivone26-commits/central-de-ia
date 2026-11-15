@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/development/webapp-testing",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/development/webapp-testing",
+    "commit": "15e09b2214585976ae4073522192eb62d4dd4093",
+    "url": "https://www.aitmpl.com/component/skills/development/webapp-testing"
+  },
+  "license": "Complete terms in LICENSE.txt",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "MEDIUM",
+    "score": 49,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/development/webapp-testing)."
+}

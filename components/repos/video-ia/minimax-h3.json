@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+  "title": "MiniMax H3 (Hailuo H3)",
+  "description": "Modelo omni-modal open-weights de 33B que gera vídeo com áudio estéreo nativo, até 2K e 4–15 s a 24 fps.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 11700,
+  "license": "MiniMax H3 Community License",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Topo de qualidade entre os modelos abertos de 2026; uso em nuvem/GPU de datacenter.",
+    "Entrada → saída": "Texto/imagens de referência → vídeo + áudio",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "Datacenter (o exemplo usa 4 GPUs com SGLang); requisitos mínimos não declarados",
+    "Licença do código": "MiniMax H3 Community License",
+    "Licença dos pesos": "MiniMax H3 Community License: EXCLUI UE, Reino Unido, Coreia do Sul e EUA; receita anual > US$ 20 mi exige autorização; produto comercial deve exibir 'MiniMax H3'",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "pip install diffusers (ModularPipeline 'MiniMaxAI/MiniMax-H3') ou SGLang/vLLM",
+    "Observações": "Pesos publicados em 2026-07-28 (~6,4 mi downloads no HF). O Brasil está no território permitido, mas plataformas/clientes nos EUA/UE não. Templates oficiais para ComfyUI."
+  },
+  "fontes": [
+    "https://github.com/MiniMax-AI/MiniMax-H3",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+  ]
+}

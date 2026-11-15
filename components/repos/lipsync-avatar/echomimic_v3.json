@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/antgroup/echomimic_v3",
+  "title": "EchoMimicV3",
+  "description": "Modelo unificado de 1,3B (base Wan2.1-Fun) para animação humana multimodal e multitarefa (AAAI 2026), com versão Flash.",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1100,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Melhor custo-benefício para foto falante/meio corpo em GPU NVIDIA de 8–12 GB.",
+    "Entrada → saída": "foto + áudio (+ texto) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "12 GB de VRAM (README); no ComfyUI o Flash faz 768×512 em ~6,5 GB e 768×768 em 12 GB.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF BadToBest/EchoMimicV3)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-03",
+    "Versão recente": "EchoMimicV3-Flash (2026-01-22)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve para um modelo de vídeo moderno, com corpo e expressão naturais; detalhe fino abaixo dos 14B (InfiniteTalk/OmniAvatar).",
+    "No ComfyUI": "smthemex/ComfyUI_EchoMimic"
+  },
+  "fontes": [
+    "https://github.com/antgroup/echomimic_v3",
+    "https://ungh.cc/repos/antgroup/echomimic_v3",
+    "https://huggingface.co/BadToBest/EchoMimicV3"
+  ]
+}

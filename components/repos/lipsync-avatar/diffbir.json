@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/XPixelGroup/DiffBIR",
+  "title": "DiffBIR",
+  "description": "Restauração cega de imagem/rosto por difusão (prior de Stable Diffusion), com suporte a MPS.",
+  "tags": [
+    "Restauração facial"
+  ],
+  "stars": 4100,
+  "license": "Apache-2.0",
+  "subcategoria": "Restauração facial",
+  "detalhes": {
+    "Melhor uso": "Recuperar close-ups muito degradados quando o tempo de render não importa.",
+    "Entrada → saída": "imagem/frames → imagem restaurada",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Suporte a Apple Silicon (CPU/CUDA/MPS) desde 2023-09 (assets/docs/installation_xOS.md); lento.",
+    "Hardware": "GPU NVIDIA recomendada; CPU/MPS suportados.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Baseados em Stable Diffusion 2.1 (OpenRAIL++) — verificar",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-07",
+    "Versão recente": "v2.1.0 (2024-11)",
+    "Nível": "avancado",
+    "Qualidade": "Qualidade alta em imagem, mas lento, pode alucinar detalhes e não é consistente entre frames."
+  },
+  "fontes": [
+    "https://github.com/XPixelGroup/DiffBIR",
+    "https://ungh.cc/repos/XPixelGroup/DiffBIR"
+  ]
+}

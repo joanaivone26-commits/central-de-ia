@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/fudan-generative-vision/hallo",
+  "title": "Hallo",
+  "description": "Animação de retrato por difusão (SD1.5 + Wav2Vec2) com atenção hierárquica para lábios, expressão e pose (Fudan, 2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 8700,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante realista curta em GPU NVIDIA média/alta.",
+    "Entrada → saída": "foto + áudio → vídeo 512×512",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em A100; VRAM mínima não publicada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF fudan-generative-ai/hallo)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-09",
+    "Versão recente": "v1.0.0 (2024-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Realismo bom para a época, mas lento, 512 px e pouca movimentação de cabeça. Usa análise facial do InsightFace (pesos não comerciais).",
+    "No ComfyUI": "AIFSH/ComfyUI-Hallo"
+  },
+  "fontes": [
+    "https://github.com/fudan-generative-vision/hallo",
+    "https://ungh.cc/repos/fudan-generative-vision/hallo",
+    "https://huggingface.co/fudan-generative-ai/hallo"
+  ]
+}

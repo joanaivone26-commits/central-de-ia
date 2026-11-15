@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/mistralai/Voxtral-4B-TTS-2603",
+  "title": "Voxtral TTS (Mistral)",
+  "description": "TTS 4B da Mistral (mar/2026) com 20 vozes prontas em 9 idiomas, incluindo português.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": null,
+  "license": "N/A (sem repo de código próprio)",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Vozes prontas de alta qualidade em projetos não comerciais com GPU.",
+    "Entrada → saída": "Texto → áudio.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Port mlx-community/Voxtral-4B-TTS-2603-mlx-bf16, pesado para 8 GB.",
+    "Hardware": "GPU >=16 GB (card oficial) via vllm-omni.",
+    "Licença do código": "N/A (sem repo de código próprio)",
+    "Licença dos pesos": "CC-BY-NC-4.0",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-03",
+    "Versão recente": "Voxtral-4B-TTS-2603 (2026-03)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "pip install vllm (vllm-omni)",
+    "Observações": "Sem repositório GitHub: o 'repo' é o ID do Hugging Face. Segundo a receita vLLM, clonagem por áudio de referência não funciona no checkpoint aberto (encoder não liberado)."
+  },
+  "fontes": [
+    "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+    "https://recipes.vllm.ai/mistralai/Voxtral-4B-TTS-2603"
+  ]
+}

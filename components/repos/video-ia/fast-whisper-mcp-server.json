@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/BigUncle/Fast-Whisper-MCP-Server",
+  "title": "Fast-Whisper MCP Server (local)",
+  "description": "Transcrição LOCAL com faster-whisper (modelos tiny→large-v3), aceleração CUDA, lote de arquivos de uma pasta e saída VTT/SRT/JSON — útil para legendas sem enviar áudio para a nuvem. Não há MCP de Whisper local muito popular em 2026; alternativa para Mac: kachiO/mlx-whisper-mcp (~24★, sem atividade desde jun/2025). Para legendas locais, o ffmpeg-skill (com faster-whisper) é opção mais mantida.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 17,
+  "license": "sem licença declarada",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "sem licença declarada",
+    "Status": "pouca atividade (último push mar/2025)",
+    "Última atividade": "2025-03-22",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio)",
+    "Ferramentas expostas": "get_model_info, transcribe, batch_transcribe",
+    "Requisitos": "Python 3.10+; faster-whisper ≥0.9; PyTorch (README fixa torch 2.6.0+cu126; há versão CPU); GPU NVIDIA recomendada; config `python /caminho/whisper_server.py`."
+  },
+  "fontes": [
+    "https://github.com/BigUncle/Fast-Whisper-MCP-Server",
+    "https://github.com/kachiO/mlx-whisper-mcp"
+  ]
+}

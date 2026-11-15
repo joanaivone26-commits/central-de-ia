@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/meta-pytorch/torchcodec",
+  "title": "TorchCodec",
+  "description": "Decodificação/codificação de vídeo e áudio direto para tensores PyTorch (substituto de torchvision.io e decord).",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 1200,
+  "license": "BSD-3-Clause",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Pipelines de ML que leem e gravam frames: datasets, análise de vídeo, avaliação.",
+    "Entrada → saída": "Vídeo/áudio ↔ tensores torch",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU no macOS com o FFmpeg do sistema; aceleração Metal não confirmada.",
+    "Hardware": "CPU; decodificação CUDA em NVIDIA",
+    "Licença do código": "BSD-3-Clause",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.17.0 (2026-09-30)",
+    "Nível": "avancado",
+    "Instalação": "pip install torchcodec",
+    "Observações": "Repo movido de pytorch/torchcodec para meta-pytorch/torchcodec."
+  },
+  "fontes": [
+    "https://github.com/meta-pytorch/torchcodec",
+    "https://pypi.org/project/torchcodec/"
+  ]
+}

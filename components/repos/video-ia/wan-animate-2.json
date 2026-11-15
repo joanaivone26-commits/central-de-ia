@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Wan-Video/Wan-Animate-2",
+  "title": "Wan-Animate 2",
+  "description": "Animação e substituição de personagem guiada por vídeo de referência (movimento/expressão), sucessor do Wan2.2-Animate.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 380,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Animar um personagem/avatar com a performance de um ator; trocar a pessoa de um vídeo.",
+    "Entrada → saída": "Imagem do personagem + vídeo de referência → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Não documentado para Mac.",
+    "Hardware": "14B: GPU de 24 GB+ (estimativa; requisitos oficiais não confirmados)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (Wan2.2-Animate-2-14B, com versões Diffusers e Distilled)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou diffusers)",
+    "Observações": "Novidade de 2026-07/08. No mesmo org saiu o Wan-Dancer-14B (2026-07, Apache-2.0) para dança. Atenção ético-legal ao trocar rostos de pessoas reais."
+  },
+  "fontes": [
+    "https://github.com/Wan-Video/Wan-Animate-2",
+    "https://huggingface.co/Wan-AI/Wan2.2-Animate-2-14B",
+    "https://github.com/Wan-Video/Wan-Dancer"
+  ]
+}

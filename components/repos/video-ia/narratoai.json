@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/linyqh/NarratoAI",
+  "title": "NarratoAI",
+  "description": "Gera comentários/narrações de filmes e séries com LLM multimodal: analisa o vídeo, escreve o roteiro, dubla e monta.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 11800,
+  "license": "MIT",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Vídeos de resumo/comentário narrados.",
+    "Entrada → saída": "Vídeo → roteiro + narração + vídeo montado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Docker ou código-fonte.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.8.7 (2026-07-17)",
+    "Nível": "intermediario",
+    "Instalação": "git clone (ou Docker)",
+    "Observações": "Cuidado com os direitos autorais do material de origem."
+  },
+  "fontes": [
+    "https://github.com/linyqh/NarratoAI"
+  ]
+}

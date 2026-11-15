@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/python-pillow/Pillow",
+  "title": "Pillow",
+  "description": "Biblioteca padrão de manipulação de imagens em Python.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 14000,
+  "license": "MIT-CMU (HPND)",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Thumbnails, cards de texto, marcas-d'água, overlays e frames estáticos para B-roll.",
+    "Entrada → saída": "Imagens ↔ imagens/arrays",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheels arm64 oficiais.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT-CMU (HPND)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "13.0.0 (2026-10-16)",
+    "Nível": "iniciante",
+    "Instalação": "pip install pillow",
+    "Observações": "O Pillow 13 (2026-10) exige Python >= 3.11. A remoção de APIs antigas quebrou o MoviePy 2.2.0 (corrigido no 2.2.1)."
+  },
+  "fontes": [
+    "https://github.com/python-pillow/Pillow",
+    "https://pypi.org/project/pillow/"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/Stability-AI/stable-audio-tools",
+  "title": "stable-audio-tools + Stable Audio Open",
+  "description": "Código de treino/inferência dos modelos Stable Audio Open 1.0 e Open Small (texto → efeitos/loops/música curta).",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 3900,
+  "license": "MIT",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Efeitos sonoros e trilhas curtas por texto.",
+    "Entrada → saída": "Prompt de texto → WAV 44,1 kHz (até ~47 s no 1.0).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O pacote PyPI exige Python >=3.10,<3.11 (conflita com 3.12 da aula); use venv 3.10 ou Stable Audio 3.",
+    "Hardware": "GPU NVIDIA; Small roda em CPU Arm.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Stability AI Community License (gated)",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-05",
+    "Versão recente": "0.0.20 (PyPI 2026-05-20)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "pip install stable-audio-tools",
+    "Observações": "Community License: uso comercial grátis abaixo de um limite de receita anual (US$ 1 mi, conforme stability.ai/license — confirmar)."
+  },
+  "fontes": [
+    "https://github.com/Stability-AI/stable-audio-tools",
+    "https://huggingface.co/stabilityai/stable-audio-open-1.0",
+    "https://huggingface.co/stabilityai/stable-audio-open-small",
+    "https://stability.ai/license"
+  ]
+}

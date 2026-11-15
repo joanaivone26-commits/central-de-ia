@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/cvlab-kaist/LipForcing",
+  "title": "Lip Forcing",
+  "description": "Primeiro lip sync vídeo-para-vídeo autoregressivo por difusão em poucos passos, em streaming/tempo real (KAIST, 2026); destila um professor 14B (OmniAvatar-LS).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 137,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Lip sync em streaming com qualidade de difusão quando há GPU de 48 GB+; acompanhar o 1.3B prometido (31 FPS) para GPUs menores.",
+    "Entrada → saída": "vídeo de referência + áudio → vídeo sincronizado em chunks (streaming)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Existe pack MLX comunitário (shraey/lipforcing-14b-mlx, Natively Engine GPL-3.0); 14B exige Mac com muita memória — não testado.",
+    "Hardware": "14B: ~37 GB de pico (H200), placas de 48 GB funcionam; 1.3B ainda não liberado.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF JinhyukJang/lipforcing)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "14B student (2026-07-07)",
+    "Nível": "avancado",
+    "Qualidade": "Rápido para difusão e com memória constante em clipes longos; ainda novo, só o 14B saiu e o pré-processamento depende de modelos InsightFace (detecção/landmarks), cujos pesos pré-treinados são só para pesquisa não comercial."
+  },
+  "fontes": [
+    "https://github.com/cvlab-kaist/LipForcing",
+    "https://ungh.cc/repos/cvlab-kaist/LipForcing",
+    "https://huggingface.co/JinhyukJang/lipforcing",
+    "https://huggingface.co/shraey/lipforcing-14b-mlx"
+  ]
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Central de IA Trip Angle</title>
+  <meta name="description" content="Prompts mestres, skills, MCPs, frameworks e repositórios de IA para negócio digital. Grátis, sem login.">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="assets/brand/trip-angle-icone.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/app.css">
+  <link rel="alternate" type="application/rss+xml" title="Novidades da Central Trip Angle" href="feed.xml">
+</head>
+<body>
+  <a class="sr-only" href="#app">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="wrap">
+      <button class="btn fantasma icone menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="logo" href="#/" aria-label="Central de IA Trip Angle, início">
+        <img src="assets/brand/trip-angle-logo-horizontal-branco.svg" alt="Trip Angle" width="82" height="34">
+        <span class="tag">Central de IA</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#/jornadas" data-rota="jornadas">Comece aqui</a>
+        <a href="#/prompts" data-rota="prompts">Prompts</a>
+        <a href="#/explorar" data-rota="explorar">Explorar</a>
+        <a href="#/explorar?tipo=repos" data-tipo="repos" class="opc">Repositórios</a>
+        <a href="#/montador" data-rota="montador" class="opc">Montar prompt</a>
+        <a href="#/kits" data-rota="kits" class="opc">Kits</a>
+        <a href="#/como-usar" data-rota="como-usar">Como usar</a>
+      </nav>
+      <div class="acoes">
+        <button class="btn-busca" id="buscaBtn" aria-label="Buscar componentes">
+          <svg viewBox="0 0 24 24" width="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span class="txt">Buscar componentes…</span><kbd>⌘K</kbd>
+        </button>
+        <a class="btn icone btn-stack" href="#/favoritos" id="favBtn" aria-label="Meus favoritos" title="Meus favoritos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9L12 3Z"/></svg>
+          <span class="badge" id="favBadge" data-n="0"></span>
+        </a>
+        <button class="btn vermelho btn-stack" id="stackBtn" aria-label="Abrir minha stack">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg>
+          <span class="txt-stack">Stack</span>
+          <span class="badge" id="stackBadge" data-n="0"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <div class="carregando">
+      <img src="assets/brand/trip-angle-simbolo-vermelho.svg" alt="">
+      <span class="colchete">Carregando a central</span>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <div class="marca">
+        <img src="assets/brand/trip-angle-logo-horizontal-branco.svg" alt="Trip Angle" width="96" height="40">
+        <p>Mercado real. <b>Execução real.</b></p>
+        <p class="muted" id="socials"></p>
+      </div>
+      <nav aria-label="Catálogo">
+        <h5>Catálogo</h5>
+        <a href="#/prompts">Prompts</a>
+        <a href="#/explorar?tipo=frameworks">Frameworks</a>
+        <a href="#/explorar?tipo=skills">Skills</a>
+        <a href="#/explorar?tipo=agents">Agentes</a>
+        <a href="#/explorar?tipo=commands">Comandos</a>
+        <a href="#/explorar?tipo=mcps">MCPs</a>
+        <a href="#/explorar?tipo=hooks">Hooks e Settings</a>
+      </nav>
+      <nav aria-label="Recursos">
+        <h5>Recursos</h5>
+        <a href="#/como-usar">Como usar</a>
+        <a href="#/jornadas">Jornadas por objetivo</a>
+        <a href="#/montador">Montar meu prompt</a>
+        <a href="#/perfil">Meu perfil da oferta</a>
+        <a href="#/favoritos">Meus favoritos</a>
+        <a href="#/kits">Kits &amp; Plugins</a>
+        <a href="#/explorar?tipo=sites">Ferramentas &amp; Sites</a>
+        <a href="#/explorar?tipo=repos">Repositórios</a>
+        <a href="feed.xml">Novidades (RSS)</a>
+        <a href="api/catalog.json">API do catálogo</a>
+        <a href="llms.txt">llms.txt</a>
+        <a href="tahub.py">Instalador (tahub.py)</a>
+        <a href="#" id="repoLink" hidden>Repositório no GitHub</a>
+        <a href="#" id="ytLink" hidden target="_blank" rel="noopener">YouTube da Trip Angle</a>
+      </nav>
+      <div class="allday" aria-hidden="true">ALL DAY</div>
+    </div>
+  </footer>
+
+  <div class="veu" id="veu"></div>
+  <aside class="gaveta" id="gaveta" aria-label="Minha stack" aria-hidden="true">
+    <header>
+      <span class="ponto"></span>
+      <h2 class="h3">Minha <em>stack</em></h2>
+      <button class="btn fantasma icone" id="fecharGaveta" aria-label="Fechar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+    <div class="lista" id="stackLista"></div>
+    <footer id="stackRodape"></footer>
+  </aside>
+
+  <div class="paleta" id="paleta" role="dialog" aria-modal="true" aria-label="Buscar componentes">
+    <div class="caixa">
+      <label class="campo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="paletaInput" type="search" placeholder="Busque prompts, skills, agentes, MCPs, frameworks…" autocomplete="off" aria-label="Buscar">
+        <kbd>ESC</kbd>
+      </label>
+      <ul id="paletaLista" role="listbox"></ul>
+      <div class="rodape-paleta"><span>↑↓ navegar</span><span>↵ abrir</span><span>⇧↵ adicionar à stack</span></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/business-marketing/customer-support",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/business-marketing/customer-support.md",
+    "commit": "10f391b52ed9601f100517233669525a4569faf3",
+    "url": "https://www.aitmpl.com/component/agents/business-marketing/customer-support"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 9,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/business-marketing/customer-support)."
+}

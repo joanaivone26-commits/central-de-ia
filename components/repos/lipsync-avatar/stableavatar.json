@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Francis-Rings/StableAvatar",
+  "title": "StableAvatar",
+  "description": "Avatar guiado por áudio de duração \"infinita\" sem deriva de identidade, base Wan2.1-1.3B (NeurIPS 2026).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1300,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Vídeos longos de avatar em GPU de consumidor (16–24 GB).",
+    "Entrada → saída": "foto + áudio (+ prompt) → vídeo longo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "5 s a 480×832: ~18 GB e ~3 min numa RTX 4090; model_cpu_offload corta ~metade da VRAM.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF FrancisRing/StableAvatar)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "correção multi-GPU (2025-10)",
+    "Nível": "avancado",
+    "Qualidade": "Estável em vídeos longos com modelo pequeno; detalhe abaixo dos 14B.",
+    "No ComfyUI": "smthemex/ComfyUI_StableAvatar"
+  },
+  "fontes": [
+    "https://github.com/Francis-Rings/StableAvatar",
+    "https://ungh.cc/repos/Francis-Rings/StableAvatar",
+    "https://huggingface.co/FrancisRing/StableAvatar"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/Plachtaa/seed-vc",
+  "title": "Seed-VC",
+  "description": "Conversão de voz e canto zero-shot (sem treino), v2 com conversão de sotaque.",
+  "tags": [
+    "Conversão de voz"
+  ],
+  "stars": 3900,
+  "license": "GPL-3.0",
+  "subcategoria": "Conversão de voz",
+  "detalhes": {
+    "Melhor uso": "Converter voz sem treinar modelo.",
+    "Entrada → saída": "Áudio fonte + referência → áudio convertido.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "requirements-mac.txt recomendado para Mac série M.",
+    "Hardware": "GPU ou Apple Silicon.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "GPL-3.0 (Plachta/Seed-VC)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2025-04",
+    "Versão recente": "seed-vc 0.4.3 (PyPI 2025-09)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install seed-vc",
+    "Observações": "Arquivado em 2025-11. GPL-3.0 (copyleft)."
+  },
+  "fontes": [
+    "https://github.com/Plachtaa/seed-vc",
+    "https://huggingface.co/Plachta/Seed-VC",
+    "https://pypi.org/project/seed-vc"
+  ]
+}

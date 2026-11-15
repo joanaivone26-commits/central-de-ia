@@ -1,0 +1,10 @@
+{
+  "url": "https://deepmind.google/models/veo/",
+  "title": "Veo",
+  "description": "Modelo de vídeo com áudio nativo, disponível no Gemini, no Flow e na API Vertex/Gemini.",
+  "tags": [
+    "ferramenta comercial",
+    "Vídeo e edição"
+  ],
+  "pricing": "pago ou freemium"
+}

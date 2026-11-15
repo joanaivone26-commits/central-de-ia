@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Alibaba-Quark/LiveAvatar",
+  "title": "LiveAvatar",
+  "description": "Avatar em streaming/tempo real guiado por áudio, sobre Wan2.2-S2V-14B (Alibaba Quark, ECCV 2026 Spotlight).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 2500,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Streaming de avatar com qualidade de 14B em servidor (nuvem).",
+    "Entrada → saída": "imagem + áudio em streaming → vídeo contínuo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac (há GGUF NVFP4 experimental no audio.cpp).",
+    "Hardware": "Uma GPU de 80 GB; com FP8 (v1.1) placas de 48 GB.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF Quark-Vision/Live-Avatar)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "v1.1 (2026-01-20)",
+    "Nível": "avancado",
+    "Qualidade": "Streaming \"infinito\" com qualidade alta; inviável em GPU de consumidor."
+  },
+  "fontes": [
+    "https://github.com/Alibaba-Quark/LiveAvatar",
+    "https://ungh.cc/repos/Alibaba-Quark/LiveAvatar",
+    "https://huggingface.co/Quark-Vision/Live-Avatar"
+  ]
+}

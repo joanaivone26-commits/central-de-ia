@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/KyaniteLabs/kinocut",
+  "title": "Kinocut (ex-mcp-video)",
+  "description": "Servidor MCP de edição de vídeo 'com guardrails' (nunca sobrescreve a fonte sem `overwrite`), cliente Python e CLI `kino`. 206 ferramentas no pacote, mas o modo padrão expõe 18 (8 'hot path' + 8 famílias + list_operations/describe_operation). Integra FFmpeg, HyperFrames e Remotion; gera shorts verticais legendados.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 263,
+  "license": "Apache-2.0",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "Apache-2.0",
+    "Status": "ativo",
+    "Última atividade": "2026-11-11",
+    "Funciona no Claude": "sim (claude mcp add kinocut -- uvx --from kinocut==2.0.1 kino --mcp)",
+    "Funciona no Codex": "sim (stdio: uvx --from kinocut==2.0.1 kino --mcp)",
+    "Ferramentas expostas": "video_info, video_trim, video_merge, video_add_text, video_add_audio, video_extract_frame, video_shorts, video_doctor, video_edit_ops, video_effects_ops, audio_ops, video_ai_ops, image_ops, video_qc_ops, video_plan_ops, platform_ops, list_operations, describe_operation",
+    "Requisitos": "Python 3.11+, uv/uvx, FFmpeg instalado. Pacote PyPI `kinocut` (fixar versão, ex. 2.0.1)."
+  },
+  "fontes": [
+    "https://github.com/KyaniteLabs/kinocut",
+    "https://pypi.org/project/kinocut/",
+    "https://kinocut.dev/"
+  ]
+}

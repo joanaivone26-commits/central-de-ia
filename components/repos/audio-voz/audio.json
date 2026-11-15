@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/pytorch/audio",
+  "title": "torchaudio forced_align + MMS_FA",
+  "description": "API de alinhamento forçado CTC do torchaudio e pipeline MMS_FA (wav2vec2 multilíngue) para tempos de palavra/caractere.",
+  "tags": [
+    "Alinhamento"
+  ],
+  "stars": 3000,
+  "license": "BSD-2-Clause",
+  "subcategoria": "Alinhamento",
+  "detalhes": {
+    "Melhor uso": "Construir seu próprio alinhador em Python (base do WhisperX e de tutoriais).",
+    "Entrada → saída": "Emissões CTC + tokens → spans com frames/tempos.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheel macOS arm64 disponível (torchaudio 2.11.1).",
+    "Hardware": "CPU ou GPU.",
+    "Licença do código": "BSD-2-Clause",
+    "Licença dos pesos": "MMS_FA: CC-BY-NC-4.0 (MMS; verificar); wav2vec2 PT de terceiros pode ser Apache-2.0",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v2.11.1 (2026-10-28)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "pip install torchaudio",
+    "Observações": "forced_align foi marcado como deprecado na 2.8, mas a decisão foi revertida: a issue pytorch/audio#3902 (atualização de 2026-01, release 2.10) diz que as extensões C++/CUDA, incluindo forced_align, permanecem."
+  },
+  "fontes": [
+    "https://github.com/pytorch/audio",
+    "https://github.com/pytorch/audio/issues/3902",
+    "https://docs.pytorch.org/audio/main/generated/torchaudio.functional.forced_align.html",
+    "https://pypi.org/project/torchaudio"
+  ]
+}

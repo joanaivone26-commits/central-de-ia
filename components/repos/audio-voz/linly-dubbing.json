@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Kedreamix/Linly-Dubbing",
+  "title": "Linly-Dubbing",
+  "description": "Dublagem multilíngue com WhisperX/FunASR, tradução por LLM, TTS (XTTS, CosyVoice, Edge) e lip sync.",
+  "tags": [
+    "Dublagem"
+  ],
+  "stars": 3400,
+  "license": "Apache-2.0",
+  "subcategoria": "Dublagem",
+  "detalhes": {
+    "Melhor uso": "Estudo de pipeline completo com sincronização labial.",
+    "Entrada → saída": "Vídeo → vídeo dublado.",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte documentado.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende dos modelos (XTTS CPML não comercial etc.)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-03",
+    "Versão recente": "sem releases (último commit 2025-03)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Inativo desde 2025-03."
+  },
+  "fontes": [
+    "https://github.com/Kedreamix/Linly-Dubbing"
+  ]
+}

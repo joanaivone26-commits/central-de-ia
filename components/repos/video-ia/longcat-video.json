@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/meituan-longcat/LongCat-Video",
+  "title": "LongCat-Video (Meituan)",
+  "description": "Modelo de 13.6B para T2V, I2V e continuação de vídeo (vídeos longos); inclui o LongCat-Video-Avatar 1.5 (avatares falantes).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 9400,
+  "license": "MIT",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Vídeos longos coerentes e avatares guiados por áudio com licença MIT.",
+    "Entrada → saída": "Texto/imagem/vídeo/áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "GPU de 24 GB+ (estimativa; os exemplos oficiais usam multi-GPU)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (LongCat-Video e LongCat-Video-Avatar-1.5)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "O Avatar 1.5 saiu em 2026-05-21."
+  },
+  "fontes": [
+    "https://github.com/meituan-longcat/LongCat-Video",
+    "https://huggingface.co/meituan-longcat/LongCat-Video",
+    "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
+  ]
+}

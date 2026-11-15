@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/MahmoudAshraf97/ctc-forced-aligner",
+  "title": "ctc-forced-aligner",
+  "description": "Alinhamento forçado CTC com pouca memória usando modelo MMS (1130 idiomas) para timestamps de palavra/caractere.",
+  "tags": [
+    "Alinhamento"
+  ],
+  "stars": 575,
+  "license": "BSD-2-Clause",
+  "subcategoria": "Alinhamento",
+  "detalhes": {
+    "Melhor uso": "Alinhar roteiro/transcrição longa ao áudio em PT para legendas palavra a palavra.",
+    "Entrada → saída": "Áudio + texto → JSON/SRT com tempos por palavra.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU no M1; MPS não confirmado.",
+    "Hardware": "CPU ou GPU (PyTorch/ONNX).",
+    "Licença do código": "BSD-2-Clause",
+    "Licença dos pesos": "CC-BY-NC-4.0 (padrão MahmoudAshraf/mms-300m-1130-forced-aligner)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "v0.3.0 (2025-01); commits até 2026-09",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install git+https://github.com/MahmoudAshraf97/ctc-forced-aligner.git",
+    "Observações": "ATENÇÃO: o pacote 'ctc-forced-aligner' do PyPI (1.0.2) aponta para outro fork (deskpai). Pesos padrão não comerciais; para uso comercial troque por um wav2vec2 PT Apache-2.0."
+  },
+  "fontes": [
+    "https://github.com/MahmoudAshraf97/ctc-forced-aligner",
+    "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+    "https://pypi.org/project/ctc-forced-aligner"
+  ]
+}

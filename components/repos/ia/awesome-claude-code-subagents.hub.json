@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "VoltAgent/awesome-claude-code-subagents",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents"
+  },
+  "author": "VoltAgent",
+  "addedAt": "2026-11-15"
+}

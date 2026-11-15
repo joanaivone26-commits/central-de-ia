@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/facebookresearch/sam-audio",
+  "title": "SAM Audio (Meta)",
+  "description": "'Segment Anything' para áudio (dez/2025): separa sons por prompt de texto, visual ou intervalo de tempo.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 3700,
+  "license": "SAM License (atualizada 2025-11-19)",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Isolar um som específico ('voz masculina', 'cachorro latindo') em vídeos.",
+    "Entrada → saída": "Áudio/vídeo + prompt → áudio-alvo e residual.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Port mlx-community/sam-audio-large via mlx-audio (pesado para 8 GB).",
+    "Hardware": "GPU NVIDIA (large); small mais leve.",
+    "Licença do código": "SAM License (atualizada 2025-11-19)",
+    "Licença dos pesos": "SAM License — gated com aprovação manual",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2026-05",
+    "Versão recente": "sam-audio-small/base/large (2025-12)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "não confirmado (instalar pelo repositório)",
+    "Observações": "Prompts de texto provavelmente em inglês (não confirmado)."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/sam-audio",
+    "https://huggingface.co/facebook/sam-audio-large"
+  ]
+}

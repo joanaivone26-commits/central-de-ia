@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/ultralytics/ultralytics",
+  "title": "Ultralytics YOLO (YOLO26)",
+  "description": "Detecção, segmentação, pose e tracking de objetos/pessoas em tempo real (YOLOv8/11/26).",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 63300,
+  "license": "AGPL-3.0 ou Enterprise License (paga)",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Detectar pessoas para reframe, rastrear objetos (ByteTrack/BoT-SORT), gerar máscaras.",
+    "Entrada → saída": "Imagens/vídeo → caixas, máscaras, tracks",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "device='mps' funciona no Apple Silicon.",
+    "Hardware": "CPU, MPS (Mac) ou CUDA",
+    "Licença do código": "AGPL-3.0 ou Enterprise License (paga)",
+    "Licença dos pesos": "Pesos YOLO também sob AGPL-3.0/Enterprise",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v8.4.207 (2026-11-07)",
+    "Nível": "intermediario",
+    "Instalação": "pip install ultralytics",
+    "Observações": "YOLO26 lançado em 2026-01-14. AGPL: se distribuir ou oferecer como serviço, precisa abrir todo o código (inclusive modelos treinados) ou comprar licença Enterprise. Alternativa permissiva: roboflow/rf-detr (Apache-2.0)."
+  },
+  "fontes": [
+    "https://github.com/ultralytics/ultralytics",
+    "https://www.ultralytics.com/license",
+    "https://pypi.org/project/ultralytics/"
+  ]
+}

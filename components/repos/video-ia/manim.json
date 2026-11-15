@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/ManimCommunity/manim",
+  "title": "Manim Community",
+  "description": "Engine Python de animações matemáticas e explicativas (estilo 3Blue1Brown).",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 42400,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Diagramas animados, fórmulas e explicações visuais para aulas.",
+    "Entrada → saída": "Código Python → MP4/GIF/PNG",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Precisa de cairo/pango (Homebrew); LaTeX é opcional.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.22.1 (2026-10-27)",
+    "Nível": "intermediario",
+    "Instalação": "pip install manim"
+  },
+  "fontes": [
+    "https://github.com/ManimCommunity/manim",
+    "https://pypi.org/project/manim/"
+  ]
+}

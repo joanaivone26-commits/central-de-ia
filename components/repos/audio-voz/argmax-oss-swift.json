@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/argmaxinc/argmax-oss-swift",
+  "title": "WhisperKit / Argmax OSS (Swift)",
+  "description": "SDK Swift on-device: WhisperKit (ASR CoreML), SpeakerKit (diarização) e TTSKit, com CLI.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 6500,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Apps nativos macOS/iOS e CLI rápida no Neural Engine.",
+    "Entrada → saída": "Áudio/microfone → texto com timestamps de palavra; JSON/SRT pela CLI.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Nativo CoreML/ANE; muito eficiente em energia.",
+    "Hardware": "Apple Silicon (macOS 14+/iOS 17+).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (Whisper convertido para CoreML)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v1.1.1 (2026-10-08)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "brew install whisperkit-cli (Swift Package; sem pip)",
+    "Observações": "argmaxinc/WhisperKit redireciona para argmaxinc/argmax-oss-swift."
+  },
+  "fontes": [
+    "https://github.com/argmaxinc/argmax-oss-swift",
+    "https://github.com/argmaxinc/argmax-oss-swift/releases"
+  ]
+}

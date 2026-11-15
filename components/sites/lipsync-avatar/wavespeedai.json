@@ -1,0 +1,10 @@
+{
+  "url": "https://wavespeed.ai",
+  "title": "WaveSpeedAI",
+  "description": "API de inferência que hospeda modelos como LatentSync e avatares baseados em Wan.",
+  "tags": [
+    "ferramenta comercial",
+    "Lip sync e avatar"
+  ],
+  "pricing": "pago ou freemium"
+}

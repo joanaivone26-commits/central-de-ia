@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner",
+  "title": "Montreal Forced Aligner (MFA)",
+  "description": "Alinhador forçado (Kaldi) que gera fronteiras de fonemas e palavras a partir de áudio + transcrição.",
+  "tags": [
+    "Alinhamento"
+  ],
+  "stars": 1900,
+  "license": "MIT",
+  "subcategoria": "Alinhamento",
+  "detalhes": {
+    "Melhor uso": "Visemas/lip sync e legendas palavra a palavra com precisão de fonema; tem dicionário e modelo acústico PT-BR.",
+    "Entrada → saída": "WAV + texto (.lab/.txt) → TextGrid (Praat) ou JSON/CSV com fonemas e palavras.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Instale via conda-forge (kaldi/kalpy têm builds osx-arm64).",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "não confirmado (modelos/dicionários MFA: ver mfa-models.readthedocs.io)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v3.4.3 (2026-10-08)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "conda install -c conda-forge montreal-forced-aligner",
+    "Observações": "Modelos: 'Portuguese MFA acoustic model' e 'Portuguese (Brazil) MFA dictionary'. Comando: mfa align corpus/ portuguese_brazil_mfa portuguese_mfa saida/."
+  },
+  "fontes": [
+    "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner",
+    "https://mfa-models.readthedocs.io",
+    "https://pypi.org/project/montreal-forced-aligner"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/lucemia/typed-ffmpeg",
+  "title": "typed-ffmpeg",
+  "description": "Wrapper Python moderno e tipado para FFmpeg, com todos os filtros tipados, validação e autocompletar.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 1200,
+  "license": "MIT",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Substituto do ffmpeg-python; com tipos e docstrings, os agentes geram comandos FFmpeg mais corretos.",
+    "Entrada → saída": "Código Python → comando/execução ffmpeg",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Use com o ffmpeg do Homebrew.",
+    "Hardware": "CPU (precisa do binário ffmpeg)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v4.6.2 (2026-10-21)",
+    "Nível": "intermediario",
+    "Instalação": "pip install typed-ffmpeg",
+    "Observações": "O repo foi movido de livingbio/typed-ffmpeg para lucemia/typed-ffmpeg (o redirect funciona)."
+  },
+  "fontes": [
+    "https://github.com/lucemia/typed-ffmpeg",
+    "https://pypi.org/project/typed-ffmpeg/"
+  ]
+}

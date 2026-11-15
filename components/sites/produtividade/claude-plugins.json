@@ -1,0 +1,12 @@
+{
+  "url": "https://claude.com/plugins",
+  "title": "Marketplace de plugins do Claude",
+  "description": "Plugins oficiais e verificados para o Claude, incluindo o de marketing.",
+  "tags": [
+    "plugins",
+    "claude",
+    "oficial"
+  ],
+  "pricing": "grátis",
+  "lang": "en"
+}

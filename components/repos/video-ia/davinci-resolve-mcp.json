@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+  "title": "DaVinci Resolve MCP",
+  "description": "Controla o DaVinci Resolve pela Scripting API oficial: projetos, media pool, timeline (inserir, aparar, marcadores), color/grading (CDL, LUT, stills), Fusion, Fairlight, análise de mídia e render/entrega. Modo compound (37 ferramentas, recomendado) ou granular (390, uma por método da API); painel web local de controle; servidor 'advanced' opcional em Node para editar .drp/.drt/.drx offline.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 4043,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-11-11",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio; `npx davinci-resolve-mcp setup` configura clientes)",
+    "Ferramentas expostas": "resolve_control, project_manager, project_settings, media_storage, media_pool, media_pool_item, timeline, timeline_item, timeline_markers, timeline_item_fusion, timeline_ai, fusion_comp, media_analysis, gallery, lut, render, render_presets, knowledge",
+    "Requisitos": "DaVinci Resolve 18.5+ ABERTO; Studio (pago) com Preferences > General > External scripting = Local. Na versão gratuita só funciona via 'in-app bridge' (script dentro do Resolve). Python 3.10–3.12 recomendado; Node para `npx davinci-resolve-mcp setup`."
+  },
+  "fontes": [
+    "https://github.com/samuelgursky/davinci-resolve-mcp",
+    "https://www.npmjs.com/package/davinci-resolve-mcp"
+  ]
+}

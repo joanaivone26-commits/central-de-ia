@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
+  "title": "OpenAvatarChat",
+  "description": "Sistema modular de chat com avatar digital (ASR + LLM + TTS + avatar LiteAvatar/LAM/MuseTalk) rodando localmente.",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 3900,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Montar um assistente com avatar falante em tempo real, ponta a ponta.",
+    "Entrada → saída": "voz/texto do usuário → resposta falada com avatar animado (WebRTC)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado em Apple Silicon.",
+    "Hardware": "Depende dos módulos (LiteAvatar roda em CPU; LLM local exige GPU) — não confirmado.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Herda dos módulos escolhidos",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "0.6.0 (2026-04-17)",
+    "Nível": "intermediario",
+    "Qualidade": "Integração completa e ativa; documentação principalmente em chinês."
+  },
+  "fontes": [
+    "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
+    "https://ungh.cc/repos/HumanAIGC-Engineering/OpenAvatarChat"
+  ]
+}

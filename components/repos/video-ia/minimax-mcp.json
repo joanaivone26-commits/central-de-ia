@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "title": "MiniMax MCP (oficial)",
+  "description": "MCP oficial da MiniMax: TTS, clonagem e design de voz, geração de vídeo (Hailuo-02, 6s/10s, 768P/1080P), geração e edição de imagem (MiniMax-H3-Image). Pago por uso.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 1598,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-11-10",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio: uvx minimax-mcp -y)",
+    "Ferramentas expostas": "text_to_audio, list_voices, voice_clone, voice_design, generate_video, query_video_generation, text_to_image, image_edit",
+    "Requisitos": "MINIMAX_API_KEY e MINIMAX_API_HOST (https://api.minimax.io global ou https://api.minimaxi.com China); opcionais MINIMAX_MCP_BASE_PATH e MINIMAX_API_RESOURCE_MODE (url|local); uv/uvx."
+  },
+  "fontes": [
+    "https://github.com/MiniMax-AI/MiniMax-MCP",
+    "https://pypi.org/project/minimax-mcp/"
+  ]
+}

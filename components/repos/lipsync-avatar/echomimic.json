@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/antgroup/echomimic",
+  "title": "EchoMimic",
+  "description": "Animação de retrato guiada por áudio, por landmarks ou ambos (landmarks editáveis) (Ant Group, AAAI 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 4300,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante com controle de pose/landmarks; a versão acelerada é ~10× mais rápida.",
+    "Entrada → saída": "foto + áudio (± landmarks) → vídeo 512 px",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em A100 80G / RTX 4090D 24G / V100 16G.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Sem licença declarada no HF (BadToBest/EchoMimic) — não confirmado",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-04",
+    "Versão recente": "pesos acelerados (2024-07)",
+    "Nível": "intermediario",
+    "Qualidade": "Expressivo e com boa sincronia; boca/dentes podem oscilar; V2/V3 superam.",
+    "No ComfyUI": "smthemex/ComfyUI_EchoMimic"
+  },
+  "fontes": [
+    "https://github.com/antgroup/echomimic",
+    "https://ungh.cc/repos/antgroup/echomimic",
+    "https://huggingface.co/BadToBest/EchoMimic"
+  ]
+}

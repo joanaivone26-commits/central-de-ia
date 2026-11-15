@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+  "title": "ComfyUI-LTXVideo",
+  "description": "Nós oficiais da Lightricks para LTX-Video/LTX-2/LTX-2.5 no ComfyUI.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 4300,
+  "license": "LTX-2 Community License (o próprio repo usa essa licença, não Apache)",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Workflows oficiais de T2V/I2V, LoRAs IC e upscalers latentes do LTX.",
+    "Entrada → saída": "Workflows LTX → vídeo com áudio",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Funciona no ComfyUI/MPS com muita RAM; lento.",
+    "Hardware": "Conforme o modelo LTX (24 GB+ para o LTX-2.5)",
+    "Licença do código": "LTX-2 Community License (o próprio repo usa essa licença, não Apache)",
+    "Licença dos pesos": "LTX-2.x Community License",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v1.1.0 (2026-10-20)",
+    "Nível": "intermediario",
+    "Instalação": "via ComfyUI-Manager",
+    "Observações": "v1.1.0 (2026-10-20)."
+  },
+  "fontes": [
+    "https://github.com/Lightricks/ComfyUI-LTXVideo"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/slhck/ffmpeg-normalize",
+  "title": "ffmpeg-normalize",
+  "description": "Normaliza loudness (EBU R128 em duas passadas com o filtro loudnorm do FFmpeg), RMS ou pico, preservando o vídeo.",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 1500,
+  "license": "MIT",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Deixar Reels/TikTok/Shorts em ~-14 LUFS integrado com true peak ≤ -1 dBTP.",
+    "Entrada → saída": "Vídeo/áudio → mesmo contêiner com áudio normalizado.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Precisa de FFmpeg no PATH.",
+    "Hardware": "CPU (usa FFmpeg).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "1.44.0 (2026-11-09)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install ffmpeg-normalize",
+    "Observações": "Padrão é -23 LUFS / TP -2 (broadcast). Para redes: ffmpeg-normalize in.mp4 -t -14 -tp -1 -c:a aac -b:a 192k -o out.mp4. Preset 'podcast' = -16 LUFS."
+  },
+  "fontes": [
+    "https://github.com/slhck/ffmpeg-normalize",
+    "https://pypi.org/project/ffmpeg-normalize",
+    "https://github.com/slhck/ffmpeg-normalize/blob/master/src/ffmpeg_normalize/_ffmpeg_normalize.py"
+  ]
+}

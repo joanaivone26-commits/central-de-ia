@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Rikorose/DeepFilterNet",
+  "title": "DeepFilterNet",
+  "description": "Supressão de ruído em tempo real, full-band 48 kHz (DeepFilterNet3), com binário Rust, plugin LADSPA e API Python.",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 5000,
+  "license": "MIT OR Apache-2.0 (dupla)",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Limpar ruído de fundo de narração/vlog antes da transcrição e da mixagem.",
+    "Entrada → saída": "WAV ruidoso → WAV limpo.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Binário deep-filter para macOS e port no mlx-audio.",
+    "Hardware": "CPU (tempo real).",
+    "Licença do código": "MIT OR Apache-2.0 (dupla)",
+    "Licença dos pesos": "MIT OR Apache-2.0 (incluídos no repo)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.5.6 (2023-08); commits até 2026-11",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install deepfilternet",
+    "Observações": "Independe de idioma. Sem release nova desde 2023, mas o repositório recebe commits."
+  },
+  "fontes": [
+    "https://github.com/Rikorose/DeepFilterNet",
+    "https://pypi.org/project/deepfilternet"
+  ]
+}

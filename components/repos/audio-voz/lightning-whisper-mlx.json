@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/mustafaaljadery/lightning-whisper-mlx",
+  "title": "Lightning Whisper MLX",
+  "description": "Variante MLX do Whisper com batching/quantização que prometia ser mais rápida que mlx-whisper.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 958,
+  "license": "não confirmado (API do GitHub não detecta licença)",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Apenas referência histórica; prefira mlx-whisper, parakeet-mlx ou mlx-audio.",
+    "Entrada → saída": "Áudio → texto/segmentos.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Funcionava no M1, mas está parado desde 2024.",
+    "Hardware": "Apple Silicon.",
+    "Licença do código": "não confirmado (API do GitHub não detecta licença)",
+    "Licença dos pesos": "MIT (pesos Whisper)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-05",
+    "Versão recente": "0.0.10 (PyPI 2024-04)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install lightning-whisper-mlx",
+    "Observações": "Último push em 2024-05. Não recomendado para material novo."
+  },
+  "fontes": [
+    "https://github.com/mustafaaljadery/lightning-whisper-mlx",
+    "https://pypi.org/project/lightning-whisper-mlx"
+  ]
+}

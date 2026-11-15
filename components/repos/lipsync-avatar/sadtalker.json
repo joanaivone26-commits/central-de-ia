@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/OpenTalker/SadTalker",
+  "title": "SadTalker",
+  "description": "Gera vídeo falante a partir de uma única foto + áudio via coeficientes 3DMM (pose/expressão) e renderizador facial (CVPR 2023).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 14200,
+  "license": "Apache-2.0 (exceto componentes de terceiros)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante simples e rápida em máquinas modestas; ótimo para a primeira aula.",
+    "Entrada → saída": "foto + áudio → vídeo (256/512 px, cabeça com movimento leve)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README tem seção macOS (docs/install.md) e webui.sh; roda em CPU/MPS, devagar.",
+    "Hardware": "GPU NVIDIA modesta (VRAM não publicada); roda em CPU (lento).",
+    "Licença do código": "Apache-2.0 (exceto componentes de terceiros)",
+    "Licença dos pesos": "MIT (HF vinthony/SadTalker); usa o 3DMM BFM e GFPGAN opcional",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-06",
+    "Versão recente": "v0.0.2-rc (2023-06)",
+    "Nível": "iniciante",
+    "Qualidade": "Fácil e leve, mas datado: movimento rígido, boca pouco expressiva e artefatos de \"recorte\" no pescoço; superado por Sonic/Hallo/EchoMimic em realismo.",
+    "No ComfyUI": "haomole/Comfyui-SadTalker"
+  },
+  "fontes": [
+    "https://github.com/OpenTalker/SadTalker",
+    "https://ungh.cc/repos/OpenTalker/SadTalker",
+    "https://huggingface.co/vinthony/SadTalker"
+  ]
+}

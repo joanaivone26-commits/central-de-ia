@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/OpenShot/openshot-qt",
+  "title": "OpenShot",
+  "description": "Editor de vídeo simples e gratuito com API Python (libopenshot).",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 6800,
+  "license": "GPL-3.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Iniciantes; edição básica com títulos e transições.",
+    "Entrada → saída": "Mídia → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "DMG para macOS.",
+    "Hardware": "CPU",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v4.1.1 (2026-11-02)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (download em openshot.org)"
+  },
+  "fontes": [
+    "https://github.com/OpenShot/openshot-qt",
+    "https://www.openshot.org"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/duixcom/Duix-Avatar",
+  "title": "Duix-Avatar (ex-HeyGem.ai)",
+  "description": "Ferramenta offline (Windows/Ubuntu via Docker) que clona um apresentador a partir de um vídeo curto e gera vídeos falados a partir de áudio/texto (antigo GuijiAI/HeyGem.ai).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 16300,
+  "license": "DUIX.COM Community License",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Usuário Windows com NVIDIA que quer um \"HeyGen local\" com interface gráfica para vídeos de apresentador.",
+    "Entrada → saída": "vídeo de referência da pessoa + áudio ou texto → vídeo do apresentador falando",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Só Windows/Ubuntu com NVIDIA.",
+    "Hardware": "NVIDIA obrigatória (README cita RTX 4070), 32 GB de RAM, ~100 GB de disco e ~70 GB de download.",
+    "Licença do código": "DUIX.COM Community License",
+    "Licença dos pesos": "Mesma licença comunitária (detalhes não confirmados)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-04",
+    "Versão recente": "v1.0.6 (2025-09-28)",
+    "Nível": "iniciante",
+    "Qualidade": "Bom para apresentador frontal e estático, muito popular; instalação pesada, licença própria e fraco em cenas com muito movimento."
+  },
+  "fontes": [
+    "https://github.com/duixcom/Duix-Avatar",
+    "https://ungh.cc/repos/duixcom/Duix-Avatar",
+    "https://github.com/GuijiAI/HeyGem.ai"
+  ]
+}

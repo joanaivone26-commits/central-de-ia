@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/PyAV-Org/PyAV",
+  "title": "PyAV",
+  "description": "Bindings Python para as bibliotecas do FFmpeg, com acesso a pacotes e frames.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 3300,
+  "license": "BSD-3-Clause (wheels incluem FFmpeg LGPL)",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Ler/gravar frames com controle fino de timestamps e streams, sem chamar subprocessos; integra com NumPy/Pillow.",
+    "Entrada → saída": "Arquivos/streams → frames (NumPy/PIL) → arquivos",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "As wheels arm64 já trazem o FFmpeg embutido.",
+    "Hardware": "CPU",
+    "Licença do código": "BSD-3-Clause (wheels incluem FFmpeg LGPL)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v19.0.2 (2026-10-21)",
+    "Nível": "intermediario",
+    "Instalação": "pip install av",
+    "Observações": "Na v19.x o PyPI exige Python >= 3.12 (compatível com o Python 3.12 da aula)."
+  },
+  "fontes": [
+    "https://github.com/PyAV-Org/PyAV",
+    "https://pypi.org/project/av/"
+  ]
+}

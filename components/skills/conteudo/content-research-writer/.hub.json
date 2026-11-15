@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/business-marketing/content-research-writer",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/business-marketing/content-research-writer",
+    "commit": "377b983e317059f18da0a3e3583c8fe75c919f8e",
+    "url": "https://www.aitmpl.com/component/skills/business-marketing/content-research-writer"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/business-marketing/content-research-writer)."
+}

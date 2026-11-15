@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+  "title": "HunyuanVideo 1.5 (Tencent)",
+  "description": "Versão leve (8.3B) do HunyuanVideo com qualidade de ponta, T2V e I2V.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 4600,
+  "license": "Tencent Hunyuan Community License",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "B-roll de alta qualidade em GPU de consumo; integra com diffusers e ComfyUI.",
+    "Entrada → saída": "Texto/imagem → vídeo 480p/720p (+ super-resolução)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O código oficial é para CUDA; no Mac só via ComfyUI (MPS) ou mlx-video, com 32–64 GB de memória unificada. Inviável no M1 8 GB.",
+    "Hardware": "Mínimo oficial de 14 GB com offload; o WanGP diz rodar com ~6 GB",
+    "Licença do código": "Tencent Hunyuan Community License",
+    "Licença dos pesos": "Tencent Hunyuan Community License (exclui UE/Reino Unido/Coreia do Sul)",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-04",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou diffusers / ComfyUI)",
+    "Observações": "Lançado em 2025-11; suporte oficial a diffusers e ComfyUI. Não há 'HunyuanVideo 2' aberto no HF em 2026-11; em 2026 a Tencent publicou pesquisas como OmniWeaving (geração unificada de vídeo) e Hy-Nomas (mundos interativos)."
+  },
+  "fontes": [
+    "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+    "https://huggingface.co/tencent/HunyuanVideo-1.5"
+  ]
+}

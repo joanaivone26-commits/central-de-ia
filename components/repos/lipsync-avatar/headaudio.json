@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/met4citizen/HeadAudio",
+  "title": "HeadAudio",
+  "description": "AudioWorklet de navegador que detecta visemas (padrão Oculus) em tempo real a partir de qualquer áudio, sem transcrição.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 57,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Lip sync ao vivo no browser para TTS/streams sem timestamps.",
+    "Entrada → saída": "stream de áudio → valores de visemas em tempo real",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "O autor treinou/testou num MacBook Air M2 16 GB com Chrome.",
+    "Hardware": "Navegador.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Protótipos incluídos (MIT)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v1.0.0 (2026-10-22)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve e sem servidor; o próprio autor diz que VAD e precisão ficam \"longe do ideal\" com ruído."
+  },
+  "fontes": [
+    "https://github.com/met4citizen/HeadAudio",
+    "https://ungh.cc/repos/met4citizen/HeadAudio"
+  ]
+}

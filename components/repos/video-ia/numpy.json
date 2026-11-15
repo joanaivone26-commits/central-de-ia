@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/numpy/numpy",
+  "title": "NumPy",
+  "description": "Arrays numéricos em Python; cada frame de vídeo é um array AxLx3.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 33400,
+  "license": "BSD-3-Clause",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Manipular pixels, máscaras, energia do áudio, recortes e composição.",
+    "Entrada → saída": "Arrays ↔ arrays",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheels arm64 (Accelerate).",
+    "Hardware": "CPU",
+    "Licença do código": "BSD-3-Clause",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v2.5.4 (2026-10-10)",
+    "Nível": "iniciante",
+    "Instalação": "pip install numpy",
+    "Observações": "Segundo o PyPI, o NumPy 2.5 exige Python >= 3.12."
+  },
+  "fontes": [
+    "https://github.com/numpy/numpy",
+    "https://pypi.org/project/numpy/"
+  ]
+}

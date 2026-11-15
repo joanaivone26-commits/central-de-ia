@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/marketing/google-ads-mcp-server",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/marketing/google-ads-mcp-server.json",
+    "commit": "921d55efb53d732527bf511d031081f11a16e643",
+    "url": "https://www.aitmpl.com/component/mcps/marketing/google-ads-mcp-server"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/marketing/google-ads-mcp-server)."
+}

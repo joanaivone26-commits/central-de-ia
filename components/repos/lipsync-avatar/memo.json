@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/memoavatar/memo",
+  "title": "MEMO",
+  "description": "Vídeo falante expressivo guiado por memória (áudio + emoção) para consistência de identidade (2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1100,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante com emoção forte (inclusive canto) quando o tempo de render não importa.",
+    "Entrada → saída": "foto + áudio → vídeo (30 fps)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em H100 e RTX 4090: ~1 s/frame (H100) e ~2 s/frame (4090).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF memoavatar/memo)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "sem releases (2025-08)",
+    "Nível": "intermediario",
+    "Qualidade": "Expressões e identidade fortes, mas muito lento por frame; depende de InsightFace.",
+    "No ComfyUI": "if-ai/ComfyUI-IF_MemoAvatar"
+  },
+  "fontes": [
+    "https://github.com/memoavatar/memo",
+    "https://ungh.cc/repos/memoavatar/memo",
+    "https://huggingface.co/memoavatar/memo"
+  ]
+}

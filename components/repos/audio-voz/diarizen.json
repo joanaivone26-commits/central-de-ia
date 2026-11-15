@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/BUTSpeechFIT/DiariZen",
+  "title": "DiariZen",
+  "description": "Diarização de ponta (WavLM + pyannote) da BUT, com DER competitivo em benchmarks.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 561,
+  "license": "MIT",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Pesquisa/benchmark de diarização.",
+    "Entrada → saída": "Áudio → RTTM.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU apenas; README fixa Python 3.10 e torch 2.1.1 (conflita com Python 3.12 da aula).",
+    "Hardware": "GPU NVIDIA recomendada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-NC-4.0 (BUT-FIT/diarizen-wavlm-large-s80-md)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sem releases (commits até 2026-08)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "Pesos não comerciais."
+  },
+  "fontes": [
+    "https://github.com/BUTSpeechFIT/DiariZen",
+    "https://huggingface.co/BUT-FIT/diarizen-wavlm-large-s80-md"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/modelscope/FunClip",
+  "title": "FunClip",
+  "description": "Recorte de vídeo por fala: ASR (FunASR/Paraformer), diarização e seleção de trechos por texto ou LLM.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 6500,
+  "license": "MIT",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Cortes por palavra-chave/falante; funciona melhor em chinês e inglês.",
+    "Entrada → saída": "Vídeo → transcrição → clipes + SRT",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda em CPU; GUI Gradio local.",
+    "Hardware": "CPU ou GPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v2.2.1 (2026-09-01)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Os modelos ASR padrão são focados em chinês; para PT-BR, combine com Whisper."
+  },
+  "fontes": [
+    "https://github.com/modelscope/FunClip"
+  ]
+}

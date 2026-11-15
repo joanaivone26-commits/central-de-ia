@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-label="Trip Angle">
+  <title>Trip Angle</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#211414"/><stop offset="0.55" stop-color="#7A0A0A"/><stop offset="1" stop-color="#C40000"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="56" fill="url(#g)"/>
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"><polygon points="543,211 736,548 673,664 478,325"/><polygon points="406,434 532,434 334,782 210,782"/><polygon points="411,671 815,671 880,783 474,783"/></g>
+</svg>

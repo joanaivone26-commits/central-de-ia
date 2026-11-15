@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/DanielSWolf/rhubarb-lip-sync",
+  "title": "Rhubarb Lip Sync",
+  "description": "Gera automaticamente formas de boca (visemas A–H, X) a partir de gravações de voz para animação 2D.",
+  "tags": [
+    "Alinhamento"
+  ],
+  "stars": 2800,
+  "license": "MIT (LICENSE.md; GitHub exibe NOASSERTION)",
+  "subcategoria": "Alinhamento",
+  "detalhes": {
+    "Melhor uso": "Lip sync de avatares/mascotes 2D, After Effects, Spine, Moho, Godot.",
+    "Entrada → saída": "WAV/OGG (+ texto opcional) → TSV, XML, JSON ou DAT com visemas no tempo.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Binário macOS pronto.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT (LICENSE.md; GitHub exibe NOASSERTION)",
+    "Licença dos pesos": "N/A (modelos acústicos embutidos)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-06",
+    "Versão recente": "v1.14.0",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "N/A (baixar binário das releases)",
+    "Observações": "Para PT use --recognizer phonetic (indicado pelo autor para gravações não-inglesas)."
+  },
+  "fontes": [
+    "https://github.com/DanielSWolf/rhubarb-lip-sync",
+    "https://github.com/DanielSWolf/rhubarb-lip-sync/releases"
+  ]
+}

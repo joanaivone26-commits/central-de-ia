@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/opencv/opencv-python",
+  "title": "OpenCV (opencv-python)",
+  "description": "Wheels pré-compilados do OpenCV: visão computacional clássica, leitura/escrita de vídeo, detecção e tracking.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 5400,
+  "license": "MIT (scripts de empacotamento); o OpenCV em si é Apache-2.0",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Análise quadro a quadro, detecção de rosto (DNN/YuNet), crop dinâmico para 9:16, overlays, estabilização simples.",
+    "Entrada → saída": "Vídeo/câmera/imagens ↔ arrays NumPy",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheels arm64 oficiais.",
+    "Hardware": "CPU (CUDA só compilando do fonte)",
+    "Licença do código": "MIT (scripts de empacotamento); o OpenCV em si é Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "5.0.0.93 (PyPI, 2026-07-02)",
+    "Nível": "intermediario",
+    "Instalação": "pip install opencv-python  (ou opencv-contrib-python / opencv-python-headless)",
+    "Observações": "O PyPI lista a versão 5.0.0.93 (2026-07-02), da linha OpenCV 5. Revise código 4.x ao migrar. Não instale dois pacotes opencv-* no mesmo ambiente."
+  },
+  "fontes": [
+    "https://github.com/opencv/opencv-python",
+    "https://pypi.org/project/opencv-python/"
+  ]
+}

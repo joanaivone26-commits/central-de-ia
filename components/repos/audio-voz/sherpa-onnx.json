@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/k2-fsa/sherpa-onnx",
+  "title": "sherpa-onnx",
+  "description": "Runtime ONNX offline/streaming para ASR, TTS, VAD, diarização e KWS em desktop, mobile e embarcados.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 15900,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Empacotar ASR/TTS local em apps (Python, C++, Swift, JS) sem PyTorch.",
+    "Entrada → saída": "Áudio → texto com timestamps; texto → WAV (Piper/Kokoro/etc.).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheels macOS arm64; leve em memória. Tem conversões oficiais de parakeet-tdt-0.6b-v3 e Whisper.",
+    "Hardware": "CPU (x86/ARM), GPU opcional.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende do modelo (Whisper MIT, Parakeet CC-BY-4.0, vozes Piper por voz)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v2.0.1 (2026-11)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install sherpa-onnx",
+    "Observações": "Qualidade PT depende do modelo carregado (Whisper = bom; Parakeet v3 = regular)."
+  },
+  "fontes": [
+    "https://github.com/k2-fsa/sherpa-onnx",
+    "https://pypi.org/project/sherpa-onnx"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/canopyai/Orpheus-TTS",
+  "title": "Orpheus TTS",
+  "description": "TTS baseado em LLM (Llama 3B) com emoções e tags de entonação, streaming com baixa latência.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 6400,
+  "license": "Apache-2.0",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Vozes expressivas em inglês em GPU.",
+    "Entrada → saída": "Texto com tags → áudio.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Pacote oficial usa vLLM (CUDA); ports MLX não confirmados aqui.",
+    "Hardware": "GPU NVIDIA (vLLM).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (tag HF; base Llama — verificar), gated",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-12",
+    "Versão recente": "orpheus-speech 0.1.0 (2025-03); commits até 2025-12",
+    "Nível": "avancado",
+    "Português (BR)": "nao suporta",
+    "Instalação": "pip install orpheus-speech",
+    "Observações": "Multilíngue de pesquisa (fr, de, ko, zh, hi, es, it) sem PT."
+  },
+  "fontes": [
+    "https://github.com/canopyai/Orpheus-TTS",
+    "https://huggingface.co/canopylabs/orpheus-3b-0.1-ft",
+    "https://pypi.org/project/orpheus-speech"
+  ]
+}

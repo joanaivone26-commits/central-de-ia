@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "title": "yt-dlp",
+  "description": "Baixador de áudio/vídeo de milhares de sites.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 206600,
+  "license": "Unlicense",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Obter material próprio ou licenciado (lives, aulas, podcasts) para cortes.",
+    "Entrada → saída": "URL → arquivo de vídeo/áudio/legenda",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "brew install yt-dlp ou pip.",
+    "Hardware": "CPU (usa ffmpeg para o mux)",
+    "Licença do código": "Unlicense",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "2026.10.26 (2026-10-26)",
+    "Nível": "iniciante",
+    "Instalação": "pip install yt-dlp",
+    "Observações": "Respeite direitos autorais e termos de uso das plataformas: use só conteúdo próprio ou com permissão."
+  },
+  "fontes": [
+    "https://github.com/yt-dlp/yt-dlp",
+    "https://pypi.org/project/yt-dlp/"
+  ]
+}

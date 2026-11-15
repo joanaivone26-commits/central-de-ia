@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/DarkNoah/comfyui-x-dub",
+  "title": "comfyui-x-dub",
+  "description": "Nós ComfyUI comunitários para o X-Dub (lip sync de pessoa única).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 5,
+  "license": "Apache-2.0",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar X-Dub dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "~21 GB (como X-Dub).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "X-Dub Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "sem releases (2026-07)",
+    "Nível": "avancado",
+    "Qualidade": "Muito novo e com poucas estrelas.",
+    "No ComfyUI": "DarkNoah/comfyui-x-dub"
+  },
+  "fontes": [
+    "https://github.com/DarkNoah/comfyui-x-dub",
+    "https://ungh.cc/repos/DarkNoah/comfyui-x-dub"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/danielgatis/rembg",
+  "title": "rembg",
+  "description": "Remove fundo de imagens (CLI, biblioteca Python e servidor HTTP) com vários modelos (u2net, isnet, BiRefNet, SAM...).",
+  "tags": [
+    "Recorte de fundo"
+  ],
+  "stars": 25400,
+  "license": "MIT",
+  "subcategoria": "Recorte de fundo",
+  "detalhes": {
+    "Melhor uso": "Recortar pessoas/produtos para thumbnails e frames; processar pastas de frames.",
+    "Entrada → saída": "Imagem (ou frames) → PNG com alfa/máscara",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "pip install \"rembg[cpu]\"; funciona bem no M1.",
+    "Hardware": "CPU (onnxruntime) ou GPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo: u2net/isnet/BiRefNet permissivos; BRIA RMBG é CC BY-NC 4.0 (não comercial)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v2.0.87 (2026-11-06)",
+    "Nível": "iniciante",
+    "Instalação": "pip install \"rembg[cpu]\"  (ou rembg[gpu])",
+    "Observações": "O GitHub mostra 'BRIA' por causa da licença do modelo BRIA incluído na lista; o código é MIT. Escolha o modelo pensando na licença."
+  },
+  "fontes": [
+    "https://github.com/danielgatis/rembg",
+    "https://pypi.org/project/rembg/",
+    "https://huggingface.co/briaai/RMBG-2.0"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/openai/whisper",
+  "title": "Whisper (OpenAI)",
+  "description": "Modelo ASR multilíngue de referência que transcreve e traduz áudio com timestamps de segmento e, opcionalmente, de palavra.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 112400,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Referência e compatibilidade; o checkpoint large-v3-turbo é o padrão de qualidade para PT-BR entre modelos abertos pequenos.",
+    "Entrada → saída": "Áudio/vídeo (via FFmpeg) → txt, srt, vtt, tsv, json (word_timestamps=True).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU no M1; MPS no pacote oficial não é o caminho recomendado. No Mac prefira mlx-whisper ou whisper.cpp (Metal) com os mesmos pesos.",
+    "Hardware": "CPU (lento) ou GPU NVIDIA via PyTorch; turbo ~6 GB VRAM em fp16.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (pesos oficiais; no HF large-v3-turbo = MIT, large-v3 marcado apache-2.0)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-08",
+    "Versão recente": "v20250625 (PyPI openai-whisper 20250625)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install -U openai-whisper",
+    "Observações": "Não existe 'Whisper v4' aberto até 11/2026; large-v3-turbo (2024-10) segue o Whisper aberto mais recente. No snapshot de 10/11/2026 do Open ASR Leaderboard (aba multilíngue) o turbo tem WER PT ≈4,6, melhor que Parakeet v3, Qwen3-ASR e Canary."
+  },
+  "fontes": [
+    "https://github.com/openai/whisper",
+    "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "https://pypi.org/project/openai-whisper",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

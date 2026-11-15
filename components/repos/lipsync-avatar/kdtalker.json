@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/chaolongy/KDTalker",
+  "title": "KDTalker",
+  "description": "Talking portrait com keypoints implícitos + difusão espaço-temporal, eficiente (IJCV).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 314,
+  "license": "CC BY-NC 4.0 (README; sem arquivo LICENSE)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante com boa variedade de pose em GPU de 24 GB, para pesquisa.",
+    "Entrada → saída": "foto + áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Roda em uma RTX 4090 ou 3090 (README).",
+    "Licença do código": "CC BY-NC 4.0 (README; sem arquivo LICENSE)",
+    "Licença dos pesos": "HF marca MIT, mas o README restringe a pesquisa — conflito",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-02",
+    "Versão recente": "código de treino (2025-07)",
+    "Nível": "intermediario",
+    "Qualidade": "Boa variedade de pose e eficiência; licença ambígua/NC; depende de InsightFace."
+  },
+  "fontes": [
+    "https://github.com/chaolongy/KDTalker",
+    "https://ungh.cc/repos/chaolongy/KDTalker",
+    "https://huggingface.co/ChaolongYang/KDTalker"
+  ]
+}

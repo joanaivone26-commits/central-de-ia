@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/development/brainstorming",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/development/brainstorming",
+    "commit": "23998dbf14ea700543378dabd9481c08b8826407",
+    "url": "https://www.aitmpl.com/component/skills/development/brainstorming"
+  },
+  "license": "MIT",
+  "author": "Jesse Vincent (obra/superpowers), adapted by claude-code-templates",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-11-01T02:16:38Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/development/brainstorming)."
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/mrxz/wLipSync",
+  "title": "wLipSync",
+  "description": "Porta WASM/WebAudio do uLipSync (MFCC) para o navegador.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 86,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Lip sync calibrável por voz em apps web.",
+    "Entrada → saída": "áudio → pesos de visemas no navegador",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda no navegador.",
+    "Hardware": "Navegador.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "v1.3.1 (2026-08-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve e calibrável; mesmas limitações de vogais do uLipSync."
+  },
+  "fontes": [
+    "https://github.com/mrxz/wLipSync",
+    "https://ungh.cc/repos/mrxz/wLipSync",
+    "https://talking-avatar.dev/alternatives/10-best-open-source-lip-sync-alternatives-2026"
+  ]
+}

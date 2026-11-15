@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="190 190 1640 670" role="img" aria-label="Trip Angle">
+  <title>Trip Angle</title>
+  <g fill="#F5F5F5" stroke="#F5F5F5" stroke-width="6" stroke-linejoin="round"><polygon points="543,211 736,548 673,664 478,325"/><polygon points="406,434 532,434 334,782 210,782"/><polygon points="411,671 815,671 880,783 474,783"/></g>
+  <g fill="#F5F5F5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-8">
+    <text x="985" y="470" font-size="300">Trip</text>
+    <text x="985" y="770" font-size="300">Angle</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/jdh-algo/JoyVASA",
+  "title": "JoyVASA",
+  "description": "Gera dinâmica facial e pose da cabeça por difusão a partir do áudio e renderiza com LivePortrait; funciona com humanos e animais (JD Health).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 884,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante leve, inclusive de animais; integra com FasterLivePortrait.",
+    "Entrada → saída": "foto + áudio → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "A renderização vem do LivePortrait (que tem suporte MPS), mas não há suporte oficial a Mac — não confirmado.",
+    "Hardware": "Testado em RTX 4060 Laptop 8 GB e A100.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF jdh-algo/JoyVASA)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-04",
+    "Versão recente": "sem releases (2026-04)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve (8 GB) e flexível; boca menos precisa que modelos de difusão de vídeo e herda limites do LivePortrait; depende de InsightFace."
+  },
+  "fontes": [
+    "https://github.com/jdh-algo/JoyVASA",
+    "https://ungh.cc/repos/jdh-algo/JoyVASA",
+    "https://huggingface.co/jdh-algo/JoyVASA"
+  ]
+}

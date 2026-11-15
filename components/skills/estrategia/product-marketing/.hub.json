@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "estrategia"
+  ],
+  "featured": true,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/product-marketing",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Base de marketing do produto: público, posicionamento, dores, objeções, provas e mensagens usadas pelas outras skills.",
+  "title": "Marketing de Produto"
+}

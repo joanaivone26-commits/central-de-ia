@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin · Central de IA Trip Angle</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="assets/brand/trip-angle-icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="wrap">
+      <a class="logo" href="#/" aria-label="Painel admin, início">
+        <img src="assets/brand/trip-angle-logo-horizontal-branco.svg" alt="Trip Angle" width="82" height="34">
+        <span class="tag">Admin</span>
+      </a>
+      <div class="acoes">
+        <span class="status-git" id="statusGit"><span class="ponto off"></span>conectando…</span>
+        <a class="btn" href="index.html" target="_blank" rel="noopener">Ver site</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap admin-grid">
+    <nav class="lateral" aria-label="Admin">
+      <h4>Alimentar</h4>
+      <a href="#/" data-r="/"><span class="ic">◆</span><span>Painel</span></a>
+      <a href="#/novo?tipo=prompts" data-r="/novo-prompt"><span class="ic">✎</span><span>Criar prompt</span></a>
+      <a href="#/novo" data-r="/novo"><span class="ic">+</span><span>Criar componente</span></a>
+      <a href="#/importar" data-r="/importar"><span class="ic">⇣</span><span>Importar repo ou pasta</span></a>
+      <a href="#/aitmpl" data-r="/aitmpl"><span class="ic">◎</span><span>Importar do aitmpl</span></a>
+      <a href="#/repos" data-r="/repos"><span class="ic">★</span><span>Repositórios</span></a>
+      <a href="#/plugin" data-r="/plugin"><span class="ic">▣</span><span>Montar plugin</span></a>
+      <h4 style="margin-top:18px">Organizar</h4>
+      <a href="#/gerenciar" data-r="/gerenciar"><span class="ic">≡</span><span>Componentes</span></a>
+      <a href="#/categorias" data-r="/categorias"><span class="ic">▤</span><span>Categorias</span></a>
+      <a href="#/publicar" data-r="/publicar"><span class="ic">⇡</span><span>Configurar e publicar</span></a>
+    </nav>
+    <main id="admin" tabindex="-1">
+      <div class="carregando"><img src="assets/brand/trip-angle-simbolo-vermelho.svg" alt=""><span class="colchete">Conectando ao painel</span></div>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/admin.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/nihui/rife-ncnn-vulkan",
+  "title": "rife-ncnn-vulkan",
+  "description": "Binário portátil do RIFE via ncnn + Vulkan.",
+  "tags": [
+    "Interpolação"
+  ],
+  "stars": 1100,
+  "license": "MIT",
+  "subcategoria": "Interpolação",
+  "detalhes": {
+    "Melhor uso": "Interpolação no Mac M1 e em GPUs AMD/Intel sem Python.",
+    "Entrada → saída": "Frames → frames interpolados",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Há build para macOS; use com FFmpeg para extrair/remontar frames.",
+    "Hardware": "Qualquer GPU com Vulkan",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (modelos RIFE)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-01",
+    "Versão recente": "20221029 (2022-10-29)",
+    "Nível": "intermediario",
+    "Instalação": "n/a (binário nos releases)",
+    "Observações": "Último release em 2022; estável."
+  },
+  "fontes": [
+    "https://github.com/nihui/rife-ncnn-vulkan"
+  ]
+}

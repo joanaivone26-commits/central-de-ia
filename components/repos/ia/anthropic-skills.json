@@ -1,0 +1,13 @@
+{
+  "url": "https://github.com/anthropics/skills",
+  "title": "anthropics/skills",
+  "description": "Public repository for Agent Skills",
+  "stars": 195199,
+  "language": "Python",
+  "license": null,
+  "homepage": null,
+  "updatedAt": "2026-11-14T21:52:49Z",
+  "tags": [
+    "agent-skills"
+  ]
+}

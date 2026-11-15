@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/rpuntaie/syncstart",
+  "title": "syncstart",
+  "description": "CLI que calcula o offset entre duas mídias pelo áudio (ou pelo vídeo, com -v) e pode gerar o corte via FFmpeg.",
+  "tags": [
+    "Medição de sincronia"
+  ],
+  "stars": 75,
+  "license": "MIT",
+  "subcategoria": "Medição de sincronia",
+  "detalhes": {
+    "Melhor uso": "Multicâmera ou áudio externo: descobrir quanto cortar/atrasar antes da edição.",
+    "Entrada → saída": "duas mídias → offset (s) e qual arquivo cortar",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Python + FFmpeg.",
+    "Hardware": "CPU (FFmpeg).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.1.0 (2024-04; README em 1.1.1)",
+    "Nível": "iniciante",
+    "Qualidade": "Simples e útil; não analisa a boca."
+  },
+  "fontes": [
+    "https://github.com/rpuntaie/syncstart",
+    "https://ungh.cc/repos/rpuntaie/syncstart"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/ace-step/ACE-Step-1.5",
+  "title": "ACE-Step 1.5",
+  "description": "Modelo de geração de música com letra (50+ idiomas) rápido, com suporte oficial a MLX.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 14600,
+  "license": "MIT",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Trilhas e jingles originais localmente no Mac.",
+    "Entrada → saída": "Tags de estilo + letra → música.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Scripts macOS e backend MLX oficiais.",
+    "Hardware": "GPU ou Apple Silicon (2B + LM 0.6B cabe em 6–8 GB).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (ACE-Step/Ace-Step1.5)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "v0.1.8 (2026-05); XL 4B (2026-04)",
+    "Nível": "intermediario",
+    "Português (BR)": "não confirmado",
+    "Instalação": "git clone + uv sync",
+    "Observações": "ACE-Step v1 (ace-step/ACE-Step, Apache-2.0, 2025) continua disponível; letras em PT não confirmadas explicitamente."
+  },
+  "fontes": [
+    "https://github.com/ace-step/ACE-Step-1.5",
+    "https://huggingface.co/ACE-Step/Ace-Step1.5",
+    "https://github.com/ace-step/ACE-Step"
+  ]
+}

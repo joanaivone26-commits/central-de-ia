@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/IAHispano/Applio",
+  "title": "Applio",
+  "description": "Interface moderna para RVC: inferência, treino, TTS+RVC e ferramentas de áudio.",
+  "tags": [
+    "Conversão de voz"
+  ],
+  "stars": 4000,
+  "license": "MIT",
+  "subcategoria": "Conversão de voz",
+  "detalhes": {
+    "Melhor uso": "Porta de entrada amigável para conversão de voz.",
+    "Entrada → saída": "Áudio → áudio convertido; treino de modelos RVC.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Tem run-install.sh para macOS; MPS não confirmado.",
+    "Hardware": "GPU NVIDIA recomendada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (+ Termos de Uso para a versão oficial)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "3.7.1 (2026-10-26)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (run-install.sh)",
+    "Observações": "README permite uso comercial respeitando direitos e termos de uso."
+  },
+  "fontes": [
+    "https://github.com/IAHispano/Applio",
+    "https://github.com/IAHispano/Applio/releases"
+  ]
+}

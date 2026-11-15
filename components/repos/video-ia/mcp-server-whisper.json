@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/arcaputo3/mcp-server-whisper",
+  "title": "MCP Server Whisper (OpenAI API)",
+  "description": "Transcrição e processamento de áudio via API da OpenAI (Whisper/gpt-4o-transcribe), chat sobre áudio com modelos GPT-4o audio, templates de transcrição aprimorada, conversão/compressão de áudio e TTS. Processamento na nuvem (pago por uso).",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 60,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "pouca atividade (último push mai/2026)",
+    "Última atividade": "2026-05-02",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio: uvx mcp-server-whisper)",
+    "Ferramentas expostas": "list_audio_files, get_latest_audio, convert_audio, compress_audio, transcribe_audio, chat_with_audio, transcribe_with_enhancement, create_audio",
+    "Requisitos": "OPENAI_API_KEY (pago) e AUDIO_FILES_PATH; uv/uvx; FFmpeg para conversões."
+  },
+  "fontes": [
+    "https://github.com/arcaputo3/mcp-server-whisper",
+    "https://pypi.org/project/mcp-server-whisper/"
+  ]
+}

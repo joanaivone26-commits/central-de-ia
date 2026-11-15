@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/kevinwatt/yt-dlp-mcp",
+  "title": "yt-dlp MCP",
+  "description": "Ponte entre o yt-dlp e o agente: buscar vídeos, ler metadados, listar/baixar legendas e transcrições, baixar vídeo ou só áudio e ler comentários (YouTube e outras plataformas suportadas pelo yt-dlp). Respeite direitos autorais e termos das plataformas.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 308,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-10-29",
+    "Funciona no Claude": "sim (claude mcp add yt-dlp npx @kevinwatt/yt-dlp-mcp@latest)",
+    "Funciona no Codex": "sim (stdio: npx -y @kevinwatt/yt-dlp-mcp@latest)",
+    "Ferramentas expostas": "ytdlp_search_videos, ytdlp_get_video_metadata, ytdlp_get_video_metadata_summary, ytdlp_list_subtitle_languages, ytdlp_download_video_subtitles, ytdlp_download_transcript, ytdlp_download_video, ytdlp_download_audio, ytdlp_get_video_comments, ytdlp_get_video_comments_summary",
+    "Requisitos": "Node.js ≥18; yt-dlp instalado (brew/winget/pip); deno se usar cookies do YouTube."
+  },
+  "fontes": [
+    "https://github.com/kevinwatt/yt-dlp-mcp",
+    "https://www.npmjs.com/package/@kevinwatt/yt-dlp-mcp"
+  ]
+}

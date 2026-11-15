@@ -1,0 +1,19 @@
+{
+  "url": "https://github.com/microsoft/markitdown",
+  "title": "microsoft/markitdown",
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "stars": 195514,
+  "language": "Python",
+  "license": "MIT",
+  "homepage": null,
+  "updatedAt": "2026-11-07T00:14:01Z",
+  "tags": [
+    "autogen",
+    "autogen-extension",
+    "langchain",
+    "markdown",
+    "microsoft-office",
+    "openai",
+    "pdf"
+  ]
+}

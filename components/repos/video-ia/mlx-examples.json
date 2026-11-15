@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/ml-explore/mlx-examples",
+  "title": "MLX Examples",
+  "description": "Exemplos oficiais de MLX: Whisper, Stable Diffusion/FLUX, LLMs, CLIP etc.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 9100,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Aprender MLX e rodar Whisper/SD localmente no Mac.",
+    "Entrada → saída": "Varia por exemplo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "SD/Whisper pequenos rodam em 8 GB.",
+    "Hardware": "Apple Silicon",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-04",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt (por exemplo)",
+    "Observações": "Último push em 2026-04."
+  },
+  "fontes": [
+    "https://github.com/ml-explore/mlx-examples"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/kijai/ComfyUI-KJNodes",
+  "title": "ComfyUI-KJNodes",
+  "description": "Coleção de nós utilitários (máscaras, batches, redimensionamento, texto, matemática) muito usada em workflows de vídeo.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 3500,
+  "license": "GPL-3.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "'Cola' entre nós em workflows complexos.",
+    "Entrada → saída": "Dados do ComfyUI → dados do ComfyUI",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "n/a",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "via ComfyUI-Manager"
+  },
+  "fontes": [
+    "https://github.com/kijai/ComfyUI-KJNodes"
+  ]
+}

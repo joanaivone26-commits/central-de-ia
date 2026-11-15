@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/ibm-granite/granite-speech-models",
+  "title": "IBM Granite Speech",
+  "description": "Modelos de fala da IBM (Granite Speech 4.x/5.0) para ASR e tradução em en, fr, de, es, pt, ja.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 53,
+  "license": "não confirmado (repo sem licença detectada)",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Alternativa corporativa Apache-2.0 com PT.",
+    "Entrada → saída": "Áudio → texto (variantes -plus com falante e timestamps de palavra, segundo mlx-audio).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "mlx-audio ou llama.cpp com GGUF.",
+    "Hardware": "GPU NVIDIA; GGUF/ONNX para CPU.",
+    "Licença do código": "não confirmado (repo sem licença detectada)",
+    "Licença dos pesos": "Apache-2.0 (granite-speech-5.0-2b); variante turboctc-nc é CC-BY-NC-SA",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "granite-speech-5.0-2b (2026-10)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "pip install transformers (modelo via HF)",
+    "Observações": "WER PT ≈6,5 (4.1-2b-nar) no snapshot do leaderboard. Repo GitHub pequeno (~53 estrelas): a referência real é o HF."
+  },
+  "fontes": [
+    "https://github.com/ibm-granite/granite-speech-models",
+    "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

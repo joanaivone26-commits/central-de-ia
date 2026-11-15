@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "anthropics/skills",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/anthropics/skills"
+  },
+  "author": "anthropics",
+  "addedAt": "2026-11-15"
+}

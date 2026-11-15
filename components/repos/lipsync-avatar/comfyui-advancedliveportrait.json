@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait",
+  "title": "ComfyUI-AdvancedLivePortrait",
+  "description": "Edição de expressão por sliders e animação por keyframes de expressão com LivePortrait.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 2700,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar LivePortrait (edição de expressão) dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado no Mac (base LivePortrait suporta MPS).",
+    "Hardware": "Leve.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Herda do LivePortrait/InsightFace",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "sem releases (2024-08)",
+    "Nível": "iniciante",
+    "Qualidade": "Muito popular para ajustar boca/olhos manualmente; parado desde 2024.",
+    "No ComfyUI": "PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+  },
+  "fontes": [
+    "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait",
+    "https://ungh.cc/repos/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+  ]
+}

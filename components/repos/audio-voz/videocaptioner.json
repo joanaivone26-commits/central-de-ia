@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/WEIFENG2333/VideoCaptioner",
+  "title": "VideoCaptioner",
+  "description": "App de legendas com IA: transcreve (Whisper/APIs), segmenta e corrige/traduz com LLM, estiliza e queima; CLI tem comando 'dub'.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 16500,
+  "license": "GPL-3.0",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Legendas revisadas por LLM com interface gráfica.",
+    "Entrada → saída": "Vídeo → srt/ass + vídeo legendado.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Script de instalação para macOS.",
+    "Hardware": "CPU/GPU; APIs de LLM.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Depende do ASR/LLM escolhido",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "v1.4.2 (2026-05)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install videocaptioner",
+    "Observações": "Interface focada em zh/en; PT via Whisper e LLM. Exige Python <3.13."
+  },
+  "fontes": [
+    "https://github.com/WEIFENG2333/VideoCaptioner",
+    "https://pypi.org/project/videocaptioner"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "title": "MoneyPrinterTurbo",
+  "description": "Gera vídeos curtos a partir de um tema: roteiro por LLM, B-roll de banco de imagens (Pexels/Pixabay), TTS, legendas e música.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 141700,
+  "license": "MIT",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Vídeos 'faceless' de nicho em lote.",
+    "Entrada → saída": "Tema/roteiro → MP4 9:16 ou 16:9",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda em CPU; WebUI e API.",
+    "Hardware": "CPU (sem GPU)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.3.10 (2026-11-07)",
+    "Nível": "iniciante",
+    "Instalação": "git clone + pip install -r requirements.txt (ou Docker)",
+    "Observações": "Muito popular (~142k estrelas; versão 1.3.10 em 2026-11). Precisa de chaves de LLM e de banco de vídeos."
+  },
+  "fontes": [
+    "https://github.com/harry0703/MoneyPrinterTurbo"
+  ]
+}

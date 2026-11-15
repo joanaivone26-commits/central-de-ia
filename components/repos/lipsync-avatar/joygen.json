@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/JOY-MM/JoyGen",
+  "title": "JoyGen",
+  "description": "Edição de vídeo talking-face guiada por áudio com prior 3D de profundidade (JD.com, 2025).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 438,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem de vídeo real em pesquisa (chinês/inglês) com consciência de geometria 3D.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca editada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac (nvdiffrast/CUDA).",
+    "Hardware": "Testado em V100 e A800; VRAM mínima não publicada; exige nvdiffrast.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "não confirmado; requer o 3DMM BFM (licença de pesquisa)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-02",
+    "Versão recente": "sem releases (2025-02)",
+    "Nível": "avancado",
+    "Qualidade": "Boa sincronia segundo os autores; pouca validação comunitária e instalação complexa (nvdiffrast + BFM)."
+  },
+  "fontes": [
+    "https://github.com/JOY-MM/JoyGen",
+    "https://ungh.cc/repos/JOY-MM/JoyGen"
+  ]
+}

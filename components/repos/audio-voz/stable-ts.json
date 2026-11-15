@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/jianfch/stable-ts",
+  "title": "stable-ts",
+  "description": "Estabiliza e refina timestamps do Whisper, reagrupa palavras, alinha texto conhecido ao áudio e exporta ASS com destaque palavra a palavra.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 2300,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Legendas karaokê (ASS) e alinhamento de roteiro já escrito ao áudio narrado.",
+    "Entrada → saída": "Áudio + (opcional) texto → srt, vtt, ass (com highlight por palavra), tsv, json.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Tem extra [mlx] (pip install -U stable-ts[mlx]) para usar MLX Whisper no Apple Silicon.",
+    "Hardware": "CPU/GPU via PyTorch; backends faster-whisper e MLX.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (Whisper)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2026-05",
+    "Versão recente": "2.19.1 (PyPI 2025-08)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install -U stable-ts",
+    "Observações": "Repositório ARQUIVADO; o README avisa que o desenvolvimento está pausado indefinidamente. Ainda instala e funciona, mas sem correções."
+  },
+  "fontes": [
+    "https://github.com/jianfch/stable-ts",
+    "https://pypi.org/project/stable-ts"
+  ]
+}

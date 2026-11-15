@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/jnjaby/KEEP",
+  "title": "KEEP",
+  "description": "Restauração facial específica para vídeo com propagação de features por filtro de Kalman, reduzindo flicker (ECCV 2024).",
+  "tags": [
+    "Restauração facial"
+  ],
+  "stars": 503,
+  "license": "S-Lab License 1.0 (não comercial)",
+  "subcategoria": "Restauração facial",
+  "detalhes": {
+    "Melhor uso": "Pós de vídeo lip-sync onde GFPGAN/CodeFormer por frame tremem.",
+    "Entrada → saída": "vídeo → vídeo com rosto restaurado e estável",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Não confirmado no Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "S-Lab License 1.0 (não comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "estavel",
+    "Última atividade": "2025-05",
+    "Versão recente": "sem releases de código (2025-05)",
+    "Nível": "avancado",
+    "Qualidade": "Mais estável no tempo que métodos por imagem; não comercial e mais lento."
+  },
+  "fontes": [
+    "https://github.com/jnjaby/KEEP",
+    "https://ungh.cc/repos/jnjaby/KEEP"
+  ]
+}

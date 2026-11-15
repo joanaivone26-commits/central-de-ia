@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/kkroening/ffmpeg-python",
+  "title": "ffmpeg-python",
+  "description": "Wrapper Python clássico que monta grafos de filtros e comandos FFmpeg.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 11000,
+  "license": "Apache-2.0",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Ler código legado e tutoriais antigos; em projetos novos prefira typed-ffmpeg ou PyAV.",
+    "Entrada → saída": "Grafo Python → comando ffmpeg",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Funciona com o ffmpeg do Homebrew.",
+    "Hardware": "CPU (precisa do binário ffmpeg)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "0.2.0 (PyPI, 2019-07-06)",
+    "Nível": "iniciante",
+    "Instalação": "pip install ffmpeg-python",
+    "Observações": "Último release no PyPI é o 0.2.0 (2019); último push no repo em 2024-08. Muitos LLMs ainda sugerem esta lib."
+  },
+  "fontes": [
+    "https://github.com/kkroening/ffmpeg-python",
+    "https://pypi.org/project/ffmpeg-python/"
+  ]
+}

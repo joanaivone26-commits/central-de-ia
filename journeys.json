@@ -1,0 +1,129 @@
+[
+  {
+    "id": "direct-response",
+    "titulo": "Direct Response do zero",
+    "subtitulo": "Infoproduto, da mineração à escala",
+    "icone": "▲",
+    "para": "Quem quer modelar ou criar uma oferta de infoproduto e rodar tráfego pago com VSL, página ou quiz.",
+    "resultado": "Oferta validada, VSL e funil prontos, criativos em escala, campanha no ar e esteira de pós-venda.",
+    "passos": [
+      {"titulo": "Contexto da oferta", "objetivo": "Junte num bloco só tudo o que já existe (nicho, links, decisões) para colar em todos os próximos passos.", "principal": "prompts/estrategia/contexto-da-oferta", "apoio": [], "entrega": "Bloco de contexto com 20 campos", "leve": "Cole esse bloco no campo contexto_da_oferta de cada prompt seguinte."},
+      {"titulo": "Mineração de ofertas", "objetivo": "Ache ofertas escaladas no seu nicho com critério de anúncios ativos, funil aberto até o checkout e score.", "principal": "prompts/pesquisa/mineracao-de-ofertas", "apoio": ["sites/pesquisa/biblioteca-de-anuncios-meta", "sites/pesquisa/gethookd", "mcps/pesquisa/firecrawl"], "entrega": "Tabela de ofertas aprovadas com links de cada etapa", "leve": "As 1 a 3 ofertas que você vai modelar."},
+      {"titulo": "Raio-x do concorrente", "objetivo": "Desmonte criativos, VSL e funil da oferta escolhida e descubra o que dá para modelar sem copiar.", "principal": "prompts/pesquisa/raio-x-de-concorrente", "apoio": ["frameworks/copy/niveis-de-consciencia", "frameworks/copy/sofisticacao-de-mercado", "prompts/pesquisa/analisar-anuncio-da-biblioteca"], "entrega": "Raio-x com escada de crenças, claims × provas e hipóteses de teste", "leve": "Mecanismo, ângulos e estrutura que funcionam no mercado."},
+      {"titulo": "Avatar e pesquisa de público", "objetivo": "Pesquise o público com fontes reais e saia com personas, dores, objeções e a linguagem do cliente.", "principal": "prompts/estrategia/avatar-e-pesquisa-de-publico", "apoio": ["prompts/pesquisa/extrair-dores-de-comentarios-e-reviews", "frameworks/pesquisa/jobs-to-be-done", "skills/pesquisa/customer-research"], "entrega": "Dossiê de público com 100 frases reais e top 10 dores", "leve": "Persona principal, dores e frases para a oferta e a copy."},
+      {"titulo": "Oferta completa", "objetivo": "Construa mecanismo, big idea, promessa, stack, preço, garantia e esteira.", "principal": "prompts/estrategia/oferta-completa", "apoio": ["frameworks/estrategia/equacao-de-valor", "frameworks/estrategia/big-idea-e-mecanismo-unico", "skills/estrategia/offers"], "entrega": "Offer Card e Documento Mestre da oferta", "leve": "Offer Card: promessa, mecanismo, preço e garantia."},
+      {"titulo": "VSL", "objetivo": "Escreva a VSL do briefing ao roteiro final, com 3 leads para testar e cortes curtos.", "principal": "prompts/copy/vsl-do-zero", "apoio": ["frameworks/copy/estrutura-de-vsl", "prompts/copy/leads-de-vsl", "skills/copy/copywriting"], "entrega": "Roteiro em 14 blocos com minutagem, 3 leads e cortes", "leve": "Ganchos e promessa da VSL para os criativos e a página."},
+      {"titulo": "Funil e páginas", "objetivo": "Crie advertorial, quiz e página de vendas e concilie cada botão com o checkout certo.", "principal": "prompts/funil/pagina-advertorial-e-quiz", "apoio": ["prompts/funil/estrutura-de-quiz", "skills/cro/cro"], "entrega": "Copy final das páginas e prompt de implementação com QA", "leve": "Links do funil e eventos para o tracking."},
+      {"titulo": "Criativos em escala", "objetivo": "Monte a matriz de ângulos, 30+ hooks, roteiros e prompts de imagem e vídeo com IA.", "principal": "prompts/criativos/criativos-em-escala", "apoio": ["frameworks/criativos/matriz-de-angulos-criativos", "frameworks/criativos/hook-corpo-cta", "sites/criativos/foreplay"], "entrega": "Matriz de criativos, roteiros e Creative Cards", "leve": "Lote de criativos com nomenclatura para o teste."},
+      {"titulo": "Revisão de compliance", "objetivo": "Revise anúncios, VSL e páginas antes de publicar, sem perder a força da copy.", "principal": "prompts/compliance/revisao-de-compliance", "apoio": [], "entrega": "Parecer por peça e versões seguras dos trechos de risco", "leve": "Peças aprovadas para subir."},
+      {"titulo": "Tráfego", "objetivo": "Monte o cartão econômico, a estrutura e os lances no Meta Ads e leia os números com uma decisão por vez.", "principal": "prompts/trafego/campanha-meta-ads", "apoio": ["prompts/trafego/diagnostico-de-metricas-de-campanha", "mcps/trafego/facebook-ads-mcp-server", "skills/analytics/analytics"], "entrega": "Campanhas em rascunho pausado e regras de corte e escala", "leve": "Métricas para o pós-venda e o próximo ciclo de criativos."},
+      {"titulo": "Esteira e pós-venda", "objetivo": "Aumente o lucro por cliente com bump, upsell, recuperação de Pix e boleto e onboarding.", "principal": "prompts/vendas/esteira-e-pos-venda", "apoio": ["prompts/email-whatsapp/recuperacao-de-carrinho-whatsapp", "skills/email-whatsapp/emails"], "entrega": "Esteira, sequências de e-mail e WhatsApp e checklist de checkout", "leve": "Novo break-even para o tráfego escalar."}
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "titulo": "E-commerce e TikTok Shop",
+    "subtitulo": "Produto físico, loja e marketplaces",
+    "icone": "🛒",
+    "para": "Quem vende ou quer vender produto físico em loja própria, Mercado Livre, Shopee, Amazon ou TikTok Shop.",
+    "resultado": "Produto validado com margem, página que converte, criativos, oferta com kits e plano de escala.",
+    "passos": [
+      {"titulo": "Mineração de produtos", "objetivo": "Encontre produtos com sinais reais de venda, margem e risco regulatório conhecido.", "principal": "prompts/ecommerce/mineracao-de-produtos-vencedores", "apoio": ["sites/criativos/tiktok-creative-center", "sites/pesquisa/biblioteca-de-anuncios-meta"], "entrega": "Ranking de produtos com score e margem estimada", "leve": "O produto escolhido e o ângulo principal."},
+      {"titulo": "Margem e preço", "objetivo": "Calcule margem de contribuição, preço mínimo e CPA de equilíbrio antes de investir.", "principal": "prompts/ecommerce/calculadora-de-margem-e-preco", "apoio": [], "entrega": "Tabela de custos e 3 cenários de preço", "leve": "Preço e CPA máximo para o tráfego."},
+      {"titulo": "Página de produto e loja", "objetivo": "Monte a página de produto completa e o mínimo da loja, com frete, troca e páginas legais.", "principal": "prompts/ecommerce/pagina-de-produto-e-loja", "apoio": ["prompts/ecommerce/descricao-de-produto-que-converte", "skills/cro/cro"], "entrega": "Página pronta e checklist da loja", "leve": "Link da página e provas usadas."},
+      {"titulo": "Criativos", "objetivo": "Produza criativos para Meta e TikTok com hooks, roteiros curtos e prompts de IA.", "principal": "prompts/criativos/criativos-em-escala", "apoio": ["prompts/criativos/tiktok-shop", "prompts/criativos/roteiro-ugc-30s", "sites/criativos/tiktok-creative-center"], "entrega": "Lote de criativos e roteiros", "leve": "Criativos nomeados para o teste."},
+      {"titulo": "Oferta e escala", "objetivo": "Kits, frete grátis com piso, upsell pós-compra, recuperação de carrinho e recompra.", "principal": "prompts/ecommerce/oferta-e-escala-de-ecommerce", "apoio": ["prompts/email-whatsapp/recuperacao-de-carrinho-whatsapp"], "entrega": "Oferta da loja e plano de LTV", "leve": "Ticket médio e margem para escalar."},
+      {"titulo": "Tráfego", "objetivo": "Suba campanhas com o CPA máximo da sua margem e leia por camadas.", "principal": "prompts/trafego/campanha-meta-ads", "apoio": ["mcps/trafego/facebook-ads-mcp-server"], "entrega": "Estrutura de campanha e regras de corte", "leve": "Produtos e criativos vencedores."},
+      {"titulo": "Compliance", "objetivo": "Confira claims, regras da plataforma e normas do produto antes de escalar.", "principal": "prompts/compliance/revisao-de-compliance", "apoio": [], "entrega": "Parecer e versões seguras", "leve": "Peças aprovadas."}
+    ]
+  },
+  {
+    "id": "pesquisa-de-publico",
+    "titulo": "Pesquisa de público",
+    "subtitulo": "Avatar com fonte real, não achismo",
+    "icone": "◉",
+    "para": "Quem vai criar oferta, copy ou conteúdo e precisa entender o público de verdade.",
+    "resultado": "Personas por estado psicológico, banco de frases reais, dores priorizadas e objeções respondidas.",
+    "passos": [
+      {"titulo": "Colete as dores reais", "objetivo": "Extraia dores, desejos e frases de comentários, reviews e fóruns.", "principal": "prompts/pesquisa/extrair-dores-de-comentarios-e-reviews", "apoio": ["mcps/pesquisa/apify", "mcps/pesquisa/firecrawl"], "entrega": "Banco de evidências com fonte", "leve": "As evidências coletadas."},
+      {"titulo": "Avatar completo", "objetivo": "Transforme as evidências em personas, dores em 4 camadas e matriz persona × mensagem.", "principal": "prompts/estrategia/avatar-e-pesquisa-de-publico", "apoio": ["frameworks/pesquisa/jobs-to-be-done", "skills/pesquisa/customer-research"], "entrega": "Dossiê de público", "leve": "Persona principal."},
+      {"titulo": "Linguagem do cliente", "objetivo": "Monte o dicionário de como o cliente fala, para a copy soar como ele.", "principal": "prompts/estrategia/linguagem-do-cliente", "apoio": [], "entrega": "Banco de expressões por momento", "leve": "Expressões para headlines e roteiros."},
+      {"titulo": "Níveis de consciência", "objetivo": "Saiba em que nível cada persona está e qual lead usar com ela.", "principal": "prompts/estrategia/niveis-de-consciencia-do-avatar", "apoio": ["frameworks/copy/niveis-de-consciencia"], "entrega": "Mapa de consciência por persona", "leve": "Tipo de lead e de anúncio por persona."},
+      {"titulo": "Dores e desejos priorizados", "objetivo": "Priorize as dores por oportunidade, com fórmula, e escolha os ângulos.", "principal": "prompts/estrategia/mapa-de-dores-e-desejos", "apoio": [], "entrega": "Top 10 dores e ângulos", "leve": "Ângulos para criativos e oferta."},
+      {"titulo": "Objeções", "objetivo": "Liste as objeções reais e escreva a resposta de cada uma para página, VSL e atendimento.", "principal": "prompts/copy/banco-de-objecoes-e-respostas", "apoio": [], "entrega": "Banco de objeções e respostas", "leve": "Respostas para FAQ, VSL e DM."}
+    ]
+  },
+  {
+    "id": "base-de-copy",
+    "titulo": "Base de copy",
+    "subtitulo": "Os métodos e a sua biblioteca",
+    "icone": "✎",
+    "para": "Quem escreve copy (ou revisa a da IA) e quer método, estrutura e repertório no próprio nicho.",
+    "resultado": "Frameworks dominados, biblioteca de copy do nicho e textos que soam humanos.",
+    "passos": [
+      {"titulo": "Os frameworks", "objetivo": "Entenda as estruturas clássicas e quando usar cada uma.", "principal": "frameworks/copy/pas", "apoio": ["frameworks/copy/aida", "frameworks/copy/bab-antes-depois-ponte", "frameworks/copy/4ps-promessa-imagem-prova-empurrao", "frameworks/copy/hook-story-offer"], "entrega": "Repertório de estruturas", "leve": "A estrutura certa para cada peça."},
+      {"titulo": "Sua base de copy", "objetivo": "Monte a biblioteca do seu nicho com headlines, leads, bullets e respostas a objeções.", "principal": "prompts/copy/base-de-copy-pessoal", "apoio": ["prompts/copy/swipe-de-headlines"], "entrega": "Biblioteca de copy organizada", "leve": "Modelos para as próximas peças."},
+      {"titulo": "Modelar sem copiar", "objetivo": "Use referências de mercado sem reproduzir texto de ninguém.", "principal": "prompts/copy/modelar-copy-sem-copiar", "apoio": [], "entrega": "Peça nova com o esqueleto da referência", "leve": "Texto pronto para revisar."},
+      {"titulo": "Leads e consciência", "objetivo": "Escreva leads e ajuste qualquer texto ao nível de consciência do tráfego.", "principal": "prompts/copy/leads-de-vsl", "apoio": ["prompts/copy/reescrever-por-nivel-de-consciencia", "frameworks/copy/niveis-de-consciencia"], "entrega": "Leads e versões por nível", "leve": "Leads para testar."},
+      {"titulo": "Revisão e voz humana", "objetivo": "Revise em várias passadas e tire as marcas de texto de IA.", "principal": "skills/copy/copy-editing", "apoio": ["skills/copy/humanizer", "skills/copy/copywriting"], "entrega": "Copy revisada", "leve": "Peça final."}
+    ]
+  },
+  {
+    "id": "criativos-e-video-ia",
+    "titulo": "Criativos e vídeo com IA",
+    "subtitulo": "Do roteiro ao vídeo pronto",
+    "icone": "▶",
+    "para": "Quem produz anúncios e conteúdo em vídeo e quer usar IA para roteirizar, gerar, editar e legendar.",
+    "resultado": "Matriz de criativos, roteiros, prompts de imagem e vídeo e um fluxo de edição com repositórios abertos.",
+    "passos": [
+      {"titulo": "Matriz de criativos", "objetivo": "Planeje ângulos, formatos e personas e escreva 30+ hooks.", "principal": "prompts/criativos/criativos-em-escala", "apoio": ["frameworks/criativos/matriz-de-angulos-criativos", "sites/criativos/tiktok-creative-center", "sites/criativos/foreplay"], "entrega": "Matriz e hooks pontuados", "leve": "Conceitos aprovados."},
+      {"titulo": "Roteiro e storyboard", "objetivo": "Transforme cada conceito em roteiro e storyboard cena a cena.", "principal": "prompts/criativos/roteiro-ugc-30s", "apoio": ["prompts/criativos/storyboard-de-anuncio"], "entrega": "Roteiros com tempo e storyboard", "leve": "Cenas para gerar ou gravar."},
+      {"titulo": "Imagem e vídeo com IA", "objetivo": "Gere as cenas com prompts prontos para as ferramentas de imagem e vídeo.", "principal": "prompts/criativos/prompts-de-video-ia", "apoio": ["prompts/criativos/prompts-de-imagem-para-anuncio", "sites/lipsync-avatar/heygen"], "entrega": "Prompts por cena e por formato", "leve": "Arquivos gerados."},
+      {"titulo": "Voz, legenda e lip sync", "objetivo": "Transcreva, dublar, legende e sincronize boca e voz com ferramentas abertas.", "principal": "repos/audio-voz/whisperx", "apoio": ["repos/audio-voz/faster-whisper", "repos/lipsync-avatar/musetalk", "repos/lipsync-avatar/facefusion", "sites/lipsync-avatar/elevenlabs"], "entrega": "Áudio, legendas e vídeos sincronizados", "leve": "Material para a edição."},
+      {"titulo": "Edição e acabamento", "objetivo": "Corte, monte, aplique motion e exporte nos formatos certos.", "principal": "prompts/criativos/briefing-para-editor-de-video", "apoio": ["repos/video-ia/auto-editor", "repos/criativos/remotion", "repos/video-ia/ffmpeg-skill"], "entrega": "Vídeos finais em 9:16 e 4:5", "leve": "Criativos para o tráfego."}
+    ]
+  },
+  {
+    "id": "produto-digital",
+    "titulo": "Produto digital",
+    "subtitulo": "Da promessa ao entregável vendável",
+    "icone": "▣",
+    "para": "Quem vai criar curso, ebook, protocolo, mentoria ou área de membros.",
+    "resultado": "Produto que cumpre a promessa, bônus ligados às objeções e esteira de pós-venda.",
+    "passos": [
+      {"titulo": "Contexto e oferta", "objetivo": "Defina a promessa e a oferta antes de produzir.", "principal": "prompts/estrategia/oferta-completa", "apoio": ["prompts/estrategia/contexto-da-oferta"], "entrega": "Offer Card", "leve": "Promessa e transformação."},
+      {"titulo": "Estrutura do produto", "objetivo": "Desenhe módulos, aulas, materiais e a primeira vitória do cliente.", "principal": "prompts/produto/produto-digital-completo", "apoio": ["prompts/produto/estrutura-de-produto-digital"], "entrega": "Roteiro do produto e materiais", "leve": "Lista de entregáveis."},
+      {"titulo": "Materiais", "objetivo": "Produza PDFs, planilhas e documentos com boa apresentação.", "principal": "skills/documentos/pdf-processing-pro", "apoio": ["skills/design/canvas-design"], "entrega": "Materiais prontos", "leve": "Arquivos para a área de membros."},
+      {"titulo": "Pós-venda", "objetivo": "Onboarding, redução de reembolso e próximos produtos da esteira.", "principal": "prompts/vendas/esteira-e-pos-venda", "apoio": [], "entrega": "Esteira e onboarding", "leve": "Plano de ascensão."}
+    ]
+  },
+  {
+    "id": "conteudo-e-youtube",
+    "titulo": "Conteúdo orgânico e YouTube",
+    "subtitulo": "Audiência que vira cliente",
+    "icone": "✦",
+    "para": "Quem quer crescer no Instagram, TikTok e YouTube com formatos que estão funcionando agora.",
+    "resultado": "Radar semanal de formatos, roteiros, vídeos longos e pacote de publicação.",
+    "passos": [
+      {"titulo": "Radar viral da semana", "objetivo": "Descubra os formatos fora da curva do seu nicho com números normalizados.", "principal": "prompts/conteudo/radar-viral-semanal", "apoio": ["prompts/conteudo/banco-de-formatos-por-objetivo"], "entrega": "Formatos da semana e lote de roteiros", "leve": "Os formatos escolhidos."},
+      {"titulo": "Adapte ao seu nicho", "objetivo": "Leve o formato viral para a sua realidade sem copiar.", "principal": "prompts/conteudo/adaptar-formato-viral", "apoio": ["prompts/conteudo/roteiro-reels-tiktok", "prompts/conteudo/carrossel-instagram"], "entrega": "Roteiros e carrosséis", "leve": "Peças para publicar."},
+      {"titulo": "Vídeo para YouTube", "objetivo": "Escolha o tema por demanda e escreva o roteiro com retenção e CTA natural.", "principal": "prompts/conteudo/roteiro-de-video-para-youtube", "apoio": [], "entrega": "Roteiro completo", "leve": "Vídeo gravado."},
+      {"titulo": "Pacote de publicação", "objetivo": "Títulos, descrição, capítulos, thumbnail e divulgação.", "principal": "prompts/conteudo/pacote-de-publicacao", "apoio": ["skills/design/trip-angle-identidade-visual"], "entrega": "Tudo para publicar", "leve": "Calendário do mês."},
+      {"titulo": "Calendário", "objetivo": "Organize 30 dias de conteúdo com objetivo por peça.", "principal": "prompts/conteudo/calendario-de-conteudo-30-dias", "apoio": ["frameworks/conteudo/funil-de-conteudo-topo-meio-fundo"], "entrega": "Calendário de 30 dias", "leve": "Rotina de publicação."}
+    ]
+  },
+  {
+    "id": "stack-de-ia",
+    "titulo": "Monte sua stack de IA",
+    "subtitulo": "Para qualquer projeto digital",
+    "icone": "◈",
+    "para": "Quem quer saber qual prompt, skill, MCP ou repositório usar em cada tarefa do negócio e em que ordem.",
+    "resultado": "Mapa de tarefas com a ferramenta certa, plano de 30 dias e prompts sob medida.",
+    "passos": [
+      {"titulo": "Diagnóstico da stack", "objetivo": "Mapeie as tarefas da operação e receba a stack recomendada com plano de implantação.", "principal": "prompts/ia/diagnostico-de-stack-de-ia", "apoio": ["skills/ia/central-trip-angle"], "entrega": "Stack por tarefa e plano de 30 dias", "leve": "As tarefas que vão para a IA primeiro."},
+      {"titulo": "Prompts sob medida", "objetivo": "Gere comandos completos para Lovable, Manus, Claude, Codex e geradores de imagem e vídeo.", "principal": "prompts/ia/arquiteto-de-prompts", "apoio": [], "entrega": "Prompts prontos para colar", "leve": "Seus prompts salvos."},
+      {"titulo": "Conecte as ferramentas", "objetivo": "Escolha os MCPs para ligar o Claude às suas ferramentas.", "principal": "sites/automacao/glama-mcp", "apoio": ["sites/automacao/mcp-so", "mcps/automacao/notion", "repos/automacao/mcp-servers"], "entrega": "MCPs configurados", "leve": "Automação no dia a dia."},
+      {"titulo": "Skills e automações", "objetivo": "Instale skills prontas e automatize fluxos repetitivos.", "principal": "repos/ia/anthropic-skills", "apoio": ["repos/automacao/n8n", "sites/ia/skills-sh"], "entrega": "Skills e fluxos instalados", "leve": "Processo rodando com IA."}
+    ]
+  }
+]

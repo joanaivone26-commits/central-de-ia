@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/facefusion/facefusion",
+  "title": "FaceFusion",
+  "description": "Plataforma local de manipulação facial com UI/CLI: lip syncer (wav2lip_96, wav2lip_gan_96, edtalk_256), troca de rosto e realce facial (CodeFormer, GFPGAN 1.2–1.4, GPEN 256–2048, RestoreFormer++).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 30600,
+  "license": "OpenRAIL-AS (2026; versões antigas eram MIT)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "\"Canivete suíço\" para aplicar lip sync leve e restaurar o rosto no mesmo fluxo, inclusive no Mac.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada; imagem/vídeo → rosto realçado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Tem execution provider CoreML; roda em Apple Silicon (lip syncer e enhancers são leves).",
+    "Hardware": "CPU, NVIDIA (CUDA/TensorRT), AMD e CoreML; leve.",
+    "Licença do código": "OpenRAIL-AS (2026; versões antigas eram MIT)",
+    "Licença dos pesos": "Cada modelo tem a sua licença (Wav2Lip não comercial; CodeFormer S-Lab NC etc.)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "3.9.2 (2026-10-26)",
+    "Nível": "intermediario",
+    "Qualidade": "Muito prático e rápido para pós-produção; o lip syncer herda a baixa resolução do Wav2Lip (EdTalk 256 é melhor). O README avisa que a instalação exige habilidade técnica."
+  },
+  "fontes": [
+    "https://github.com/facefusion/facefusion",
+    "https://ungh.cc/repos/facefusion/facefusion",
+    "https://raw.githubusercontent.com/facefusion/facefusion/HEAD/facefusion/processors/modules/lip_syncer/types.py"
+  ]
+}

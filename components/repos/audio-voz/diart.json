@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/juanmc2005/diart",
+  "title": "diart",
+  "description": "Diarização em tempo real (streaming) com modelos pyannote.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 2000,
+  "license": "MIT",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Lives e microfone ao vivo com rótulos de falante.",
+    "Entrada → saída": "Microfone/stream → RTTM incremental.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU.",
+    "Hardware": "CPU/GPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Modelos pyannote (gated; MIT/CC-BY-4.0)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-02",
+    "Versão recente": "v0.9.2 (2025-02)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "pip install diart",
+    "Observações": "Sem release desde fev/2025."
+  },
+  "fontes": [
+    "https://github.com/juanmc2005/diart",
+    "https://pypi.org/project/diart"
+  ]
+}

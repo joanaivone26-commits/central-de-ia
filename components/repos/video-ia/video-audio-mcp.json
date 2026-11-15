@@ -1,0 +1,24 @@
+{
+  "url": "https://github.com/misbahsy/video-audio-mcp",
+  "title": "Video & Audio Editing MCP (misbahsy)",
+  "description": "Servidor MCP baseado em FFmpeg para edição básica: conversão de formato/codec/bitrate, corte, velocidade, legendas queimadas, overlays de texto/imagem, B-roll, transições, concatenação e remoção de silêncio. Bom para fins didáticos (ferramentas simples e nomeadas).",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 90,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "pouca atividade (último push mai/2025)",
+    "Última atividade": "2025-05-24",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio)",
+    "Ferramentas expostas": "extract_audio_from_video, trim_video, convert_video_format, convert_video_properties, change_aspect_ratio, set_video_resolution, set_video_codec, set_video_bitrate, set_video_frame_rate, convert_audio_format, convert_audio_properties, set_audio_bitrate, set_audio_sample_rate, set_audio_channels, add_subtitles, add_text_overlay, add_image_overlay, add_b_roll, add_basic_transitions, concatenate_videos, change_video_speed, remove_silence, health_check",
+    "Requisitos": "FFmpeg no PATH; Python + uv; clonar o repositório (git clone) e rodar com `uv --directory <pasta> run server.py`. Também listado no Smithery."
+  },
+  "fontes": [
+    "https://github.com/misbahsy/video-audio-mcp"
+  ]
+}

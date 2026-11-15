@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/city96/ComfyUI-GGUF",
+  "title": "ComfyUI-GGUF",
+  "description": "Carrega modelos de difusão quantizados em GGUF (Q3–Q8) no ComfyUI, reduzindo muito a VRAM/RAM.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 4200,
+  "license": "Apache-2.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Rodar Wan/HunyuanVideo/Flux em GPUs de 8–12 GB ou em Macs com pouca memória unificada.",
+    "Entrada → saída": "Modelos .gguf → nós do ComfyUI",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Funciona com MPS; é o caminho mais viável para testar vídeo em Mac.",
+    "Hardware": "Reduz o requisito de VRAM em ~2–4x (com perda de qualidade)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Os GGUFs herdam a licença do modelo original",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "via ComfyUI-Manager",
+    "Observações": "Último push em 2026-01."
+  },
+  "fontes": [
+    "https://github.com/city96/ComfyUI-GGUF"
+  ]
+}

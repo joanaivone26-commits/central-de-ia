@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Fantasy-AMAP/fantasy-portrait",
+  "title": "FantasyPortrait",
+  "description": "Animação de retrato multipessoa e multiexpressão guiada por vídeo, sobre Wan (AMAP, 2025).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 510,
+  "license": "Apache-2.0",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "Transferir expressões de vários atores para vários rostos numa mesma cena.",
+    "Entrada → saída": "imagem + vídeo(s)-guia → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "README: 40 GB / 20 GB / 5 GB conforme offload.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF acvlab/FantasyPortrait)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "código, pesos e dataset (2025-08-12)",
+    "Nível": "avancado",
+    "Qualidade": "Transferência de expressão fiel, inclusive multipessoa; pesado.",
+    "No ComfyUI": "kijai/ComfyUI-WanVideoWrapper"
+  },
+  "fontes": [
+    "https://github.com/Fantasy-AMAP/fantasy-portrait",
+    "https://ungh.cc/repos/Fantasy-AMAP/fantasy-portrait",
+    "https://huggingface.co/acvlab/FantasyPortrait"
+  ]
+}

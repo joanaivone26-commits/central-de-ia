@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/MeiGen-AI/MultiTalk",
+  "title": "MultiTalk",
+  "description": "Vídeo conversacional multipessoa guiado por áudio (vários falantes) sobre Wan2.1 (NeurIPS 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 3000,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Cenas com 2+ pessoas conversando ou cantando a partir de uma imagem.",
+    "Entrada → saída": "imagem + 1..N áudios (+ prompt) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "480p numa RTX 4090 com low-VRAM; Wan2GP chega a ~8 GB (lento).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF MeiGen-AI/MeiGen-MultiTalk)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "INT8 + SageAttention (2025-07)",
+    "Nível": "avancado",
+    "Qualidade": "Resolve múltiplos falantes (raro no open-source); clipes curtos, em parte substituído pelo InfiniteTalk.",
+    "No ComfyUI": "kijai/ComfyUI-WanVideoWrapper"
+  },
+  "fontes": [
+    "https://github.com/MeiGen-AI/MultiTalk",
+    "https://ungh.cc/repos/MeiGen-AI/MultiTalk",
+    "https://huggingface.co/MeiGen-AI/MeiGen-MultiTalk"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://fal.ai",
+  "title": "fal.ai",
+  "description": "API serverless que hospeda modelos open-source e comerciais; ex.: fal-ai/latentsync (US$ 0,20 por vídeo até 40 s na página consultada) e fal-ai/sync-lipsync.",
+  "tags": [
+    "ferramenta comercial",
+    "Lip sync e avatar"
+  ],
+  "pricing": "pago ou freemium"
+}

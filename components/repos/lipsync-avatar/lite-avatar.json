@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/HumanAIGC/lite-avatar",
+  "title": "LiteAvatar",
+  "description": "Modelo audio2face para avatar 2D de chat em tempo real que roda a 30 fps só em CPU (Alibaba HumanAIGC, 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 490,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Avatar ao vivo leve em máquina sem GPU; base do OpenAvatarChat.",
+    "Entrada → saída": "avatar pré-processado (galeria) + áudio → vídeo em tempo real",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README traz instruções para Windows e Linux; CPU-only sugere viabilidade no Mac, mas não confirmado.",
+    "Hardware": "Só CPU (30 fps sem GPU, segundo o README).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "não confirmado (galeria de avatares publicada à parte)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-06",
+    "Versão recente": "sem releases (2025-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve e em tempo real, mas restrito a avatares preparados da galeria e visual 2D simples."
+  },
+  "fontes": [
+    "https://github.com/HumanAIGC/lite-avatar",
+    "https://ungh.cc/repos/HumanAIGC/lite-avatar"
+  ]
+}

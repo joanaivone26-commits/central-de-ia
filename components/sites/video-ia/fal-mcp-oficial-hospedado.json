@@ -1,0 +1,10 @@
+{
+  "url": "https://mcp.fal.ai/mcp-relay",
+  "title": "fal MCP (oficial, hospedado)",
+  "description": "MCP oficial e hospedado da fal.ai: buscar entre 1.000+ modelos de imagem/vídeo/áudio (ex. Kling, Veo, Flux), ver schema e preço, rodar ou enfileirar jobs e enviar arquivos. Há também um MCP só de documentação (https://fal.ai/docs/mcp). Consome créditos fal.",
+  "tags": [
+    "mcp hospedado",
+    "vídeo com IA"
+  ],
+  "pricing": "pago ou freemium"
+}

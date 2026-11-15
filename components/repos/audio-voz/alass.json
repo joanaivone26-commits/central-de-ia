@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/kaegi/alass",
+  "title": "alass",
+  "description": "CLI em Rust que alinha legendas ao áudio ou a outra legenda, tratando cortes/intervalos (split penalty).",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 1500,
+  "license": "GPL-3.0",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Legendas com deslocamentos diferentes em partes do vídeo (cortes, comerciais).",
+    "Entrada → saída": "Vídeo ou legenda referência + legenda → legenda alinhada.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Compilar com cargo (cargo install alass-cli); precisa de FFmpeg.",
+    "Hardware": "CPU.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2021-04",
+    "Versão recente": "v2.0.0 (2019-10)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (cargo install alass-cli)",
+    "Observações": "Sem commits desde 2021, mas segue funcional; ffsubsync cobre a maioria dos casos."
+  },
+  "fontes": [
+    "https://github.com/kaegi/alass",
+    "https://github.com/kaegi/alass/releases"
+  ]
+}

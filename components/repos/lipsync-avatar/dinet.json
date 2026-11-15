@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/MRzzm/DINet",
+  "title": "DINet",
+  "description": "Rede de deformação + inpainting (AAAI 2023) para dublagem few-shot em alta resolução.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 1100,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Estudo/pesquisa de dublagem em HD quando se pode treinar no próprio dataset.",
+    "Entrada → saída": "vídeo + áudio (features DeepSpeech) → vídeo dublado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Código antigo com dependências CUDA/DeepSpeech; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "não confirmado (modelo público treinado no HDTF)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-09",
+    "Versão recente": "sem releases",
+    "Nível": "avancado",
+    "Qualidade": "Boa nitidez dentro do domínio de treino, mas generaliza mal (o README avisa que o modelo público foi treinado com só 363 vídeos do HDTF); parado desde 2023."
+  },
+  "fontes": [
+    "https://github.com/MRzzm/DINet",
+    "https://ungh.cc/repos/MRzzm/DINet"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/web-tools/search-ai-optimization-expert",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/web-tools/search-ai-optimization-expert.md",
+    "commit": "3aa20b30a48b7015dc5431e1511a09992dbcfb59",
+    "url": "https://www.aitmpl.com/component/agents/web-tools/search-ai-optimization-expert"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 9,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/web-tools/search-ai-optimization-expert)."
+}

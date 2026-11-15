@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Phantom-video/HuMo",
+  "title": "HuMo",
+  "description": "Geração de vídeo humano centrada em sujeito com texto + imagem + áudio (17B e 1.7B) (2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1300,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Compor personagem + roupa/objeto + fala numa cena nova.",
+    "Entrada → saída": "texto + imagem(ns) de referência + áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "1.7B: 480p em ~8 min numa GPU de 32 GB; o 17B roda numa RTX 3090 via WanVideoWrapper.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF bytedance-research/HuMo)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "dataset HuMoSet (2025-12)",
+    "Nível": "avancado",
+    "Qualidade": "Ótimo para cenas com sujeito controlado e boa sincronia; é gerador de cena, não dublagem.",
+    "No ComfyUI": "kijai/ComfyUI-WanVideoWrapper (e suporte oficial do ComfyUI ao 1.7B)"
+  },
+  "fontes": [
+    "https://github.com/Phantom-video/HuMo",
+    "https://ungh.cc/repos/Phantom-video/HuMo",
+    "https://huggingface.co/bytedance-research/HuMo"
+  ]
+}

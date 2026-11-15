@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/guoyww/AnimateDiff",
+  "title": "AnimateDiff",
+  "description": "Módulo de movimento que anima modelos Stable Diffusion 1.5/SDXL.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 12300,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Animações estilizadas/loops com LoRAs de SD; hoje mais usado via ComfyUI (AnimateDiff-Evolved).",
+    "Entrada → saída": "Texto/imagem → GIF/vídeo curto (16–32 frames)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda no ComfyUI com MPS, devagar.",
+    "Hardware": "8–12 GB VRAM",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (motion modules); o checkpoint SD base tem licença própria",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-07",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone (ou ComfyUI)",
+    "Observações": "Sem manutenção desde 2024-07; superado pelos modelos DiT de vídeo."
+  },
+  "fontes": [
+    "https://github.com/guoyww/AnimateDiff",
+    "https://huggingface.co/guoyww/animatediff"
+  ]
+}

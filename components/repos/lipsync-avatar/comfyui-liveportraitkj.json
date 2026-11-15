@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/kijai/ComfyUI-LivePortraitKJ",
+  "title": "ComfyUI-LivePortraitKJ",
+  "description": "Nós do kijai para LivePortrait, com opção de MediaPipe no lugar do InsightFace.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 2200,
+  "license": "MIT",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar LivePortrait dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "README cita melhor suporte a Mac via MPS.",
+    "Hardware": "Leve.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "LivePortrait MIT; com InsightFace = não comercial; com MediaPipe tudo MIT/Apache (segundo o README)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "sem releases (2024-08)",
+    "Nível": "iniciante",
+    "Qualidade": "Ótimo ponto de entrada no Mac; MediaPipe detecta um pouco pior, mas resolve a licença.",
+    "No ComfyUI": "kijai/ComfyUI-LivePortraitKJ"
+  },
+  "fontes": [
+    "https://github.com/kijai/ComfyUI-LivePortraitKJ",
+    "https://ungh.cc/repos/kijai/ComfyUI-LivePortraitKJ"
+  ]
+}

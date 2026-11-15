@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/smthemex/ComfyUI_Sonic",
+  "title": "ComfyUI_Sonic",
+  "description": "Nós para Sonic (animação de retrato por áudio).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 1100,
+  "license": "MIT (código do nó)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar Sonic dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPU NVIDIA; não publicado.",
+    "Licença do código": "MIT (código do nó)",
+    "Licença dos pesos": "Sonic: não comercial",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "1.0 (2026-10-27)",
+    "Nível": "intermediario",
+    "Qualidade": "Fácil de usar; o modelo continua não comercial.",
+    "No ComfyUI": "smthemex/ComfyUI_Sonic"
+  },
+  "fontes": [
+    "https://github.com/smthemex/ComfyUI_Sonic",
+    "https://ungh.cc/repos/smthemex/ComfyUI_Sonic"
+  ]
+}

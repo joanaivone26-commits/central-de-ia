@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/JimLiu/baocut",
+  "title": "BaoCut",
+  "description": "Agente de vídeo com timeline editável: transcreve, legenda, traduz, dubla, corta e anima.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 1700,
+  "license": "BaoCut Community License 1.0 (source-available): permite criar conteúdo comercial, proíbe comercializar o software",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Fluxo completo de vídeo falado com revisão manual na timeline.",
+    "Entrada → saída": "Vídeo → vídeo editado/legendas",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado (app desktop; verifique se há build macOS nos releases).",
+    "Hardware": "CPU",
+    "Licença do código": "BaoCut Community License 1.0 (source-available): permite criar conteúdo comercial, proíbe comercializar o software",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "baocut-v3.19.0-build.95 (2026-11-10)",
+    "Nível": "iniciante",
+    "Instalação": "releases do GitHub",
+    "Observações": "Criado em 2026-07; releases frequentes."
+  },
+  "fontes": [
+    "https://github.com/JimLiu/baocut"
+  ]
+}

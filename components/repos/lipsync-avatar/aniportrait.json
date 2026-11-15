@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Zejun-Yang/AniPortrait",
+  "title": "AniPortrait",
+  "description": "Animação de retrato guiada por áudio (áudio → landmarks 3D → vídeo) ou por vídeo (Tencent, 2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 5000,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante ou reenactment com controle via landmarks e licença permissiva.",
+    "Entrada → saída": "foto + áudio (ou vídeo-guia) → vídeo 512 px",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF ZJYang/AniPortrait)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-07",
+    "Versão recente": "sem releases (2024-07)",
+    "Nível": "intermediario",
+    "Qualidade": "Bom controle facial, mas boca menos precisa que métodos de 2025 e tremores; parado."
+  },
+  "fontes": [
+    "https://github.com/Zejun-Yang/AniPortrait",
+    "https://ungh.cc/repos/Zejun-Yang/AniPortrait",
+    "https://huggingface.co/ZJYang/AniPortrait"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/QuentinFuxa/WhisperLiveKit",
+  "title": "WhisperLiveKit",
+  "description": "Servidor de transcrição em tempo real (streaming) com diarização e interface web, com vários backends.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 11200,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Legenda ao vivo de lives/aulas e ditado; protótipos em tempo real.",
+    "Entrada → saída": "Microfone/stream → texto incremental (WebSocket) com falantes.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Backends mlx-whisper, voxtral-mlx e qwen3 (MPS) no Apple Silicon.",
+    "Hardware": "CPU, GPU NVIDIA ou Apple Silicon.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende do backend (Whisper MIT, Voxtral Apache-2.0, Sortformer CC-BY/NVIDIA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.2.27 (2026-11-07; PyPI 0.2.26)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install whisperlivekit",
+    "Observações": "Requer Python >=3.11,<3.14 (ok com 3.12)."
+  },
+  "fontes": [
+    "https://github.com/QuentinFuxa/WhisperLiveKit",
+    "https://pypi.org/project/whisperlivekit"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/mflux-community/mflux",
+  "title": "mflux",
+  "description": "Port em MLX de modelos de imagem (FLUX e outros) para gerar e editar imagens localmente no Mac.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 2600,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Gerar stills/keyframes de B-roll no próprio Mac para depois animar na nuvem (I2V).",
+    "Entrada → saída": "Texto/imagem → imagem",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Desempenho no M1 8 GB não confirmado; com 16 GB+ é confortável.",
+    "Hardware": "Apple Silicon; 8 GB é apertado (use quantização 4-bit e resoluções menores)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo (FLUX.1-schnell Apache-2.0; FLUX.1-dev não comercial)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v.0.24.0 (2026-10-27)",
+    "Nível": "intermediario",
+    "Instalação": "pip install mflux  (ou uv tool install mflux)",
+    "Observações": "Repo movido de filipstrand/mflux para mflux-community/mflux. v0.24.0 (2026-10-27)."
+  },
+  "fontes": [
+    "https://github.com/mflux-community/mflux",
+    "https://pypi.org/project/mflux/"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
+  "title": "FireRed-OpenStoryline",
+  "description": "Agente de edição que transforma uma intenção em linguagem natural em vídeo: busca mídia, roteiro, narração, trilha e montagem.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 3700,
+  "license": "Apache-2.0",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Montagens com B-roll e narração a partir de um briefing; estilos reutilizáveis como 'Skills'.",
+    "Entrada → saída": "Briefing + mídia → vídeo editado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Script de instalação para macOS.",
+    "Hardware": "CPU (render em GPU ainda é TODO)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + build_env.sh (ou pip install -r requirements.txt)",
+    "Observações": "Exige chave de API de LLM; transições por IA dependem de serviços pagos."
+  },
+  "fontes": [
+    "https://github.com/FireRedTeam/FireRed-OpenStoryline"
+  ]
+}

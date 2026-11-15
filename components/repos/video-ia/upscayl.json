@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/upscayl/upscayl",
+  "title": "Upscayl",
+  "description": "App desktop gratuito de upscale de IMAGENS (Real-ESRGAN via ncnn-vulkan) para Mac, Windows e Linux.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 52200,
+  "license": "AGPL-3.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale de thumbnails, capas e frames; o jeito mais fácil no Mac.",
+    "Entrada → saída": "Imagens → imagens x2–x4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "App nativo; roda bem no M1.",
+    "Hardware": "GPU com Vulkan; Apple Silicon OK",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "Modelos Real-ESRGAN e comunitários (licenças variadas)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v2.15.0 (2024-12-25)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (download do app)",
+    "Observações": "Não processa vídeo diretamente. Último release v2.15.0 (2024-12), mas há commits em 2026."
+  },
+  "fontes": [
+    "https://github.com/upscayl/upscayl"
+  ]
+}

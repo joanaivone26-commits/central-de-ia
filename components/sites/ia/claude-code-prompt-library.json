@@ -1,0 +1,12 @@
+{
+  "url": "https://code.claude.com/docs/en/prompt-library",
+  "title": "Prompt library do Claude Code",
+  "description": "Prompts oficiais com a explicação de por que cada um funciona. Boa referência de estrutura.",
+  "tags": [
+    "prompts",
+    "claude",
+    "oficial"
+  ],
+  "pricing": "grátis",
+  "lang": "en"
+}

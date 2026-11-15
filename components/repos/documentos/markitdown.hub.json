@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "microsoft/markitdown",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  "author": "microsoft",
+  "addedAt": "2026-11-15"
+}

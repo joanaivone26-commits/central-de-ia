@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/huggingface/diffusers",
+  "title": "🤗 Diffusers",
+  "description": "Biblioteca de referência para rodar modelos de difusão de imagem, vídeo e áudio em Python (Wan, HunyuanVideo, LTX, CogVideoX, Mochi, Kandinsky 6, MiniMax H3...).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 34900,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Rodar modelos de vídeo por script, sem ComfyUI; offload, quantização e otimizações de memória.",
+    "Entrada → saída": "Texto/imagem/vídeo → vídeo/imagem",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Suporte a MPS; o gargalo é a RAM unificada, não a lib.",
+    "Hardware": "Depende do modelo; suporta CUDA, MPS e CPU",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Cada modelo tem a sua licença",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.42.1 (2026-10-27)",
+    "Nível": "avancado",
+    "Instalação": "pip install diffusers",
+    "Observações": "v0.42.1 (2026-10-27). A maioria dos modelos de 2026 lança pipelines diffusers no dia 1."
+  },
+  "fontes": [
+    "https://github.com/huggingface/diffusers",
+    "https://pypi.org/project/diffusers/"
+  ]
+}

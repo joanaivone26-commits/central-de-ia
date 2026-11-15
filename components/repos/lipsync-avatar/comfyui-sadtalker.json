@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/haomole/Comfyui-SadTalker",
+  "title": "Comfyui-SadTalker",
+  "description": "Nó ComfyUI para SadTalker.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 24,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar SadTalker dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado no Mac.",
+    "Hardware": "Leve.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "SadTalker (MIT/BFM)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-10",
+    "Versão recente": "sem releases (2025-10)",
+    "Nível": "iniciante",
+    "Qualidade": "Simples; qualidade datada do SadTalker.",
+    "No ComfyUI": "haomole/Comfyui-SadTalker"
+  },
+  "fontes": [
+    "https://github.com/haomole/Comfyui-SadTalker",
+    "https://ungh.cc/repos/haomole/Comfyui-SadTalker"
+  ]
+}

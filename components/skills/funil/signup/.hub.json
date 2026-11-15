@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "funil"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/signup",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Otimiza cadastro e checkout de entrada: campos, etapas, prova, atrito e recuperação de quem abandona.",
+  "title": "Cadastro e Checkout"
+}

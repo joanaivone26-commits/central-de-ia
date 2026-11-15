@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/SkyworkAI/SkyReels-V2",
+  "title": "SkyReels V2 (Skywork)",
+  "description": "Modelo de vídeo de 'duração infinita' (Diffusion Forcing) em 1.3B e 14B, voltado a narrativa cinematográfica.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 7800,
+  "license": "Skywork Community License (LICENSE do repo)",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Planos longos e extensão de vídeo.",
+    "Entrada → saída": "Texto/imagem → vídeo 540p/720p, longo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "1.3B-540P: ~15 GB; 14B: ~50 GB+ (offload reduz)",
+    "Licença do código": "Skywork Community License (LICENSE do repo)",
+    "Licença dos pesos": "Skywork Community License: permite uso comercial, mas exige cumprir os termos da licença",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt"
+  },
+  "fontes": [
+    "https://github.com/SkyworkAI/SkyReels-V2",
+    "https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-540P"
+  ]
+}

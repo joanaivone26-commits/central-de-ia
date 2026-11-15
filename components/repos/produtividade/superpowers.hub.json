@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "obra/superpowers",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/obra/superpowers"
+  },
+  "author": "obra",
+  "addedAt": "2026-11-15"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/mltframework/shotcut",
+  "title": "Shotcut",
+  "description": "Editor de vídeo desktop gratuito e multiplataforma (baseado no MLT).",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 15600,
+  "license": "GPL-3.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Edição manual e ajustes finos depois do corte automático; exportação com muitos presets.",
+    "Entrada → saída": "Mídia → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Build universal para macOS.",
+    "Hardware": "CPU; aceleração de hardware opcional",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v26.9.27 (2026-09-28)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (download em shotcut.org)",
+    "Observações": "Versões nomeadas por data (v26.9.27)."
+  },
+  "fontes": [
+    "https://github.com/mltframework/shotcut",
+    "https://shotcut.org"
+  ]
+}

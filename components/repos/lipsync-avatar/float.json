@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/deepbrainai-research/float",
+  "title": "FLOAT",
+  "description": "Talking portrait por flow matching no espaço latente de movimento, com controle de emoção (DeepBrain AI, ICCV 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 498,
+  "license": "CC BY-NC (LICENSE; README cita CC BY-NC-ND 4.0)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante rápida e de boa qualidade para pesquisa/uso pessoal.",
+    "Entrada → saída": "foto + áudio (+ emoção) → vídeo 512 px",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte oficial a Mac (não confirmado).",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "CC BY-NC (LICENSE; README cita CC BY-NC-ND 4.0)",
+    "Licença dos pesos": "Não comercial",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2025-11",
+    "Versão recente": "código e checkpoints (2025-02)",
+    "Nível": "intermediario",
+    "Qualidade": "Rápido (poucos passos) e com boa sincronia/emoção; só cabeça, 512 px e licença NC.",
+    "No ComfyUI": "yuvraj108c/ComfyUI-FLOAT"
+  },
+  "fontes": [
+    "https://github.com/deepbrainai-research/float",
+    "https://ungh.cc/repos/deepbrainai-research/float"
+  ]
+}

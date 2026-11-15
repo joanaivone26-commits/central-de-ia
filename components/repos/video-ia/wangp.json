@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/deepbeepmeep/WanGP",
+  "title": "WanGP (Wan2GP)",
+  "description": "App web 'para GPUs pobres' que roda Wan, HunyuanVideo, LTX, Flux e outros com pouca VRAM (offload, quantização, LoRAs aceleradoras).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 11500,
+  "license": "WanGP Community License 2.0 (uso livre, inclusive em empresa; proíbe vender/SaaS/white-label sem licença)",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Gerar vídeo localmente em GPUs de 6–12 GB sem montar workflows no ComfyUI.",
+    "Entrada → saída": "Texto/imagem/áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "O README não documenta macOS.",
+    "Hardware": "Começa com ~4–8 GB de VRAM (NVIDIA; AMD RDNA2+ suportada)",
+    "Licença do código": "WanGP Community License 2.0 (uso livre, inclusive em empresa; proíbe vender/SaaS/white-label sem licença)",
+    "Licença dos pesos": "Cada modelo mantém a sua licença",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem versão única (app em evolução contínua; tag recente: manager-v0.1.15)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt (ver docs/INSTALLATION.md)",
+    "Observações": "Repo renomeado para deepbeepmeep/WanGP. Saídas geradas podem ser vendidas (pede crédito ao WanGP)."
+  },
+  "fontes": [
+    "https://github.com/deepbeepmeep/WanGP"
+  ]
+}

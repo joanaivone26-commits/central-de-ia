@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/Dakkshin/after-effects-mcp",
+  "title": "After Effects MCP (Dakkshin)",
+  "description": "Servidor MCP para Adobe After Effects (o mais estrelado): criar composições, gerenciar camadas, keyframes, expressões, máscaras, câmeras e nulls, e rodar scripts ExtendScript. Alternativa mais ativa: kumoproductions/mcp-aftereffects (~171★, push out/2026).",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 882,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "pouca atividade (último push abr/2026)",
+    "Última atividade": "2026-04-01",
+    "Funciona no Claude": "sim (stdio; README traz .mcp.json para Claude Code)",
+    "Funciona no Codex": "sim (stdio)",
+    "Ferramentas expostas": "create-composition, run-script, get-results, get-help, setLayerKeyframe, setLayerExpression, setLayerProperties, batchSetLayerProperties, getLayerInfo, createCamera, createNullObject, duplicateLayer, deleteLayer, setLayerMask",
+    "Requisitos": "Adobe After Effects 2022+ ABERTO com o painel/script de ponte; Node.js 14+; git clone + npm install + npm run build; config `node build/index.js`."
+  },
+  "fontes": [
+    "https://github.com/Dakkshin/after-effects-mcp",
+    "https://github.com/kumoproductions/mcp-aftereffects"
+  ]
+}

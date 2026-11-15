@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/nateherkai/herk-edit-kit",
+  "title": "Herk Edit Kit",
+  "description": "Kit com 15 skills para Codex/Claude Code (cut-silences, cut-mistakes, short-form-edit...) sobre HyperFrames + GSAP.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 2700,
+  "license": "MIT (arquivo LICENSE; o GitHub não detecta automaticamente)",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Cortes guiados por transcrição e shorts com cards de motion graphics prontos.",
+    "Entrada → saída": "Vídeo + transcrição → vídeo editado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Requer Node 22+, FFmpeg e Chrome.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT (arquivo LICENSE; o GitHub não detecta automaticamente)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "git clone + npm ci && npm run setup",
+    "Observações": "A transcrição padrão usa ElevenLabs (paga), mas aceita Whisper local."
+  },
+  "fontes": [
+    "https://github.com/nateherkai/herk-edit-kit"
+  ]
+}

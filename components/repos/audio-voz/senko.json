@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/narcotic-sh/senko",
+  "title": "Senko",
+  "description": "Pipeline de diarização muito rápido (VAD pyannote + embeddings CAM++ + clustering), com CoreML no Mac.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 314,
+  "license": "MIT",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Diarizar horas de áudio no Mac em segundos.",
+    "Entrada → saída": "WAV 16 kHz mono → segmentos por falante.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "CoreML no macOS 14+; o autor relata ~7,7 s para 1 h de áudio num M3 (não medido aqui).",
+    "Hardware": "Mac (CoreML) ou GPU NVIDIA.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "não confirmado (usa pyannote segmentation-3.0 MIT/gated e CAM++ do 3D-Speaker)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "0.2.2 (PyPI 2026-10-25)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install senko (README recomenda instalar pelo git com uv)",
+    "Observações": "Não trata fala sobreposta; embeddings treinados em en+zh (o autor diz que deve funcionar em qualquer idioma). Exemplo do README usa Python 3.13; 3.12 não confirmado."
+  },
+  "fontes": [
+    "https://github.com/narcotic-sh/senko",
+    "https://pypi.org/project/senko"
+  ]
+}

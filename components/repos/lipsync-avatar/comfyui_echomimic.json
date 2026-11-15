@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/smthemex/ComfyUI_EchoMimic",
+  "title": "ComfyUI_EchoMimic",
+  "description": "Nós para EchoMimic V1, V2 e V3 (incl. V3 Flash e LoRA lightX2V).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 701,
+  "license": "Apache-2.0",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar EchoMimic V1/V2/V3 (incl. Flash) dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "V3 Flash: 768×512 em ~6,5 GB, 768×768 em 12 GB (com block_offload).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Herda do EchoMimic",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-02",
+    "Versão recente": "V1.1.1 (2025-01); suporte V3 Flash depois",
+    "Nível": "intermediario",
+    "Qualidade": "Melhor forma de rodar EchoMimicV3 em GPU de 8–12 GB.",
+    "No ComfyUI": "smthemex/ComfyUI_EchoMimic"
+  },
+  "fontes": [
+    "https://github.com/smthemex/ComfyUI_EchoMimic",
+    "https://ungh.cc/repos/smthemex/ComfyUI_EchoMimic"
+  ]
+}

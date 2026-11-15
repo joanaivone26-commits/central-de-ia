@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/facebookresearch/omnilingual-asr",
+  "title": "Omnilingual ASR (Meta)",
+  "description": "Família de modelos ASR (CTC/LLM, 300M–7B) para mais de 1.600 idiomas.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 3000,
+  "license": "Apache-2.0 (README; GitHub exibe NOASSERTION)",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Idiomas indígenas/raros; para PT-BR há opções melhores.",
+    "Entrada → saída": "Áudio (<40 s nos modelos padrão) → texto.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Instala no macOS (requer brew install libsndfile); MPS não confirmado.",
+    "Hardware": "GPU NVIDIA recomendada; modelos pequenos em CPU.",
+    "Licença do código": "Apache-2.0 (README; GitHub exibe NOASSERTION)",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-12",
+    "Versão recente": "0.2.0 (2025-12)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "pip install omnilingual-asr",
+    "Observações": "Pacote exige Python >=3.10,<=3.12. WER PT ≈5,2 (LLM-7B v2) no snapshot do leaderboard. Interessante para conteúdo em línguas indígenas brasileiras (verificar cobertura)."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/omnilingual-asr",
+    "https://huggingface.co/facebook/omniASR-LLM-7B",
+    "https://pypi.org/project/omnilingual-asr"
+  ]
+}

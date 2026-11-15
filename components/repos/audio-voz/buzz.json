@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/chidiwilliams/buzz",
+  "title": "Buzz",
+  "description": "App desktop (Mac/Windows/Linux) para transcrever e traduzir offline com Whisper, whisper.cpp ou faster-whisper.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 22600,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Alunos iniciantes que querem SRT/VTT sem terminal.",
+    "Entrada → saída": "Áudio/vídeo/microfone → txt, srt, vtt.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Disponível para macOS; backend whisper.cpp usa Metal.",
+    "Hardware": "CPU/GPU; Apple Silicon.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (Whisper)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.4.5 (2026-08)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install buzz-captions (exige Python 3.12) ou baixar o app",
+    "Observações": "Boa porta de entrada antes de automatizar com agentes."
+  },
+  "fontes": [
+    "https://github.com/chidiwilliams/buzz",
+    "https://pypi.org/project/buzz-captions",
+    "https://github.com/chidiwilliams/buzz/releases"
+  ]
+}

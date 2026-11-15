@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/TaoLiveAIGC/TBDub",
+  "title": "TBDub",
+  "description": "Dublagem visual aberta (TaoLive/Alibaba, 2026) com modelos DiT Teacher/Student; usa o VAE Wan2.2 do X-Dub, HuBERT e MediaPipe.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 48,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem de vídeo real com licença permissiva e sem InsightFace; alternativa ao X-Dub em GPU de 24 GB com offload.",
+    "Entrada → saída": "vídeo + áudio → vídeo dublado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Exige Linux + NVIDIA.",
+    "Hardware": "Linux + NVIDIA; com --cpu-offload, picos medidos de 15 GiB (Student) e 19,5 GiB (Teacher) a 512×512 — sem garantia em 24 GB.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (segundo o model card)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "V1.1 (paper arXiv 2609.06144, set/2026)",
+    "Nível": "avancado",
+    "Qualidade": "Autores reportam os melhores MOS entre abertos no estudo deles (sem benchmark independente); projeto novo e pouco validado."
+  },
+  "fontes": [
+    "https://github.com/TaoLiveAIGC/TBDub",
+    "https://ungh.cc/repos/TaoLiveAIGC/TBDub",
+    "https://huggingface.co/TaoLiveAIGC/TBDub"
+  ]
+}

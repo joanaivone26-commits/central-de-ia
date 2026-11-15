@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/TheStageAI/TheWhisper",
+  "title": "TheWhisper (TheStage AI)",
+  "description": "Whisper large-v3-turbo ajustado e otimizado (engines CoreML para Mac e NVIDIA) com streaming.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 903,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Transcrição de alta qualidade em PT no Mac com engine CoreML.",
+    "Entrada → saída": "Áudio → texto com timestamps.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Instalação com extra [apple] e engines CoreML.",
+    "Hardware": "Apple Silicon (CoreML) ou GPU NVIDIA.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-4.0 (TheStageAI/thewhisper-large-v3-turbo)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (modelo HF atualizado 2026-11)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install .[apple]",
+    "Observações": "WER PT ≈3,85 no snapshot 10/11/2026 do leaderboard (melhor que o turbo original). O README tem resumo de 'Enterprise License' para engines otimizados em muitas GPUs — leia antes de uso comercial em escala."
+  },
+  "fontes": [
+    "https://github.com/TheStageAI/TheWhisper",
+    "https://huggingface.co/TheStageAI/thewhisper-large-v3-turbo",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

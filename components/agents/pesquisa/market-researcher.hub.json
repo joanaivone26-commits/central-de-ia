@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/business-marketing/market-researcher",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/business-marketing/market-researcher.md",
+    "commit": "74ec6c8f8f29e796c4e65a5afb6e64e3bc53715e",
+    "url": "https://www.aitmpl.com/component/agents/business-marketing/market-researcher"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 9,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/business-marketing/market-researcher)."
+}

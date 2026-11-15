@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/kandinskylab/kandinsky-5",
+  "title": "Kandinsky 5.0 Video",
+  "description": "Família Kandinsky 5 (Lite 2B e Pro) de vídeo e imagem, com pesos MIT.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 850,
+  "license": "MIT",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Opção permissiva (MIT) para T2V/I2V.",
+    "Entrada → saída": "Texto/imagem → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Não documentado.",
+    "Hardware": "Lite: GPU de consumo; Pro: datacenter (detalhes não confirmados)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou diffusers)",
+    "Observações": "Sucedido pelo Kandinsky 6.0 em 2026-10."
+  },
+  "fontes": [
+    "https://github.com/kandinskylab/kandinsky-5"
+  ]
+}

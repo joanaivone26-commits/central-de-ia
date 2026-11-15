@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/QwenAudio/CosyVoice",
+  "title": "CosyVoice / Fun-CosyVoice3",
+  "description": "TTS zero-shot multilíngue e streaming da Alibaba (Fun-CosyVoice3-0.5B, dez/2025).",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 24400,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem em zh/en/ja/ko/de/es/fr/it/ru.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU/MPS não documentados oficialmente.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "Fun-CosyVoice3-0.5B-2512 (2025-12)",
+    "Nível": "avancado",
+    "Português (BR)": "nao suporta",
+    "Instalação": "git clone --recursive + pip install -r requirements.txt",
+    "Observações": "FunAudioLLM/CosyVoice redireciona para QwenAudio/CosyVoice. Português não está entre os 9 idiomas."
+  },
+  "fontes": [
+    "https://github.com/QwenAudio/CosyVoice",
+    "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512"
+  ]
+}

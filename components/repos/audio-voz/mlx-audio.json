@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Neywa-Labs/mlx-audio",
+  "title": "mlx-audio",
+  "description": "Hub de modelos de áudio em MLX para Apple Silicon: TTS, STT, alinhamento, diarização, separação e realce.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 8200,
+  "license": "MIT",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Caminho principal para rodar TTS/STT modernos (Kokoro, Qwen3-TTS, ZONOS3-Mini, Chatterbox, Whisper, Parakeet v3, Qwen3-ASR) no M1.",
+    "Entrada → saída": "Texto → WAV; áudio → texto; CLI, API Python e servidor compatível com OpenAI.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Nativo MLX; use variantes 4/8-bit em 8 GB.",
+    "Hardware": "Apple Silicon.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo (ver card de cada um)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "0.6.5 (2026-11-09)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install mlx-audio",
+    "Observações": "Blaizzy/mlx-audio redireciona para Neywa-Labs/mlx-audio. Licença comercial depende do modelo escolhido."
+  },
+  "fontes": [
+    "https://github.com/Neywa-Labs/mlx-audio",
+    "https://pypi.org/project/mlx-audio"
+  ]
+}

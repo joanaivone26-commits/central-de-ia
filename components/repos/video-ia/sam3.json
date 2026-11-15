@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/facebookresearch/sam3",
+  "title": "SAM 3 / SAM 3.1",
+  "description": "Segment Anything 3: segmenta e rastreia por conceito em texto ('pessoa', 'logo', 'bola') ou exemplos, em imagens e vídeos.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 12300,
+  "license": "SAM License (licença própria da Meta, atualizada em 2025-11-19)",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Máscaras de todas as instâncias de um conceito sem clicar; base para remoção de objetos e reframe.",
+    "Entrada → saída": "Imagem/vídeo + texto/exemplos → máscaras + IDs",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado em MPS.",
+    "Hardware": "GPU NVIDIA (requisitos exatos não confirmados)",
+    "Licença do código": "SAM License (licença própria da Meta, atualizada em 2025-11-19)",
+    "Licença dos pesos": "SAM License; pesos gated no HF (aprovação manual); SAM 3.1 publicado em 2026-03-26",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "A licença concede uso amplo, inclusive derivados, mas com restrições (sanções/Trade Controls, ITAR/uso militar). Leia antes de usar comercialmente."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/sam3",
+    "https://huggingface.co/facebook/sam3",
+    "https://huggingface.co/facebook/sam3.1"
+  ]
+}

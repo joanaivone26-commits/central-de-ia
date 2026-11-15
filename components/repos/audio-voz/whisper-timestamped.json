@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/linto-ai/whisper-timestamped",
+  "title": "whisper-timestamped",
+  "description": "Extensão do Whisper que gera timestamps por palavra via DTW nos pesos de atenção cruzada, com score de confiança por palavra.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 2900,
+  "license": "AGPL-3.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Legendas palavra a palavra sem modelo extra de alinhamento e detecção de palavras de baixa confiança para revisão.",
+    "Entrada → saída": "Áudio → json com palavras, tempos e confiança; srt/vtt.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU no M1 (mais lento que mlx-whisper).",
+    "Hardware": "CPU ou GPU (PyTorch).",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "MIT (Whisper)",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-09",
+    "Versão recente": "v1.15.9 (2025-09)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install whisper-timestamped",
+    "Observações": "AGPL-3.0: se você oferecer o código modificado como serviço de rede, precisa publicar o fonte. Usar como ferramenta local para produzir vídeos não é afetado."
+  },
+  "fontes": [
+    "https://github.com/linto-ai/whisper-timestamped",
+    "https://pypi.org/project/whisper-timestamped"
+  ]
+}

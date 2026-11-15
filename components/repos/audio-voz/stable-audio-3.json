@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Stability-AI/stable-audio-3",
+  "title": "Stable Audio 3",
+  "description": "Nova geração Stable Audio (2026): small-sfx e small-music (433M, CPU, até 120 s) e medium (1.4B, CUDA).",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 863,
+  "license": "MIT",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Efeitos sonoros e trilhas por texto direto no Mac.",
+    "Entrada → saída": "Texto → áudio.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "README: Apple Silicon via CoreML + TFLite para o modelo small.",
+    "Hardware": "CPU (small), CUDA (medium), Apple Silicon via CoreML.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Stability AI Community License (gated)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "stable-audio-3-small-sfx/-music (2026-05)",
+    "Nível": "intermediario",
+    "Português (BR)": "não confirmado",
+    "Instalação": "não está no PyPI (scripts do repositório)",
+    "Observações": "Prompts em inglês recomendados (não confirmado para PT)."
+  },
+  "fontes": [
+    "https://github.com/Stability-AI/stable-audio-3",
+    "https://huggingface.co/stabilityai/stable-audio-3-small-sfx"
+  ]
+}

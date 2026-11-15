@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/KlingAIResearch/X-Dub",
+  "title": "X-Dub",
+  "description": "Dublagem visual \"sem máscara\" do Kling Team: edita o vídeo com um modelo de vídeo (versão pública sobre Wan2.2-TI2V-5B) em vez de recortar e colar a boca (ICML 2026).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 242,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem de vídeo real de alta qualidade com GPU de 24 GB, em casos difíceis (oclusão, luz, ângulo) onde o inpainting de boca falha.",
+    "Entrada → saída": "vídeo + áudio → vídeo dublado (processa recorte facial 512×512)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "~21 GB de VRAM na inferência (README) — RTX 3090/4090 24 GB.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF KlingTeam/X-Dub)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "X-Dub (Wan-5B) pública — pesos em 2026-03-19",
+    "Nível": "avancado",
+    "Qualidade": "Um dos melhores abertos de 2026 para dublagem robusta e natural; a versão pública difere do modelo interno do paper; pesado e lento comparado ao MuseTalk.",
+    "No ComfyUI": "DarkNoah/comfyui-x-dub"
+  },
+  "fontes": [
+    "https://github.com/KlingAIResearch/X-Dub",
+    "https://ungh.cc/repos/KlingAIResearch/X-Dub",
+    "https://huggingface.co/KlingTeam/X-Dub"
+  ]
+}

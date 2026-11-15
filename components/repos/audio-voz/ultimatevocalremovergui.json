@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+  "title": "Ultimate Vocal Remover (UVR5 GUI)",
+  "description": "App desktop para remover/isolar voz com MDX-Net, VR, Demucs e RoFormer.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 27100,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Alunos iniciantes que querem separar voz sem terminal.",
+    "Entrada → saída": "Áudio → stems.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Instalador para macOS (Apple Silicon) e suporte MPS.",
+    "Hardware": "Desktop; GPU opcional.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v5.6",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (instalador)",
+    "Observações": "Commits até 2026-10."
+  },
+  "fontes": [
+    "https://github.com/Anjok07/ultimatevocalremovergui",
+    "https://github.com/Anjok07/ultimatevocalremovergui/releases"
+  ]
+}

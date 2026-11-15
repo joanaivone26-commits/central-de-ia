@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "hooks/pre-tool/backup-before-edit",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/hooks/pre-tool/backup-before-edit.json",
+    "commit": "e5177fbe277d835ae10cb0d9758b50ac3904ce25",
+    "url": "https://www.aitmpl.com/component/hooks/pre-tool/backup-before-edit"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (hooks/pre-tool/backup-before-edit)."
+}

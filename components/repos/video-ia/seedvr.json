@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ByteDance-Seed/SeedVR",
+  "title": "SeedVR / SeedVR2 (ByteDance)",
+  "description": "Restauração/upscale de vídeo por difusão (SeedVR2: um passo, 3B e 7B) com ótima consistência temporal.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 1400,
+  "license": "Apache-2.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale final de vídeos gerados por IA ou degradados (até 1080p/4K com tiles).",
+    "Entrada → saída": "Vídeo de baixa qualidade → vídeo restaurado em alta resolução",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Via nó numz/ComfyUI-SeedVR2_VideoUpscaler (MPS), devagar.",
+    "Hardware": "Oficial: GPUs de datacenter (multi-GPU para resoluções altas); via ComfyUI: 8–16 GB com block swap",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (SeedVR2-3B/7B)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou nó do ComfyUI)",
+    "Observações": "Último push em 2026-01."
+  },
+  "fontes": [
+    "https://github.com/ByteDance-Seed/SeedVR",
+    "https://huggingface.co/ByteDance-Seed/SeedVR2-7B"
+  ]
+}

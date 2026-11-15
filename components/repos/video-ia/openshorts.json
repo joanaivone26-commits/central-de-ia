@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/mutonby/openshorts",
+  "title": "OpenShorts",
+  "description": "Gera shorts verticais a partir de vídeos longos: faster-whisper, escolha de momentos por LLM e layouts (TRACK com MediaPipe+YOLOv8, SPLIT, blur, screencast).",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 7600,
+  "license": "MIT (core); pasta cloud/ sob licença comercial",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Cortes 9:16 com rastreamento de rosto e layout automático por cena.",
+    "Entrada → saída": "Vídeo longo → shorts 9:16",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Docker; o README só documenta Linux/Windows.",
+    "Hardware": "CPU (GPU NVIDIA opcional)",
+    "Licença do código": "MIT (core); pasta cloud/ sob licença comercial",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + docker compose up --build",
+    "Observações": "Exige chave do Google Gemini para as funções de IA; usa YOLOv8 (Ultralytics, AGPL) internamente."
+  },
+  "fontes": [
+    "https://github.com/mutonby/openshorts"
+  ]
+}

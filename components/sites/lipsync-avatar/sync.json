@@ -1,0 +1,10 @@
+{
+  "url": "https://sync.so",
+  "title": "sync. (sync.so / Sync Labs)",
+  "description": "API e estúdio de lip sync/dublagem de vídeo real (modelos sync-3, lançado em abr/2026, e lipsync-2 / lipsync-2-pro); criadores do Wav2Lip. Tem skills oficiais para Claude Code, Codex, Cursor e Gemini CLI (repo synchronicity-labs/skills) com servidor MCP hospedado.",
+  "tags": [
+    "ferramenta comercial",
+    "Lip sync e avatar"
+  ],
+  "pricing": "pago ou freemium"
+}

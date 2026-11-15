@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/mayuelala/FollowYourEmoji",
+  "title": "Follow-Your-Emoji",
+  "description": "Animação de retrato guiada por landmarks expressivos, para humanos e personagens estilizados (SIGGRAPH Asia 2024).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 444,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "Transferir expressões para retratos estilizados/cartoon.",
+    "Entrada → saída": "retrato + sequência de landmarks/vídeo-guia → vídeo animado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Sem licença declarada no HF (YueMafighting/FollowYourEmoji)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2025-12",
+    "Versão recente": "cache TIC 2,4× (2025-04)",
+    "Nível": "intermediario",
+    "Qualidade": "Bom com estilos cartoon; não é guiado por áudio."
+  },
+  "fontes": [
+    "https://github.com/mayuelala/FollowYourEmoji",
+    "https://ungh.cc/repos/mayuelala/FollowYourEmoji",
+    "https://huggingface.co/YueMafighting/FollowYourEmoji"
+  ]
+}

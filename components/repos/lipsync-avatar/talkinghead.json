@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/met4citizen/TalkingHead",
+  "title": "TalkingHead (met4citizen)",
+  "description": "Classe JavaScript para avatares 3D (GLB) com lip sync em tempo real dirigido por texto/timestamps de TTS ou por áudio.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 1700,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Avatar 3D no navegador falando com TTS; demos web interativas.",
+    "Entrada → saída": "texto/TTS ou áudio → animação de visemas no avatar (navegador)",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda no navegador.",
+    "Hardware": "Navegador (CPU/GPU do cliente).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A (avatares do usuário)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.8.2 (2026-10-25)",
+    "Nível": "intermediario",
+    "Qualidade": "Excelente para web 3D; não produz vídeo fotorrealista."
+  },
+  "fontes": [
+    "https://github.com/met4citizen/TalkingHead",
+    "https://ungh.cc/repos/met4citizen/TalkingHead"
+  ]
+}

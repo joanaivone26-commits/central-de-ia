@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Soul-AILab/SoulX-FlashTalk",
+  "title": "SoulX-FlashTalk",
+  "description": "Avatar 14B com início sub-segundo e streaming em tempo real (Soul AI Lab, 2026).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1600,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Avatar ao vivo de alta qualidade em servidor.",
+    "Entrada → saída": "imagem + áudio em streaming → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "Mais de 64 GB de VRAM; --cpu_offload reduz para ~40 GB (README).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF Soul-AILab/SoulX-FlashTalk-14B)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "pesos (2026-01-08)",
+    "Nível": "avancado",
+    "Qualidade": "Qualidade alta e latência baixa em data center; impraticável localmente."
+  },
+  "fontes": [
+    "https://github.com/Soul-AILab/SoulX-FlashTalk",
+    "https://ungh.cc/repos/Soul-AILab/SoulX-FlashTalk",
+    "https://huggingface.co/Soul-AILab/SoulX-FlashTalk-14B"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/diffusionstudio/editor",
+  "title": "Diffusion Studio Editor",
+  "description": "Editor de vídeo 'estilo VS Code' feito para agentes: composições JSX sincronizadas entre canvas e código.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 3500,
+  "license": "MPL-2.0",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Edição assistida por agente com timeline visual; o app registra um servidor MCP no Claude Code/Codex.",
+    "Entrada → saída": "Mídia + JSX → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "App desktop para macOS Apple Silicon e Windows.",
+    "Hardware": "CPU",
+    "Licença do código": "MPL-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.216.0 (2026-10-18)",
+    "Nível": "intermediario",
+    "Instalação": "app desktop ou npx skills add diffusionstudio/skills",
+    "Observações": "Criado em 2026-07. O README não diz qual serviço/modelo faz a transcrição."
+  },
+  "fontes": [
+    "https://github.com/diffusionstudio/editor"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/if-ai/ComfyUI-IF_MemoAvatar",
+  "title": "ComfyUI-IF_MemoAvatar",
+  "description": "Nós para MEMO (vídeo falante expressivo), citados no README do MEMO.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 170,
+  "license": "MIT",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar MEMO dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "Como MEMO (4090/H100).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MEMO Apache-2.0 + InsightFace",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-03",
+    "Versão recente": "sem releases (2025-03)",
+    "Nível": "intermediario",
+    "Qualidade": "Lento como o MEMO.",
+    "No ComfyUI": "if-ai/ComfyUI-IF_MemoAvatar"
+  },
+  "fontes": [
+    "https://github.com/if-ai/ComfyUI-IF_MemoAvatar",
+    "https://ungh.cc/repos/if-ai/ComfyUI-IF_MemoAvatar"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Zulko/moviepy",
+  "title": "MoviePy (v2)",
+  "description": "Edição de vídeo em Python: cortes, concatenação, composição, textos, efeitos e áudio.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 15100,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Scripts simples de montagem (abertura + corpo + encerramento, textos, overlays) gerados por agentes.",
+    "Entrada → saída": "Vídeo/imagem/áudio → MP4/GIF",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Usa FFmpeg via imageio-ffmpeg.",
+    "Hardware": "CPU (lento em 4K)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "v2.2.1 (2025-05-21)",
+    "Nível": "iniciante",
+    "Instalação": "pip install moviepy",
+    "Observações": "A v2 quebrou a API da v1 (moviepy.editor removido; subclip→subclipped; set_*→with_*). LLMs ainda geram código v1: peça explicitamente 'MoviePy 2.x'. Último release 2.2.1 (2025-05), commits até 2026-08."
+  },
+  "fontes": [
+    "https://github.com/Zulko/moviepy",
+    "https://pypi.org/project/moviepy/"
+  ]
+}

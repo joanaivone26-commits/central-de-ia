@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/devtools/stripe",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/devtools/stripe.json",
+    "commit": "de57029cf6dcbe417bcddde545493e92d9d6a1d3",
+    "url": "https://www.aitmpl.com/component/mcps/devtools/stripe"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 7,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-20T01:36:17Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/devtools/stripe)."
+}

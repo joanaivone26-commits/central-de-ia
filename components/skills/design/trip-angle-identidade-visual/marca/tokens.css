@@ -1,0 +1,36 @@
+/* Trip Angle — tokens de identidade visual
+   Use em páginas, slides em HTML e templates de vídeo feitos com Remotion/HTML. */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@1,700;1,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap");
+
+:root {
+  --ta-preto: #050505;
+  --ta-grafite: #111113;
+  --ta-linha: #26262A;
+  --ta-vermelho: #CE0103;
+  --ta-neon: #FF2B2B;
+  --ta-vinho: #6D0D0D;
+  --ta-gelo: #F5F5F5;
+  --ta-cinza: #A1A1A1;
+  --ta-papel: #FFFFFF;
+
+  --ta-degrade: linear-gradient(135deg, #211414 0%, #7A0A0A 55%, #C40000 100%);
+  --ta-brilho: 0 0 18px rgba(255, 43, 43, .45);
+
+  --ta-fonte-display: "Anton", Impact, "Arial Narrow", sans-serif;
+  --ta-fonte-etiqueta: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --ta-fonte-texto: "Inter", "Helvetica Neue", Aptos, Arial, sans-serif;
+  --ta-fonte-codigo: "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
+/* Rótulo entre colchetes: [ COMUNIDADE TRIP ANGLE ] */
+.ta-colchete { font: 600 13px/1 var(--ta-fonte-texto); letter-spacing: .5em; text-transform: uppercase; color: var(--ta-gelo); }
+.ta-colchete::before { content: "[ "; color: var(--ta-vermelho); letter-spacing: .2em; }
+.ta-colchete::after  { content: " ]"; color: var(--ta-vermelho); letter-spacing: .2em; }
+
+/* Selo em paralelogramo com borda vermelha */
+.ta-selo { display: inline-block; transform: skewX(-12deg); border: 2px solid var(--ta-vermelho); background: rgba(206, 1, 3, .12); box-shadow: var(--ta-brilho); padding: .2em .8em; }
+.ta-selo > span { display: inline-block; transform: skewX(12deg); font: italic 800 1.1em/1.1 var(--ta-fonte-etiqueta); text-transform: uppercase; color: var(--ta-gelo); }
+
+/* Título de impacto: branco + palavra em vermelho */
+.ta-titulo { font: 400 clamp(40px, 8vw, 96px)/.92 var(--ta-fonte-display); text-transform: uppercase; color: var(--ta-gelo); }
+.ta-titulo em { font-style: normal; color: var(--ta-vermelho); }

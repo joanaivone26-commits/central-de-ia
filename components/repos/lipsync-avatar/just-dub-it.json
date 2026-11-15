@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/justdubit/just-dub-it",
+  "title": "JUST-DUB-IT",
+  "description": "Pesquisa (SIGGRAPH 2026, Tel Aviv Univ. + Lightricks) que adapta o LTX-2 com uma LoRA para dublagem vídeo-a-vídeo com áudio traduzido.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 263,
+  "license": "LTX-2 Community License",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Apenas referência do método: o repo foi arquivado e o código vive no LTX-2 (DubItPipeline).",
+    "Entrada → saída": "vídeo + idioma/texto alvo → vídeo dublado (áudio + lábios)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Use o LTX-2/Phosphene.",
+    "Hardware": "Mesmo perfil do LTX-2 (GPU de 32 GB+).",
+    "Licença do código": "LTX-2 Community License",
+    "Licença dos pesos": "Licença \"other\" (HF justdubit/justdubit)",
+    "Uso comercial": "restrito",
+    "Status": "arquivado",
+    "Última atividade": "2026-05",
+    "Versão recente": "código/pesos 2026-02; migrado para LTX-2.3 em 2026-05",
+    "Nível": "avancado",
+    "Qualidade": "Repositório arquivado; útil para ler o paper e entender a tendência áudio+vídeo conjunto.",
+    "No ComfyUI": "Lightricks/ComfyUI-LTXVideo"
+  },
+  "fontes": [
+    "https://github.com/justdubit/just-dub-it",
+    "https://ungh.cc/repos/justdubit/just-dub-it",
+    "https://huggingface.co/justdubit/justdubit"
+  ]
+}

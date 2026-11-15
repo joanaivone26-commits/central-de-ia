@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/hkchengrex/MMAudio",
+  "title": "MMAudio",
+  "description": "Gera áudio/foley sincronizado a partir de vídeo (e texto) — CVPR 2025.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 2300,
+  "license": "MIT",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Sonorizar clipes gerados por IA sem som.",
+    "Entrada → saída": "Vídeo (+ prompt) → áudio sincronizado / vídeo com som.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Suporte Mac não confirmado.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-NC-4.0",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-02",
+    "Versão recente": "v0.1 (2026-02)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "—"
+  },
+  "fontes": [
+    "https://github.com/hkchengrex/MMAudio",
+    "https://huggingface.co/hkchengrex/MMAudio"
+  ]
+}

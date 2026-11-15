@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Lightricks/LTX-2",
+  "title": "LTX-2 / LTX-2.3 / LTX-2.5 (Lightricks)",
+  "description": "Modelo DiT de áudio+vídeo sincronizados; o LTX-2.5 (22B, encoder de texto Gemma 4 12B) traz multi-shot nativo.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 10200,
+  "license": "Apache-2.0 (código)",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "B-roll com som ambiente/fala, clipes multi-shot e LoRAs IC (restore, deblur, colorização, SDR→HDR, alpha).",
+    "Entrada → saída": "Texto/imagem/áudio → vídeo com áudio",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "mlx-video roda LTX-2/2.3 em MLX; o app ltx-video-mac pede 32 GB+. Inviável no M1 8 GB.",
+    "Hardware": "24–32 GB+ (RTX 4090/5090) com fp8/int8 e offload; download completo de ~66 GiB",
+    "Licença do código": "Apache-2.0 (código)",
+    "Licença dos pesos": "LTX-2.x Community License: gratuito para entidades com receita anual < US$ 10 mi; acima disso, licença comercial paga. Download gated no HF",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.6.1 (2026-11-05)",
+    "Nível": "avancado",
+    "Instalação": "git clone + uv sync; hf download Lightricks/LTX-2.5",
+    "Observações": "LTX-2.5 lançado em 2026-08-11 (o card no HF existe desde 2026-07-23). Pesos com quantização int8/nvfp4 para ComfyUI. Vários LoRAs oficiais publicados em 2026-09."
+  },
+  "fontes": [
+    "https://github.com/Lightricks/LTX-2",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x"
+  ]
+}

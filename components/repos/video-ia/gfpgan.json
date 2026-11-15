@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/TencentARC/GFPGAN",
+  "title": "GFPGAN",
+  "description": "Restauração prática de rostos com prior generativo (GAN).",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 37700,
+  "license": "Apache-2.0 (com componentes de terceiros sob outras licenças)",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Melhorar rostos em vídeos de baixa qualidade; alternativa com licença mais aberta que o CodeFormer.",
+    "Entrada → saída": "Imagem/frames → rostos restaurados",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU; MPS não confirmado.",
+    "Hardware": "GPU 4 GB+ (CPU possível)",
+    "Licença do código": "Apache-2.0 (com componentes de terceiros sob outras licenças)",
+    "Licença dos pesos": "Apache-2.0 (checkpoints oficiais; verifique componentes)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-07",
+    "Versão recente": "v1.3.8 (2022-09-16)",
+    "Nível": "intermediario",
+    "Instalação": "pip install gfpgan",
+    "Observações": "Sem manutenção desde 2024-07."
+  },
+  "fontes": [
+    "https://github.com/TencentARC/GFPGAN"
+  ]
+}

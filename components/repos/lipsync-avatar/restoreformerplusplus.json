@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/wzhouxiff/RestoreFormerPlusPlus",
+  "title": "RestoreFormer++",
+  "description": "Restauração facial com atenção multi-cabeça entre o rosto degradado e um dicionário de alta qualidade (TPAMI 2023).",
+  "tags": [
+    "Restauração facial"
+  ],
+  "stars": 291,
+  "license": "Apache-2.0",
+  "subcategoria": "Restauração facial",
+  "detalhes": {
+    "Melhor uso": "Alternativa ao GFPGAN/CodeFormer com bom equilíbrio realismo × fidelidade.",
+    "Entrada → saída": "imagem/frames → rosto restaurado",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Disponível no FaceFusion (CoreML).",
+    "Hardware": "GPU leve; CPU possível.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Pesos na release, sem licença separada",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-09",
+    "Versão recente": "v1.0.0 (2023-09)",
+    "Nível": "intermediario",
+    "Qualidade": "Resultado natural; sem tratamento temporal."
+  },
+  "fontes": [
+    "https://github.com/wzhouxiff/RestoreFormerPlusPlus",
+    "https://ungh.cc/repos/wzhouxiff/RestoreFormerPlusPlus"
+  ]
+}

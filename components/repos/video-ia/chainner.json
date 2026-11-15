@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/chaiNNer-org/chaiNNer",
+  "title": "chaiNNer",
+  "description": "GUI baseada em nós para processamento de imagem com IA (upscale, restauração), com PyTorch, NCNN e ONNX e iteração sobre frames de vídeo.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 6200,
+  "license": "GPL-3.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Pipelines visuais de upscale/restauração em lote, inclusive frames de vídeo, sem código.",
+    "Entrada → saída": "Imagens/vídeo → imagens/vídeo processados",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Builds para macOS Apple Silicon.",
+    "Hardware": "CPU/GPU (CUDA, Vulkan/NCNN, MPS)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Usa modelos de terceiros (licenças variadas)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.26.1 (2026-10-27)",
+    "Nível": "intermediario",
+    "Instalação": "n/a (download do app)",
+    "Observações": "v0.26.1 (2026-10-27)."
+  },
+  "fontes": [
+    "https://github.com/chaiNNer-org/chaiNNer"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+  "title": "InfiniteTalk (MeiGen)",
+  "description": "Dublagem vídeo→vídeo e imagem→vídeo guiada por áudio, sem limite de duração, sincronizando lábios, cabeça e corpo (sobre o Wan 2.1 14B).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 8400,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Avatares falantes longos e dublagem com movimento natural.",
+    "Entrada → saída": "Vídeo/imagem + áudio → vídeo 480p/720p",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "Pesado (base 14B): 24 GB+; WanGP/ComfyUI permitem pouca VRAM com quantização",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou ComfyUI-WanVideoWrapper / WanGP)",
+    "Observações": "Lançado em 2025-08; último push em 2026-05."
+  },
+  "fontes": [
+    "https://github.com/MeiGen-AI/InfiniteTalk",
+    "https://huggingface.co/MeiGen-AI/InfiniteTalk"
+  ]
+}

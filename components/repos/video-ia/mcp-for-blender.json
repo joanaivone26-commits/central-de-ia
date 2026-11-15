@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/ahujasid/mcp-for-blender",
+  "title": "MCP for Blender (ex-blender-mcp)",
+  "description": "Conecta o agente ao Blender via addon (socket): executar Python no Blender, inspecionar a cena, 'olhar' o resultado (viewport/câmera/multi-ângulo/render), importar assets do Poly Haven/Sketchfab/Poly Pizza e gerar modelos 3D (Hyper3D Rodin, Hunyuan3D, Tripo, Meshy). O repo ahujasid/blender-mcp foi renomeado para ahujasid/mcp-for-blender e o pacote PyPI virou `mcp-for-blender` (`uvx blender-mcp` ainda funciona). Útil para cenas 3D, motion e renders para vídeo.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 33926,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-11-04",
+    "Funciona no Claude": "sim (claude mcp add blender uvx mcp-for-blender)",
+    "Funciona no Codex": "sim (codex mcp add blender -- uvx mcp-for-blender; também plugin Codex no repo)",
+    "Ferramentas expostas": "execute_blender_code, look, get_scene_info, generate_3d, search_assets, import_asset, get_addon_status, disable_telemetry, record_trajectory_feedback",
+    "Requisitos": "Blender 3.0+ ABERTO com o addon instalado (`uvx mcp-for-blender install-addon`); Python 3.10+; uv. Geradores 3D exigem chaves próprias ou plano Premium. Atenção: execute_blender_code roda código arbitrário."
+  },
+  "fontes": [
+    "https://github.com/ahujasid/mcp-for-blender",
+    "https://pypi.org/project/mcp-for-blender/"
+  ]
+}

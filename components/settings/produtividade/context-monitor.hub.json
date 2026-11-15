@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "settings/statusline/context-monitor",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/settings/statusline/context-monitor.json",
+    "commit": "75eed8e8deadb3f4d2194d274d2369e701fe7b1f",
+    "url": "https://www.aitmpl.com/component/settings/statusline/context-monitor"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "MEDIUM",
+    "score": 22,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:30:55Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (settings/statusline/context-monitor)."
+}

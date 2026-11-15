@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/marketing/google-search-console-crakseo",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/marketing/google-search-console-crakseo.json",
+    "commit": "15d56640ee6ec0d2cd26813cc7e72010e68d4d7d",
+    "url": "https://www.aitmpl.com/component/mcps/marketing/google-search-console-crakseo"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-11-07T20:16:38Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/marketing/google-search-console-crakseo)."
+}

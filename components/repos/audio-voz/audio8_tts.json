@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Edge0-AI/Audio8_TTS",
+  "title": "Audio8-TTS",
+  "description": "TTS compacto 0.6B com clonagem zero-shot; versão Realistic-Air (out/2026) com 23 idiomas, incluindo português.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 2400,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Teste de clonagem PT leve e permissiva.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "mlx-community/Audio8-TTS-Realistic-0.6b-bf16 via mlx-audio.",
+    "Hardware": "GPU ou Apple Silicon.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (Edge0/Audio8-TTS-Realistic-Air)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "Realistic-Air (2026-10)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "não confirmado",
+    "Observações": "Projeto novo (repo criado 2026-07)."
+  },
+  "fontes": [
+    "https://github.com/Edge0-AI/Audio8_TTS",
+    "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air"
+  ]
+}

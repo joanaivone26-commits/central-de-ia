@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/abus-aikorea/voice-pro",
+  "title": "Voice-Pro",
+  "description": "WebUI Gradio: download de vídeo, separação (UVR/Demucs), Whisper, tradução, TTS (F5, CosyVoice3, Kokoro, Edge) e RVC.",
+  "tags": [
+    "Dublagem"
+  ],
+  "stars": 13400,
+  "license": "GPL-3.0 (frontmatter do README diz LGPL — divergente)",
+  "subcategoria": "Dublagem",
+  "detalhes": {
+    "Melhor uso": "Estação 'tudo em um' de dublagem/cover em Windows com NVIDIA.",
+    "Entrada → saída": "Vídeo/URL → áudio/vídeo dublado, legendas.",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "README diz que o funcionamento no Mac não foi verificado.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "GPL-3.0 (frontmatter do README diz LGPL — divergente)",
+    "Licença dos pesos": "Depende dos modelos",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "v4.0.0 (2026-07)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "N/A (instalador)",
+    "Observações": "—"
+  },
+  "fontes": [
+    "https://github.com/abus-aikorea/voice-pro",
+    "https://github.com/abus-aikorea/voice-pro/releases"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/facebookresearch/demucs",
+  "title": "Demucs (Meta, repositório original)",
+  "description": "Separação de fontes musicais (voz, bateria, baixo, outros) com Hybrid Transformer Demucs v4.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 10400,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Histórico; use o fork mantido adefossez/demucs.",
+    "Entrada → saída": "Música/áudio → stems WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Ver fork mantido.",
+    "Hardware": "CPU/GPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (modelos distribuídos com o projeto; verificar)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2023-11",
+    "Versão recente": "v4.0.1 (2023-09)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "—",
+    "Observações": "Arquivado; README: 'this repository is not maintained anymore' (autor saiu da Meta)."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/demucs"
+  ]
+}

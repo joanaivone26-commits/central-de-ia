@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/OHF-Voice/piper1-gpl",
+  "title": "Piper (piper1-gpl)",
+  "description": "TTS neural local muito rápido (ONNX), roda até em Raspberry Pi; vozes pt_BR prontas.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 6200,
+  "license": "GPL-3.0",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Narração offline leve em lote (vozes pt_BR-faber/cadu/jeff-medium, edresson-low).",
+    "Entrada → saída": "Texto → WAV.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Wheel macosx_11_0_arm64 no PyPI.",
+    "Hardware": "CPU.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Por voz: faber/cadu/jeff com dataset CC0; edresson CC-BY-4.0 (MODEL_CARD de cada voz)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.8.0 (2026-09-04)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install piper-tts",
+    "Observações": "Vozes claras porém menos naturais que modelos grandes; sem clonagem. Download: python -m piper.download_voices pt_BR-faber-medium."
+  },
+  "fontes": [
+    "https://github.com/OHF-Voice/piper1-gpl",
+    "https://pypi.org/project/piper-tts",
+    "https://huggingface.co/rhasspy/piper-voices/tree/main/pt/pt_BR"
+  ]
+}

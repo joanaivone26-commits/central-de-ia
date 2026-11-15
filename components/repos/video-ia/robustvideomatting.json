@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/PeterL1n/RobustVideoMatting",
+  "title": "Robust Video Matting (RVM)",
+  "description": "Matting de pessoas em vídeo em tempo real, sem tela verde, com memória temporal (RNN).",
+  "tags": [
+    "Recorte de fundo"
+  ],
+  "stars": 9600,
+  "license": "GPL-3.0",
+  "subcategoria": "Recorte de fundo",
+  "detalhes": {
+    "Melhor uso": "Tirar o fundo de vídeo falado (webcam/talking head) para compor sobre B-roll.",
+    "Entrada → saída": "Vídeo → foreground + alfa",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Oferece modelos exportados para Core ML e ONNX.",
+    "Hardware": "Leve: roda até em CPU; GPU para 4K",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "GPL-3.0",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-04",
+    "Versão recente": "v1.0.0 (2021-09-17)",
+    "Nível": "intermediario",
+    "Instalação": "git clone (ou torch.hub.load('PeterL1n/RobustVideoMatting', ...))",
+    "Observações": "Sem manutenção desde 2024-04, mas continua excelente para pessoas. GPL: atenção ao distribuir software derivado."
+  },
+  "fontes": [
+    "https://github.com/PeterL1n/RobustVideoMatting"
+  ]
+}

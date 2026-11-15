@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/fudan-generative-vision/Hallo-Live",
+  "title": "Hallo-Live",
+  "description": "Geração conjunta de vídeo de avatar e fala em tempo real a partir de TEXTO, com DiT causal de dois fluxos (ACM MM 2026).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 358,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Avatar conversacional que gera voz e rosto juntos; NÃO serve para sincronizar um áudio pronto.",
+    "Entrada → saída": "texto (+ referência) → vídeo + áudio em streaming",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "GPU(s) CUDA de data center (VRAM de inferência não publicada; treino em 8× H200).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF fudan-generative-ai/Hallo-Live)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-06",
+    "Versão recente": "sem releases (2026-06)",
+    "Nível": "avancado",
+    "Qualidade": "Mostra a tendência 2026 de áudio+vídeo nativos; ainda pesquisa."
+  },
+  "fontes": [
+    "https://github.com/fudan-generative-vision/Hallo-Live",
+    "https://ungh.cc/repos/fudan-generative-vision/Hallo-Live",
+    "https://huggingface.co/fudan-generative-ai/Hallo-Live"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Sanster/IOPaint",
+  "title": "IOPaint (ex-lama-cleaner)",
+  "description": "WebUI de inpainting/outpainting de IMAGENS com LaMa, MAT, SD, PowerPaint e outros.",
+  "tags": [
+    "Remoção de objetos"
+  ],
+  "stars": 23300,
+  "license": "Apache-2.0",
+  "subcategoria": "Remoção de objetos",
+  "detalhes": {
+    "Melhor uso": "Apagar objetos/textos de thumbnails e frames únicos; roda bem no Mac.",
+    "Entrada → saída": "Imagem + máscara → imagem limpa",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "--device mps funciona no M1.",
+    "Hardware": "CPU, CUDA ou MPS",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Varia por modelo (LaMa Apache-2.0; SD com licenças próprias)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2025-04",
+    "Versão recente": "1.6.0 (PyPI, 2025-03-18)",
+    "Nível": "iniciante",
+    "Instalação": "pip install iopaint && iopaint start --model=lama --device=mps",
+    "Observações": "Repositório ARQUIVADO (2025). Quadro a quadro não tem consistência temporal para vídeo."
+  },
+  "fontes": [
+    "https://github.com/Sanster/IOPaint",
+    "https://pypi.org/project/iopaint/"
+  ]
+}

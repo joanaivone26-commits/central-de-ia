@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/zhouxiaoka/autoclip",
+  "title": "AutoClip",
+  "description": "App desktop que transforma podcasts, entrevistas e aulas em cortes com legendas, capas e textos de publicação.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 10200,
+  "license": "MIT",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Recorte de highlights com o LLM que você escolher (inclusive Ollama/LM Studio local).",
+    "Entrada → saída": "Vídeo longo → shorts + legendas + capa + texto",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "DMG para Apple Silicon; o instalador já traz Python e FFmpeg.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.5.8 (2026-11-02)",
+    "Nível": "iniciante",
+    "Instalação": "app desktop (releases) ou uvx autoclip-mcp",
+    "Observações": "~10k estrelas; tem modo CLI/MCP para agentes. Nasceu para plataformas chinesas, mas exporta para TikTok/Reels/Shorts."
+  },
+  "fontes": [
+    "https://github.com/zhouxiaoka/autoclip"
+  ]
+}

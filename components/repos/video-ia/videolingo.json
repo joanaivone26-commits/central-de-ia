@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Huanshere/VideoLingo",
+  "title": "VideoLingo",
+  "description": "Legendagem, tradução e dublagem de vídeo com qualidade 'de Netflix' (WhisperX + LLM + TTS).",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 19100,
+  "license": "Apache-2.0",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Gerar legendas bem segmentadas e traduzidas; dublagem opcional.",
+    "Entrada → saída": "Vídeo → SRT/legendas queimadas/dublagem",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda no Mac em CPU (WhisperX mais lento).",
+    "Hardware": "CPU ou GPU NVIDIA",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.1.1 (2026-09-27)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + python install.py",
+    "Observações": "Precisa de chave de LLM compatível com a API da OpenAI para tradução/segmentação."
+  },
+  "fontes": [
+    "https://github.com/Huanshere/VideoLingo"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/facebookresearch/sam2",
+  "title": "SAM 2 (Segment Anything 2)",
+  "description": "Segmentação promptable (clique/caixa) em imagens e vídeos, com memória para seguir o objeto pelos frames.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 20100,
+  "license": "Apache-2.0",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Isolar pessoa/objeto ao longo do vídeo para máscaras, recortes, remoção ou efeitos.",
+    "Entrada → saída": "Vídeo + prompts → máscaras por frame",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda com MPS/CPU, mais devagar.",
+    "Hardware": "GPU NVIDIA recomendada (~8 GB para modelos pequenos)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "Sucedido pelo SAM 3/3.1, mas segue muito usado (e é a base de nós do ComfyUI)."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/sam2",
+    "https://huggingface.co/facebook/sam2.1-hiera-large"
+  ]
+}

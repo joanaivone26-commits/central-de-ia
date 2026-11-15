@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "vendas"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/churn-prevention",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Reduz cancelamentos: fluxo de cancelamento, ofertas de retenção, cobrança recusada e reativação.",
+  "title": "Prevenção de Churn"
+}

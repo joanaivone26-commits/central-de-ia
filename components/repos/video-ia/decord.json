@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/dmlc/decord",
+  "title": "Decord",
+  "description": "Leitor de vídeo rápido com acesso aleatório a frames, pensado para deep learning.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 2500,
+  "license": "Apache-2.0",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Carregar frames de datasets para modelos; hoje prefira TorchCodec ou PyAV.",
+    "Entrada → saída": "Vídeo → frames NumPy/Torch",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não há wheel oficial para macOS arm64; é preciso compilar do fonte.",
+    "Hardware": "CPU/CUDA",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-07",
+    "Versão recente": "0.6.0 (PyPI, 2021-06-14)",
+    "Nível": "intermediario",
+    "Instalação": "pip install decord (sem wheel arm64)",
+    "Observações": "Último release 0.6.0 (2021) e último push em 2024-07. Vários repos de IA ainda dependem dele, o que atrapalha a instalação no Mac."
+  },
+  "fontes": [
+    "https://github.com/dmlc/decord",
+    "https://pypi.org/project/decord/"
+  ]
+}

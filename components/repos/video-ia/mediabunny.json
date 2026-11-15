@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/Vanilagy/mediabunny",
+  "title": "Mediabunny",
+  "description": "Toolkit JavaScript/TypeScript para ler, escrever e converter mídia (MP4, WebM, MP3...) no navegador e no Node via WebCodecs.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 7500,
+  "license": "MPL-2.0",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Converter/cortar/extrair metadados no navegador sem servidor; usado pelo Remotion (skill remotion-multimedia).",
+    "Entrada → saída": "Arquivos de mídia ↔ arquivos/frames no navegador",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Funciona no Safari e no Chrome do Mac.",
+    "Hardware": "CPU/GPU via WebCodecs do navegador",
+    "Licença do código": "MPL-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.65.2 (2026-11-04)",
+    "Nível": "avancado",
+    "Instalação": "npm install mediabunny"
+  },
+  "fontes": [
+    "https://github.com/Vanilagy/mediabunny"
+  ]
+}

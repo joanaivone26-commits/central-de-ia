@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/zibojia/MiniMax-Remover",
+  "title": "MiniMax-Remover",
+  "description": "Remoção de objetos em vídeo com poucos passos de difusão (otimização minimax sobre um DiT de vídeo).",
+  "tags": [
+    "Remoção de objetos"
+  ],
+  "stars": 620,
+  "license": "não confirmado (repo sem arquivo LICENSE)",
+  "subcategoria": "Remoção de objetos",
+  "detalhes": {
+    "Melhor uso": "Remover objetos de vídeos curtos com boa qualidade e velocidade.",
+    "Entrada → saída": "Vídeo + máscaras → vídeo sem o objeto",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPU NVIDIA (requisitos não confirmados)",
+    "Licença do código": "não confirmado (repo sem arquivo LICENSE)",
+    "Licença dos pesos": "não confirmado",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-07",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ver README)",
+    "Observações": "Último push em 2025-07. Sem licença declarada = não use comercialmente sem permissão."
+  },
+  "fontes": [
+    "https://github.com/zibojia/MiniMax-Remover"
+  ]
+}

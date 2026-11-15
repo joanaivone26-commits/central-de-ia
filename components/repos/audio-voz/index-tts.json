@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/index-tts/index-tts",
+  "title": "IndexTTS2 / IndexTTS-2.5",
+  "description": "TTS zero-shot da bilibili com controle explícito de duração e emoção — útil para dublagem sincronizada.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 25000,
+  "license": "bilibili Model Use License",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Dublagem com duração exata por fala (zh/en/ja/es/ar).",
+    "Entrada → saída": "Texto + referência (+ duração/emoção) → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não documentado oficialmente para MPS.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "bilibili Model Use License",
+    "Licença dos pesos": "bilibili Model Use License",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "v2.5.0 (2026-08)",
+    "Nível": "avancado",
+    "Português (BR)": "nao suporta",
+    "Instalação": "git clone + uv sync",
+    "Observações": "Licença exige acordo à parte acima de 100 milhões de usuários ativos mensais e proíbe usar para treinar outros modelos."
+  },
+  "fontes": [
+    "https://github.com/index-tts/index-tts",
+    "https://huggingface.co/IndexTeam/IndexTTS-2"
+  ]
+}

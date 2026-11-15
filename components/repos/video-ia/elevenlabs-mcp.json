@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/elevenlabs/elevenlabs-mcp",
+  "title": "ElevenLabs MCP (local arquivado → MCP hospedado)",
+  "description": "Servidor oficial da ElevenLabs: TTS, transcrição (speech_to_text com diarização), efeitos sonoros, clonagem/design de voz, isolamento de áudio, speech-to-speech, música e agentes de voz. O repo local foi ARQUIVADO (ago/2026) e marcado como deprecated em favor do MCP hospedado https://api.elevenlabs.io/v1/mcp (OAuth, sem instalar nada; endpoints regionais EU/IN/SG). O pacote `uvx elevenlabs-mcp` ainda roda, sem manutenção.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 1549,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "arquivado (substituído pelo MCP hospedado oficial)",
+    "Última atividade": "2026-08-20",
+    "Funciona no Claude": "sim (local stdio; hospedado como conector personalizado/HTTP com OAuth)",
+    "Funciona no Codex": "sim (local stdio: uvx elevenlabs-mcp; hospedado via URL + OAuth em princípio — não documentado especificamente para Codex)",
+    "Ferramentas expostas": "text_to_speech, speech_to_text, text_to_sound_effects, search_voices, list_models, get_voice, voice_clone, isolate_audio, check_subscription, speech_to_speech, text_to_voice, create_voice_from_preview, search_voice_library, play_audio, compose_music, create_composition_plan, video_to_music, create_agent, list_agents, make_outbound_call",
+    "Requisitos": "Conta ElevenLabs com créditos (há plano grátis ~10k créditos/mês). Local: uv + ELEVENLABS_API_KEY (opcionais ELEVENLABS_MCP_BASE_PATH, ELEVENLABS_MCP_OUTPUT_MODE). Hospedado: só OAuth."
+  },
+  "fontes": [
+    "https://github.com/elevenlabs/elevenlabs-mcp",
+    "https://elevenlabs.io/docs/agents-platform/operate/hosted-mcp",
+    "https://pypi.org/project/elevenlabs-mcp/"
+  ]
+}

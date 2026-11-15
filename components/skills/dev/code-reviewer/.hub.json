@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/development/code-reviewer",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/development/code-reviewer",
+    "commit": "0a684978913f9124b1a9fab352aac2d318b56103",
+    "url": "https://www.aitmpl.com/component/skills/development/code-reviewer"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-11-03T01:19:37Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/development/code-reviewer)."
+}

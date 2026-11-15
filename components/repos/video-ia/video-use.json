@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/browser-use/video-use",
+  "title": "video-use (browser-use)",
+  "description": "Skill/pipeline para editar vídeos com agentes de código: o agente lê a transcrição com timestamps por palavra, planeja os cortes e renderiza com FFmpeg.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 30800,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Vídeo falado: remove silêncios, vícios de fala ('é...', 'hum'), falsos começos; aplica color grade, fades e legendas queimadas.",
+    "Entrada → saída": "Pasta com brutos → final.mp4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "A instalação via Homebrew está documentada.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "git clone + uv sync (ou pip install -e .) e symlink na pasta de skills do agente",
+    "Observações": "Lançado em 2026-04 (~31k estrelas). A transcrição padrão usa ElevenLabs Scribe (API paga). Overlays com HyperFrames/Remotion/Manim/PIL."
+  },
+  "fontes": [
+    "https://github.com/browser-use/video-use"
+  ]
+}

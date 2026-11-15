@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+  "title": "HunyuanVideo-Foley",
+  "description": "Foley texto+vídeo→áudio de alta fidelidade (48 kHz) da Tencent.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 1100,
+  "license": "Tencent Hunyuan Community License",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Efeitos sincronizados para vídeos gerados.",
+    "Entrada → saída": "Vídeo + texto → áudio.",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte documentado.",
+    "Hardware": "GPU NVIDIA (XL com offload ~8 GB VRAM).",
+    "Licença do código": "Tencent Hunyuan Community License",
+    "Licença dos pesos": "Tencent Hunyuan Community License",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "XL (2025-09)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "A licença não vale na UE, Reino Unido e Coreia do Sul (o Brasil está no território)."
+  },
+  "fontes": [
+    "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+    "https://huggingface.co/tencent/HunyuanVideo-Foley"
+  ]
+}

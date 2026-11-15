@@ -1,0 +1,16 @@
+{
+  "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search, and Drive with AI via Google Workspace MCP.",
+  "mcpServers": {
+    "google-workspace": {
+      "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search, and Drive with AI via Google Workspace MCP.",
+      "command": "uvx",
+      "args": [
+        "workspace-mcp@2.3.0"
+      ],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "<your-client-id>",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "<your-client-secret>"
+      }
+    }
+  }
+}

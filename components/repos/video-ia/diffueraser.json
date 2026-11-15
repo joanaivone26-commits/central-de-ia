@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/lixiaowen-xw/DiffuEraser",
+  "title": "DiffuEraser",
+  "description": "Inpainting de vídeo por difusão (base Stable Diffusion) que usa o ProPainter como prior para gerar detalhes melhores.",
+  "tags": [
+    "Remoção de objetos"
+  ],
+  "stars": 710,
+  "license": "Apache-2.0",
+  "subcategoria": "Remoção de objetos",
+  "detalhes": {
+    "Melhor uso": "Remover objetos grandes onde o ProPainter deixa borrões.",
+    "Entrada → saída": "Vídeo + máscaras → vídeo sem o objeto",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPU NVIDIA 12–24 GB+",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (lixiaowen/diffuEraser), mas o pipeline usa o ProPainter (S-Lab, não comercial) e o SD 1.5",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-04",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Sem commits desde 2025-04."
+  },
+  "fontes": [
+    "https://github.com/lixiaowen-xw/DiffuEraser",
+    "https://huggingface.co/lixiaowen/diffuEraser"
+  ]
+}

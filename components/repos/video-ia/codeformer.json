@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/sczhou/CodeFormer",
+  "title": "CodeFormer",
+  "description": "Restauração de rostos (blind face restoration) robusta, com controle fidelidade × qualidade.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 18200,
+  "license": "S-Lab License 1.0 (somente uso NÃO comercial)",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Recuperar rostos em vídeos antigos/comprimidos ou após upscale.",
+    "Entrada → saída": "Imagem/vídeo → rostos restaurados",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU/MPS com ajustes.",
+    "Hardware": "GPU 4–8 GB (CPU lento)",
+    "Licença do código": "S-Lab License 1.0 (somente uso NÃO comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "estavel",
+    "Última atividade": "2025-11",
+    "Versão recente": "v0.1.0 (2022-08-10)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Muito usado em pipelines, mas a licença impede uso comercial."
+  },
+  "fontes": [
+    "https://github.com/sczhou/CodeFormer"
+  ]
+}

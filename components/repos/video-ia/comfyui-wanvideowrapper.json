@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+  "title": "ComfyUI-WanVideoWrapper",
+  "description": "Nós do ComfyUI para a família Wan (2.1/2.2, VACE, InfiniteTalk, Animate...) com block swap, quantização e recursos experimentais.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 6800,
+  "license": "Apache-2.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Rodar os recursos mais novos do Wan antes do suporte nativo; economizar VRAM.",
+    "Entrada → saída": "Workflows Wan → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Alguns recursos dependem de CUDA.",
+    "Hardware": "NVIDIA 12–24 GB+ (block swap ajuda)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Cada modelo tem a sua licença",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "via ComfyUI-Manager",
+    "Observações": "Último push em 2026-05."
+  },
+  "fontes": [
+    "https://github.com/kijai/ComfyUI-WanVideoWrapper"
+  ]
+}

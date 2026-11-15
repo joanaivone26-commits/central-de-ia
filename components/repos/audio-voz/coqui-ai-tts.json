@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/idiap/coqui-ai-TTS",
+  "title": "coqui-tts (fork Idiap) + XTTS-v2",
+  "description": "Fork mantido do Coqui TTS: XTTS-v2 (clonagem com ~6 s de referência, 17 idiomas incl. pt), VITS, Tortoise, Bark etc.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 2400,
+  "license": "MPL-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem de voz em PT com consentimento em projetos não comerciais; finetune de XTTS.",
+    "Entrada → saída": "Texto + WAV de referência → WAV (streaming <200 ms).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Wheels macOS desde 0.24.2; roda em CPU no M1 (MPS parcial). XTTS ~2 GB.",
+    "Hardware": "GPU NVIDIA ideal; CPU lento.",
+    "Licença do código": "MPL-2.0",
+    "Licença dos pesos": "XTTS-v2: Coqui Public Model License (CPML) — não comercial; finetune freds0/XTTS-CML-TTS-ptbr sem licença declarada",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.28.0 (2026-10-19)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install coqui-tts",
+    "Observações": "Python 3.10–3.14. Como a Coqui fechou, não há mais como comprar licença comercial do XTTS-v2."
+  },
+  "fontes": [
+    "https://github.com/idiap/coqui-ai-TTS",
+    "https://pypi.org/project/coqui-tts",
+    "https://huggingface.co/coqui/XTTS-v2",
+    "https://huggingface.co/freds0/XTTS-CML-TTS-ptbr"
+  ]
+}

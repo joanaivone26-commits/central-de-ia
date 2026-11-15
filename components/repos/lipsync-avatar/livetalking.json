@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/lipku/LiveTalking",
+  "title": "LiveTalking",
+  "description": "Humano digital interativo em streaming (WebRTC/RTMP) com motores Wav2Lip, MuseTalk, ER-NeRF e Ultralight.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 10400,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Avatar ao vivo/atendimento com LLM + TTS em que o vídeo-base é fixo e a boca é gerada em tempo real.",
+    "Entrada → saída": "vídeo-base do avatar + áudio/texto (TTS) em streaming → stream de vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O badge cita mac, mas o tempo real depende de GPU NVIDIA; não confirmado em Apple Silicon.",
+    "Hardware": "README: wav2lip256 a 60 fps numa RTX 3060; MuseTalk a 72 fps numa RTX 4090.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Herda dos motores (Wav2Lip NC; MuseTalk MIT)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v2.0.4 (2026-06-20)",
+    "Nível": "intermediario",
+    "Qualidade": "Solução madura para tempo real (docs em chinês); qualidade limitada ao motor escolhido."
+  },
+  "fontes": [
+    "https://github.com/lipku/LiveTalking",
+    "https://ungh.cc/repos/lipku/LiveTalking"
+  ]
+}

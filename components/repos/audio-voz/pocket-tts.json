@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/kyutai-labs/pocket-tts",
+  "title": "Pocket TTS (Kyutai)",
+  "description": "TTS de ~100M parâmetros que roda em tempo real na CPU, com clonagem e suporte multilíngue (en, fr, de, pt, it, es, nl).",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 10300,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "TTS/clonagem PT local no M1 sem GPU.",
+    "Entrada → saída": "Texto (+ referência) → WAV/stream.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda em CPU (autor cita ~6x tempo real num MacBook Air M4); binário Rust para macOS ARM.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-4.0 (kyutai/pocket-tts gated para clonagem; versão sem clonagem aberta)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v4.0.1 (2026-10-21)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install pocket-tts",
+    "Observações": "Multilíngue desde a v2.0 (2026-04); PT retreinado na v3.3.0 (2026-09). Variante BR não especificada."
+  },
+  "fontes": [
+    "https://github.com/kyutai-labs/pocket-tts",
+    "https://huggingface.co/kyutai/pocket-tts",
+    "https://pypi.org/project/pocket-tts"
+  ]
+}

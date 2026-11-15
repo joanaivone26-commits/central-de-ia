@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "modelcontextprotocol/servers",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/modelcontextprotocol/servers"
+  },
+  "author": "modelcontextprotocol",
+  "addedAt": "2026-11-15"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/argmaxinc/DiffusionKit",
+  "title": "DiffusionKit (Argmax)",
+  "description": "Inferência de SD3/FLUX on-device em MLX e Core ML.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 700,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Histórico; para imagem no Mac use mflux ou Draw Things.",
+    "Entrada → saída": "Texto → imagem",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "Apple Silicon",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Licenças dos modelos (SD3/FLUX)",
+    "Uso comercial": "verificar",
+    "Status": "arquivado",
+    "Última atividade": "2025-04",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "pip install diffusionkit (0.5.2, 2024-12)",
+    "Observações": "Repositório ARQUIVADO."
+  },
+  "fontes": [
+    "https://github.com/argmaxinc/DiffusionKit"
+  ]
+}

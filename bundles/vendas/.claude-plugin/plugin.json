@@ -1,0 +1,13 @@
+{
+  "name": "ta-vendas",
+  "version": "1.20261115.0",
+  "description": "Vendas & Pós-venda: 2 skills, 1 agentes, 0 comandos, 2 prompts da Central de IA Trip Angle.",
+  "author": {
+    "name": "Trip Angle"
+  },
+  "keywords": [
+    "trip-angle",
+    "vendas",
+    "marketing-digital"
+  ]
+}

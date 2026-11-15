@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/hpcaitech/Open-Sora",
+  "title": "Open-Sora (HPC-AI Tech)",
+  "description": "Projeto aberto de geração de vídeo; o Open-Sora 2.0 (11B) tem código, pesos e pipeline de treino abertos.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 29900,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Estudar/treinar modelos de vídeo; referência de pipeline completo.",
+    "Entrada → saída": "Texto/imagem → vídeo 256p–768p",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "24 GB+ para 256p; 768p pede GPUs de datacenter (detalhes não confirmados)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-04",
+    "Versão recente": "Open-Sora 2.0 (2025-03; última tag GitHub v1.3)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -v .",
+    "Observações": "O nome correto do owner é hpcaitech (não hpcai-tech: esse retorna 404)."
+  },
+  "fontes": [
+    "https://github.com/hpcaitech/Open-Sora",
+    "https://huggingface.co/hpcai-tech/Open-Sora-v2"
+  ]
+}

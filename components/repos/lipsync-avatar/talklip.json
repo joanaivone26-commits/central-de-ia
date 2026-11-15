@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Sxjdwang/TalkLip",
+  "title": "TalkLip",
+  "description": "Lip sync supervisionado por um leitor labial (lip-reading) para melhorar a inteligibilidade (CVPR 2023).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 428,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Pesquisa sobre inteligibilidade labial.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; treino ~24 GB (README); inferência menor (não publicada).",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "não confirmado",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-11",
+    "Versão recente": "sem releases",
+    "Nível": "avancado",
+    "Qualidade": "Boa legibilidade em LRS2, mas baixa resolução semelhante ao Wav2Lip; parado."
+  },
+  "fontes": [
+    "https://github.com/Sxjdwang/TalkLip",
+    "https://ungh.cc/repos/Sxjdwang/TalkLip"
+  ]
+}

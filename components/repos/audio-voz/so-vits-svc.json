@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/svc-develop-team/so-vits-svc",
+  "title": "so-vits-svc",
+  "description": "Conversão de voz cantada (SoftVC + VITS).",
+  "tags": [
+    "Conversão de voz"
+  ],
+  "stars": 28000,
+  "license": "AGPL-3.0",
+  "subcategoria": "Conversão de voz",
+  "detalhes": {
+    "Melhor uso": "Histórico; prefira RVC/Applio/Seed-VC.",
+    "Entrada → saída": "Áudio → áudio convertido.",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte documentado.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "não confirmado",
+    "Uso comercial": "restrito",
+    "Status": "arquivado",
+    "Última atividade": "2023-10",
+    "Versão recente": "último commit 2023-10",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "—",
+    "Observações": "Arquivado desde 2023-11."
+  },
+  "fontes": [
+    "https://github.com/svc-develop-team/so-vits-svc"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/OpenMOSS/MOSS-Transcribe-Diarize",
+  "title": "MOSS-Transcribe-Diarize",
+  "description": "Modelo 0.9B (jul/2026) que transcreve, diariza e marca tempo em uma passada, até ~90 min.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 2300,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Alternativa leve e Apache ao VibeVoice-ASR para transcrição com falantes.",
+    "Entrada → saída": "Áudio → transcrição com rótulos de falante e timestamps.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Suportado no mlx-audio (segundo README do mlx-audio).",
+    "Hardware": "GPU NVIDIA; Mac via MLX.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (modelo HF 2026-07; atualizado 2026-10)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "não confirmado (instalar pelo repositório)",
+    "Observações": "WER PT ≈7,2 no snapshot do leaderboard; PT listado no conjunto multilíngue."
+  },
+  "fontes": [
+    "https://github.com/OpenMOSS/MOSS-Transcribe-Diarize",
+    "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

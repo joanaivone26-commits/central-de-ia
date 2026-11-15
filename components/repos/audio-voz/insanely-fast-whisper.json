@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+  "title": "Insanely Fast Whisper",
+  "description": "CLI baseada em Transformers + batching/flash-attention para transcrever horas de áudio em minutos numa GPU.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 13100,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Lotes grandes em GPU NVIDIA potente.",
+    "Entrada → saída": "Áudio → JSON com chunks/timestamps.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Funciona com --device-id mps, sem flash-attn; com 8 GB reduza --batch-size. Ganho pequeno vs mlx-whisper.",
+    "Hardware": "GPU NVIDIA (flash-attn); Mac via --device-id mps.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "MIT (Whisper)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-05",
+    "Versão recente": "0.0.15 (PyPI 2024-05)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pipx install insanely-fast-whisper",
+    "Observações": "Último commit no branch principal em 2024-05."
+  },
+  "fontes": [
+    "https://github.com/Vaibhavs10/insanely-fast-whisper",
+    "https://pypi.org/project/insanely-fast-whisper"
+  ]
+}

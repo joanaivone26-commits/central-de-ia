@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Comfy-Org/comfy-cli",
+  "title": "comfy-cli",
+  "description": "CLI oficial para instalar, iniciar, atualizar e operar o ComfyUI, seus nós e modelos.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 1000,
+  "license": "GPL-3.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Automação por script/agente; base do comfy-mcp.",
+    "Entrada → saída": "Comandos → instalação/execução do ComfyUI",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "No macOS, deixe o workspace fora de Documents/Desktop/Downloads (ou conceda Full Disk Access).",
+    "Hardware": "n/a",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.25.0 (2026-11-03)",
+    "Nível": "intermediario",
+    "Instalação": "pip install comfy-cli",
+    "Observações": "v1.25.0 (2026-11-03)."
+  },
+  "fontes": [
+    "https://github.com/Comfy-Org/comfy-cli",
+    "https://pypi.org/project/comfy-cli/"
+  ]
+}

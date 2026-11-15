@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/mifi/editly",
+  "title": "editly",
+  "description": "Edição declarativa de vídeo via JSON/JavaScript (Node) com transições e camadas.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 5600,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Slideshows e montagens simples a partir de uma especificação JSON.",
+    "Entrada → saída": "Spec JSON + mídia → MP4/GIF",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Dependências nativas (gl/canvas) costumam dar trabalho no Apple Silicon (não confirmado na versão atual).",
+    "Hardware": "CPU (usa headless-gl)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-05",
+    "Versão recente": "v0.15.0-rc.1 (2025-01-19)",
+    "Nível": "intermediario",
+    "Instalação": "npm i -g editly",
+    "Observações": "Último release v0.15.0-rc.1 (2025-01); pouca atividade desde 2025-05."
+  },
+  "fontes": [
+    "https://github.com/mifi/editly"
+  ]
+}

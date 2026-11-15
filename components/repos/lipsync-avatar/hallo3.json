@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/fudan-generative-vision/hallo3",
+  "title": "Hallo3",
+  "description": "Animação de retrato muito dinâmica sobre um DiT de vídeo (CogVideoX), com fundo e movimento amplos (CVPR 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1400,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Planos mais cinematográficos (cabeça/corpo/fundo dinâmicos) com GPU de data center.",
+    "Entrada → saída": "foto + áudio (+ texto) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "Testado em H100; VRAM mínima não publicada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF fudan-generative-ai/hallo3)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-03",
+    "Versão recente": "sem releases (2025-03)",
+    "Nível": "avancado",
+    "Qualidade": "Movimento e fundo muito mais vivos que Hallo/Hallo2, mas extremamente pesado; identidade pode variar."
+  },
+  "fontes": [
+    "https://github.com/fudan-generative-vision/hallo3",
+    "https://ungh.cc/repos/fudan-generative-vision/hallo3",
+    "https://huggingface.co/fudan-generative-ai/hallo3"
+  ]
+}

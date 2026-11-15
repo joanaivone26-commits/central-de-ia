@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/boson-ai/higgs-audio",
+  "title": "Higgs Audio / Higgs TTS 3",
+  "description": "Modelos de geração de fala expressiva da Boson AI; Higgs TTS 3 (4B, jun/2026) cobre 100+ idiomas com clonagem.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 8400,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Criadores que monetizam vídeos/podcasts (com crédito) via 'Creator Use Grant'.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda via mlx-audio, mas 4B é pesado para 8 GB.",
+    "Hardware": "GPU NVIDIA (3–4B).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "v2: Boson Higgs Audio 2 Community License; v3: Boson Higgs TTS 3 Research and Non-Commercial License + Creator Use Grant",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-06",
+    "Versão recente": "bosonai/higgs-tts-3-4b (2026-06)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Card do v3: criadores podem monetizar vídeos/podcasts creditando 'Boson AI's Higgs Audio'; API, produto ou revenda exigem licença comercial. Proíbe clonagem sem consentimento. IDs HF renomeados (higgs-audio-v2-generation-3B-base → higgs-tts-2-3b-base)."
+  },
+  "fontes": [
+    "https://github.com/boson-ai/higgs-audio",
+    "https://huggingface.co/bosonai/higgs-tts-3-4b",
+    "https://huggingface.co/bosonai/higgs-tts-2-3b-base"
+  ]
+}

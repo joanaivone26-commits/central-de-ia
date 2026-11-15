@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/pyannote/pyannote-audio",
+  "title": "pyannote.audio",
+  "description": "Toolkit PyTorch de diarização (quem falou quando), segmentação, sobreposição de fala e embeddings de locutor.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 10800,
+  "license": "MIT",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Diarização de entrevistas/podcasts e etiquetas de falante em legendas (usado pelo WhisperX).",
+    "Entrada → saída": "Áudio → anotação RTTM/segmentos por falante.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU por padrão no M1; MPS não confirmado. Requer torch>=2.8, torchcodec e FFmpeg.",
+    "Hardware": "CPU ou GPU NVIDIA.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "community-1: CC-BY-4.0, GATED (aceitar termos + token HF); 3.1: MIT, gated; precision-2: só na API paga pyannoteAI",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "4.0.7 (2026-06-30)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install pyannote.audio",
+    "Observações": "Diarização é acústica, independente do idioma. Após aceitar os termos e baixar, roda offline. Modo exclusive_speaker_diarization facilita casar com timestamps do Whisper."
+  },
+  "fontes": [
+    "https://github.com/pyannote/pyannote-audio",
+    "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "https://pypi.org/project/pyannote.audio"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/soumik-kanad/diff2lip",
+  "title": "Diff2Lip",
+  "description": "Lip sync por difusão (inpainting da boca condicionado em áudio) focado em detalhe (WACV 2024).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 379,
+  "license": "CC BY-NC 4.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Referência acadêmica; não recomendado para produção.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada; difusão por frame (lento).",
+    "Licença do código": "CC BY-NC 4.0",
+    "Licença dos pesos": "não confirmado (presumivelmente a mesma restrição NC)",
+    "Uso comercial": "nao",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "sem releases",
+    "Nível": "avancado",
+    "Qualidade": "Detalhe da boca melhor que Wav2Lip, mas lento e com cintilação; superado por LatentSync/KeySync."
+  },
+  "fontes": [
+    "https://github.com/soumik-kanad/diff2lip",
+    "https://ungh.cc/repos/soumik-kanad/diff2lip"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/apple-aiml-research/ml-stable-diffusion",
+  "title": "Core ML Stable Diffusion (Apple)",
+  "description": "Conversão e execução do Stable Diffusion em Core ML (Python e Swift) usando o Neural Engine.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 18000,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Gerar imagens SD 1.5/2.x/SDXL no Mac com pouca memória (8 GB funciona para SD 1.5).",
+    "Entrada → saída": "Texto → imagem",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Otimizado para Neural Engine; bom no M1 8 GB.",
+    "Hardware": "Apple Silicon (ANE/GPU)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Licenças dos checkpoints SD (CreativeML OpenRAIL-M etc.)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "1.1.1 (2024-05-04)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "Repo movido para apple-aiml-research/ml-stable-diffusion. Último release 1.1.1 (2024-05); não gera vídeo."
+  },
+  "fontes": [
+    "https://github.com/apple-aiml-research/ml-stable-diffusion"
+  ]
+}

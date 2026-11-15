@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/xiph/rnnoise",
+  "title": "RNNoise",
+  "description": "Supressão de ruído leve com rede recorrente em C; base do filtro arnndn do FFmpeg.",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 6000,
+  "license": "BSD-3-Clause",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Limpeza rápida direto no FFmpeg (-af arnndn=m=modelo.rnnn).",
+    "Entrada → saída": "PCM 48 kHz → PCM limpo.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Compila no macOS; FFmpeg já traz o filtro arnndn.",
+    "Hardware": "CPU.",
+    "Licença do código": "BSD-3-Clause",
+    "Licença dos pesos": "BSD-3-Clause (modelo embutido)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-02",
+    "Versão recente": "v0.2 (2024-04)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install pyrnnoise (binding de terceiros)",
+    "Observações": "Modelos .rnnn para arnndn ficam em repositórios de terceiros (verificar licença)."
+  },
+  "fontes": [
+    "https://github.com/xiph/rnnoise",
+    "https://pypi.org/project/pyrnnoise"
+  ]
+}

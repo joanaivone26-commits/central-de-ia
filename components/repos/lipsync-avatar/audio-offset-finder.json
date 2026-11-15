@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/bbc/audio-offset-finder",
+  "title": "audio-offset-finder (BBC)",
+  "description": "Encontra o offset de um áudio dentro de outro por correlação cruzada de MFCC (precisão típica ~0,01 s) e dá um score de confiança.",
+  "tags": [
+    "Medição de sincronia"
+  ],
+  "stars": 236,
+  "license": "Apache-2.0",
+  "subcategoria": "Medição de sincronia",
+  "detalhes": {
+    "Melhor uso": "Sincronizar áudio externo (lapela/gravador) com o áudio da câmera ou com um vídeo dublado; o resultado vai direto para -itsoffset/adelay.",
+    "Entrada → saída": "dois arquivos de mídia → offset em segundos + score",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Testado em macOS (Python 3.9–3.14).",
+    "Hardware": "CPU (usa FFmpeg).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.5.5 (2024-06-25)",
+    "Nível": "iniciante",
+    "Qualidade": "Preciso e robusto à compressão; compara áudio com áudio (não mede a boca)."
+  },
+  "fontes": [
+    "https://github.com/bbc/audio-offset-finder",
+    "https://ungh.cc/repos/bbc/audio-offset-finder"
+  ]
+}

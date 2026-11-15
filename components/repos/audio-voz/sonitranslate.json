@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/R3gm/SoniTranslate",
+  "title": "SoniTranslate",
+  "description": "Dublagem via Gradio/Colab: WhisperX + tradução + TTS (XTTS, Piper, Edge) + conversão de voz opcional.",
+  "tags": [
+    "Dublagem"
+  ],
+  "stars": 1400,
+  "license": "Apache-2.0",
+  "subcategoria": "Dublagem",
+  "detalhes": {
+    "Melhor uso": "Dublagem no Colab com GPU grátis.",
+    "Entrada → saída": "Vídeo → vídeo/áudio dublado + srt.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado no Mac.",
+    "Hardware": "GPU NVIDIA (Colab).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende dos TTS (XTTS CPML não comercial)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2026-08",
+    "Versão recente": "0.5.0 (2024-05); commits até 2026-08",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "—"
+  },
+  "fontes": [
+    "https://github.com/R3gm/SoniTranslate"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Wan-Video/Wan2.1",
+  "title": "Wan 2.1 (Alibaba)",
+  "description": "Família open-weights de geração de vídeo (T2V/I2V 1.3B e 14B, VACE, FLF2V) da Alibaba.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 17400,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "B-roll curto local; o 1.3B é o ponto de entrada em GPUs modestas.",
+    "Entrada → saída": "Texto/imagem → vídeo 480p/720p (~5 s)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O código oficial é para CUDA; no Mac só via ComfyUI (MPS) ou mlx-video, com 32–64 GB de memória unificada. Inviável no M1 8 GB. O 1.3B é o único realista em Macs com 16–32 GB.",
+    "Hardware": "T2V-1.3B: ~8,2 GB VRAM (oficial, 480p); 14B: 24 GB+ com fp8/offload (80 GB no script oficial)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt (ou diffusers / ComfyUI)",
+    "Observações": "Base de muitos derivados (VACE, InfiniteTalk, SkyReels, FramePack-like)."
+  },
+  "fontes": [
+    "https://github.com/Wan-Video/Wan2.1",
+    "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B"
+  ]
+}

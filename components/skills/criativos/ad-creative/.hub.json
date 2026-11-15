@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "criativos"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ad-creative",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Cria e varia criativos de anúncio em escala: headlines, textos e ângulos para Meta, Google, TikTok e LinkedIn.",
+  "title": "Criativos de Anúncio"
+}

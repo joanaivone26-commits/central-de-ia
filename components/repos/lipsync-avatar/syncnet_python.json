@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/joonson/syncnet_python",
+  "title": "SyncNet (syncnet_python)",
+  "description": "Demo oficial do SyncNet (VGG/Oxford): detecta e rastreia o rosto, estima offset áudio-vídeo e confiança; é a base das métricas LSE-D/LSE-C.",
+  "tags": [
+    "Medição de sincronia"
+  ],
+  "stars": 926,
+  "license": "MIT",
+  "subcategoria": "Medição de sincronia",
+  "detalhes": {
+    "Melhor uso": "Medir a dessincronia de um vídeo (offset em frames) antes de corrigir com FFmpeg, e avaliar lip sync gerado (LSE-C alto, LSE-D baixo).",
+    "Entrada → saída": "vídeo com rosto falando → offset (frames a 25 fps), confiança e distância mínima",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda em CPU no Mac — lento, mas viável para clipes curtos.",
+    "Hardware": "GPU CUDA opcional; cai para CPU automaticamente (README).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Modelo pré-treinado baixado do site da VGG (licença não declarada; verificar)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-04",
+    "Versão recente": "sem releases (atualização em 2026-04 com fallback para CPU)",
+    "Nível": "intermediario",
+    "Qualidade": "Padrão de fato; funciona melhor com rosto frontal a 25 fps e resolve em frames inteiros (40 ms). As pastas de avaliação do Wav2Lip e do LatentSync usam a mesma ideia."
+  },
+  "fontes": [
+    "https://github.com/joonson/syncnet_python",
+    "https://ungh.cc/repos/joonson/syncnet_python",
+    "https://github.com/Rudrabha/Wav2Lip/tree/master/evaluation"
+  ]
+}

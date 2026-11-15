@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/Soul-AILab/SoulX-FlashHead",
+  "title": "SoulX-FlashHead",
+  "description": "Talking head em streaming de 1,3B: Lite (96 FPS ou 3 streams numa RTX 4090) e Pro (10,8 FPS numa 4090) (2026).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1200,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante em tempo real/avatar ao vivo com GPU de consumidor; também via audio.cpp (GGUF/Metal).",
+    "Entrada → saída": "foto + áudio → vídeo (streaming ou offline)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Porta GGUF no audio.cpp com Metal e avatar em streaming na WebUI — desempenho em Mac não confirmado.",
+    "Hardware": "RTX 4090 para tempo real; VRAM mínima não publicada.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "DiT e VAE Wan: Apache-2.0; VAE LTX (variante Lite): OpenRAIL-M",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "pesos (2026-02-12); demo HF (2026-03)",
+    "Nível": "intermediario",
+    "Qualidade": "Melhor opção 2026 de tempo real em GPU de consumidor; foco em cabeça/ombros, pouco movimento corporal.",
+    "No ComfyUI": "HM-RunningHub/ComfyUI_RH_FlashHead"
+  },
+  "fontes": [
+    "https://github.com/Soul-AILab/SoulX-FlashHead",
+    "https://ungh.cc/repos/Soul-AILab/SoulX-FlashHead",
+    "https://huggingface.co/Soul-AILab/SoulX-FlashHead-1_3B",
+    "https://huggingface.co/audio-cpp/SoulX-FlashHead-GGUF"
+  ]
+}

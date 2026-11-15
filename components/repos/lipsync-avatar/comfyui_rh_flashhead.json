@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/HM-RunningHub/ComfyUI_RH_FlashHead",
+  "title": "ComfyUI_RH_FlashHead",
+  "description": "Plugin ComfyUI (RunningHub) para SoulX-FlashHead, citado no README oficial.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 40,
+  "license": "Apache-2.0",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar SoulX-FlashHead dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "RTX 4090 para tempo real.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "FlashHead: Apache-2.0 / VAE LTX OpenRAIL-M",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-02",
+    "Versão recente": "sem releases (2026-02)",
+    "Nível": "intermediario",
+    "Qualidade": "Novo; poucas estrelas.",
+    "No ComfyUI": "HM-RunningHub/ComfyUI_RH_FlashHead"
+  },
+  "fontes": [
+    "https://github.com/HM-RunningHub/ComfyUI_RH_FlashHead",
+    "https://ungh.cc/repos/HM-RunningHub/ComfyUI_RH_FlashHead"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+  "title": "GPT-SoVITS",
+  "description": "Clonagem few-shot (1 min de áudio) com WebUI que inclui separação UVR5, ASR, rotulagem e treino.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 64700,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem de alta similaridade em zh/en/ja/ko/yue.",
+    "Entrada → saída": "Dataset curto de voz → modelo; texto → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "install.sh --device MPS; o README diz que treino em GPU do Mac dá qualidade bem menor e recomenda CPU.",
+    "Hardware": "GPU NVIDIA para treino.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "20250606v2pro (2025-06); commits até 2026-11",
+    "Nível": "intermediario",
+    "Português (BR)": "nao suporta",
+    "Instalação": "N/A (install.sh / pacote Windows)",
+    "Observações": "Sem português na lista oficial de idiomas."
+  },
+  "fontes": [
+    "https://github.com/RVC-Boss/GPT-SoVITS"
+  ]
+}

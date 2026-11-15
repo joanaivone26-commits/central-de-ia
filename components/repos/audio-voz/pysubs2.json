@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/tkarabela/pysubs2",
+  "title": "pysubs2",
+  "description": "Biblioteca Python para ler, editar e salvar legendas SRT, ASS/SSA, WebVTT, MicroDVD, TTML etc.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 448,
+  "license": "MIT",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Gerar ASS estilizado (fonte, contorno, posição, karaokê \\k) a partir dos timestamps do Whisper; ajustar tempos.",
+    "Entrada → saída": "srt/ass/vtt/… ↔ objetos Python (SSAFile/SSAEvent/SSAStyle).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Python puro.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "1.9.1 (2026-10-30)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install pysubs2",
+    "Observações": "A 1.9.x exige Python >=3.12. Independe de idioma (UTF-8). Queime com FFmpeg: -vf \"ass=legenda.ass\" (libass)."
+  },
+  "fontes": [
+    "https://github.com/tkarabela/pysubs2",
+    "https://pypi.org/project/pysubs2"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/TypesettingTools/Aegisub",
+  "title": "Aegisub",
+  "description": "Editor avançado de legendas ASS: typesetting, karaokê (\\k), automação Lua e visualização de áudio.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 2000,
+  "license": "BSD-3-Clause + outros (GitHub exibe NOASSERTION)",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Estilos ASS e karaokê palavra a palavra feitos à mão para Reels/TikTok.",
+    "Entrada → saída": "Vídeo + .ass ↔ .ass/.srt.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Builds macOS (DMG/Homebrew).",
+    "Hardware": "Desktop.",
+    "Licença do código": "BSD-3-Clause + outros (GitHub exibe NOASSERTION)",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.5.1 (2026-10-17)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "N/A",
+    "Observações": "O fork arch1t3cht/Aegisub informa que seu branch de features foi descontinuado; o repositório oficial TypesettingTools voltou a lançar versões."
+  },
+  "fontes": [
+    "https://github.com/TypesettingTools/Aegisub",
+    "https://github.com/TypesettingTools/Aegisub/releases",
+    "https://github.com/arch1t3cht/Aegisub"
+  ]
+}

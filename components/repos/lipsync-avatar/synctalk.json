@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/ZiqiaoPeng/SyncTalk",
+  "title": "SyncTalk / SyncTalk++",
+  "description": "Talking head por pessoa (NeRF; SyncTalk++ com 3D Gaussian Splatting) focado em sincronia — treina em alguns minutos de vídeo de uma pessoa e gera novas falas (CVPR 2024).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 1600,
+  "license": "CC BY-NC 4.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Apresentador recorrente (mesma pessoa e cenário) em que vale treinar um modelo dedicado para máxima nitidez.",
+    "Entrada → saída": "vídeo de treino da pessoa + novo áudio → vídeo da pessoa falando",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA (treino por pessoa); VRAM não publicada.",
+    "Licença do código": "CC BY-NC 4.0",
+    "Licença dos pesos": "Modelos treinados pelo usuário; dependências 3DMM podem ter restrições",
+    "Uso comercial": "nao",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "sem releases (SyncTalk++ 2025)",
+    "Nível": "avancado",
+    "Qualidade": "Alta fidelidade e sincronia para a pessoa treinada; não generaliza para rostos novos e exige treino por pessoa."
+  },
+  "fontes": [
+    "https://github.com/ZiqiaoPeng/SyncTalk",
+    "https://ungh.cc/repos/ZiqiaoPeng/SyncTalk"
+  ]
+}

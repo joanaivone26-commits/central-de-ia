@@ -1,0 +1,32 @@
+{
+  "name": "Central de IA Trip Angle",
+  "shortName": "Central de IA",
+  "tagline": "Mercado real. Execução real.",
+  "description": "Prompts mestres, skills, agentes, frameworks, MCPs, plugins e repositórios de IA para quem roda negócio digital: direct response, e-commerce, pesquisa de público, copy, criativos, vídeo e produto.",
+  "siteUrl": "https://tripangledigitalltda-star.github.io/central-de-ia",
+  "githubRepo": "tripangledigitalltda-star/central-de-ia",
+  "branch": "main",
+  "marketplaceName": "trip-angle",
+  "owner": {
+    "name": "Trip Angle",
+    "url": "https://tripangle.com.br"
+  },
+  "socials": [
+    "@tripanglelucas",
+    "@trip.angle"
+  ],
+  "adminPort": 4545,
+  "cta": {
+    "youtube": {
+      "url": "https://www.youtube.com/@Tripanglerealbusiness",
+      "titulo": "Acompanhe a Trip Angle no YouTube",
+      "texto": "Testes reais com IA, ofertas e tráfego. Os conteúdos que alimentam esta central saem lá primeiro."
+    },
+    "site": {
+      "url": "https://tripangle.com.br",
+      "titulo": "Conheça a Trip Angle",
+      "texto": ""
+    },
+    "produtos": []
+  }
+}

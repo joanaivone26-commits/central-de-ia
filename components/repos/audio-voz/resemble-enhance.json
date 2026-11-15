@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/resemble-ai/resemble-enhance",
+  "title": "Resemble Enhance",
+  "description": "Remove ruído e restaura qualidade/banda de gravações de voz ruins (denoise + enhancer).",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 2500,
+  "license": "MIT",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Recuperar áudio de celular/ambiente ruim.",
+    "Entrada → saída": "Áudio → áudio realçado 44,1 kHz.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "requirements inclui deepspeed (problemático no macOS); CPU lento.",
+    "Hardware": "GPU NVIDIA recomendada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (ResembleAI/resemble-enhance)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-12",
+    "Versão recente": "0.0.1 (2023-12); último commit 2024-12",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install resemble-enhance",
+    "Observações": "Use ambiente separado."
+  },
+  "fontes": [
+    "https://github.com/resemble-ai/resemble-enhance",
+    "https://huggingface.co/ResembleAI/resemble-enhance",
+    "https://pypi.org/project/resemble-enhance"
+  ]
+}

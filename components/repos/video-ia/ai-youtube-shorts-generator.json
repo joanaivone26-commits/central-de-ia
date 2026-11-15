@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator",
+  "title": "AI-Youtube-Shorts-Generator",
+  "description": "Transforma vídeos longos em shorts 9:16 ranqueados por LLM, com gancho, legenda e crop com rastreamento de rosto.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 5900,
+  "license": "MIT",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Prova de conceito de 'OpusClip caseiro'.",
+    "Entrada → saída": "URL/arquivo → clipes 9:16",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "O modo local roda em CPU.",
+    "Hardware": "CPU (faster-whisper) ou CUDA",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "git clone + pip install -r requirements.txt (+ requirements-local.txt)",
+    "Observações": "O repo agora redireciona para Anil-matcha/AI-Youtube-Shorts-Generator. O modo padrão usa a API paga MuAPI; o modo local ainda precisa de chave OpenAI ou Gemini."
+  },
+  "fontes": [
+    "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/bytedance/LatentSync",
+  "title": "LatentSync (ByteDance)",
+  "description": "Lip-sync por difusão latente condicionada a áudio: sincroniza a boca de um vídeo com uma nova trilha de fala.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 6300,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem (ex.: PT-BR→EN) mantendo a sincronia labial; corrigir boca em vídeos com áudio trocado.",
+    "Entrada → saída": "Vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "8 GB (v1.5) / 18 GB (v1.6) de VRAM mínima (README)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "LatentSync-1.6: OpenRAIL++ (uso comercial permitido com restrições de uso)",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2025-06",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + bash setup_env.sh",
+    "Observações": "Último push em 2025-06. Use apenas com consentimento da pessoa filmada."
+  },
+  "fontes": [
+    "https://github.com/bytedance/LatentSync",
+    "https://huggingface.co/ByteDance/LatentSync-1.6"
+  ]
+}

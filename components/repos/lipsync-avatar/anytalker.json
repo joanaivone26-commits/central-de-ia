@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/HKUST-C4G/AnyTalker",
+  "title": "AnyTalker",
+  "description": "Vídeo falante multipessoa escalável (identidades arbitrárias), sobre Wan (HKUST, 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 325,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Cenas de conversa entre várias pessoas a partir de imagem e áudios.",
+    "Entrada → saída": "imagem + áudios → vídeo multipessoa",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "14B exige ≥80 GB (README); 1.3B menor (não publicado).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF zzz66/AnyTalker-1.3B)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-04",
+    "Versão recente": "checkpoint 14B multipessoa (2026-04-15)",
+    "Nível": "avancado",
+    "Qualidade": "Interação entre falantes convincente; muito pesado no 14B."
+  },
+  "fontes": [
+    "https://github.com/HKUST-C4G/AnyTalker",
+    "https://ungh.cc/repos/HKUST-C4G/AnyTalker",
+    "https://huggingface.co/zzz66/AnyTalker-1.3B"
+  ]
+}

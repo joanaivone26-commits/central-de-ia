@@ -1,0 +1,24 @@
+{
+  "url": "https://github.com/dubnium0/ffmpeg-mcp",
+  "title": "FFmpeg MCP Server (dubnium0)",
+  "description": "Servidor MCP 'avançado' com ~57 ferramentas FFmpeg: análise/probing, conversão, edição, áudio (normalização EBU R128), efeitos, legendas, streaming HLS/DASH/RTMP, estabilização, denoise e `run_custom_ffmpeg`. Projeto pequeno e sem licença declarada.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 22,
+  "license": "sem licença declarada (uso legal incerto)",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "sem licença declarada (uso legal incerto)",
+    "Status": "pouca atividade (último push fev/2026)",
+    "Última atividade": "2026-02-09",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio)",
+    "Ferramentas expostas": "get_media_info, detect_scene_changes, convert_video, convert_to_gif, trim_video, merge_videos, resize_video, change_speed, extract_frames, crop_video, normalize_audio, mix_audio, add_text_overlay, apply_video_filter, picture_in_picture, burn_subtitles, add_subtitle_track, create_hls_stream, stream_to_rtmp, stabilize_video, denoise_video, compress_video, run_custom_ffmpeg",
+    "Requisitos": "Python 3.10+; FFmpeg no PATH; `pip install -r requirements.txt` após clonar; config com `python /caminho/server.py`."
+  },
+  "fontes": [
+    "https://github.com/dubnium0/ffmpeg-mcp"
+  ]
+}

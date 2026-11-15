@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/walterlow/freecut",
+  "title": "FreeCut",
+  "description": "Editor de vídeo profissional que roda inteiramente no navegador.",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 2300,
+  "license": "MIT",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Edição rápida sem instalar nada; bom para alunos com máquinas fracas.",
+    "Entrada → saída": "Mídia → vídeo (no navegador)",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda no Chrome/Safari.",
+    "Hardware": "CPU/GPU via WebCodecs/WebGPU do navegador",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (web) ou git clone + npm install",
+    "Observações": "Projeto novo (criado em 2025-11)."
+  },
+  "fontes": [
+    "https://github.com/walterlow/freecut"
+  ]
+}

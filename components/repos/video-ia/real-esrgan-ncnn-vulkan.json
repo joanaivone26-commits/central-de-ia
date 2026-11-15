@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan",
+  "title": "Real-ESRGAN ncnn-vulkan",
+  "description": "Binário portátil do Real-ESRGAN via ncnn + Vulkan (sem Python nem CUDA).",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 2300,
+  "license": "MIT",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale no Mac M1 (Vulkan via MoltenVK) e em GPUs AMD/Intel.",
+    "Entrada → saída": "Imagens (frames) → imagens x2–x4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Há build para macOS nos releases; para vídeo: extraia frames com FFmpeg, faça o upscale e remonte.",
+    "Hardware": "Qualquer GPU com Vulkan; Apple Silicon via MoltenVK",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "BSD-3-Clause (modelos Real-ESRGAN)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-05",
+    "Versão recente": "v0.2.0 (2022-04-24)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (binário nos releases)",
+    "Observações": "Sem atualizações desde 2022–2024, mas estável."
+  },
+  "fontes": [
+    "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan"
+  ]
+}

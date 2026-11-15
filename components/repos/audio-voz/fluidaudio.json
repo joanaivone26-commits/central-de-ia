@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/FluidInference/FluidAudio",
+  "title": "FluidAudio",
+  "description": "SDK Swift CoreML/ANE com Parakeet v3 (ASR), diarização online/offline, VAD Silero e TTS.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 3300,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Apps Swift para Mac com transcrição + diarização no Neural Engine.",
+    "Entrada → saída": "Áudio → texto com timestamps e falantes.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Nativo CoreML/ANE.",
+    "Hardware": "Apple Silicon.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Varia por modelo (Parakeet v3 CC-BY-4.0; Sortformer conforme NVIDIA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.18.3 (2026-11-07)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "não (Swift Package Manager)",
+    "Observações": "Não é Python; útil para quem quer app Mac nativo."
+  },
+  "fontes": [
+    "https://github.com/FluidInference/FluidAudio",
+    "https://github.com/FluidInference/FluidAudio/releases"
+  ]
+}

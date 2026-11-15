@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/rany2/edge-tts",
+  "title": "edge-tts",
+  "description": "Cliente Python/CLI do serviço online de leitura em voz alta do Microsoft Edge, com vozes neurais e legendas por palavra/frase.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 12500,
+  "license": "LGPL-3.0 (srt_composer.py em MIT)",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Narração PT-BR rápida e grátis (pt-BR-FranciscaNeural, pt-BR-AntonioNeural, pt-BR-ThalitaMultilingualNeural) + SRT sincronizado.",
+    "Entrada → saída": "Texto/SSML limitado → MP3 + SRT (WordBoundary/SentenceBoundary).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Não usa GPU local; leve.",
+    "Hardware": "Qualquer (processamento na nuvem; exige internet).",
+    "Licença do código": "LGPL-3.0 (srt_composer.py em MIT)",
+    "Licença dos pesos": "N/A — vozes da Microsoft na nuvem",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "7.3.1 (2026-10-13)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install edge-tts",
+    "Observações": "Versão usada na aula. Usa endpoint não oficial: pode mudar sem aviso; para uso comercial garantido prefira Azure Speech (mesmas vozes, com contrato). Ajuste --rate/--pitch; sem clonagem."
+  },
+  "fontes": [
+    "https://github.com/rany2/edge-tts",
+    "https://pypi.org/project/edge-tts"
+  ]
+}

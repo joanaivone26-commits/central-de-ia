@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/jaisurya-dev-art/rigby2d",
+  "title": "Rigby2D",
+  "description": "Editor open-source de animação 2D esquelética (alternativa a Spine/Live2D) com lip sync e servidor MCP para agentes (2026).",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 219,
+  "license": "MIT ou Apache-2.0 (dupla)",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Personagens 2D riggados animados por agente (Claude Code/Codex via MCP), exportando para engines ou vídeo.",
+    "Entrada → saída": "arte 2D + áudio/keys → animação 2D (engines ou render)",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": ".dmg para Apple Silicon e Intel; editor também no navegador.",
+    "Hardware": "CPU/GPU comum; app desktop ou navegador.",
+    "Licença do código": "MIT ou Apache-2.0 (dupla)",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.5.0 (2026-11-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Muito novo e em evolução rápida; recurso de lip sync citado na descrição do projeto, não testado aqui."
+  },
+  "fontes": [
+    "https://github.com/jaisurya-dev-art/rigby2d",
+    "https://ungh.cc/repos/jaisurya-dev-art/rigby2d",
+    "https://github.com/topics/lip-sync?o=desc&s=updated"
+  ]
+}

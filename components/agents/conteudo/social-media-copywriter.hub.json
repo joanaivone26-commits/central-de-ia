@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/podcast-creator-team/social-media-copywriter",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/podcast-creator-team/social-media-copywriter.md",
+    "commit": "e42e8ba19c34d5957cf25aab0a358c117716005f",
+    "url": "https://www.aitmpl.com/component/agents/podcast-creator-team/social-media-copywriter"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/podcast-creator-team/social-media-copywriter)."
+}

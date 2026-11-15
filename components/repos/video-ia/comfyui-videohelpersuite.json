@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+  "title": "VideoHelperSuite (VHS)",
+  "description": "Nós essenciais de vídeo no ComfyUI: carregar vídeo/frames, combinar em MP4/GIF/WebM via FFmpeg, áudio, batches.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 1900,
+  "license": "GPL-3.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Entrada e saída de vídeo em praticamente todo workflow de vídeo.",
+    "Entrada → saída": "Vídeo ↔ batches de imagens no ComfyUI",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "n/a (usa FFmpeg)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "via ComfyUI-Manager"
+  },
+  "fontes": [
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+  ]
+}

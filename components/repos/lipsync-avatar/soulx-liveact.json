@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Soul-AILab/SoulX-LiveAct",
+  "title": "SoulX-LiveAct",
+  "description": "Animação de avatar em tempo real por horas (18B: Wan2.1 14B + módulo de áudio 4B) (2026).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1200,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Lives longas com avatar em GPU topo de linha.",
+    "Entrada → saída": "imagem + áudio em streaming → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "RTX 4090/5090 com KV cache FP8 e offload de CPU; FP4 em placas série B.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "não confirmado (HF exige login)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-06",
+    "Versão recente": "atualização do modelo (2026-05-11)",
+    "Nível": "avancado",
+    "Qualidade": "A atualização de maio/2026 reduziu o excesso de nitidez em lábios e dentes; muito novo."
+  },
+  "fontes": [
+    "https://github.com/Soul-AILab/SoulX-LiveAct",
+    "https://ungh.cc/repos/Soul-AILab/SoulX-LiveAct"
+  ]
+}

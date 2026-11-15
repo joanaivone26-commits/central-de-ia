@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/hecomi/uLipSync",
+  "title": "uLipSync",
+  "description": "Plugin Unity de lip sync em tempo real por MFCC (Job System/Burst), com calibração por voz e suporte a VRM/blendshapes.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 1700,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Personagem 2D/3D no Unity reagindo à voz ao vivo ou com bake de animação.",
+    "Entrada → saída": "áudio (ao vivo ou arquivo) → pesos de visemas/blendshapes",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Funciona no Unity para macOS.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "v3.1.4 (2024-07-31)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve e independente de idioma; reconhece basicamente vogais (A/I/U/E/O) — combina com estilo anime."
+  },
+  "fontes": [
+    "https://github.com/hecomi/uLipSync",
+    "https://ungh.cc/repos/hecomi/uLipSync"
+  ]
+}

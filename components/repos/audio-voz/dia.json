@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/nari-labs/dia",
+  "title": "Dia / Dia2 (Nari Labs)",
+  "description": "TTS de diálogo multi-falante com sons não verbais (risos, tosse) em um único passe.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 19400,
+  "license": "Apache-2.0",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Diálogos/podcasts sintéticos em inglês.",
+    "Entrada → saída": "Script [S1]/[S2] → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Dia 1.6B roda via mlx-audio.",
+    "Hardware": "GPU NVIDIA; Dia2 CUDA/CPU.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (Dia-1.6B-0626, Dia2-1B/2B)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-11",
+    "Versão recente": "Dia2 (repo nari-labs/dia2, 2025-11)",
+    "Nível": "intermediario",
+    "Português (BR)": "nao suporta",
+    "Instalação": "pip install git+https://github.com/nari-labs/dia.git",
+    "Observações": "Somente inglês."
+  },
+  "fontes": [
+    "https://github.com/nari-labs/dia",
+    "https://huggingface.co/nari-labs/Dia-1.6B-0626",
+    "https://huggingface.co/nari-labs/Dia2-2B",
+    "https://github.com/nari-labs/dia2"
+  ]
+}

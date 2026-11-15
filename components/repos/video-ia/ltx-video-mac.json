@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/james-see/ltx-video-mac",
+  "title": "LTX Video Mac",
+  "description": "App macOS nativo (SwiftUI + MLX) para gerar vídeo local com LTX-2/2.3/2.5.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 460,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Usuários de Mac com 32 GB+ que querem gerar vídeo sem terminal.",
+    "Entrada → saída": "Texto/imagem → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não roda no M1 8 GB.",
+    "Hardware": "Apple Silicon com 32 GB de RAM no mínimo (64 GB+ recomendado)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "LTX-2.x Community License",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v2.3.87 (2026-10-11)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (download do app nos releases)",
+    "Observações": "v2.3.87 (2026-10-11)."
+  },
+  "fontes": [
+    "https://github.com/james-see/ltx-video-mac"
+  ]
+}

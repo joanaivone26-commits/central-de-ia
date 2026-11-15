@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper",
+  "title": "ComfyUI-LatentSyncWrapper",
+  "description": "Wrapper não oficial do LatentSync 1.6 para ComfyUI (Windows e WSL).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 964,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar LatentSync 1.6 dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "README indica Windows/WSL com NVIDIA.",
+    "Hardware": "Mesmo do LatentSync (≈18 GB para 1.6).",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Herda do LatentSync (OpenRAIL++ + InsightFace NC)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "atualizado para 1.6 (2025-06-14)",
+    "Nível": "intermediario",
+    "Qualidade": "O nó mais usado para LatentSync; exige reinstalação limpa para migrar à 1.6.",
+    "No ComfyUI": "ShmuelRonen/ComfyUI-LatentSyncWrapper"
+  },
+  "fontes": [
+    "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper",
+    "https://ungh.cc/repos/ShmuelRonen/ComfyUI-LatentSyncWrapper"
+  ]
+}

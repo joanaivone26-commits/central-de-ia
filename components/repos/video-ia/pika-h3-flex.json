@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Pika-Labs/Pika-H3-Flex",
+  "title": "Pika H3 Flex",
+  "description": "Versão pós-treinada do MiniMax H3 pela Pika: vídeo + áudio estéreo em 6 passos, com adaptadores FL2VA (texto + frames de início/fim) e Ref2VA (referências).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 1800,
+  "license": "Apache-2.0 (código)",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Geração rápida controlada por primeiro/último frame e referências.",
+    "Entrada → saída": "Texto/frames/referências → vídeo + áudio",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Exige NVIDIA.",
+    "Hardware": "1× H100 80 GB por requisição (testado); ~215 GB de downloads",
+    "Licença do código": "Apache-2.0 (código)",
+    "Licença dos pesos": "Adaptadores são derivados do MiniMax H3 → MiniMax H3 Community License (mesmas exclusões territoriais)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ver README)",
+    "Observações": "Publicado em 2026-10-29: primeira liberação aberta da Pika."
+  },
+  "fontes": [
+    "https://github.com/Pika-Labs/Pika-H3-Flex"
+  ]
+}

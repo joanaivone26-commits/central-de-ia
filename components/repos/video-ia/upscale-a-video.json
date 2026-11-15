@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/sczhou/Upscale-A-Video",
+  "title": "Upscale-A-Video",
+  "description": "Super-resolução de vídeo por difusão guiada por texto, com consistência temporal (CVPR 2024).",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 1500,
+  "license": "S-Lab License 1.0 (somente uso NÃO comercial)",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Pesquisa/comparação; não serve para uso comercial.",
+    "Entrada → saída": "Vídeo + prompt → vídeo x4",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPU NVIDIA de 24 GB+ (estimativa)",
+    "Licença do código": "S-Lab License 1.0 (somente uso NÃO comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-09",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + conda",
+    "Observações": "Sem atualizações desde 2024-09."
+  },
+  "fontes": [
+    "https://github.com/sczhou/Upscale-A-Video"
+  ]
+}

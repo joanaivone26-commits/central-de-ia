@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/ZFTurbo/Music-Source-Separation-Training",
+  "title": "Music-Source-Separation-Training (ZFTurbo)",
+  "description": "Treino e inferência de modelos SOTA de separação (BS-RoFormer, Mel-Band RoFormer, SCNet, HTDemucs) com checkpoints prontos.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 1600,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Obter os melhores modelos de voz/instrumental e treinar os seus.",
+    "Entrada → saída": "Áudio → stems; dataset → checkpoint.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Inferência PyTorch em CPU/MPS não documentada oficialmente.",
+    "Hardware": "GPU NVIDIA para treino.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por checkpoint",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.0.23 (2026-11-08)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Fonte de muitos modelos RoFormer usados pelo UVR e audio-separator."
+  },
+  "fontes": [
+    "https://github.com/ZFTurbo/Music-Source-Separation-Training",
+    "https://github.com/ZFTurbo/Music-Source-Separation-Training/releases"
+  ]
+}

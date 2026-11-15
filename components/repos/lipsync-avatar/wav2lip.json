@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/Rudrabha/Wav2Lip",
+  "title": "Wav2Lip",
+  "description": "Modelo clássico (ACM MM 2020) que regenera só a região da boca de um rosto em vídeo para casar com um novo áudio, guiado por um discriminador SyncNet \"especialista\".",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 13300,
+  "license": "Sem arquivo LICENSE; README restringe a uso pessoal/pesquisa/não comercial",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Baseline leve para protótipos, aulas e para entender o pipeline de dublagem; evitar em entregas comerciais e em close-ups HD.",
+    "Entrada → saída": "vídeo (ou imagem) + áudio → vídeo com a boca sincronizada (rosto gerado em 96×96 e recolado)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU no Mac; usar MPS exige trocar o device no código (forks como Easy-Wav2Lip fazem isso). Viável em M1 8 GB para clipes curtos.",
+    "Hardware": "GPU NVIDIA modesta basta (VRAM mínima não publicada); roda em CPU, lento.",
+    "Licença do código": "Sem arquivo LICENSE; README restringe a uso pessoal/pesquisa/não comercial",
+    "Licença dos pesos": "Não comercial (treinado no LRS2); versão HD comercial só via sync. (Sync Labs)",
+    "Uso comercial": "nao",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-06",
+    "Versão recente": "sem releases (última edição do README em 2025-06)",
+    "Nível": "iniciante",
+    "Qualidade": "Sincronia labial forte (é referência das métricas LSE), mas boca de baixa resolução (96×96), dentes pobres e bordas visíveis em HD; quase sempre pede GFPGAN/CodeFormer depois.",
+    "No ComfyUI": "ShmuelRonen/ComfyUI_wav2lip"
+  },
+  "fontes": [
+    "https://github.com/Rudrabha/Wav2Lip",
+    "https://ungh.cc/repos/Rudrabha/Wav2Lip",
+    "https://tomodahinata.com/en/blog/ai-lip-sync-talking-head-model-selection-guide-2026",
+    "https://talking-avatar.dev/alternatives/10-best-open-source-lip-sync-alternatives-2026"
+  ]
+}

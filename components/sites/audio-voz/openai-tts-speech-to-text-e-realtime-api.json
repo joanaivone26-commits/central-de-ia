@@ -1,0 +1,10 @@
+{
+  "url": "https://platform.openai.com/docs/guides/text-to-speech",
+  "title": "OpenAI — TTS, Speech-to-Text e Realtime API",
+  "description": "Síntese de fala, transcrição (modelos gpt-4o-transcribe/Whisper via API) e conversa de voz em tempo real (voz→voz).",
+  "tags": [
+    "ferramenta comercial",
+    "Voz e áudio"
+  ],
+  "pricing": "pago ou freemium"
+}

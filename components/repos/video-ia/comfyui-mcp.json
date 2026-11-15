@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/artokun/comfyui-mcp",
+  "title": "comfyui-mcp (artokun)",
+  "description": "MCP comunitário mais popular para ComfyUI: gera imagem, vídeo e áudio, cria/valida/executa workflows, gerencia modelos e nós customizados, busca no Civitai, libera VRAM; inclui painel lateral com agente dentro do ComfyUI e modo remoto (RunPod/túnel).",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 911,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-11-09",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio; também modo --http)",
+    "Ferramentas expostas": "generate_image, enqueue_workflow, workflow_run, workflow_validate, visualize_workflow, get_workflow, get_history, search_nodes, search_custom_nodes, search_civitai, upload_image, clear_vram, restart_comfyui, server_start, server_stop, list_tools, describe_tool, call_tool",
+    "Requisitos": "Node.js ≥22 (npx -y comfyui-mcp); ComfyUI rodando (padrão http://localhost:8188) ou remoto; CIVITAI_API_TOKEN opcional."
+  },
+  "fontes": [
+    "https://github.com/artokun/comfyui-mcp",
+    "https://www.npmjs.com/package/comfyui-mcp",
+    "https://comfyui-mcp.artokun.io/docs"
+  ]
+}

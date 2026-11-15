@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/speechbrain/speechbrain",
+  "title": "SpeechBrain",
+  "description": "Toolkit PyTorch completo (ASR, ECAPA speaker embeddings, separação SepFormer, realce) com receitas.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 11900,
+  "license": "Apache-2.0",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Embeddings de locutor (ECAPA) e experimentos de pesquisa.",
+    "Entrada → saída": "Áudio → embeddings, rótulos, áudio separado/realçado.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU; MPS em alguns modelos.",
+    "Hardware": "CPU/GPU.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Varia por modelo no HF (muitos Apache-2.0)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v1.1.2 (2026-10-14)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "pip install speechbrain",
+    "Observações": "Embeddings de locutor independem de idioma; ASR PT pronto não confirmado."
+  },
+  "fontes": [
+    "https://github.com/speechbrain/speechbrain",
+    "https://pypi.org/project/speechbrain"
+  ]
+}

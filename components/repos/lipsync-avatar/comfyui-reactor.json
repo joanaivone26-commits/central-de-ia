@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Gourieff/ComfyUI-ReActor",
+  "title": "ComfyUI-ReActor",
+  "description": "Nós de troca de rosto e \"Restore Face\" (GFPGAN, CodeFormer, GPEN), com novo núcleo sem InsightFace e suporte a CoreML.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 1400,
+  "license": "GPL-3.0",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar restauração facial (GFPGAN, CodeFormer, GPEN 1024/2048) e face swap dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Suporta onnxruntime com CoreML.",
+    "Hardware": "Leve.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Cada modelo com a sua licença (CodeFormer NC etc.)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.7.1 (2026-10-10)",
+    "Nível": "iniciante",
+    "Qualidade": "Padrão para pós-restauração no ComfyUI; use só o \"Restore Face\" depois do lip sync.",
+    "No ComfyUI": "Gourieff/ComfyUI-ReActor"
+  },
+  "fontes": [
+    "https://github.com/Gourieff/ComfyUI-ReActor",
+    "https://ungh.cc/repos/Gourieff/ComfyUI-ReActor"
+  ]
+}

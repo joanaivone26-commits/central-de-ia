@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/heygen-com/hyperframes",
+  "title": "HyperFrames (HeyGen)",
+  "description": "Framework que transforma HTML/CSS e animações (GSAP, Lottie, Three.js, CSS) em MP4 determinístico; feito para agentes.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 81900,
+  "license": "Apache-2.0",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "O agente escreve HTML e renderiza vídeos explicativos, motion graphics, vinhetas e cards sem etapa de build.",
+    "Entrada → saída": "HTML + mídia → MP4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Requer Node.js 22+ e FFmpeg.",
+    "Hardware": "CPU (Chrome headless via Puppeteer + FFmpeg)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.9.30 (2026-11-10)",
+    "Nível": "iniciante",
+    "Instalação": "npx hyperframes init meu-video  |  plugin: claude plugin marketplace add heygen-com/hyperframes",
+    "Observações": "Maior novidade de 2026 nesta camada (criado em 2026-03, ~82k estrelas). Alternativa Apache-2.0 ao Remotion, com 9 skills para Claude Code, Codex, Cursor e Gemini CLI."
+  },
+  "fontes": [
+    "https://github.com/heygen-com/hyperframes"
+  ]
+}

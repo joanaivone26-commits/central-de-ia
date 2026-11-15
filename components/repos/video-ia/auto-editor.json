@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/WyattBlue/auto-editor",
+  "title": "auto-editor",
+  "description": "Corta automaticamente silêncios e 'tempo morto' analisando o volume do áudio (ou o movimento).",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 5800,
+  "license": "Unlicense (domínio público)",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Primeiro passe em aulas, podcasts e vlogs; exporta vídeo ou timeline para Premiere, DaVinci Resolve, Final Cut, Shotcut e Kdenlive.",
+    "Entrada → saída": "Vídeo → vídeo cortado ou timeline XML/EDL",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Binário nativo para macOS.",
+    "Hardware": "CPU",
+    "Licença do código": "Unlicense (domínio público)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "31.8.0 (2026-10-30)",
+    "Nível": "iniciante",
+    "Instalação": "binário em auto-editor.com/installing (pip install auto-editor existe, mas o PyPI está defasado: 29.3.1 vs 31.8.0 no GitHub)",
+    "Observações": "Reescrito em Nim nas versões recentes. Parâmetros-chave: --margin 0.2s e --edit audio:threshold=..."
+  },
+  "fontes": [
+    "https://github.com/WyattBlue/auto-editor",
+    "https://auto-editor.com/installing"
+  ]
+}

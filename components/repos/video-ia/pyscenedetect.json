@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Breakthrough/PySceneDetect",
+  "title": "PySceneDetect",
+  "description": "Detecta trocas de cena/cortes em vídeo e pode dividir o arquivo por cena.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 5400,
+  "license": "BSD-3-Clause",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Encontrar cortes de câmera, gerar thumbnails por cena, separar B-roll.",
+    "Entrada → saída": "Vídeo → lista de cenas (CSV/EDL) / clipes",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "CPU",
+    "Licença do código": "BSD-3-Clause",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "0.7.3 (PyPI, 2026-11-08)",
+    "Nível": "iniciante",
+    "Instalação": "pip install scenedetect[opencv]"
+  },
+  "fontes": [
+    "https://github.com/Breakthrough/PySceneDetect",
+    "https://pypi.org/project/scenedetect/"
+  ]
+}

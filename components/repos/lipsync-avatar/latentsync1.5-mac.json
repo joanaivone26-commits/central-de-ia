@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ssrsybz/LatentSync1.5-mac",
+  "title": "LatentSync1.5-mac (fork comunitário)",
+  "description": "Fork do LatentSync 1.5 adaptado para rodar inferência no macOS via MPS.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 9,
+  "license": "Apache-2.0 (herdado)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Experimentar LatentSync num Mac Apple Silicon sem GPU NVIDIA (ponto de partida para um agente adaptar).",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Feito para MPS; alegações de desempenho não verificadas nesta pesquisa. Em M1 8 GB deve ficar no limite.",
+    "Hardware": "Apple Silicon com ≥8 GB de memória unificada (segundo o README); o autor alega ~1 min para 10 s de vídeo.",
+    "Licença do código": "Apache-2.0 (herdado)",
+    "Licença dos pesos": "CreativeML OpenRAIL++-M (pesos oficiais do LatentSync 1.5)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-06",
+    "Versão recente": "sem releases (2025-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Projeto pequeno (poucas estrelas, sem manutenção garantida); útil para provar o conceito no Mac. Mesma ressalva de InsightFace do LatentSync."
+  },
+  "fontes": [
+    "https://github.com/ssrsybz/LatentSync1.5-mac",
+    "https://ungh.cc/repos/ssrsybz/LatentSync1.5-mac",
+    "https://huggingface.co/ByteDance/LatentSync-1.5"
+  ]
+}

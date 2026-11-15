@@ -1,0 +1,112 @@
+[
+  {
+    "id": "espionagem-completa",
+    "title": "Mineração e raio-x de concorrentes",
+    "description": "Da Biblioteca de Anúncios até o checkout do concorrente: minerar ofertas escaladas com critério, desmontar funil, criativos e VSL e sair com hipóteses de teste.",
+    "items": [
+      "prompts/estrategia/contexto-da-oferta",
+      "prompts/pesquisa/mineracao-de-ofertas",
+      "prompts/pesquisa/raio-x-de-concorrente",
+      "prompts/pesquisa/analisar-anuncio-da-biblioteca",
+      "prompts/pesquisa/matriz-de-angulos-dos-concorrentes",
+      "prompts/pesquisa/extrair-dores-de-comentarios-e-reviews",
+      "skills/pesquisa/competitor-profiling",
+      "mcps/pesquisa/firecrawl"
+    ]
+  },
+  {
+    "id": "avatar-e-oferta",
+    "title": "Avatar e oferta do zero",
+    "description": "Pesquisa de público com fonte real, personas por estado psicológico e a oferta inteira: mecanismo, big idea, promessa, stack, preço, garantia e esteira.",
+    "items": [
+      "prompts/estrategia/contexto-da-oferta",
+      "prompts/estrategia/avatar-e-pesquisa-de-publico",
+      "prompts/estrategia/oferta-completa",
+      "prompts/estrategia/linguagem-do-cliente",
+      "prompts/estrategia/mecanismo-unico",
+      "prompts/estrategia/big-idea",
+      "frameworks/copy/niveis-de-consciencia",
+      "frameworks/estrategia/equacao-de-valor",
+      "skills/estrategia/offers",
+      "skills/pesquisa/customer-research"
+    ]
+  },
+  {
+    "id": "vsl-do-zero",
+    "title": "VSL do zero",
+    "description": "Do briefing ao roteiro final revisado: lead pela matriz consciência × sofisticação, 14 blocos com minutagem, leads alternativos, cortes e B-roll.",
+    "items": [
+      "prompts/copy/vsl-do-zero",
+      "prompts/copy/leads-de-vsl",
+      "prompts/copy/extrair-estrutura-de-vsl",
+      "prompts/copy/reescrever-por-nivel-de-consciencia",
+      "frameworks/copy/estrutura-de-vsl",
+      "frameworks/copy/hook-story-offer",
+      "skills/copy/copywriting"
+    ]
+  },
+  {
+    "id": "funil-completo",
+    "title": "Funil completo",
+    "description": "Advertorial, quiz que muda o resultado, página de vendas por blocos, conciliação de checkout e QA no celular, pronto para implementar.",
+    "items": [
+      "prompts/funil/pagina-advertorial-e-quiz",
+      "prompts/funil/estrutura-de-quiz",
+      "prompts/copy/destrinchar-pagina-de-vendas",
+      "prompts/compliance/revisao-de-compliance",
+      "skills/cro/cro"
+    ]
+  },
+  {
+    "id": "criativos-em-escala",
+    "title": "Criativos em escala (UGC e IA)",
+    "description": "Matriz ângulo × formato × persona, 30+ hooks, roteiros de 60–90 s com referência real, prompts de imagem e vídeo e pacote para o editor.",
+    "items": [
+      "prompts/criativos/criativos-em-escala",
+      "prompts/criativos/variacoes-de-criativo-vencedor",
+      "prompts/criativos/prompts-de-imagem-para-anuncio",
+      "prompts/criativos/prompts-de-video-ia",
+      "prompts/criativos/briefing-para-editor-de-video",
+      "frameworks/criativos/matriz-de-angulos-criativos",
+      "skills/criativos/ad-creative"
+    ]
+  },
+  {
+    "id": "conteudo-organico",
+    "title": "Conteúdo orgânico semanal",
+    "description": "Radar viral da semana com métricas normalizadas, lote de roteiros no tom certo e pacote de publicação com títulos, descrição e thumbnail.",
+    "items": [
+      "prompts/conteudo/radar-viral-semanal",
+      "prompts/conteudo/pacote-de-publicacao",
+      "prompts/conteudo/adaptar-formato-viral",
+      "prompts/conteudo/calendario-de-conteudo-30-dias",
+      "frameworks/conteudo/funil-de-conteudo-topo-meio-fundo",
+      "skills/conteudo/social-content"
+    ]
+  },
+  {
+    "id": "trafego-e-metricas",
+    "title": "Tráfego e métricas",
+    "description": "Cartão econômico, estrutura e lances no Meta Ads, leitura por camadas com uma decisão por vez e tudo criado pausado para aprovar.",
+    "items": [
+      "prompts/trafego/campanha-meta-ads",
+      "prompts/trafego/diagnostico-de-metricas-de-campanha",
+      "commands/trafego/plano-campanha-meta",
+      "skills/trafego/ads",
+      "skills/analytics/analytics",
+      "mcps/trafego/facebook-ads-mcp-server"
+    ]
+  },
+  {
+    "id": "lancamento-e-pos-venda",
+    "title": "Lançamento, comunidade e pós-venda",
+    "description": "Campanha na comunidade com todas as peças, esteira com bump e upsell, recuperação de Pix e boleto, onboarding e sequências de e-mail e WhatsApp.",
+    "items": [
+      "prompts/vendas/campanha-na-comunidade",
+      "prompts/vendas/esteira-e-pos-venda",
+      "prompts/email-whatsapp/recuperacao-de-carrinho-whatsapp",
+      "skills/email-whatsapp/emails",
+      "skills/vendas/churn-prevention"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ml-explore/mlx",
+  "title": "MLX (Apple)",
+  "description": "Framework de arrays/ML da Apple otimizado para Apple Silicon (memória unificada, Metal).",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 29100,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Base para rodar modelos localmente no Mac (mlx-video, mflux, mlx-whisper, LLMs).",
+    "Entrada → saída": "Código Python/C++/Swift → computação na GPU Apple",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Nativo; o limite prático é a memória unificada (8 GB no M1 da aula).",
+    "Hardware": "Qualquer Mac Apple Silicon (M1+)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.32.4 (2026-10-14)",
+    "Nível": "avancado",
+    "Instalação": "pip install mlx",
+    "Observações": "v0.32.4 (2026-10-14)."
+  },
+  "fontes": [
+    "https://github.com/ml-explore/mlx",
+    "https://pypi.org/project/mlx/"
+  ]
+}

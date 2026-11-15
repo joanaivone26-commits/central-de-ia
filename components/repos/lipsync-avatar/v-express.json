@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/tencent-ailab/V-Express",
+  "title": "V-Express",
+  "description": "Vídeo de retrato com condicionamento progressivo (áudio + pose + referência) (Tencent AI Lab, 2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 2400,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante com pouca VRAM e pose controlável.",
+    "Entrada → saída": "foto + áudio (+ pose) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "31 s de áudio com pico de ~8 GB em V100 (README).",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Sem licença declarada (HF tk93/V-Express)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-01",
+    "Versão recente": "sem releases (2025-01)",
+    "Nível": "intermediario",
+    "Qualidade": "Leve em VRAM, mas qualidade e sincronia inferiores aos modelos de 2025.",
+    "No ComfyUI": "tiankuan93/ComfyUI-V-Express"
+  },
+  "fontes": [
+    "https://github.com/tencent-ailab/V-Express",
+    "https://ungh.cc/repos/tencent-ailab/V-Express",
+    "https://huggingface.co/tk93/V-Express"
+  ]
+}

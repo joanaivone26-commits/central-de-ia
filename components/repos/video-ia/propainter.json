@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/sczhou/ProPainter",
+  "title": "ProPainter",
+  "description": "Inpainting de vídeo (ICCV 2023): remove objetos, marcas-d'água e completa áreas com consistência temporal.",
+  "tags": [
+    "Remoção de objetos"
+  ],
+  "stars": 7100,
+  "license": "S-Lab License 1.0 (somente uso NÃO comercial)",
+  "subcategoria": "Remoção de objetos",
+  "detalhes": {
+    "Melhor uso": "Remover pessoa/objeto/logo de um plano a partir de máscaras (ex.: SAM 2).",
+    "Entrada → saída": "Vídeo + máscaras → vídeo sem o objeto",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU, muito lento.",
+    "Hardware": "GPU NVIDIA 12–24 GB conforme resolução (o README traz uma tabela de memória)",
+    "Licença do código": "S-Lab License 1.0 (somente uso NÃO comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.1.0 (2023-09-03)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Referência em qualidade, mas não comercial. Último push em 2026-10."
+  },
+  "fontes": [
+    "https://github.com/sczhou/ProPainter"
+  ]
+}

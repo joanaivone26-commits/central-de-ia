@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/business-marketing/marketing-attribution-analyst",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/business-marketing/marketing-attribution-analyst.md",
+    "commit": "c6da03cd412caab4a40248b9b21422f29cbb994c",
+    "url": "https://www.aitmpl.com/component/agents/business-marketing/marketing-attribution-analyst"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "MEDIUM",
+    "score": 36,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/business-marketing/marketing-attribution-analyst)."
+}

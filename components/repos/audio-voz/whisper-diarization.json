@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/MahmoudAshraf97/whisper-diarization",
+  "title": "whisper-diarization",
+  "description": "Pipeline pronto: faster-whisper + ctc-forced-aligner + modelos NeMo de falante para transcrição com rótulos.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 5700,
+  "license": "BSD-2-Clause",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Script único para transcrição diarizada.",
+    "Entrada → saída": "Áudio → srt/txt com falantes.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU; dependências NeMo pesadas.",
+    "Hardware": "GPU NVIDIA recomendada.",
+    "Licença do código": "BSD-2-Clause",
+    "Licença dos pesos": "MMS aligner CC-BY-NC-4.0; modelos NeMo conforme NVIDIA",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sem releases (commits até 2026-08)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Herdou a restrição não comercial do alinhador MMS."
+  },
+  "fontes": [
+    "https://github.com/MahmoudAshraf97/whisper-diarization"
+  ]
+}

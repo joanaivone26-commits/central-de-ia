@@ -1,0 +1,24 @@
+{
+  "url": "https://github.com/video-creator/ffmpeg-mcp",
+  "title": "FFmpeg-MCP (video-creator)",
+  "description": "Servidor MCP que encapsula a linha de comando do FFmpeg para localizar vídeos, ler metadados, cortar, concatenar, sobrepor, escalar e extrair quadros.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 153,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "pouca atividade (último push mai/2026)",
+    "Última atividade": "2026-05-20",
+    "Funciona no Claude": "sim (stdio, somente macOS)",
+    "Funciona no Codex": "sim (stdio, somente macOS)",
+    "Ferramentas expostas": "find_video_path, get_video_info, clip_video, concat_videos, play_video, overlay_video, scale_video, extract_frames_from_video",
+    "Requisitos": "Apenas macOS (ARM64 ou x86_64) segundo o README; uv; git clone + `uv sync`; FFmpeg."
+  },
+  "fontes": [
+    "https://github.com/video-creator/ffmpeg-mcp"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "remotion-dev/remotion",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/remotion-dev/remotion"
+  },
+  "author": "remotion-dev",
+  "addedAt": "2026-11-15"
+}

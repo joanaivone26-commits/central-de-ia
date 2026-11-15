@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/m-bain/whisperX",
+  "title": "WhisperX",
+  "description": "Transcrição em lote com faster-whisper + alinhamento forçado palavra a palavra (wav2vec2) + diarização (pyannote).",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 25200,
+  "license": "BSD-2-Clause",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Legendas palavra a palavra precisas e transcrição com rótulos de falante (entrevistas, podcasts, cortes).",
+    "Entrada → saída": "Áudio/vídeo → srt, vtt, json, tsv, txt com timestamps de palavra e speaker_id.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "No Mac use --device cpu --compute_type int8 (CTranslate2 sem Metal). Fixa torch~=2.8; crie venv próprio. Diarização exige token HF.",
+    "Hardware": "Ideal GPU NVIDIA; CPU funciona (mais lento).",
+    "Licença do código": "BSD-2-Clause",
+    "Licença dos pesos": "Whisper MIT; alinhador PT jonatasgrosman/wav2vec2-large-xlsr-53-portuguese Apache-2.0; pyannote community-1 CC-BY-4.0 (gated)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "3.8.6 (PyPI 2026-05); 3.8.7rc1 (2026-06)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install whisperx",
+    "Observações": "Para 'pt' o modelo de alinhamento padrão é jonatasgrosman/wav2vec2-large-xlsr-53-portuguese (confirmado em whisperx/alignment.py). Requer Python >=3.10,<3.14 e pyannote-audio>=4. Para diarizar: aceitar os termos de pyannote/speaker-diarization-community-1 e passar --hf_token."
+  },
+  "fontes": [
+    "https://github.com/m-bain/whisperX",
+    "https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py",
+    "https://pypi.org/project/whisperx",
+    "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese"
+  ]
+}

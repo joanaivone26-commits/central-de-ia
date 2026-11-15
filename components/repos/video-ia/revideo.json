@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/midrender/revideo",
+  "title": "Revideo",
+  "description": "Motor de renderização de vídeo em TypeScript (derivado do Motion Canvas) com API headless e player React.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 4200,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Gerar vídeos a partir de templates via API/serviço; cenas em TS que agentes escrevem a partir de prompts.",
+    "Entrada → saída": "Código TS + mídia → MP4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Node.js.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "ver README (pacotes npm @revideo/*)",
+    "Observações": "Repo movido de redotvideo/revideo para midrender/revideo; é o motor do produto Midrender."
+  },
+  "fontes": [
+    "https://github.com/midrender/revideo"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "description": "Libera pesquisa na web (WebSearch e WebFetch) sem pedir permissão a cada busca. Bom para tarefas de espionagem, pesquisa de público e referências.",
+  "permissions": {
+    "allow": ["WebSearch", "WebFetch"]
+  }
+}

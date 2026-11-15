@@ -1,0 +1,36 @@
+{
+  "url": "https://github.com/NVIDIA-NeMo/Speech",
+  "title": "NVIDIA NeMo Speech (Parakeet, Canary, Nemotron ASR)",
+  "description": "Toolkit da NVIDIA para ASR, TTS e diarização; distribui Parakeet TDT 0.6B v3, Canary-1B-v2 e Nemotron 3.5 ASR com timestamps.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 18700,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Transcrição muito rápida em GPU NVIDIA (servidor/Colab), inclusive horas de áudio, em 25 idiomas europeus.",
+    "Entrada → saída": "Áudio → texto com timestamps de palavra/segmento (Hypothesis, JSON/manifest).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "NeMo é focado em CUDA. No Mac use os mesmos pesos via parakeet-mlx, mlx-audio, FluidAudio (CoreML) ou sherpa-onnx.",
+    "Hardware": "GPU NVIDIA (CUDA); CPU possível porém lento.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "parakeet-tdt-0.6b-v3 e canary-1b-v2: CC-BY-4.0; Nemotron 3.5 ASR/Transcribe: OpenMDW-1.1",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.0.0 (2026-08-07; PyPI nemo_toolkit 3.0.0)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "pip install \"nemo_toolkit[asr]\"",
+    "Observações": "NVIDIA/NeMo e NVIDIA-NeMo/NeMo redirecionam para NVIDIA-NeMo/Speech. PT suportado (Parakeet v3/Canary v2), mas WER PT ≈6,1–6,3 no leaderboard, pior que Whisper turbo. Novos em 2026: nemotron-3.5-asr-streaming-0.6b (pt-BR e pt-PT) e NVIDIA-Nemotron-3.5-Transcribe-30B-A4B (out/2026, 40 idiomas, não cabe em 8 GB)."
+  },
+  "fontes": [
+    "https://github.com/NVIDIA-NeMo/Speech",
+    "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "https://huggingface.co/nvidia/canary-1b-v2",
+    "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "https://pypi.org/project/nemo_toolkit",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

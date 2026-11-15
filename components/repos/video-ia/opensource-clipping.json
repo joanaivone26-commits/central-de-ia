@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/NaufalRizqullah/opensource-clipping",
+  "title": "opensource-clipping",
+  "description": "Pipeline de clipping com saída 9:16 e detecção automática de quem está falando (active speaker), trocando o enquadramento por cena.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 220,
+  "license": "MIT",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Estudar reframe de podcasts com 2+ pessoas.",
+    "Entrada → saída": "Vídeo → clipes 9:16",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado.",
+    "Hardware": "CPU/GPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone",
+    "Observações": "Projeto pequeno (~220 estrelas)."
+  },
+  "fontes": [
+    "https://github.com/NaufalRizqullah/opensource-clipping"
+  ]
+}

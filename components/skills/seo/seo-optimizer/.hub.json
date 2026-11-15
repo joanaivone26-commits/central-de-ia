@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/business-marketing/seo-optimizer",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/business-marketing/seo-optimizer",
+    "commit": "1c859b46334fc1368a30aa4ded127d122de6561c",
+    "url": "https://www.aitmpl.com/component/skills/business-marketing/seo-optimizer"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "MEDIUM",
+    "score": 26,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-24T03:16:09Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/business-marketing/seo-optimizer)."
+}

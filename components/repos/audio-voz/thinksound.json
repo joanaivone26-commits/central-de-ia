@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/QwenAudio/ThinkSound",
+  "title": "ThinkSound / PrismAudio",
+  "description": "Vídeo→áudio com raciocínio em cadeia (NeurIPS 2025); sucessor PrismAudio (ICLR 2026) no branch prismaudio.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 1400,
+  "license": "Apache-2.0 (README; GitHub não detecta)",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Foley controlável passo a passo.",
+    "Entrada → saída": "Vídeo + texto → áudio.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README menciona macOS; desempenho não confirmado.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "Apache-2.0 (README; GitHub não detecta)",
+    "Licença dos pesos": "ThinkSound: Apache-2.0 'research and educational purposes only'; PrismAudio: MIT (tag HF); VAE do Stable Audio sob Community License",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "PrismAudio (2026-03)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "git clone (o 'thinksound' do PyPI não foi confirmado como oficial)",
+    "Observações": "FunAudioLLM/ThinkSound redireciona para QwenAudio/ThinkSound."
+  },
+  "fontes": [
+    "https://github.com/QwenAudio/ThinkSound",
+    "https://huggingface.co/FunAudioLLM/ThinkSound",
+    "https://huggingface.co/FunAudioLLM/PrismAudio"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/timsainb/noisereduce",
+  "title": "noisereduce",
+  "description": "Redução de ruído clássica por spectral gating (sem rede neural), estacionária ou não.",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 1900,
+  "license": "MIT",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Ruído constante (ventilador, chiado) com dependências mínimas.",
+    "Entrada → saída": "Array numpy → array limpo.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Python puro/numpy.",
+    "Hardware": "CPU (torch opcional).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2024-10",
+    "Versão recente": "3.0.3 (2024-10)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install noisereduce",
+    "Observações": "Simples de explicar em aula; menos eficaz que DeepFilterNet para ruído variável."
+  },
+  "fontes": [
+    "https://github.com/timsainb/noisereduce",
+    "https://pypi.org/project/noisereduce"
+  ]
+}

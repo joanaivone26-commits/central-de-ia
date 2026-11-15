@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/pq-yang/MatAnyone2",
+  "title": "MatAnyone 2",
+  "description": "Nova versão (CVPR 2026 Highlight) que escala o matting de vídeo com um avaliador de qualidade aprendido.",
+  "tags": [
+    "Recorte de fundo"
+  ],
+  "stars": 940,
+  "license": "S-Lab License 1.0 (somente uso NÃO comercial)",
+  "subcategoria": "Recorte de fundo",
+  "detalhes": {
+    "Melhor uso": "Melhor qualidade aberta em matting de vídeo para pesquisa e uso não comercial.",
+    "Entrada → saída": "Vídeo + máscara → alfa",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado em MPS.",
+    "Hardware": "GPU NVIDIA (requisitos não confirmados)",
+    "Licença do código": "S-Lab License 1.0 (somente uso NÃO comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "v1.0.0 (2026-03-06)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ver README)",
+    "Observações": "Release v1.0.0 em 2026-03-06."
+  },
+  "fontes": [
+    "https://github.com/pq-yang/MatAnyone2"
+  ]
+}

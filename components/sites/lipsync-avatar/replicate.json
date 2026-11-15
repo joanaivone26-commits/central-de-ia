@@ -1,0 +1,10 @@
+{
+  "url": "https://replicate.com",
+  "title": "Replicate",
+  "description": "API para rodar modelos hospedados; ex.: bytedance/latentsync (~US$ 0,12 por execução em L40S, segundo a página) e sync/lipsync-2-pro.",
+  "tags": [
+    "ferramenta comercial",
+    "Lip sync e avatar"
+  ],
+  "pricing": "pago ou freemium"
+}

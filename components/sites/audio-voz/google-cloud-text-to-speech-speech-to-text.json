@@ -1,0 +1,10 @@
+{
+  "url": "https://cloud.google.com/text-to-speech",
+  "title": "Google Cloud Text-to-Speech / Speech-to-Text",
+  "description": "TTS (vozes pt-BR, inclusive baseadas em Gemini) e STT (Chirp) na nuvem do Google.",
+  "tags": [
+    "ferramenta comercial",
+    "Voz e áudio"
+  ],
+  "pricing": "pago ou freemium"
+}

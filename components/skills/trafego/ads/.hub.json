@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "trafego"
+  ],
+  "featured": true,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ads",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Planeja, estrutura e otimiza campanhas pagas em Meta, Google, TikTok e LinkedIn: públicos, lances, orçamento e escala.",
+  "title": "Anúncios Pagos"
+}

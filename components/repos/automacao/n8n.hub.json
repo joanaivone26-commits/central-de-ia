@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "n8n-io/n8n",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/n8n-io/n8n"
+  },
+  "author": "n8n-io",
+  "addedAt": "2026-11-15"
+}

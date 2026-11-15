@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/development/senior-prompt-engineer",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/development/senior-prompt-engineer",
+    "commit": "af0b99278d2f8b705bdf700f19c3125c05de7ede",
+    "url": "https://www.aitmpl.com/component/skills/development/senior-prompt-engineer"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/development/senior-prompt-engineer)."
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/TMElyralab/MuseTalk",
+  "title": "MuseTalk",
+  "description": "Lip sync em tempo real por inpainting no espaço latente (VAE do SD + Whisper-tiny) em um único passo, região facial 256×256 (Tencent Music Lyra Lab).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 6900,
+  "license": "MIT",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Quando velocidade importa (tempo real, avatares ao vivo, lotes grandes) ou a GPU é fraca; melhor custo-benefício com uso comercial permitido.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada (recomenda vídeo a 25 fps)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Repo oficial é CUDA/CPU. Existem pesos MLX nativos (mlx-community/MuseTalk-1.5-fp16/q8/q4; o card cita ~7 GB de pico e >25 fps num M-series), mas o código \"musetalk_mlx\" não foi localizado publicamente — um agente pode montar o pipeline em volta.",
+    "Hardware": "Testado em RTX 3050 Ti Laptop 4 GB (fp16: ~5 min para 8 s de vídeo); 30 fps+ em V100.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT no HF; README: modelos disponíveis \"para qualquer fim, inclusive comercial\" (dependências whisper/sd-vae/dwpose/S3FD têm licenças próprias)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "1.5 (2025-03-28) + código de treino (2025-04)",
+    "Nível": "intermediario",
+    "Qualidade": "Rápido e com identidade estável; a 1.5 melhorou nitidez e sincronia, mas a boca de 256 px fica macia em 1080p/4K e dentes podem \"derreter\" — o próprio README sugere GFPGAN para super-resolução.",
+    "No ComfyUI": "chaojie/ComfyUI-MuseTalk"
+  },
+  "fontes": [
+    "https://github.com/TMElyralab/MuseTalk",
+    "https://ungh.cc/repos/TMElyralab/MuseTalk",
+    "https://huggingface.co/TMElyralab/MuseTalk",
+    "https://huggingface.co/mlx-community/MuseTalk-1.5-fp16",
+    "https://huggingface.co/mlx-community/MuseTalk-1.5-q4"
+  ]
+}

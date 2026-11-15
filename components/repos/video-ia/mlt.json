@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/mltframework/mlt",
+  "title": "MLT Framework",
+  "description": "Framework multimídia em C/C++ por trás do Shotcut e do Kdenlive; CLI melt e timelines em XML.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 1900,
+  "license": "LGPL-2.1 (alguns módulos GPL)",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Renderizar por script projetos .mlt criados no Shotcut/Kdenlive.",
+    "Entrada → saída": "XML de timeline + mídia → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "O melt acompanha o Shotcut; também há pacotes do sistema.",
+    "Hardware": "CPU",
+    "Licença do código": "LGPL-2.1 (alguns módulos GPL)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v7.42.0 (2026-10-03)",
+    "Nível": "avancado",
+    "Instalação": "n/a (pacote do sistema / Shotcut)"
+  },
+  "fontes": [
+    "https://github.com/mltframework/mlt"
+  ]
+}

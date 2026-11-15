@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/creative-design/canvas-design",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/creative-design/canvas-design",
+    "commit": "20f38d42fb6a60d8937ba7c01adbac7b08e093d0",
+    "url": "https://www.aitmpl.com/component/skills/creative-design/canvas-design"
+  },
+  "license": "Complete terms in LICENSE.txt",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/creative-design/canvas-design)."
+}

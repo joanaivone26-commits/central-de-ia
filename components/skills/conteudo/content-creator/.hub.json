@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/business-marketing/content-creator",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/business-marketing/content-creator",
+    "commit": "af0b99278d2f8b705bdf700f19c3125c05de7ede",
+    "url": "https://www.aitmpl.com/component/skills/business-marketing/content-creator"
+  },
+  "license": "MIT",
+  "author": "Alireza Rezvani",
+  "scan": {
+    "severity": "LOW",
+    "score": 7,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/business-marketing/content-creator)."
+}

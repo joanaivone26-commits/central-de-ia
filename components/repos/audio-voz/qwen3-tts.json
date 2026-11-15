@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/QwenLM/Qwen3-TTS",
+  "title": "Qwen3-TTS",
+  "description": "TTS da Alibaba (jan/2026) com clonagem em 3 s (Base), vozes controláveis (CustomVoice) e design de voz por descrição (VoiceDesign).",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 14400,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem e TTS com licença Apache em PT.",
+    "Entrada → saída": "Texto (+ referência ou descrição) → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "MPS não confirmado no README oficial; mlx-audio tem variantes 0.6B 8-bit.",
+    "Hardware": "GPU NVIDIA; Mac via MLX.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "qwen-tts 0.1.1 (2026-02); último commit 2026-03",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install qwen-tts",
+    "Observações": "10 idiomas incl. Portuguese; variante (BR/PT) não especificada."
+  },
+  "fontes": [
+    "https://github.com/QwenLM/Qwen3-TTS",
+    "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "https://pypi.org/project/qwen-tts"
+  ]
+}

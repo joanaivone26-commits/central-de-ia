@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/business-marketing/marketing-ideas",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/business-marketing/marketing-ideas",
+    "commit": "1deb97c72161528f6b7d84bc5117ae4be2e42735",
+    "url": "https://www.aitmpl.com/component/skills/business-marketing/marketing-ideas"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/business-marketing/marketing-ideas)."
+}

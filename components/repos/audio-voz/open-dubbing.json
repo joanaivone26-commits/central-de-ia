@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Softcatala/open-dubbing",
+  "title": "open-dubbing",
+  "description": "Dublagem automática experimental: Whisper, pyannote, tradução (NLLB/Apertium/APIs) e TTS (Edge, MMS, Coqui, OpenAI).",
+  "tags": [
+    "Dublagem"
+  ],
+  "stars": 441,
+  "license": "Apache-2.0",
+  "subcategoria": "Dublagem",
+  "detalhes": {
+    "Melhor uso": "Pipeline Python simples e auditável de dublagem.",
+    "Entrada → saída": "Vídeo → vídeo dublado.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README cita macOS.",
+    "Hardware": "CPU/GPU.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende dos modelos (pyannote gated)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-07",
+    "Versão recente": "0.2.3 (2025-06)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install open-dubbing",
+    "Observações": "jordimas/open-dubbing redireciona para Softcatala/open-dubbing. O próprio README se diz experimental."
+  },
+  "fontes": [
+    "https://github.com/Softcatala/open-dubbing",
+    "https://pypi.org/project/open-dubbing"
+  ]
+}

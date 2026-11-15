@@ -1,0 +1,10 @@
+{
+  "url": "https://mcp.replicate.com/sse",
+  "title": "Replicate MCP (oficial)",
+  "description": "MCP oficial da Replicate: buscar modelos, criar predições (gerar imagem/vídeo/áudio com modelos da plataforma), listar hardware etc. Servidor remoto (recomendado) ou pacote local `replicate-mcp`. Ponte genérica da API: é preciso consultar o schema de cada modelo. Pago por uso.",
+  "tags": [
+    "mcp hospedado",
+    "vídeo com IA"
+  ],
+  "pricing": "pago ou freemium"
+}

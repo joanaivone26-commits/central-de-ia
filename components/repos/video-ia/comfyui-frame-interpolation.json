@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+  "title": "ComfyUI-Frame-Interpolation",
+  "description": "Nós do ComfyUI para interpolação de frames (RIFE, FILM, GMFSS, AMT e outros).",
+  "tags": [
+    "Interpolação"
+  ],
+  "stars": 1100,
+  "license": "MIT",
+  "subcategoria": "Interpolação",
+  "detalhes": {
+    "Melhor uso": "Subir 16→32/60 fps vídeos gerados por IA dentro do próprio workflow.",
+    "Entrada → saída": "Batch de frames → batch interpolado",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O RIFE funciona em MPS/CPU; alguns métodos (cupy) exigem CUDA.",
+    "Hardware": "Leve para RIFE (2–4 GB); GMFSS exige CUDA",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Cada modelo tem a sua licença (RIFE: MIT; FILM: Apache-2.0)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "via ComfyUI-Manager",
+    "Observações": "Último push em 2026-03."
+  },
+  "fontes": [
+    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/tiankuan93/ComfyUI-V-Express",
+  "title": "ComfyUI-V-Express",
+  "description": "Nós para V-Express (citado no README do V-Express).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 115,
+  "license": "não confirmado",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar V-Express dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "~8 GB.",
+    "Licença do código": "não confirmado",
+    "Licença dos pesos": "V-Express sem licença declarada",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-06",
+    "Versão recente": "sem releases (2024-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Parado desde 2024.",
+    "No ComfyUI": "tiankuan93/ComfyUI-V-Express"
+  },
+  "fontes": [
+    "https://github.com/tiankuan93/ComfyUI-V-Express",
+    "https://ungh.cc/repos/tiankuan93/ComfyUI-V-Express"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/chaojie/ComfyUI-MuseTalk",
+  "title": "ComfyUI-MuseTalk (chaojie)",
+  "description": "Nó ComfyUI do MuseTalk citado no README oficial.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 302,
+  "license": "MIT",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar MuseTalk dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado no Mac.",
+    "Hardware": "Leve (como MuseTalk).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MuseTalk MIT",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-05",
+    "Versão recente": "sem releases (2024-05)",
+    "Nível": "intermediario",
+    "Qualidade": "Antigo (anterior ao MuseTalk 1.5); pode exigir adaptação para os pesos v1.5.",
+    "No ComfyUI": "chaojie/ComfyUI-MuseTalk"
+  },
+  "fontes": [
+    "https://github.com/chaojie/ComfyUI-MuseTalk",
+    "https://ungh.cc/repos/chaojie/ComfyUI-MuseTalk"
+  ]
+}

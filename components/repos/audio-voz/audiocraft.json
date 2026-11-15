@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/facebookresearch/audiocraft",
+  "title": "AudioCraft (MusicGen/AudioGen)",
+  "description": "Biblioteca da Meta com MusicGen (música), AudioGen (efeitos) e EnCodec.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 23800,
+  "license": "MIT",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Referência didática de geração de música.",
+    "Entrada → saída": "Texto (+ melodia) → áudio.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU/MPS lento.",
+    "Hardware": "GPU NVIDIA.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-NC-4.0",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-03",
+    "Versão recente": "v1.3.0 (2024-05)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "pip install audiocraft",
+    "Observações": "Superado por ACE-Step/Stable Audio 3 para uso prático."
+  },
+  "fontes": [
+    "https://github.com/facebookresearch/audiocraft",
+    "https://huggingface.co/facebook/musicgen-small",
+    "https://pypi.org/project/audiocraft"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/lucidrains/BS-RoFormer",
+  "title": "BS-RoFormer (implementação lucidrains)",
+  "description": "Implementação de referência das arquiteturas Band-Split RoFormer e Mel-Band RoFormer.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 1000,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Estudar/treinar a arquitetura; para uso pronto, prefira audio-separator.",
+    "Entrada → saída": "Código de modelo (sem pesos treinados).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "PyTorch puro.",
+    "Hardware": "GPU para treino.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A (sem pesos)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "1.1.0 (GitHub 2026-02); PyPI BS-RoFormer 1.4.1 (2026-11)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "pip install BS-RoFormer",
+    "Observações": "—"
+  },
+  "fontes": [
+    "https://github.com/lucidrains/BS-RoFormer",
+    "https://pypi.org/project/BS-RoFormer"
+  ]
+}

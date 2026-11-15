@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/v-iashin/Synchformer",
+  "title": "Synchformer",
+  "description": "Modelo que prevê o offset temporal entre áudio e vídeo a partir de pistas esparsas, para vídeos gerais (não só rostos) (ICASSP 2024).",
+  "tags": [
+    "Medição de sincronia"
+  ],
+  "stars": 138,
+  "license": "MIT",
+  "subcategoria": "Medição de sincronia",
+  "detalhes": {
+    "Melhor uso": "Detectar offset em vídeos sem rosto frontal (instrumentos, objetos) ou checar sincronia de vídeos gerados.",
+    "Entrada → saída": "vídeo → offset previsto (classes de deslocamento)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "PyTorch; uso em CPU/MPS não documentado.",
+    "Hardware": "GPU recomendada; VRAM não publicada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Não declarada separadamente",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "sem releases (2025-09)",
+    "Nível": "avancado",
+    "Qualidade": "Bom para vídeo geral; para fala frontal o SyncNet é mais direto e preciso."
+  },
+  "fontes": [
+    "https://github.com/v-iashin/Synchformer",
+    "https://ungh.cc/repos/v-iashin/Synchformer"
+  ]
+}

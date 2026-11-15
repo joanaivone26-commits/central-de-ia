@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/drawthingsai/draw-things-community",
+  "title": "Draw Things (código comunitário)",
+  "description": "Partes open-source do app Draw Things (motor de inferência e servidor gRPC) para gerar imagem/vídeo localmente em Mac/iPhone/iPad.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 610,
+  "license": "GPL-3.0",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "O app Draw Things (App Store) é o jeito mais fácil de rodar SD/Flux/Wan/Hunyuan no Mac; este repo permite self-host do servidor.",
+    "Entrada → saída": "Texto/imagem → imagem/vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Otimizado para Metal; modelos de vídeo exigem muita memória.",
+    "Hardware": "Apple Silicon (Metal)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Varia por modelo",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v26.1023.0 (2026-10-23)",
+    "Nível": "intermediario",
+    "Instalação": "n/a (app na App Store; servidor gRPC nos releases)",
+    "Observações": "O app em si é distribuído pela App Store; o repo publica a parte comunitária. Release v26.1023.0 (2026-10-23)."
+  },
+  "fontes": [
+    "https://github.com/drawthingsai/draw-things-community",
+    "https://drawthings.ai"
+  ]
+}

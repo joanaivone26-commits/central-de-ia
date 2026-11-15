@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/mrbizarro/Phosphene",
+  "title": "Phosphene",
+  "description": "App macOS nativo (MLX) que roda LTX-2.5 e MiniMax H3 offline: texto/imagem → vídeo com som, fala e lip sync (inclui MCP para Claude Code).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 365,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Aluno com Mac Apple Silicon de 16 GB+ que quer foto/vídeo falante e lip sync sem NVIDIA, inclusive controlado pelo Claude Code via MCP.",
+    "Entrada → saída": "imagem/vídeo + voz ou música (ou texto) → vídeo com boca sincronizada",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Feito para Mac (MLX). M1/M2 com 8 GB não atendem o mínimo de 16 GB para LTX-2.5/H3.",
+    "Hardware": "Apple Silicon M1–M5 a partir de 16 GB de memória; 5 s de LTX-2.5 a 480p ≈ 10m40s (mediana) num M4 16 GB; MiniMax H3 ~75 GB de disco.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "LTX-2.x Community License; licença do MiniMax H3 exclui UE, Reino Unido, Coreia do Sul e EUA",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v5.0.16 (2026-11-10)",
+    "Nível": "iniciante",
+    "Qualidade": "Melhor caminho \"sem terminal\" para Mac em 2026; lento em Macs pequenos; telemetria anônima ligada por padrão."
+  },
+  "fontes": [
+    "https://github.com/mrbizarro/Phosphene",
+    "https://ungh.cc/repos/mrbizarro/Phosphene"
+  ]
+}

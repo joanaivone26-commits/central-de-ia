@@ -1,0 +1,232 @@
+{
+  "name": "trip-angle",
+  "owner": {
+    "name": "Trip Angle"
+  },
+  "metadata": {
+    "description": "Prompts mestres, skills, agentes, frameworks, MCPs, plugins e repositórios de IA para quem roda negócio digital: direct response, e-commerce, pesquisa de público, copy, criativos, vídeo e produto.",
+    "version": "1.20261115.0"
+  },
+  "plugins": [
+    {
+      "name": "ta-analytics",
+      "source": "./bundles/analytics",
+      "description": "Analytics & Tracking: 2 skills, 1 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "analytics",
+      "keywords": [
+        "trip-angle",
+        "analytics"
+      ]
+    },
+    {
+      "name": "ta-compliance",
+      "source": "./bundles/compliance",
+      "description": "Compliance & Jurídico: 0 skills, 1 agentes, 1 comandos, 1 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "compliance",
+      "keywords": [
+        "trip-angle",
+        "compliance"
+      ]
+    },
+    {
+      "name": "ta-conteudo",
+      "source": "./bundles/conteudo",
+      "description": "Conteúdo & Social: 3 skills, 2 agentes, 3 comandos, 8 prompts, 1 frameworks da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "conteudo",
+      "keywords": [
+        "trip-angle",
+        "conteudo"
+      ]
+    },
+    {
+      "name": "ta-copy",
+      "source": "./bundles/copy",
+      "description": "Copywriting: 3 skills, 0 agentes, 2 comandos, 9 prompts, 8 frameworks da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "copy",
+      "keywords": [
+        "trip-angle",
+        "copy"
+      ]
+    },
+    {
+      "name": "ta-criativos",
+      "source": "./bundles/criativos",
+      "description": "Criativos & Vídeo: 1 skills, 2 agentes, 0 comandos, 8 prompts, 2 frameworks da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "criativos",
+      "keywords": [
+        "trip-angle",
+        "criativos"
+      ]
+    },
+    {
+      "name": "ta-cro",
+      "source": "./bundles/cro",
+      "description": "CRO & Testes: 4 skills, 0 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "cro",
+      "keywords": [
+        "trip-angle",
+        "cro"
+      ]
+    },
+    {
+      "name": "ta-design",
+      "source": "./bundles/design",
+      "description": "Design & Marca: 3 skills, 0 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "design",
+      "keywords": [
+        "trip-angle",
+        "design"
+      ]
+    },
+    {
+      "name": "ta-dev",
+      "source": "./bundles/dev",
+      "description": "Desenvolvimento Web: 3 skills, 0 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "dev",
+      "keywords": [
+        "trip-angle",
+        "dev"
+      ]
+    },
+    {
+      "name": "ta-documentos",
+      "source": "./bundles/documentos",
+      "description": "Documentos: 1 skills, 0 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "documentos",
+      "keywords": [
+        "trip-angle",
+        "documentos"
+      ]
+    },
+    {
+      "name": "ta-ecommerce",
+      "source": "./bundles/ecommerce",
+      "description": "E-commerce & Loja: 0 skills, 0 agentes, 0 comandos, 5 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "ecommerce",
+      "keywords": [
+        "trip-angle",
+        "ecommerce"
+      ]
+    },
+    {
+      "name": "ta-email-whatsapp",
+      "source": "./bundles/email-whatsapp",
+      "description": "E-mail, WhatsApp & CRM: 1 skills, 1 agentes, 0 comandos, 1 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "email-whatsapp",
+      "keywords": [
+        "trip-angle",
+        "email-whatsapp"
+      ]
+    },
+    {
+      "name": "ta-estrategia",
+      "source": "./bundles/estrategia",
+      "description": "Estratégia & Ofertas: 6 skills, 1 agentes, 0 comandos, 10 prompts, 2 frameworks da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "estrategia",
+      "keywords": [
+        "trip-angle",
+        "estrategia"
+      ]
+    },
+    {
+      "name": "ta-funil",
+      "source": "./bundles/funil",
+      "description": "Funil & Páginas: 1 skills, 0 agentes, 0 comandos, 2 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "funil",
+      "keywords": [
+        "trip-angle",
+        "funil"
+      ]
+    },
+    {
+      "name": "ta-ia",
+      "source": "./bundles/ia",
+      "description": "IA & Agentes: 3 skills, 0 agentes, 0 comandos, 2 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "ia",
+      "keywords": [
+        "trip-angle",
+        "ia"
+      ]
+    },
+    {
+      "name": "ta-pesquisa",
+      "source": "./bundles/pesquisa",
+      "description": "Pesquisa & Espionagem: 4 skills, 3 agentes, 1 comandos, 7 prompts, 1 frameworks da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "pesquisa",
+      "keywords": [
+        "trip-angle",
+        "pesquisa"
+      ]
+    },
+    {
+      "name": "ta-produtividade",
+      "source": "./bundles/produtividade",
+      "description": "Produtividade & Claude Code: 1 skills, 0 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "produtividade",
+      "keywords": [
+        "trip-angle",
+        "produtividade"
+      ]
+    },
+    {
+      "name": "ta-produto",
+      "source": "./bundles/produto",
+      "description": "Produto & Entregáveis: 0 skills, 0 agentes, 0 comandos, 2 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "produto",
+      "keywords": [
+        "trip-angle",
+        "produto"
+      ]
+    },
+    {
+      "name": "ta-seo",
+      "source": "./bundles/seo",
+      "description": "SEO & Busca: 2 skills, 3 agentes, 0 comandos da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "seo",
+      "keywords": [
+        "trip-angle",
+        "seo"
+      ]
+    },
+    {
+      "name": "ta-trafego",
+      "source": "./bundles/trafego",
+      "description": "Tráfego & Ads: 1 skills, 0 agentes, 1 comandos, 2 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "trafego",
+      "keywords": [
+        "trip-angle",
+        "trafego"
+      ]
+    },
+    {
+      "name": "ta-vendas",
+      "source": "./bundles/vendas",
+      "description": "Vendas & Pós-venda: 2 skills, 1 agentes, 0 comandos, 2 prompts da Central de IA Trip Angle.",
+      "version": "1.20261115.0",
+      "category": "vendas",
+      "keywords": [
+        "trip-angle",
+        "vendas"
+      ]
+    }
+  ]
+}

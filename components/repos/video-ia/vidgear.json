@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/abhiTronix/vidgear",
+  "title": "VidGear",
+  "description": "Framework Python de alto desempenho para captura, processamento multithread, streaming e gravação de vídeo (sobre OpenCV/FFmpeg/PyAV).",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 3700,
+  "license": "Apache-2.0",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Ler câmeras e streams, gravar com FFmpeg (WriteGear), transmitir ao vivo.",
+    "Entrada → saída": "Câmera/stream/arquivo → arquivo/stream",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "CPU",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "vidgear-0.3.7 (2026-11-07)",
+    "Nível": "intermediario",
+    "Instalação": "pip install vidgear[core]"
+  },
+  "fontes": [
+    "https://github.com/abhiTronix/vidgear",
+    "https://pypi.org/project/vidgear/"
+  ]
+}

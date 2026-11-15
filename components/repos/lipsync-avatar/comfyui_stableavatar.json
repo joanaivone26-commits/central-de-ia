@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/smthemex/ComfyUI_StableAvatar",
+  "title": "ComfyUI_StableAvatar",
+  "description": "Nós para StableAvatar (incl. modo 10 passos ~3× mais rápido).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 44,
+  "license": "MIT",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar StableAvatar dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "~18 GB (como StableAvatar); menos com offload.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "StableAvatar MIT",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "sem releases (2025-08)",
+    "Nível": "avancado",
+    "Qualidade": "Bom para vídeos longos.",
+    "No ComfyUI": "smthemex/ComfyUI_StableAvatar"
+  },
+  "fontes": [
+    "https://github.com/smthemex/ComfyUI_StableAvatar",
+    "https://ungh.cc/repos/smthemex/ComfyUI_StableAvatar"
+  ]
+}

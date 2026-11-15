@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/jixiaozhong/Sonic",
+  "title": "Sonic",
+  "description": "Animação de retrato com percepção global do áudio (Tencent/ZJU, CVPR 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 3300,
+  "license": "CC BY-NC-SA 4.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante muito expressiva (inclusive canto) para uso pessoal/pesquisa.",
+    "Entrada → saída": "foto + áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "CC BY-NC-SA 4.0",
+    "Licença dos pesos": "Não comercial (README; uso comercial via Tencent Cloud)",
+    "Uso comercial": "nao",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases (DICE-Talk 2025-05)",
+    "Nível": "intermediario",
+    "Qualidade": "Um dos mais naturais em movimento de cabeça e expressão para retrato; licença não comercial.",
+    "No ComfyUI": "smthemex/ComfyUI_Sonic"
+  },
+  "fontes": [
+    "https://github.com/jixiaozhong/Sonic",
+    "https://ungh.cc/repos/jixiaozhong/Sonic"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/k2-fsa/OmniVoice",
+  "title": "OmniVoice (k2-fsa)",
+  "description": "TTS zero-shot massivamente multilíngue (600+ idiomas) com clonagem e design de voz.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 16500,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem em PT e outros idiomas para uso não comercial.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "device_map='mps'; também mlx-community/OmniVoice-bf16 e GGUF.",
+    "Hardware": "GPU ou Apple Silicon.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "CC-BY-NC (README: restrição do Emilia)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "0.2.1 (2026-07-16)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install omnivoice",
+    "Observações": "Lançado em 2026-03; integrado a pyVideoTrans e VoiceStudio. Use referência no mesmo idioma para pronúncia padrão."
+  },
+  "fontes": [
+    "https://github.com/k2-fsa/OmniVoice",
+    "https://pypi.org/project/omnivoice"
+  ]
+}

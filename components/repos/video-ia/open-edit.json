@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/veedstudio/open-edit",
+  "title": "OpenEdit (VEED)",
+  "description": "Pipeline de edição para agentes, sem GUI: 'descreva a edição, receba o MP4' (legendas, motion graphics, slides, cortes, reframe).",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 1800,
+  "license": "Apache-2.0",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Legendar e cortar com Claude Code/Codex usando WhisperX local (grátis) ou o serviço da VEED.",
+    "Entrada → saída": "Vídeo + prompt → MP4",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Testado no macOS; ffmpeg via Homebrew.",
+    "Hardware": "CPU",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "npx skills add veedstudio/open-edit --skill open-edit",
+    "Observações": "Criado em 2026-07. A geração de vídeo por IA (VEED Fabric) é paga e opcional."
+  },
+  "fontes": [
+    "https://github.com/veedstudio/open-edit"
+  ]
+}

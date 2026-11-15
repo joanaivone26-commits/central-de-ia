@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/lllyasviel/FramePack",
+  "title": "FramePack",
+  "description": "Image-to-video por predição do próximo frame (sobre HunyuanVideo 13B) que gera vídeos longos com só ~6 GB de VRAM.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 17300,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Animar uma imagem por até 60 s em notebook com GPU NVIDIA modesta.",
+    "Entrada → saída": "Imagem + prompt → vídeo (até 1 min a 30 fps)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Oficial só Linux/Windows; há fork comunitário para Apple Silicon (brandon929/FramePack), lento e com muita RAM.",
+    "Hardware": "6 GB VRAM mínimo (oficial); baixa 30 GB+ de modelos",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Pesos derivados do HunyuanVideo (licença do card não declarada; considere a Tencent Hunyuan Community License)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "pacote one-click (Windows) ou git clone + pip install -r requirements.txt",
+    "Observações": "Último push em 2025-10."
+  },
+  "fontes": [
+    "https://github.com/lllyasviel/FramePack",
+    "https://huggingface.co/lllyasviel/FramePackI2V_HY",
+    "https://github.com/brandon929/FramePack"
+  ]
+}

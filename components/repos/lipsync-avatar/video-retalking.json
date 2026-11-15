@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/OpenTalker/video-retalking",
+  "title": "VideoReTalking",
+  "description": "Pipeline em 3 etapas (normaliza a expressão, sincroniza os lábios, realça o rosto) para editar a fala de vídeos reais \"in the wild\" (SIGGRAPH Asia 2022).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 7300,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem de vídeo real com mais nitidez que o Wav2Lip sem recorrer a difusão, quando há GPU NVIDIA.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada e rosto realçado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Dependências CUDA; sem suporte oficial a MPS/macOS (não confirmado em CPU).",
+    "Hardware": "GPU NVIDIA (VRAM mínima não publicada); inferência lenta por frame.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Não declarada separadamente; pipeline usa componentes de terceiros (realce facial, 3DMM)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "v0.0.1 (2023-03)",
+    "Nível": "intermediario",
+    "Qualidade": "Rosto mais nítido e identidade razoável, mas lento, com artefatos em dentes/olhos e falhas em perfil e oclusões; parado desde 2024."
+  },
+  "fontes": [
+    "https://github.com/OpenTalker/video-retalking",
+    "https://ungh.cc/repos/OpenTalker/video-retalking"
+  ]
+}

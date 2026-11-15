@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/QwenAudio/Fun-ASR",
+  "title": "Fun-ASR (Tongyi/Alibaba)",
+  "description": "ASR end-to-end baseado em LLM; Fun-ASR-MLT-Nano-2512 (800M) cobre 31 idiomas, com runtime llama.cpp/GGUF.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 1600,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "ASR multilíngue leve com runtime C++; forte em chinês.",
+    "Entrada → saída": "Áudio → texto (timestamps de caractere no checkpoint ModelScope).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Runtime llama.cpp/GGUF roda no macOS; PyTorch em CPU.",
+    "Hardware": "GPU NVIDIA ou CPU; GGUF via llama.cpp.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (FunAudioLLM/Fun-ASR-MLT-Nano-2512)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "runtime-llamacpp-v0.1.10 (2026-09); funasr 1.4.24 (PyPI 2026-11-08)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "pip install funasr",
+    "Observações": "FunAudioLLM/Fun-ASR redireciona para QwenAudio/Fun-ASR. Fun-ASR-Nano-2512 (sem MLT) cobre só zh/en/ja. Sem benchmark PT-BR verificado."
+  },
+  "fontes": [
+    "https://github.com/QwenAudio/Fun-ASR",
+    "https://huggingface.co/FunAudioLLM/Fun-ASR-MLT-Nano-2512",
+    "https://pypi.org/project/funasr",
+    "https://github.com/modelscope/FunASR"
+  ]
+}

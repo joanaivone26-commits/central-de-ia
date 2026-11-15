@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/fishaudio/fish-speech",
+  "title": "Fish Speech / OpenAudio / Fish Audio",
+  "description": "Família de TTS com clonagem: S1-mini, S2-Pro (4B, mar/2026) e Drama-3 (MoE 35B-A3B, out/2026, 80+ idiomas).",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 33700,
+  "license": "Fish Audio Community License v1.0 (out/2026)",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem expressiva multilíngue para pesquisa/uso pessoal.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Suporte Mac oficial não confirmado; existe mlx-community/fish-audio-drama-3-4bit, inviável em 8 GB.",
+    "Hardware": "GPU NVIDIA (S2-Pro/Drama-3 grandes).",
+    "Licença do código": "Fish Audio Community License v1.0 (out/2026)",
+    "Licença dos pesos": "S1-mini: CC-BY-NC-SA-4.0 (gated); S2-Pro: Fish Audio Research License; Drama-3: Fish Audio Community License",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v3.0.0-beta (2026-10-13)",
+    "Nível": "avancado",
+    "Português (BR)": "regular",
+    "Instalação": "instalar pelo repositório (o 'fish-speech' 0.1.0 do PyPI não foi confirmado como oficial)",
+    "Observações": "Licença: grátis para pesquisa/não comercial; comercial só abaixo de um teto de receita anual (~US$ 500 mil, segundo levantamento) e serviço hospedado proibido sem contrato."
+  },
+  "fontes": [
+    "https://github.com/fishaudio/fish-speech",
+    "https://github.com/fishaudio/fish-speech/blob/main/LICENSE",
+    "https://huggingface.co/fishaudio/s2-pro",
+    "https://huggingface.co/fishaudio/s1-mini"
+  ]
+}

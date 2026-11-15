@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/guanjz20/StyleSync_PyTorch",
+  "title": "StyleSync",
+  "description": "Lip sync de alta fidelidade com gerador estilo StyleGAN, modos genérico e personalizado (CVPR 2023, Baidu); há também versão Paddle em guanjz20/StyleSync.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 212,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Só estudo de arquitetura: os pesos não foram liberados.",
+    "Entrada → saída": "vídeo + áudio → vídeo dublado (se houvesse pesos)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem pesos públicos; irrelevante para Mac.",
+    "Hardware": "GPU NVIDIA; não publicado.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Não liberados (README: liberação suspensa pela equipe)",
+    "Uso comercial": "nao",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-08",
+    "Versão recente": "sem releases",
+    "Nível": "avancado",
+    "Qualidade": "Resultados do paper são fortes em HD, mas sem pesos públicos não serve para uso prático."
+  },
+  "fontes": [
+    "https://github.com/guanjz20/StyleSync_PyTorch",
+    "https://ungh.cc/repos/guanjz20/StyleSync_PyTorch",
+    "https://github.com/guanjz20/StyleSync"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/baxtree/subaligner",
+  "title": "Subaligner",
+  "description": "Sincroniza legendas ao áudio com rede neural (também transcreve com Whisper e traduz).",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 509,
+  "license": "MIT",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Alternativa ao ffsubsync quando o deslocamento é irregular.",
+    "Entrada → saída": "Vídeo + legenda → legenda sincronizada (vários formatos).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Instala no macOS; dependências pesadas (TensorFlow).",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "não confirmado (modelo de sincronização embutido)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.3.15 (2026-06)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install subaligner",
+    "Observações": "Exige Python <3.13."
+  },
+  "fontes": [
+    "https://github.com/baxtree/subaligner",
+    "https://pypi.org/project/subaligner"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/remotion-dev/remotion",
+  "title": "remotion-dev/remotion",
+  "description": "🎥      Make videos programmatically with React",
+  "stars": 73384,
+  "language": "TypeScript",
+  "license": "Other",
+  "homepage": "https://remotion.dev",
+  "updatedAt": "2026-11-15T10:47:19Z",
+  "tags": [
+    "javascript",
+    "react",
+    "video"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Comfy-Org/comfy-mcp",
+  "title": "Comfy MCP (local)",
+  "description": "Servidor MCP oficial (stdio) que deixa agentes como Claude Code, Claude Desktop e Cursor controlarem o ComfyUI local: 41 ferramentas.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 340,
+  "license": "AGPL-3.0-or-later OU licença comercial da Comfy Org (dual)",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Pedir ao agente: rodar workflows, acompanhar jobs, inspecionar nós/modelos instalados, validar e editar grafos, ver contact sheets de vídeo.",
+    "Entrada → saída": "Comandos do agente → jobs no ComfyUI local (127.0.0.1:8188)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O próprio README orienta: abaixo de 32 GB de memória unificada, use modelos de parceiros/nuvem; mesmo com 32 GB+, vídeo na GPU da Apple não é recomendado.",
+    "Hardware": "O do ComfyUI que ele controla",
+    "Licença do código": "AGPL-3.0-or-later OU licença comercial da Comfy Org (dual)",
+    "Licença dos pesos": "n/a",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.10.0 (2026-08-10)",
+    "Nível": "intermediario",
+    "Instalação": "pip install comfy-mcp \"comfy-cli>=1.14.0\"  (depois: comfy install && comfy launch)",
+    "Observações": "Existe e é oficial (criado em 2026-07; anúncio em 2026-08-11). Usar localmente para produzir vídeos é livre; a AGPL só pesa se você distribuir ou oferecer o servidor como serviço. É um wrapper do comfy-cli, em beta; antes se chamava comfy-local-mcp. O Comfy Cloud MCP é outro serviço (HTTP em cloud.comfy.org/mcp) que roda em GPUs na nuvem. Não confunda com MCPs comunitários (artokun/comfyui-mcp, joenorton/comfyui-mcp-server)."
+  },
+  "fontes": [
+    "https://github.com/Comfy-Org/comfy-mcp",
+    "https://pypi.org/project/comfy-mcp/",
+    "https://comfyui-wiki.com/en/news/2026-08-11-comfy-mcp-local-server"
+  ]
+}

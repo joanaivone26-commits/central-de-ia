@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/google-research/frame-interpolation",
+  "title": "FILM (Google)",
+  "description": "Frame Interpolation for Large Motion: interpolação de alta qualidade para movimentos grandes (TensorFlow).",
+  "tags": [
+    "Interpolação"
+  ],
+  "stars": 3200,
+  "license": "Apache-2.0",
+  "subcategoria": "Interpolação",
+  "detalhes": {
+    "Melhor uso": "Criar transições/'slow motion' entre fotos muito diferentes.",
+    "Entrada → saída": "Pares de imagens/vídeo → frames intermediários",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU ou tensorflow-metal; lento.",
+    "Hardware": "GPU recomendada (TensorFlow)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2024-08",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Repositório ARQUIVADO (somente leitura). Disponível também como nó no ComfyUI-Frame-Interpolation."
+  },
+  "fontes": [
+    "https://github.com/google-research/frame-interpolation"
+  ]
+}

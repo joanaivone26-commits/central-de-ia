@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/runwayml/runway-api-mcp-server",
+  "title": "Runway MCP (repo da API arquivado → MCP hospedado)",
+  "description": "Servidor MCP que chamava a API da Runway (geração de vídeo/imagem). O repositório foi ARQUIVADO; a Runway indica https://dev.runwayml.com/agents para desenvolvedores e https://runway.com/mcp para o MCP hospedado com login na conta Runway (usa créditos Runway). A página não publica a URL nem nomes de ferramentas.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 23,
+  "license": "MIT (repo arquivado)",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT (repo arquivado)",
+    "Status": "arquivado (substituído por MCP hospedado)",
+    "Última atividade": "2026-09-30",
+    "Funciona no Claude": "sim (Claude.ai/Desktop como conector; repo arquivado via stdio)",
+    "Funciona no Codex": "incerto (hospedado: documentação cita ChatGPT, Claude.ai e Claude Desktop; repo arquivado era stdio)",
+    "Requisitos": "Conta Runway com créditos (hospedado) ou RUNWAYML_API_SECRET (repo arquivado)."
+  },
+  "fontes": [
+    "https://github.com/runwayml/runway-api-mcp-server",
+    "https://runway.com/mcp",
+    "https://help.runwayml.com/hc/en-us/articles/51931843164691-Connecting-to-Runway-MCP"
+  ]
+}

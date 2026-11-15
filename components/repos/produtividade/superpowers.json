@@ -1,0 +1,20 @@
+{
+  "url": "https://github.com/obra/superpowers",
+  "title": "obra/superpowers",
+  "description": "An agentic skills framework & software development methodology that works.",
+  "stars": 317952,
+  "language": "Shell",
+  "license": "MIT",
+  "homepage": null,
+  "updatedAt": "2026-11-03T23:24:58Z",
+  "tags": [
+    "ai",
+    "brainstorming",
+    "coding",
+    "obra",
+    "sdlc",
+    "skills",
+    "subagent-driven-development",
+    "superpowers"
+  ]
+}

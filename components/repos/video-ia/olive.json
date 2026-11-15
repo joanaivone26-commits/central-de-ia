@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/olive-editor/olive",
+  "title": "Olive",
+  "description": "Editor de vídeo não linear open-source baseado em nós.",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 9200,
+  "license": "GPL-3.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Só para estudo/curiosidade; não recomendado para produção.",
+    "Entrada → saída": "Mídia → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Só builds antigos; projeto parado.",
+    "Hardware": "GPU (OpenGL)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-12",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "n/a",
+    "Observações": "A versão 0.2 nunca saiu do alpha; último push em 2024-12."
+  },
+  "fontes": [
+    "https://github.com/olive-editor/olive"
+  ]
+}

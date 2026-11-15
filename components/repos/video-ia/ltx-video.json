@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Lightricks/LTX-Video",
+  "title": "LTX-Video (LTXV 0.9.x)",
+  "description": "Primeira geração do modelo de vídeo rápido da Lightricks (2B/13B, DiT).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 11400,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Legado: projetos e workflows antigos. A própria Lightricks recomenda o LTX-2.5 para tudo que é novo.",
+    "Entrada → saída": "Texto/imagem/vídeo → vídeo",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda via ComfyUI/MPS em Macs com bastante RAM; lento.",
+    "Hardware": "2B: ~8–12 GB; 13B: 24 GB (fp8 menos)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Licenças próprias por versão (LTX-Video-Open-Weights-License-0.X e arquivos por checkpoint) — verificar",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou diffusers / ComfyUI)",
+    "Observações": "O README informa que o LTX-2.5 (2026-08-11) substitui o LTX-Video e o LTX-2."
+  },
+  "fontes": [
+    "https://github.com/Lightricks/LTX-Video",
+    "https://huggingface.co/Lightricks/LTX-Video"
+  ]
+}

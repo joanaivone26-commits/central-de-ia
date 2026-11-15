@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/antonibigata/keysync",
+  "title": "KeySync",
+  "description": "Lip sync em duas etapas (keyframes + interpolação) por difusão, em alta resolução, que evita o \"vazamento\" da expressão original e lida com oclusões via máscara (Imperial College, 2025).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 406,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Dublagem de vídeo real com mãos/microfone na frente da boca ou quando a boca antiga \"vaza\"; desafiante direto do LatentSync.",
+    "Entrada → saída": "vídeo + áudio → vídeo dublado (converte para 25 fps e 16 kHz)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "README exige GPU CUDA.",
+    "Hardware": "GPU CUDA; VRAM mínima não publicada.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF toninio19/keysync)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases (paper arXiv 2505.00497)",
+    "Nível": "avancado",
+    "Qualidade": "Muito bom em oclusões e em evitar vazamento de expressão; mais lento e menos testado que LatentSync, sem nó ComfyUI conhecido."
+  },
+  "fontes": [
+    "https://github.com/antonibigata/keysync",
+    "https://ungh.cc/repos/antonibigata/keysync",
+    "https://huggingface.co/toninio19/keysync",
+    "https://huggingface.co/spaces/toninio19/keysync-demo",
+    "https://instavar.com/research/ai-video/open-source-lip-sync-models"
+  ]
+}

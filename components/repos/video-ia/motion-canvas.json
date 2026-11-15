@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/motion-canvas/motion-canvas",
+  "title": "Motion Canvas",
+  "description": "Biblioteca TypeScript + editor no navegador para animações vetoriais programáticas.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 19800,
+  "license": "MIT",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Animações didáticas sincronizadas com narração.",
+    "Entrada → saída": "Código TS → vídeo/sequência de imagens",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Node.js.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "v3.17.2 (2024-12-14)",
+    "Nível": "intermediario",
+    "Instalação": "npm init @motion-canvas@latest",
+    "Observações": "Último release v3.17.2 (2024-12), mas há commits em 2026."
+  },
+  "fontes": [
+    "https://github.com/motion-canvas/motion-canvas"
+  ]
+}

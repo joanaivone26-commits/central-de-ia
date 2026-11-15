@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/fudan-generative-vision/hallo4",
+  "title": "Hallo4",
+  "description": "Animação de retrato de alta fidelidade treinada com otimização por preferência (DPO) (SIGGRAPH Asia 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 40,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Teste/pesquisa em GPU de data center.",
+    "Entrada → saída": "foto + áudio → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "Testado em H100; VRAM mínima não publicada.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "MIT (HF fudan-generative-ai/hallo4, acesso gated)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2025-11",
+    "Versão recente": "sem releases (2025-11)",
+    "Nível": "avancado",
+    "Qualidade": "Muito recente e pouco adotado; sem validação comunitária."
+  },
+  "fontes": [
+    "https://github.com/fudan-generative-vision/hallo4",
+    "https://ungh.cc/repos/fudan-generative-vision/hallo4",
+    "https://huggingface.co/fudan-generative-ai/hallo4"
+  ]
+}

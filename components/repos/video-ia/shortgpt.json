@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/RayVentura/ShortGPT",
+  "title": "ShortGPT",
+  "description": "Framework experimental de automação de shorts: roteiro, voz (ElevenLabs/EdgeTTS), assets (Pexels) e edição.",
+  "tags": [
+    "Shorts automáticos"
+  ],
+  "stars": 8100,
+  "license": "MIT",
+  "subcategoria": "Shorts automáticos",
+  "detalhes": {
+    "Melhor uso": "Referência de arquitetura; para uso atual prefira MoneyPrinterTurbo/NarratoAI.",
+    "Entrada → saída": "Tema → short",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-02",
+    "Versão recente": "v0.3.0 (2025-02-10)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Último push em 2025-02."
+  },
+  "fontes": [
+    "https://github.com/RayVentura/ShortGPT"
+  ]
+}

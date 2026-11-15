@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+  "title": "HunyuanVideo (Tencent)",
+  "description": "Modelo de vídeo de 13B parâmetros da Tencent (T2V; I2V em repo separado).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 12800,
+  "license": "Tencent Hunyuan Community License",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Referência histórica e base de derivados (FramePack, LoRAs); para uso novo prefira o 1.5.",
+    "Entrada → saída": "Texto → vídeo 544p/720p",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O código oficial é para CUDA; no Mac só via ComfyUI (MPS) ou mlx-video, com 32–64 GB de memória unificada. Inviável no M1 8 GB.",
+    "Hardware": "45–60 GB no oficial; ~12–24 GB com fp8/offload no ComfyUI",
+    "Licença do código": "Tencent Hunyuan Community License",
+    "Licença dos pesos": "Tencent Hunyuan Community License: NÃO vale na UE, no Reino Unido e na Coreia do Sul; >100 mi MAU exige licença",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "O Brasil está dentro do 'Territory' da licença."
+  },
+  "fontes": [
+    "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "https://huggingface.co/tencent/HunyuanVideo"
+  ]
+}

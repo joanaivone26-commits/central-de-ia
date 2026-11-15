@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/bytedance/X-Portrait",
+  "title": "X-Portrait",
+  "description": "Animação de retrato expressiva com atenção hierárquica de movimento sobre difusão (ByteDance, SIGGRAPH 2024).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 540,
+  "license": "Apache-2.0",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "Transferência de expressão rica quando o tempo de render não importa.",
+    "Entrada → saída": "foto + vídeo-guia → vídeo animado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "não confirmado (página HF exige login)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-10",
+    "Versão recente": "sem releases (2025-10)",
+    "Nível": "avancado",
+    "Qualidade": "Expressões ricas; lento e pouca adoção comunitária."
+  },
+  "fontes": [
+    "https://github.com/bytedance/X-Portrait",
+    "https://ungh.cc/repos/bytedance/X-Portrait"
+  ]
+}

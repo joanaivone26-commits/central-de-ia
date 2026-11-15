@@ -1,0 +1,35 @@
+{
+  "url": "https://github.com/mistralai/mistral-common",
+  "title": "Voxtral (Mistral) — Mini 3B / Small 24B / Mini 4B Realtime",
+  "description": "Modelos de fala da Mistral (ASR + entendimento); 'Voxtral Transcribe 2' trouxe o Mini 4B Realtime de pesos abertos (fev/2026).",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": null,
+  "license": "Apache-2.0 (mistral-common)",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Melhor WER aberto em PT no leaderboard (Small 24B) quando há GPU grande; Realtime 4B para legenda ao vivo.",
+    "Entrada → saída": "Áudio → texto (Realtime: streaming com atraso de 240 ms a 2,4 s).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Versões 4-bit em mlx-community (ex.: Voxtral-Mini-4B-Realtime-2602-4bit) via mlx-audio ou backend voxtral-mlx do WhisperLiveKit; 4B em 4-bit deve caber em 8 GB (estimativa).",
+    "Hardware": "GPU NVIDIA via vLLM ou transformers>=5.2; Small 24B exige GPU grande.",
+    "Licença do código": "Apache-2.0 (mistral-common)",
+    "Licença dos pesos": "Apache-2.0 (Voxtral-Mini-3B-2507, Voxtral-Small-24B-2507, Voxtral-Mini-4B-Realtime-2602)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "Voxtral-Mini-4B-Realtime-2602 (2026-02); mistral-common 1.13.1 (2026-11-02)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "pip install mistral-common vllm",
+    "Observações": "Não há repositório GitHub próprio do modelo: o 'repo' indicado é a biblioteca de suporte; os pesos estão no HF. WER PT no snapshot 10/11/2026: Small 24B ≈3,8, Mini 3B ≈4,9, Realtime 4B ≈6,2. Timestamps no Realtime: não confirmado."
+  },
+  "fontes": [
+    "https://github.com/mistralai/mistral-common",
+    "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
+    "https://mistral.ai/news/voxtral-transcribe-2",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "wshobson/agents",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/wshobson/agents"
+  },
+  "author": "wshobson",
+  "addedAt": "2026-11-15"
+}

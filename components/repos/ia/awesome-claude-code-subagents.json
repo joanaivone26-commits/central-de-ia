@@ -1,0 +1,22 @@
+{
+  "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+  "title": "VoltAgent/awesome-claude-code-subagents",
+  "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+  "stars": 26565,
+  "language": "Shell",
+  "license": "MIT",
+  "homepage": "https://getdesign.md/",
+  "updatedAt": "2026-11-02T06:50:02Z",
+  "tags": [
+    "ai-agent-framework",
+    "ai-agent-tools",
+    "ai-agents",
+    "awesome",
+    "awesome-list",
+    "claude",
+    "claude-ai",
+    "claude-code-subagents",
+    "claude-subagents",
+    "subagents"
+  ]
+}

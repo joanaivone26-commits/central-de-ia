@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/kandinskylab/kandinsky-6",
+  "title": "Kandinsky 6.0 Video",
+  "description": "Modelos de vídeo COM áudio sincronizado (44 kHz, incluindo lip-sync): Lite 3B e Pro 29B, T2AV e TI2AV.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 340,
+  "license": "MIT",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "B-roll com som e falas curtas sob licença MIT; o Lite roda em GPU de 16 GB.",
+    "Entrada → saída": "Texto/imagem → vídeo de 5 s com áudio",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Não documentado.",
+    "Hardware": "Lite: benchmarks oficiais em RTX 5060 Ti 16 GB, 4090 24 GB e 5090 32 GB; Pro: A100/H100 80 GB",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "pip install diffusers (pipeline kandinsky6) ou nó do ComfyUI Registry",
+    "Observações": "Lançado em 2026-10-06 com suporte a diffusers, ComfyUI e vLLM-omni. Plug-in de super-resolução em kandinskylab/kandinsky-6-sr."
+  },
+  "fontes": [
+    "https://github.com/kandinskylab/kandinsky-6",
+    "https://huggingface.co/kandinskylab/Kandinsky-6.0-Lite-pretrain-5s-Diffusers",
+    "https://github.com/kandinskylab/kandinsky-6-sr"
+  ]
+}

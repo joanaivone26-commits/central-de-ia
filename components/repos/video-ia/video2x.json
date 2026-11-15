@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/k4yt3x/video2x",
+  "title": "Video2X",
+  "description": "Framework de super-resolução e interpolação de vídeo (Real-ESRGAN, Real-CUGAN, RIFE via ncnn/Vulkan).",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 22700,
+  "license": "AGPL-3.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale + interpolação de vídeos inteiros com GUI no Windows.",
+    "Entrada → saída": "Vídeo → vídeo upscalado/interpolado",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Só Windows e Linux (sem build macOS).",
+    "Hardware": "GPU com Vulkan",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "Modelos com licenças próprias (Real-ESRGAN BSD-3, RIFE MIT)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "6.4.0 (2025-01-24)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (instalador Windows, AppImage/pacotes Linux, Docker)",
+    "Observações": "v6.4.0 (2025-01); último push em 2026-03. AGPL: uso local é livre; restrição só ao distribuir/oferecer como serviço."
+  },
+  "fontes": [
+    "https://github.com/k4yt3x/video2x"
+  ]
+}

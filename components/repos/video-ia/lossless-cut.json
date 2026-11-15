@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/mifi/lossless-cut",
+  "title": "LosslessCut",
+  "description": "Corta, junta e remuxa vídeo/áudio sem reencodar (usa FFmpeg).",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 45900,
+  "license": "GPL-2.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Aparar brutos longos e extrair trechos na hora, sem perda de qualidade.",
+    "Entrada → saída": "Vídeo → trechos/remux",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "App nativo para macOS (também na App Store).",
+    "Hardware": "CPU (sem reencode)",
+    "Licença do código": "GPL-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.70.2 (2026-10-28)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (releases/App Store)"
+  },
+  "fontes": [
+    "https://github.com/mifi/lossless-cut"
+  ]
+}

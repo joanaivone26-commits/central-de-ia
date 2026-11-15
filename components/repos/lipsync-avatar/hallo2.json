@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/fudan-generative-vision/hallo2",
+  "title": "Hallo2",
+  "description": "Extensão do Hallo para vídeos longos (minutos) e alta resolução (até 4K com super-resolução) (ICLR 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 3800,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante longa (aulas, narração) quando se aceita render demorado.",
+    "Entrada → saída": "foto + áudio → vídeo longo 512 px (+ upscale)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em A100; VRAM mínima não publicada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF fudan-generative-ai/hallo2)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-02",
+    "Versão recente": "sem releases (2025-02)",
+    "Nível": "intermediario",
+    "Qualidade": "Mantém identidade em vídeos longos e oferece upscale; pouca movimentação e render muito lento; depende de InsightFace.",
+    "No ComfyUI": "smthemex/ComfyUI_Hallo2"
+  },
+  "fontes": [
+    "https://github.com/fudan-generative-vision/hallo2",
+    "https://ungh.cc/repos/fudan-generative-vision/hallo2",
+    "https://huggingface.co/fudan-generative-ai/hallo2"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/coqui-ai/TTS",
+  "title": "Coqui TTS (original)",
+  "description": "Toolkit de TTS que popularizou o XTTS-v2 (clonagem em 17 idiomas).",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 46200,
+  "license": "MPL-2.0",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Apenas referência; use o fork idiap (coqui-tts).",
+    "Entrada → saída": "Texto (+ áudio de referência) → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O pacote 'TTS' do PyPI exige Python <3.12 — não instala no Python 3.12 da aula.",
+    "Hardware": "GPU NVIDIA recomendada.",
+    "Licença do código": "MPL-2.0",
+    "Licença dos pesos": "XTTS-v2: Coqui Public Model License (não comercial)",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-02",
+    "Versão recente": "v0.22.0 (2023-12)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install TTS (só Python <3.12)",
+    "Observações": "A Coqui encerrou atividades no início de 2024; repositório não arquivado, mas sem commits desde 2024-02."
+  },
+  "fontes": [
+    "https://github.com/coqui-ai/TTS",
+    "https://pypi.org/project/TTS",
+    "https://huggingface.co/coqui/XTTS-v2"
+  ]
+}

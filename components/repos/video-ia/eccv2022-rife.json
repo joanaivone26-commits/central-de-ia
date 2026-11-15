@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/hzwer/ECCV2022-RIFE",
+  "title": "RIFE (ECCV 2022)",
+  "description": "Código oficial do artigo RIFE: interpolação de frames em tempo real por estimativa de fluxo intermediário.",
+  "tags": [
+    "Interpolação"
+  ],
+  "stars": 5700,
+  "license": "MIT",
+  "subcategoria": "Interpolação",
+  "detalhes": {
+    "Melhor uso": "Referência acadêmica; para uso prático, use o Practical-RIFE.",
+    "Entrada → saída": "Vídeo → vídeo com mais fps",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU/MPS.",
+    "Hardware": "GPU leve",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-09",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt"
+  },
+  "fontes": [
+    "https://github.com/hzwer/ECCV2022-RIFE"
+  ]
+}

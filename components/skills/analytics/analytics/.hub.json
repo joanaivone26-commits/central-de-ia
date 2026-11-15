@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "analytics"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/analytics",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Monta e audita o tracking: eventos, GA4, GTM, UTMs, pixel e conversões para medir o funil de ponta a ponta.",
+  "title": "Tracking e Analytics"
+}

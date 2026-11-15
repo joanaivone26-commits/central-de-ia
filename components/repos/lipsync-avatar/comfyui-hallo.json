@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/AIFSH/ComfyUI-Hallo",
+  "title": "ComfyUI-Hallo",
+  "description": "Nó ComfyUI para Hallo (v1).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 300,
+  "license": "MIT",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar Hallo dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "Como Hallo (GPU NVIDIA).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Hallo MIT + InsightFace",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-06",
+    "Versão recente": "sem releases (2024-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Parado desde 2024.",
+    "No ComfyUI": "AIFSH/ComfyUI-Hallo"
+  },
+  "fontes": [
+    "https://github.com/AIFSH/ComfyUI-Hallo",
+    "https://ungh.cc/repos/AIFSH/ComfyUI-Hallo"
+  ]
+}

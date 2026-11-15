@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "browser-use/browser-use",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  "author": "browser-use",
+  "addedAt": "2026-11-15"
+}

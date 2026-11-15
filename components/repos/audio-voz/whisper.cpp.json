@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/ggml-org/whisper.cpp",
+  "title": "whisper.cpp",
+  "description": "Port C/C++ do Whisper com aceleração Metal e Core ML (Neural Engine), quantização e VAD.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 55100,
+  "license": "MIT",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Transcrição local mais eficiente no Mac M1 8 GB, inclusive via CLI em scripts de agentes (Codex/Claude Code).",
+    "Entrada → saída": "WAV 16 kHz (ou via FFmpeg) → txt, srt, vtt, csv, json/json-full (timestamps por token/palavra), lrc.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Apple Silicon é 'cidadão de primeira classe': Metal por padrão e encoder opcional em Core ML (ANE). Modelos quantizados (q5_0/q8_0) do large-v3-turbo cabem folgados em 8 GB.",
+    "Hardware": "CPU (NEON/AVX), Apple Silicon (Metal/ANE), CUDA, Vulkan, OpenVINO.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (mesmos pesos Whisper convertidos para GGML)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.9.5 (2026-10-07)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "brew install whisper-cpp  |  binding Python: pip install pywhispercpp (1.5.1)",
+    "Observações": "Também é o motor do filtro 'whisper' do FFmpeg (versões recentes, se compilado com suporte). Use -ml 1/--max-len para legendas curtas e -owts/--output-json-full para palavra a palavra."
+  },
+  "fontes": [
+    "https://github.com/ggml-org/whisper.cpp",
+    "https://pypi.org/project/pywhispercpp",
+    "https://github.com/ggml-org/whisper.cpp/releases"
+  ]
+}

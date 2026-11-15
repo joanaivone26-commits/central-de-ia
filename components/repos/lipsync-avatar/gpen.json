@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/yangxy/GPEN",
+  "title": "GPEN",
+  "description": "Restauração facial com prior GAN embutido; modelos de 256 a 2048 px.",
+  "tags": [
+    "Restauração facial"
+  ],
+  "stars": 2600,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Restauração facial",
+  "detalhes": {
+    "Melhor uso": "Restaurar rostos em resolução muito alta (1024/2048) para entregas 4K.",
+    "Entrada → saída": "imagem/frames → rosto restaurado",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Via FaceFusion/CoreML ou CPU.",
+    "Hardware": "GPU leve; CPU possível.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Parte dos modelos foi retirada por \"questões comerciais\" (README)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-03",
+    "Versão recente": "sem releases (2026-03)",
+    "Nível": "intermediario",
+    "Qualidade": "Alta resolução útil para 4K; licença indefinida.",
+    "No ComfyUI": "Gourieff/ComfyUI-ReActor"
+  },
+  "fontes": [
+    "https://github.com/yangxy/GPEN",
+    "https://ungh.cc/repos/yangxy/GPEN"
+  ]
+}

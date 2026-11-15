@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/SubtitleEdit/subtitleedit",
+  "title": "Subtitle Edit",
+  "description": "Editor gráfico de legendas (centenas de formatos) com forma de onda, sincronização visual, Whisper integrado, tradução e OCR.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 14900,
+  "license": "MIT",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Revisão manual final, ajuste fino de sincronia e conversão de formatos.",
+    "Entrada → saída": "Vídeo + legendas ↔ srt, ass, vtt, stl, etc.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "A linha 5.x é multiplataforma (.NET 10): macOS 12+ (recomendado 14+).",
+    "Hardware": "Desktop.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A (usa Whisper/engines externos)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v5.4.0 (estável); v5.5.0-beta3 (2026-11-10)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (instalador/zip)",
+    "Observações": "Interface traduzida para PT-BR."
+  },
+  "fontes": [
+    "https://github.com/SubtitleEdit/subtitleedit",
+    "https://github.com/SubtitleEdit/subtitleedit/releases"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/multimodal-art-projection/YuE",
+  "title": "YuE / YuE2",
+  "description": "Gera canções completas (voz + acompanhamento) a partir de letra.",
+  "tags": [
+    "Áudio generativo"
+  ],
+  "stars": 13400,
+  "license": "Apache-2.0",
+  "subcategoria": "Áudio generativo",
+  "detalhes": {
+    "Melhor uso": "Músicas longas com vocal; pesquisa.",
+    "Entrada → saída": "Letra + gênero → canção.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Apple Silicon apenas 'experimental' (docs/hardware.md).",
+    "Hardware": "GPU NVIDIA 24 GB (YuE2).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "YuE v1: Apache-2.0; YuE2-3B: CC-BY-NC-4.0 + permissão adicional para criadores",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "yue2-music-v1.2.0 (2026-09)",
+    "Nível": "avancado",
+    "Português (BR)": "não confirmado",
+    "Instalação": "git clone",
+    "Observações": "—"
+  },
+  "fontes": [
+    "https://github.com/multimodal-art-projection/YuE",
+    "https://huggingface.co/m-a-p/YuE2-3B",
+    "https://huggingface.co/m-a-p/YuE-s1-7B-anneal-en-cot"
+  ]
+}

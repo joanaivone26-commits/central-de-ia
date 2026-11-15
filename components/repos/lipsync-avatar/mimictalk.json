@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/yerfor/MimicTalk",
+  "title": "MimicTalk",
+  "description": "Talking face personalizado em minutos, adaptando um modelo 3D genérico à pessoa (NeurIPS 2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 831,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Personalizar rapidamente um apresentador (estilo de fala) em pesquisa.",
+    "Entrada → saída": "vídeo curto da pessoa + áudio → vídeo falante",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "Treino: batch 1 ≈ 8 GB de VRAM; batch 2 ≈ 15 GB (README).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Requer 3DMM BFM (licença de pesquisa)",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-10",
+    "Versão recente": "sem releases (2024-10)",
+    "Nível": "avancado",
+    "Qualidade": "Personalização rápida; qualidade abaixo dos modelos de vídeo de 2025–2026; parado."
+  },
+  "fontes": [
+    "https://github.com/yerfor/MimicTalk",
+    "https://ungh.cc/repos/yerfor/MimicTalk"
+  ]
+}

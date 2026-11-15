@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/yerfor/GeneFacePlusPlus",
+  "title": "GeneFace++",
+  "description": "Talking head 3D por pessoa (NeRF) com tempo real e boa generalização de sincronia (2023).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1800,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Apresentador recorrente treinado por pessoa, em Linux com NVIDIA.",
+    "Entrada → saída": "vídeo de treino da pessoa + áudio → vídeo falante",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA em Linux (README: só testado em Ubuntu/CentOS).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Requer 3DMM BFM (licença de pesquisa); modelos por pessoa",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-10",
+    "Versão recente": "sem releases (2024-10)",
+    "Nível": "avancado",
+    "Qualidade": "Nítido e rápido para a pessoa treinada; setup e treino demorados; parado."
+  },
+  "fontes": [
+    "https://github.com/yerfor/GeneFacePlusPlus",
+    "https://ungh.cc/repos/yerfor/GeneFacePlusPlus"
+  ]
+}

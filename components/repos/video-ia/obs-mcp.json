@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/royshil/obs-mcp",
+  "title": "OBS MCP",
+  "description": "Controla o OBS Studio via OBS WebSocket: cenas, fontes, níveis de áudio/mute, itens de cena, transições, studio mode, iniciar/parar stream, gravação e câmera virtual. Útil para gravação de tela/aulas automatizadas. (Nomes de ferramentas abaixo extraídos do código-fonte.)",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 161,
+  "license": "GPL-2.0",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "GPL-2.0",
+    "Status": "pouca atividade (último push ago/2025)",
+    "Última atividade": "2025-08-26",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio: npx -y obs-mcp@latest)",
+    "Ferramentas expostas": "obs-get-scene-list, obs-get-current-scene, obs-set-current-scene, obs-create-scene, obs-remove-scene, obs-trigger-studio-transition, obs-get-stream-status, obs-start-stream, obs-stop-stream, obs-toggle-stream, obs-send-stream-caption",
+    "Requisitos": "OBS Studio 31+ ABERTO com WebSocket Server habilitado (OBS_WEBSOCKET_URL padrão ws://localhost:4455, OBS_WEBSOCKET_PASSWORD); Node.js 16+."
+  },
+  "fontes": [
+    "https://github.com/royshil/obs-mcp",
+    "https://www.npmjs.com/package/obs-mcp",
+    "https://raw.githubusercontent.com/royshil/obs-mcp/HEAD/src/tools/scenes.ts"
+  ]
+}

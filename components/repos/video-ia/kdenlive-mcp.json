@@ -1,0 +1,23 @@
+{
+  "url": "https://github.com/AMMIROSOH/Kdenlive-mcp",
+  "title": "Kdenlive MCP (AMMIROSOH)",
+  "description": "MCP 'headless' e local-first para Kdenlive/MLT: projeto JSON versionado como fonte da verdade, edições de timeline com revisão/undo, compila MLT determinístico, fila de render, previews e verificação (duração, sincronia A/V, loudness, quadros pretos/congelados); exporta projeto .kdenlive editável e OTIO. Em 'public preview'.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 15,
+  "license": "Apache-2.0",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "Apache-2.0",
+    "Status": "ativo (preview, projeto pequeno)",
+    "Última atividade": "2026-09-21",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio ou Streamable HTTP em loopback autenticado)",
+    "Requisitos": "Node.js 22+, pnpm 9; Kdenlive ou MLT + FFmpeg instalados; instalar por script (install.sh / install.ps1) e rodar `kdenlive-mcp --root <pasta> --client-id <id>`."
+  },
+  "fontes": [
+    "https://github.com/AMMIROSOH/Kdenlive-mcp"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/okdalto/ComfyUI-PersonaLive",
+  "title": "ComfyUI-PersonaLive",
+  "description": "Nó ComfyUI comunitário para PersonaLive (citado pelo repo oficial).",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 133,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar PersonaLive dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "~12 GB (streaming).",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "PersonaLive Apache-2.0",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases (2026-01)",
+    "Nível": "intermediario",
+    "Qualidade": "Dirigido por vídeo-guia, não por áudio.",
+    "No ComfyUI": "okdalto/ComfyUI-PersonaLive"
+  },
+  "fontes": [
+    "https://github.com/okdalto/ComfyUI-PersonaLive",
+    "https://ungh.cc/repos/okdalto/ComfyUI-PersonaLive"
+  ]
+}

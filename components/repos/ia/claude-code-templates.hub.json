@@ -1,0 +1,11 @@
+{
+  "source": {
+    "kind": "github",
+    "repo": "davila7/claude-code-templates",
+    "path": ".",
+    "commit": null,
+    "url": "https://github.com/davila7/claude-code-templates"
+  },
+  "author": "davila7",
+  "addedAt": "2026-11-15"
+}

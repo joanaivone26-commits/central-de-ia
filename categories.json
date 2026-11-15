@@ -1,0 +1,152 @@
+[
+  {
+    "id": "trip-angle",
+    "label": "Trip Angle Oficial",
+    "icon": "▲",
+    "description": "Templates, skills e materiais oficiais da comunidade Trip Angle."
+  },
+  {
+    "id": "estrategia",
+    "label": "Estratégia & Ofertas",
+    "icon": "◆",
+    "description": "Oferta, posicionamento, precificação, mecanismo e marketing de produto."
+  },
+  {
+    "id": "copy",
+    "label": "Copywriting",
+    "icon": "✎",
+    "description": "VSL, páginas de vendas, headlines, leads, hooks e revisão de copy."
+  },
+  {
+    "id": "trafego",
+    "label": "Tráfego & Ads",
+    "icon": "◎",
+    "description": "Meta Ads, Google Ads, TikTok Ads, campanhas, públicos e escala."
+  },
+  {
+    "id": "ecommerce",
+    "label": "E-commerce & Loja",
+    "icon": "🛒",
+    "description": "Produtos físicos, loja, página de produto, margem, frete, kits e recompra."
+  },
+  {
+    "id": "criativos",
+    "label": "Criativos & Vídeo",
+    "icon": "▶",
+    "description": "Roteiros, anúncios, edição, thumbnails, imagens e vídeo com IA."
+  },
+  {
+    "id": "funil",
+    "label": "Funil & Páginas",
+    "icon": "▼",
+    "description": "Pré-lander, advertorial, quiz, checkout, bump, upsell e landing pages."
+  },
+  {
+    "id": "cro",
+    "label": "CRO & Testes",
+    "icon": "⇅",
+    "description": "Conversão, testes A/B, onboarding, paywall e redução de atrito."
+  },
+  {
+    "id": "conteudo",
+    "label": "Conteúdo & Social",
+    "icon": "✦",
+    "description": "Posts, calendário editorial, redes sociais, newsletter e publicação."
+  },
+  {
+    "id": "seo",
+    "label": "SEO & Busca",
+    "icon": "⌕",
+    "description": "SEO técnico, conteúdo para busca, AEO e otimização para IA."
+  },
+  {
+    "id": "email-whatsapp",
+    "label": "E-mail, WhatsApp & CRM",
+    "icon": "✉",
+    "description": "Sequências, recuperação, réguas de relacionamento e automação de CRM."
+  },
+  {
+    "id": "analytics",
+    "label": "Analytics & Tracking",
+    "icon": "▤",
+    "description": "Pixel, CAPI, UTMs, GA4, atribuição e leitura de métricas."
+  },
+  {
+    "id": "pesquisa",
+    "label": "Pesquisa & Espionagem",
+    "icon": "◉",
+    "description": "Mineração de ofertas, concorrentes, tendências e pesquisa de público."
+  },
+  {
+    "id": "produto",
+    "label": "Produto & Entregáveis",
+    "icon": "▣",
+    "description": "Ebooks, aulas, área de membros, bônus e materiais do produto."
+  },
+  {
+    "id": "vendas",
+    "label": "Vendas & Pós-venda",
+    "icon": "$",
+    "description": "Backend, upsell, retenção, churn, indicação e atendimento."
+  },
+  {
+    "id": "compliance",
+    "label": "Compliance & Jurídico",
+    "icon": "§",
+    "description": "Políticas de anúncios, CDC, LGPD, termos e revisão de claims."
+  },
+  {
+    "id": "design",
+    "label": "Design & Marca",
+    "icon": "◐",
+    "description": "Identidade visual, UI, design system e peças gráficas."
+  },
+  {
+    "id": "documentos",
+    "label": "Documentos",
+    "icon": "▦",
+    "description": "PDF, Word, planilhas e apresentações."
+  },
+  {
+    "id": "automacao",
+    "label": "Automação & Integrações",
+    "icon": "⚙",
+    "description": "MCPs, navegação web, scraping, Notion, Google Workspace e APIs."
+  },
+  {
+    "id": "dev",
+    "label": "Desenvolvimento Web",
+    "icon": "</>",
+    "description": "Front-end, back-end, revisão de código e deploy de páginas."
+  },
+  {
+    "id": "produtividade",
+    "label": "Produtividade & Claude Code",
+    "icon": "⚡",
+    "description": "Configurações, hooks, barra de status e fluxos do Claude Code."
+  },
+  {
+    "id": "ia",
+    "label": "IA & Agentes",
+    "icon": "◈",
+    "description": "Criação de skills, prompts, agentes e pesquisa profunda."
+  },
+  {
+    "id": "video-ia",
+    "label": "Vídeo com IA",
+    "icon": "▶",
+    "description": "Edição, geração e acabamento de vídeo com IA: repositórios, MCPs e skills."
+  },
+  {
+    "id": "audio-voz",
+    "label": "Áudio & Voz com IA",
+    "icon": "♪",
+    "description": "Transcrição, dublagem, clonagem de voz, música e limpeza de áudio."
+  },
+  {
+    "id": "lipsync-avatar",
+    "label": "Lip sync & Avatares",
+    "icon": "◉",
+    "description": "Lip sync, avatares falantes, animação de rosto e sincronia."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "estrategia"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/pricing",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Define preço e planos: modelo de cobrança, ancoragem, tiers, testes de preço e comunicação de reajuste.",
+  "title": "Precificação"
+}

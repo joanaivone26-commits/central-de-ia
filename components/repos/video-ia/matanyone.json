@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/pq-yang/MatAnyone",
+  "title": "MatAnyone",
+  "description": "Matting de vídeo com alvo definido por máscara no primeiro frame (ex.: do SAM), estável e com bordas finas.",
+  "tags": [
+    "Recorte de fundo"
+  ],
+  "stars": 1600,
+  "license": "S-Lab License 1.0 (somente uso NÃO comercial)",
+  "subcategoria": "Recorte de fundo",
+  "detalhes": {
+    "Melhor uso": "Recortar uma pessoa específica em cenas com várias pessoas.",
+    "Entrada → saída": "Vídeo + máscara do 1º frame → alfa",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado em MPS.",
+    "Hardware": "GPU NVIDIA (8–12 GB estimados)",
+    "Licença do código": "S-Lab License 1.0 (somente uso NÃO comercial)",
+    "Licença dos pesos": "S-Lab License 1.0 (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "estavel",
+    "Última atividade": "2026-03",
+    "Versão recente": "v1.0.0 (2025-02-16)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "Sucedido pelo MatAnyone 2."
+  },
+  "fontes": [
+    "https://github.com/pq-yang/MatAnyone"
+  ]
+}

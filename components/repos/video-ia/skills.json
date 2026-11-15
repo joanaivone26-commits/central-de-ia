@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/remotion-dev/skills",
+  "title": "Remotion Agent Skills",
+  "description": "Skills oficiais que ensinam agentes (Claude Code, Codex, Cursor) a criar, editar, legendar e renderizar projetos Remotion.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 6800,
+  "license": "não confirmado (o README não declara; o Remotion usa a Remotion License)",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Passar ao agente as boas práticas do Remotion: create, markup, captions, studio, render, multimedia (Mediabunny).",
+    "Entrada → saída": "Prompt → projeto Remotion",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "n/a",
+    "Licença do código": "não confirmado (o README não declara; o Remotion usa a Remotion License)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases (atualizado em 2026-11)",
+    "Nível": "iniciante",
+    "Instalação": "npx skills add remotion-dev/skills",
+    "Observações": "Criado em 2026-01 e já com ~6,8k estrelas."
+  },
+  "fontes": [
+    "https://github.com/remotion-dev/skills"
+  ]
+}

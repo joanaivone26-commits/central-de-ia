@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Fantasy-AMAP/fantasy-talking",
+  "title": "FantasyTalking",
+  "description": "Talking portrait realista sobre Wan2.1-14B I2V com síntese de movimento coerente (AMAP/Alibaba, ACM MM 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1600,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto → vídeo falante com corpo e fundo vivos em GPU de 20–40 GB (ou 5 GB com offload extremo).",
+    "Entrada → saída": "foto + áudio (+ prompt) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "README: 40 GB sem limite; 20 GB com 7B parâmetros persistentes; 5 GB com 0 persistentes (~42 s/iteração).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF acvlab/FantasyTalking)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-01",
+    "Versão recente": "pesos (2025-04)",
+    "Nível": "avancado",
+    "Qualidade": "Movimento corporal natural e boa sincronia; lento e pesado.",
+    "No ComfyUI": "kijai/ComfyUI-WanVideoWrapper"
+  },
+  "fontes": [
+    "https://github.com/Fantasy-AMAP/fantasy-talking",
+    "https://ungh.cc/repos/Fantasy-AMAP/fantasy-talking",
+    "https://huggingface.co/acvlab/FantasyTalking"
+  ]
+}

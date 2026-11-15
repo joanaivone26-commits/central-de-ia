@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/warmshao/FasterLivePortrait",
+  "title": "FasterLivePortrait",
+  "description": "LivePortrait acelerado com ONNX/TensorRT, em tempo real, com API e suporte a JoyVASA (áudio) e Kokoro (texto).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 1200,
+  "license": "MIT",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "Tempo real com LivePortrait e foto falante via JoyVASA numa GPU NVIDIA.",
+    "Entrada → saída": "foto/vídeo + vídeo-guia, áudio ou texto → vídeo animado",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "macOS suportado desde 2024-07 (sem Docker); M1/M2 rodam, mas \"ainda bem lento\" (README).",
+    "Hardware": "NVIDIA com TensorRT para tempo real; ONNX em CPU é \"extremamente lento\".",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Licenças de origem (LivePortrait MIT; InsightFace não comercial)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-06",
+    "Versão recente": "v2.0 (2025-01); modelos animal v1.1 ONNX (2025-06)",
+    "Nível": "intermediario",
+    "Qualidade": "Melhor caminho para tempo real com LivePortrait; mesmas limitações de pose."
+  },
+  "fontes": [
+    "https://github.com/warmshao/FasterLivePortrait",
+    "https://ungh.cc/repos/warmshao/FasterLivePortrait",
+    "https://huggingface.co/warmshao/FasterLivePortrait"
+  ]
+}

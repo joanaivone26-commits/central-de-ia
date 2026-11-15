@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/resemble-ai/chatterbox",
+  "title": "Chatterbox (Resemble AI)",
+  "description": "TTS com clonagem zero-shot e controle de expressividade; Multilingual V3 (23+ idiomas) e pacote dedicado pt-BR.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 27800,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem de voz PT-BR com licença MIT (ResembleAI/Chatterbox-Multilingual-pt-br).",
+    "Entrada → saída": "Texto + áudio de referência → WAV (com marca d'água Perth).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "README aceita device='mps'; ports MLX (mlx-community/chatterbox-multilingual-v3, theoracleguy/Chatterbox-Multilingual-pt-br-MLX).",
+    "Hardware": "GPU NVIDIA, MPS ou CPU; 0.5B.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (ResembleAI/chatterbox e Chatterbox-Multilingual-pt-br)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2026-11",
+    "Versão recente": "Multilingual V3 + Single Language Pack pt-BR (2026-04); pip chatterbox-tts 0.1.7 (2026-03)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install chatterbox-tts",
+    "Observações": "README: 'As of August 2026, Chatterbox is retired research and is no longer maintained'. Turbo/Nano/Flash são só inglês. Não confirmei se o pip 0.1.7 já inclui o V3."
+  },
+  "fontes": [
+    "https://github.com/resemble-ai/chatterbox",
+    "https://huggingface.co/ResembleAI/Chatterbox-Multilingual-pt-br",
+    "https://huggingface.co/ResembleAI/chatterbox",
+    "https://pypi.org/project/chatterbox-tts"
+  ]
+}

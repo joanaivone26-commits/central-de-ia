@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/antgroup/echomimic_v2",
+  "title": "EchoMimicV2",
+  "description": "Animação de meio corpo (rosto + mãos/gestos) guiada por áudio e sequência de pose (CVPR 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 4700,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Apresentador meio-corpo com gestos de mão a partir de uma foto.",
+    "Entrada → saída": "foto + áudio + pose → vídeo meio-corpo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em A100 80G / RTX 4090D 24G / V100 16G; versão acelerada ~50 s para 120 frames em A100.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Sem licença declarada no HF (BadToBest/EchoMimicV2) — não confirmado",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-02",
+    "Versão recente": "versão acelerada (2025-01)",
+    "Nível": "intermediario",
+    "Qualidade": "Gestos de mão convincentes; mãos ainda podem deformar e exige sequência de pose.",
+    "No ComfyUI": "smthemex/ComfyUI_EchoMimic"
+  },
+  "fontes": [
+    "https://github.com/antgroup/echomimic_v2",
+    "https://ungh.cc/repos/antgroup/echomimic_v2",
+    "https://huggingface.co/BadToBest/EchoMimicV2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "pesquisa"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/competitor-profiling",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-profiling"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Monta o perfil de concorrentes: oferta, preço, posicionamento, anúncios, funil e brechas para explorar.",
+  "title": "Perfil de Concorrentes"
+}

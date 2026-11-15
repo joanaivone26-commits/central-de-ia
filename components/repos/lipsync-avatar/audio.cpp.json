@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/0xShug0/audio.cpp",
+  "title": "audio.cpp (LatentSync/FlashHead/LiveAvatar em GGUF)",
+  "description": "Motor de inferência C++ (ggml) sem Python para modelos de áudio que, desde out/2026, inclui lip sync LatentSync 1.6 (experimental), SoulX-FlashHead e LiveAvatar em GGUF.",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 4200,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Rodar LatentSync/FlashHead quantizados sem ambiente Python — inclusive com Metal no Mac — e chamar por CLI/servidor a partir de scripts do agente.",
+    "Entrada → saída": "vídeo + áudio → vídeo (latentsync); foto + áudio → vídeo (soulx_flashhead)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Binários macOS arm64 com Metal; o LatentSync é experimental e a documentação mostra exemplos CUDA — desempenho em M1 8 GB não confirmado.",
+    "Hardware": "Backends CPU, CUDA, ROCm, Vulkan, Metal, WebGPU; memória depende do modelo (Q8 reduz).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "GGUF herdam as licenças originais (LatentSync OpenRAIL++ + InsightFace não comercial)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.9.4 (2026-11-05)",
+    "Nível": "intermediario",
+    "Qualidade": "Descoberta importante de 2026 para Mac/CPU; o suporte a lip sync ainda é experimental e pouco validado."
+  },
+  "fontes": [
+    "https://github.com/0xShug0/audio.cpp",
+    "https://ungh.cc/repos/0xShug0/audio.cpp",
+    "https://huggingface.co/audio-cpp/LatentSync-1.6-GGUF",
+    "https://huggingface.co/audio-cpp/SoulX-FlashHead-GGUF",
+    "https://huggingface.co/audio-cpp/LiveAvatar-GGUF",
+    "https://raw.githubusercontent.com/0xShug0/audio.cpp/HEAD/docs/models/latentsync.md"
+  ]
+}

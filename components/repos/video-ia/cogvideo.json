@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/zai-org/CogVideo",
+  "title": "CogVideoX (Zhipu/Z.ai)",
+  "description": "Família CogVideoX (2B, 5B, 1.5-5B) de texto/imagem→vídeo.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 13200,
+  "license": "Apache-2.0 (código)",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Estudo e GPUs modestas: o 2B roda com pouca VRAM via diffusers.",
+    "Entrada → saída": "Texto/imagem → vídeo 720p (~6–10 s)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "diffusers com MPS funciona, mas é muito lento.",
+    "Hardware": "2B: ~4 GB com offload sequencial (lento); 5B: 12–24 GB na prática",
+    "Licença do código": "Apache-2.0 (código)",
+    "Licença dos pesos": "2B: Apache-2.0; 5B/1.5: CogVideoX License (uso comercial exige registro; >1 mi visitas/mês exige licença extra)",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2025-11",
+    "Versão recente": "v1.0 (2024-11-08)",
+    "Nível": "avancado",
+    "Instalação": "pip install diffusers (CogVideoXPipeline)",
+    "Observações": "Sem novos modelos desde o fim de 2024; superado por Wan/Hunyuan/LTX."
+  },
+  "fontes": [
+    "https://github.com/zai-org/CogVideo",
+    "https://huggingface.co/zai-org/CogVideoX-5b"
+  ]
+}

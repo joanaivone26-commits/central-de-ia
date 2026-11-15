@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/devtools/markitdown",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/devtools/markitdown.json",
+    "commit": "017050c72999a57c25b8acd1f3b4d3a5b03454eb",
+    "url": "https://www.aitmpl.com/component/mcps/devtools/markitdown"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/devtools/markitdown)."
+}

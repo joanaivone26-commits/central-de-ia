@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/strob/gentle",
+  "title": "Gentle",
+  "description": "Alinhador forçado robusto (Kaldi) de áudio + transcrição com servidor web/GUI (o antigo lowerquality/gentle redireciona para cá).",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 1700,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Alinhamento rápido de falas em inglês para animação.",
+    "Entrada → saída": "áudio + texto → JSON com tempos de palavras e fonemas",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "README oferece app Mac pré-compilado.",
+    "Hardware": "CPU (Docker ou app).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Modelos Kaldi em inglês incluídos",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-07",
+    "Versão recente": "0.11.0 (2023-03)",
+    "Nível": "intermediario",
+    "Qualidade": "Simples e robusto, mas só inglês; para PT-BR prefira MFA ou WhisperX."
+  },
+  "fontes": [
+    "https://github.com/strob/gentle",
+    "https://ungh.cc/repos/strob/gentle",
+    "https://github.com/lowerquality/gentle"
+  ]
+}

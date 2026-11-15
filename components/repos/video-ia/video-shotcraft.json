@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Vincentwei1021/video-shotcraft",
+  "title": "video-shotcraft",
+  "description": "Skill para Claude Code/Codex que cria vídeos promocionais de produto com Remotion a partir de screenshots e textos.",
+  "tags": [
+    "Edição por código"
+  ],
+  "stars": 18300,
+  "license": "Apache-2.0 (mas depende do Remotion, cuja licença é restrita para empresas)",
+  "subcategoria": "Edição por código",
+  "detalhes": {
+    "Melhor uso": "Promo de app/site em 1080p com storyboard, animação, trilha e efeitos sonoros.",
+    "Entrada → saída": "Screenshots + textos → MP4 + projeto Remotion",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Node, ffmpeg e puppeteer.",
+    "Hardware": "CPU",
+    "Licença do código": "Apache-2.0 (mas depende do Remotion, cuja licença é restrita para empresas)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "npx skills add Vincentwei1021/video-shotcraft",
+    "Observações": "Criado em 2026-07 (~18k estrelas)."
+  },
+  "fontes": [
+    "https://github.com/Vincentwei1021/video-shotcraft"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/xinntao/Real-ESRGAN",
+  "title": "Real-ESRGAN",
+  "description": "Super-resolução prática para imagens e vídeos (x2/x4), incluindo modelo para anime.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 37400,
+  "license": "BSD-3-Clause",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale de frames/vídeos antigos; padrão de mercado embutido em muitas ferramentas.",
+    "Entrada → saída": "Imagem/vídeo → imagem/vídeo x2–x4",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Em PyTorch roda em CPU/MPS; no Mac prefira o binário ncnn-vulkan.",
+    "Hardware": "GPU 4–8 GB (CPU muito lento)",
+    "Licença do código": "BSD-3-Clause",
+    "Licença dos pesos": "BSD-3-Clause",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-08",
+    "Versão recente": "v0.3.0 (2022-09-20)",
+    "Nível": "intermediario",
+    "Instalação": "pip install realesrgan",
+    "Observações": "Último release em 2022 e último push em 2024-08, mas segue como referência."
+  },
+  "fontes": [
+    "https://github.com/xinntao/Real-ESRGAN"
+  ]
+}

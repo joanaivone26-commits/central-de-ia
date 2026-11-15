@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ShmuelRonen/ComfyUI_wav2lip",
+  "title": "ComfyUI_wav2lip",
+  "description": "Nó ComfyUI para Wav2Lip.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 169,
+  "license": "não confirmado (sem arquivo LICENSE)",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar Wav2Lip dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Wav2Lip roda em CPU; não confirmado no Mac.",
+    "Hardware": "Leve.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE)",
+    "Licença dos pesos": "Wav2Lip: não comercial",
+    "Uso comercial": "nao",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-09",
+    "Versão recente": "sem releases (2024-09)",
+    "Nível": "iniciante",
+    "Qualidade": "Simples; mesmas limitações de qualidade do Wav2Lip.",
+    "No ComfyUI": "ShmuelRonen/ComfyUI_wav2lip"
+  },
+  "fontes": [
+    "https://github.com/ShmuelRonen/ComfyUI_wav2lip",
+    "https://ungh.cc/repos/ShmuelRonen/ComfyUI_wav2lip"
+  ]
+}

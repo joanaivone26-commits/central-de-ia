@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/KDE/kdenlive",
+  "title": "Kdenlive",
+  "description": "Editor não linear do KDE com multitrilha, efeitos, legendas e proxies.",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 6100,
+  "license": "GPL-3.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Edição manual mais 'profissional' em software livre; importa timelines exportadas pelo auto-editor.",
+    "Entrada → saída": "Mídia → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Há builds para macOS no site oficial.",
+    "Hardware": "CPU (GPU parcial)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "não confirmado (sem releases no espelho do GitHub)",
+    "Nível": "intermediario",
+    "Instalação": "n/a (download em kdenlive.org)",
+    "Observações": "O GitHub é espelho; o desenvolvimento acontece no invent.kde.org."
+  },
+  "fontes": [
+    "https://github.com/KDE/kdenlive",
+    "https://kdenlive.org"
+  ]
+}

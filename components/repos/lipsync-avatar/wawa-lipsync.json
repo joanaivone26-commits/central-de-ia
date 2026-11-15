@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/wass08/wawa-lipsync",
+  "title": "wawa-lipsync",
+  "description": "Biblioteca TypeScript minúscula para lip sync em tempo real com a Web Audio API.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 214,
+  "license": "MIT",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Animar personagens 2D/3D em apps web/React Three Fiber com o mínimo de código.",
+    "Entrada → saída": "elemento de áudio → visema atual em tempo real",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda no navegador.",
+    "Hardware": "Navegador.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2025-11",
+    "Versão recente": "sem releases no GitHub (pacote npm)",
+    "Nível": "iniciante",
+    "Qualidade": "Simples de integrar; heurístico e menos preciso que alinhamento fonético."
+  },
+  "fontes": [
+    "https://github.com/wass08/wawa-lipsync",
+    "https://ungh.cc/repos/wass08/wawa-lipsync"
+  ]
+}

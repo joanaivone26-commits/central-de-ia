@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/HandBrake/HandBrake",
+  "title": "HandBrake",
+  "description": "Transcodificador de vídeo com GUI, CLI e presets por dispositivo.",
+  "tags": [
+    "Editor visual"
+  ],
+  "stars": 25000,
+  "license": "GPL-2.0",
+  "subcategoria": "Editor visual",
+  "detalhes": {
+    "Melhor uso": "Comprimir/converter o vídeo final (H.264/HEVC/AV1) com qualidade controlada.",
+    "Entrada → saída": "Vídeo → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Usa VideoToolbox no Mac.",
+    "Hardware": "CPU; VideoToolbox/NVENC/QSV",
+    "Licença do código": "GPL-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "1.11.2 (2026-06-07)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (handbrake.fr)"
+  },
+  "fontes": [
+    "https://github.com/HandBrake/HandBrake",
+    "https://handbrake.fr"
+  ]
+}

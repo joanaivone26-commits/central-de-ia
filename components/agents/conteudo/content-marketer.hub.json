@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/business-marketing/content-marketer",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/business-marketing/content-marketer.md",
+    "commit": "f38e45f5d9aaa193e2e76b053122ab633b6957a9",
+    "url": "https://www.aitmpl.com/component/agents/business-marketing/content-marketer"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 9,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/business-marketing/content-marketer)."
+}

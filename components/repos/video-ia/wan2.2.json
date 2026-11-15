@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Wan-Video/Wan2.2",
+  "title": "Wan 2.2 (Alibaba)",
+  "description": "Geração de vídeo MoE open-weights: T2V/I2V A14B, TI2V-5B (720p@24fps), S2V (fala→vídeo) e Animate (animação/substituição de personagem).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 18500,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "O TI2V-5B é a melhor relação qualidade/VRAM para B-roll 720p em GPU de 24 GB; o A14B é o topo de qualidade aberto da família.",
+    "Entrada → saída": "Texto/imagem/áudio → vídeo 480p–720p",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O código oficial é para CUDA; no Mac só via ComfyUI (MPS) ou mlx-video, com 32–64 GB de memória unificada. Inviável no M1 8 GB.",
+    "Hardware": "TI2V-5B: 24 GB (RTX 4090) com offload no script oficial, ~8–12 GB via ComfyUI/GGUF; A14B: 80 GB no oficial, 16–24 GB com fp8/GGUF",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt (ou diffusers / ComfyUI)",
+    "Observações": "É a última geração Wan de uso geral com pesos abertos. As versões seguintes (2.5, 2.6 em diante) saíram só como API/serviço: nenhuma tem pesos de vídeo no GitHub Wan-Video nem no HF Wan-AI (checado em 2026-11-11). Lançamentos abertos de 2026 da família: Wan-Animate-2 e Wan-Dancer."
+  },
+  "fontes": [
+    "https://github.com/Wan-Video/Wan2.2",
+    "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/nomadkaraoke/python-audio-separator",
+  "title": "python-audio-separator",
+  "description": "CLI/biblioteca que roda modelos do UVR (MDX-Net, VR, Demucs, MDXC/RoFormer) com download automático.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 1500,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Separação de voz SOTA por linha de comando em scripts de agentes (BS-RoFormer/Mel-RoFormer).",
+    "Entrada → saída": "Áudio → stems (vocals/instrumental etc.).",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "README: Apple Silicon M1+ com MPS (PyTorch) e CoreML (ONNX); instale audio-separator[cpu].",
+    "Hardware": "CPU, GPU NVIDIA, DirectML, Apple Silicon.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Varia por modelo (muitos comunitários sem licença clara) — verificar",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "v0.48.0 (2026-10-29)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install \"audio-separator[cpu]\"",
+    "Observações": "Python >=3.10. Ex.: audio-separator musica.mp3 --model_filename model_bs_roformer_ep_317_sdr_12.9755.ckpt."
+  },
+  "fontes": [
+    "https://github.com/nomadkaraoke/python-audio-separator",
+    "https://pypi.org/project/audio-separator"
+  ]
+}

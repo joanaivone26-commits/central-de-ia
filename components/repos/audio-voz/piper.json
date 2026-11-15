@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/rhasspy/piper",
+  "title": "Piper (original, rhasspy)",
+  "description": "TTS neural local rápido (VITS/ONNX) — versão original.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 11300,
+  "license": "MIT",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Apenas referência; use OHF-Voice/piper1-gpl.",
+    "Entrada → saída": "Texto → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Binários antigos; use o sucessor.",
+    "Hardware": "CPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Por voz (ver MODEL_CARD)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2025-08",
+    "Versão recente": "2023.11.14-2",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "—",
+    "Observações": "Arquivado em 2025-10; desenvolvimento migrou para OHF-Voice/piper1-gpl (GPL-3.0)."
+  },
+  "fontes": [
+    "https://github.com/rhasspy/piper"
+  ]
+}

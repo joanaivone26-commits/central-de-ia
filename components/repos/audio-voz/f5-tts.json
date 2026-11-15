@@ -1,0 +1,36 @@
+{
+  "url": "https://github.com/SWivid/F5-TTS",
+  "title": "F5-TTS",
+  "description": "TTS zero-shot por flow matching que clona voz a partir de poucos segundos de referência; há finetunes PT-BR.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 15600,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem PT-BR natural com finetune firstpixel/F5-TTS-pt-br (não comercial).",
+    "Entrada → saída": "Texto + áudio de referência (+ transcrição) → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README tem seção Apple Silicon; port MLX: lucasnewman/f5-tts-mlx (pesos base).",
+    "Hardware": "GPU NVIDIA ideal; MPS funciona mais devagar.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "CC-BY-NC-4.0 (base, por causa do Emilia; finetunes firstpixel e fuuuzzy/F5-TTS-pt-br também CC-BY-NC-4.0)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "1.1.22 (2026-07-23)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install f5-tts",
+    "Observações": "Para PT-BR carregue o checkpoint do finetune (o base fala zh/en). Interface: f5-tts_infer-gradio."
+  },
+  "fontes": [
+    "https://github.com/SWivid/F5-TTS",
+    "https://pypi.org/project/f5-tts",
+    "https://huggingface.co/SWivid/F5-TTS",
+    "https://huggingface.co/firstpixel/F5-TTS-pt-br",
+    "https://huggingface.co/fuuuzzy/F5-TTS-pt-br",
+    "https://github.com/lucasnewman/f5-tts-mlx"
+  ]
+}

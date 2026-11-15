@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/roboflow/supervision",
+  "title": "Supervision",
+  "description": "Utilitários de visão computacional: anotadores, tracking (ByteTrack), zonas, suavização de detecções e conversores de formato.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 51600,
+  "license": "MIT",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Juntar detector + tracker + suavização para um crop 9:16 estável.",
+    "Entrada → saída": "Detecções → tracks/anotações/vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "CPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "0.31.3 (2026-10-28)",
+    "Nível": "intermediario",
+    "Instalação": "pip install supervision",
+    "Observações": "Agnóstico ao modelo (YOLO, RF-DETR, MediaPipe...)."
+  },
+  "fontes": [
+    "https://github.com/roboflow/supervision"
+  ]
+}

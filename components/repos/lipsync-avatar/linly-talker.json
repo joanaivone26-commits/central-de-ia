@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Kedreamix/Linly-Talker",
+  "title": "Linly-Talker",
+  "description": "Sistema de conversa com humano digital: LLM + ASR + TTS/clonagem de voz + SadTalker/MuseTalk/Wav2Lip, com WebUI.",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 3500,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Demonstração didática de pipeline completo de avatar conversacional.",
+    "Entrada → saída": "foto/vídeo + pergunta (voz/texto) → resposta em vídeo falante",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado em Apple Silicon (módulos leves como SadTalker rodam em CPU).",
+    "Hardware": "GPU NVIDIA recomendada; VRAM depende dos módulos.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Herda dos módulos (Wav2Lip NC etc.)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-02",
+    "Versão recente": "v1.0 (2024-04); commits em 2026-02",
+    "Nível": "intermediario",
+    "Qualidade": "Ótimo integrador; qualidade final depende do motor escolhido."
+  },
+  "fontes": [
+    "https://github.com/Kedreamix/Linly-Talker",
+    "https://ungh.cc/repos/Kedreamix/Linly-Talker"
+  ]
+}

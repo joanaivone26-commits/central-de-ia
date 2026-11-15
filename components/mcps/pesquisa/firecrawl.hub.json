@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/devtools/firecrawl",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/devtools/firecrawl.json",
+    "commit": "dc46a51810a174695cddcf1a18135b424f257211",
+    "url": "https://www.aitmpl.com/component/mcps/devtools/firecrawl"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-11-08T03:26:50Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/devtools/firecrawl)."
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/senstella/parakeet-mlx",
+  "title": "parakeet-mlx",
+  "description": "Port MLX dos modelos NVIDIA Parakeet (TDT/CTC) para Apple Silicon, com CLI que gera legendas com timestamps de palavra.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 994,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "Transcrição ultrarrápida no M1 (muito mais rápida que Whisper) quando um pouco menos de precisão em PT é aceitável.",
+    "Entrada → saída": "Áudio (via FFmpeg) → srt, vtt, json, txt com timestamps de palavra.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Nativo MLX; modelo 0.6B cabe facilmente em 8 GB. Padrão: mlx-community/parakeet-tdt-0.6b-v3 (multilíngue).",
+    "Hardware": "Apple Silicon.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "CC-BY-4.0 (parakeet-tdt-0.6b-v3)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "0.7.0 (PyPI 2026-11-04)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install parakeet-mlx",
+    "Observações": "Requer FFmpeg no PATH. Ótimo para rascunho rápido + revisão; para máxima precisão em PT-BR use Whisper turbo."
+  },
+  "fontes": [
+    "https://github.com/senstella/parakeet-mlx",
+    "https://pypi.org/project/parakeet-mlx",
+    "https://huggingface.co/mlx-community/parakeet-tdt-0.6b-v3"
+  ]
+}

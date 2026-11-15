@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
+  "title": "ComfyUI_HunyuanAvatar_Sm",
+  "description": "Nós para HunyuanVideo-Avatar.",
+  "tags": [
+    "Nó de ComfyUI"
+  ],
+  "stars": 79,
+  "license": "Tencent Hunyuan Community License",
+  "subcategoria": "Nó de ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Usar HunyuanVideo-Avatar dentro do ComfyUI, encadeando com upscale/restauração e edição.",
+    "Entrada → saída": "nós ComfyUI (vídeo/imagem + áudio → vídeo)",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "Como HunyuanVideo-Avatar (24 GB+ ou offload).",
+    "Licença do código": "Tencent Hunyuan Community License",
+    "Licença dos pesos": "Tencent Hunyuan Community License",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2025-06",
+    "Versão recente": "sem releases (2025-06)",
+    "Nível": "avancado",
+    "Qualidade": "Herda as restrições territoriais da Tencent.",
+    "No ComfyUI": "smthemex/ComfyUI_HunyuanAvatar_Sm"
+  },
+  "fontes": [
+    "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
+    "https://ungh.cc/repos/smthemex/ComfyUI_HunyuanAvatar_Sm"
+  ]
+}

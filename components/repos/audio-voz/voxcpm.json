@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/OpenBMB/VoxCPM",
+  "title": "VoxCPM / VoxCPM2",
+  "description": "TTS tokenizer-free com clonagem; VoxCPM2 (abr/2026, 2B) cobre 30 idiomas incl. português, saída 48 kHz.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 42200,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem PT com licença Apache em GPU ou Mac quantizado.",
+    "Entrada → saída": "Texto + referência → WAV 48 kHz.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "MPS automático; mlx-community/VoxCPM2-4bit/8bit; no M1 8 GB só quantizado.",
+    "Hardware": "~8 GB VRAM em precisão cheia.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "2.0.3 (2026-05)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install voxcpm",
+    "Observações": "Projeto muito popular (~42 mil estrelas)."
+  },
+  "fontes": [
+    "https://github.com/OpenBMB/VoxCPM",
+    "https://huggingface.co/openbmb/VoxCPM2",
+    "https://pypi.org/project/voxcpm"
+  ]
+}

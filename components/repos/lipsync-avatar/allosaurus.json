@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/xinjli/allosaurus",
+  "title": "Allosaurus",
+  "description": "Reconhecedor universal de fonemas (2000+ línguas) que devolve fonemas IPA com tempos, sem precisar de transcrição.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 754,
+  "license": "GPL-3.0",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Visemas quando não há transcrição ou modelo de alinhamento para o idioma.",
+    "Entrada → saída": "áudio → fonemas IPA com timestamps",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "pip, roda em CPU.",
+    "Hardware": "CPU.",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Modelo pré-treinado sem licença separada declarada",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-04",
+    "Versão recente": "v1.0 (2021-05)",
+    "Nível": "intermediario",
+    "Qualidade": "Funciona sem texto, mas a precisão de fonemas é modesta; projeto parado."
+  },
+  "fontes": [
+    "https://github.com/xinjli/allosaurus",
+    "https://ungh.cc/repos/xinjli/allosaurus"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+  "title": "RVC WebUI",
+  "description": "Conversão voz→voz (speech-to-speech/canto) com modelo treinado em ~10 min de áudio, preservando entonação.",
+  "tags": [
+    "Conversão de voz"
+  ],
+  "stars": 39200,
+  "license": "MIT",
+  "subcategoria": "Conversão de voz",
+  "detalhes": {
+    "Melhor uso": "Trocar timbre de narração/canto por uma voz autorizada; combina com qualquer TTS PT.",
+    "Entrada → saída": "Áudio de voz → áudio convertido; dataset → modelo .pth + índice.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Pacotes oficiais só Windows; no Mac via código-fonte, MPS não confirmado.",
+    "Hardware": "GPU NVIDIA/AMD/Intel (pacotes Windows).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (pré-treinados lj1995/VoiceConversionWebUI)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "2.3.260718 (2026-08-03)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (pacote/código-fonte)",
+    "Observações": "Independe de idioma (conversão acústica). Release 2026 trouxe pitch FCPE, separação via PyMSS e plugin VST. Use apenas vozes com consentimento."
+  },
+  "fontes": [
+    "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/releases",
+    "https://huggingface.co/lj1995/VoiceConversionWebUI"
+  ]
+}

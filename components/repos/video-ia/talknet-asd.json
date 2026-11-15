@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/TaoRuijie/TalkNet-ASD",
+  "title": "TalkNet-ASD",
+  "description": "Active Speaker Detection: identifica qual rosto está falando combinando áudio e movimento labial.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 520,
+  "license": "MIT",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Reframe de podcasts/entrevistas com várias pessoas (seguir quem fala).",
+    "Entrada → saída": "Vídeo → scores de fala por rosto/trilha",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda em CPU, devagar.",
+    "Hardware": "GPU recomendada",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Pesos de pesquisa (licença do dataset de treino não confirmada)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone",
+    "Observações": "Projeto de 2021–2023, sem manutenção, mas muito usado em pipelines de clipping."
+  },
+  "fontes": [
+    "https://github.com/TaoRuijie/TalkNet-ASD"
+  ]
+}

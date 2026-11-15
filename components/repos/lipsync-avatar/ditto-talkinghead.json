@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/antgroup/ditto-talkinghead",
+  "title": "Ditto",
+  "description": "Talking head em tempo real por difusão no espaço de movimento, controlável (Ant Group, ACM MM 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 932,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Avatar em tempo real/streaming com GPU NVIDIA (TensorRT).",
+    "Entrada → saída": "foto (ou vídeo) + áudio → vídeo em tempo real",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "TensorRT/CUDA; sem suporte a Mac.",
+    "Hardware": "Testado em A100 com TensorRT 8.6 (modelo TRT para Ampere+); modelo PyTorch disponível desde 2025-07.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Sem licença declarada no HF (digital-avatar/ditto-talkinghead)",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2025-11",
+    "Versão recente": "código de treino (2025-11-12)",
+    "Nível": "avancado",
+    "Qualidade": "Baixa latência e identidade estável; setup TensorRT trabalhoso; depende de InsightFace."
+  },
+  "fontes": [
+    "https://github.com/antgroup/ditto-talkinghead",
+    "https://ungh.cc/repos/antgroup/ditto-talkinghead",
+    "https://huggingface.co/digital-avatar/ditto-talkinghead"
+  ]
+}

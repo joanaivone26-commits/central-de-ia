@@ -1,0 +1,7 @@
+{
+  "description": "Mostra uma notificação no macOS quando o Claude termina de responder ou precisa da sua atenção. Útil para deixar tarefas longas rodando.",
+  "hooks": {
+    "Stop": [{"hooks": [{"type": "command", "command": "osascript -e 'display notification \"Terminou a tarefa\" with title \"Claude Code\" sound name \"Glass\"' || true"}]}],
+    "Notification": [{"hooks": [{"type": "command", "command": "osascript -e 'display notification \"Precisa da sua atenção\" with title \"Claude Code\"' || true"}]}]
+  }
+}

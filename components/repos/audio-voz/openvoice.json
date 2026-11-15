@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/myshell-ai/OpenVoice",
+  "title": "OpenVoice V2",
+  "description": "Clonagem instantânea de timbre (tone color converter) sobre um TTS base (MeloTTS), com controle de estilo.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 38200,
+  "license": "MIT",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Aplicar o timbre de uma voz (com consentimento) sobre áudio gerado por outro TTS.",
+    "Entrada → saída": "Áudio fonte + referência de timbre → WAV.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU no M1.",
+    "Hardware": "GPU recomendada; CPU possível.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (OpenVoiceV2)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-04",
+    "Versão recente": "V2 (2024-04); último commit 2025-04",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "git clone + pip install -e .",
+    "Observações": "Nativo apenas em en, es, fr, zh, ja, ko; para PT use o conversor de timbre sobre um áudio PT de outro TTS (ex.: edge-tts) — qualidade não confirmada."
+  },
+  "fontes": [
+    "https://github.com/myshell-ai/OpenVoice",
+    "https://huggingface.co/myshell-ai/OpenVoiceV2"
+  ]
+}

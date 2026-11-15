@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP",
+  "title": "MCP Bridge for Adobe Premiere Pro",
+  "description": "Opera projetos locais do Premiere Pro via MCP: 283 ferramentas atrás de `search_tools`/`invoke_tool` (sequências, cortes, efeitos, marcadores, MOGRT, fila de render), 13 resources e 10 prompts. Ponte de produção é um painel CEP (UXP experimental). Há plugin para Codex e para Claude Code e bundle .mcpb para Claude Desktop.",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 847,
+  "license": "MIT",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "MIT",
+    "Status": "ativo",
+    "Última atividade": "2026-11-02",
+    "Funciona no Claude": "sim (stdio; plugin Claude Code; .mcpb para Desktop)",
+    "Funciona no Codex": "sim (stdio: comando `premiere-pro-mcp`; ou `codex plugin add premiere-pro-mcp@adobe-premiere-pro-mcp`)",
+    "Ferramentas expostas": "verify_premiere_connection, search_tools, invoke_tool, get_tool_schema, get_capabilities, list_sequences, trim_clip, apply_effect, update_marker, validate_project_for_export, start_batch_encode, get_render_queue_status",
+    "Requisitos": "Adobe Premiere Pro 2020+ ABERTO (assinatura Adobe); `npm install -g adobe-premiere-pro-mcp` + `premiere-pro-mcp --install-cep` (habilita debug CEP) e iniciar o painel Window > Extensions > MCP Bridge (CEP)."
+  },
+  "fontes": [
+    "https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP",
+    "https://www.npmjs.com/package/adobe-premiere-pro-mcp",
+    "https://premiere-mcp.com/"
+  ]
+}

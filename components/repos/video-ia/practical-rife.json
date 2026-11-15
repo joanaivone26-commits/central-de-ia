@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/hzwer/Practical-RIFE",
+  "title": "Practical-RIFE",
+  "description": "Modelos RIFE mais recentes (4.x), ajustados para uso prático em interpolação de frames.",
+  "tags": [
+    "Interpolação"
+  ],
+  "stars": 1000,
+  "license": "MIT",
+  "subcategoria": "Interpolação",
+  "detalhes": {
+    "Melhor uso": "Converter 24/30 fps → 60 fps, câmera lenta, suavizar vídeos gerados por IA.",
+    "Entrada → saída": "Vídeo → vídeo com mais fps",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "PyTorch em CPU/MPS; no Mac, rife-ncnn-vulkan é mais prático.",
+    "Hardware": "GPU leve (2–4 GB); CPU possível",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Último push em 2026-08."
+  },
+  "fontes": [
+    "https://github.com/hzwer/Practical-RIFE"
+  ]
+}

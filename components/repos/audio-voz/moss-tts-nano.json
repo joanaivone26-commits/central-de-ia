@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+  "title": "MOSS-TTS-Nano",
+  "description": "TTS de 100M parâmetros (abr/2026) com clonagem em 20 idiomas incl. pt, para CPU/ONNX.",
+  "tags": [
+    "Clonagem de voz"
+  ],
+  "stars": 4700,
+  "license": "Apache-2.0",
+  "subcategoria": "Clonagem de voz",
+  "detalhes": {
+    "Melhor uso": "Clonagem leve em CPU no M1 8 GB com licença Apache.",
+    "Entrada → saída": "Texto + referência → WAV.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "ONNX em CPU e mlx-audio.",
+    "Hardware": "CPU/ONNX ou GPU.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-09",
+    "Versão recente": "MOSS-TTS-Nano-100M (2026-04)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "não confirmado (instalar pelo repositório)",
+    "Observações": "Irmão maior OpenMOSS/MOSS-TTS (v1.5, ~8B, 31 idiomas incl. pt, Apache-2.0) exige GPU."
+  },
+  "fontes": [
+    "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+    "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
+    "https://github.com/OpenMOSS/MOSS-TTS"
+  ]
+}

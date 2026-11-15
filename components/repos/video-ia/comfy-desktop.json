@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Comfy-Org/Comfy-Desktop",
+  "title": "Comfy Desktop",
+  "description": "App desktop oficial do ComfyUI com instalação e atualização em um clique.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 680,
+  "license": "AGPL-3.0-or-later OU licença comercial (dual)",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Alunos iniciantes no Mac/Windows: instalar o ComfyUI sem terminal.",
+    "Entrada → saída": "App → ambiente ComfyUI",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "DMG para macOS Apple Silicon.",
+    "Hardware": "GPU dedicada ou Apple Silicon recomendados",
+    "Licença do código": "AGPL-3.0-or-later OU licença comercial (dual)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v1.1.9 (2026-11-06)",
+    "Nível": "iniciante",
+    "Instalação": "n/a (download .dmg/.exe/.deb)",
+    "Observações": "Substitui o Comfy-Org/desktop, arquivado em 2026. v1.1.9 (2026-11-06)."
+  },
+  "fontes": [
+    "https://github.com/Comfy-Org/Comfy-Desktop"
+  ]
+}

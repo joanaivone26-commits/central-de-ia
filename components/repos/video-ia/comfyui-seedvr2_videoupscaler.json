@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+  "title": "ComfyUI SeedVR2 Video Upscaler",
+  "description": "Nó do ComfyUI (e CLI) para o SeedVR2: upscale/restauração de vídeo em um passo com block swap, GGUF e offload.",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 3000,
+  "license": "Apache-2.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale final de vídeos gerados ou antigos com consistência temporal.",
+    "Entrada → saída": "Vídeo/imagens → vídeo em maior resolução",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O changelog traz várias correções para MPS/Apple Silicon; funciona, mas é lento e exige bastante RAM.",
+    "Hardware": "8–16 GB com block swap (3B); mais VRAM para o 7B e resoluções altas",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "SeedVR2 3B/7B: Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-12",
+    "Versão recente": "v2.5.23 (2025-12-24)",
+    "Nível": "intermediario",
+    "Instalação": "via ComfyUI-Manager",
+    "Observações": "v2.5.23 (2025-12-24)."
+  },
+  "fontes": [
+    "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+    "https://huggingface.co/ByteDance-Seed/SeedVR2-3B"
+  ]
+}

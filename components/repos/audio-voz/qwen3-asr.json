@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/QwenLM/Qwen3-ASR",
+  "title": "Qwen3-ASR",
+  "description": "Modelos ASR 0.6B/1.7B da Alibaba (jan/2026) para 30 idiomas e 22 dialetos chineses, com streaming via vLLM.",
+  "tags": [
+    "Transcrição"
+  ],
+  "stars": 3900,
+  "license": "Apache-2.0",
+  "subcategoria": "Transcrição",
+  "detalhes": {
+    "Melhor uso": "ASR multilíngue moderno com licença permissiva; combinar com Qwen3-ForcedAligner para timestamps.",
+    "Entrada → saída": "Áudio → texto (timestamps só via Qwen3-ForcedAligner).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Oficialmente GPU; no M1 use mlx-audio (ex.: mlx-community/Qwen3-ASR-1.7B-8bit) ou backend qwen3 do WhisperLiveKit.",
+    "Hardware": "GPU NVIDIA (transformers/vLLM); Mac via MLX.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-06",
+    "Versão recente": "qwen-asr 0.0.6 (PyPI 2026-01-30)",
+    "Nível": "intermediario",
+    "Português (BR)": "regular",
+    "Instalação": "pip install qwen-asr",
+    "Observações": "PT oficialmente suportado, mas WER PT ≈6,2 (1.7B) e ≈10 (0.6B) no snapshot 10/11/2026 do leaderboard — atrás do Whisper turbo."
+  },
+  "fontes": [
+    "https://github.com/QwenLM/Qwen3-ASR",
+    "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
+    "https://pypi.org/project/qwen-asr",
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+  ]
+}

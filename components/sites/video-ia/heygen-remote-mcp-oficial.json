@@ -1,0 +1,10 @@
+{
+  "url": "https://mcp.heygen.com/mcp/v1",
+  "title": "HeyGen Remote MCP (oficial)",
+  "description": "MCP oficial hospedado da HeyGen para gerar vídeos com avatares/Video Agent a partir do agente. O antigo servidor local heygen-com/heygen-mcp (API key via uvx) não existe mais no GitHub (API retorna 404). Consome créditos do plano HeyGen.",
+  "tags": [
+    "mcp hospedado",
+    "vídeo com IA"
+  ],
+  "pricing": "pago ou freemium"
+}

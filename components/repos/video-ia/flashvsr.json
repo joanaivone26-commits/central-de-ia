@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/OpenImagingLab/FlashVSR",
+  "title": "FlashVSR",
+  "description": "Super-resolução de vídeo por difusão em streaming, de um passo e quase em tempo real (CVPR 2026).",
+  "tags": [
+    "Upscale"
+  ],
+  "stars": 2000,
+  "license": "Apache-2.0",
+  "subcategoria": "Upscale",
+  "detalhes": {
+    "Melhor uso": "Upscale rápido de vídeos longos em GPU NVIDIA.",
+    "Entrada → saída": "Vídeo → vídeo x4",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Usa atenção esparsa em CUDA.",
+    "Hardware": "GPU NVIDIA de alto nível no oficial; ports para ComfyUI reduzem a VRAM (não confirmado quanto)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (FlashVSR e v1.1 no HF)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ou ComfyUI: lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast, smthemex/ComfyUI_FlashVSR)",
+    "Observações": "Lançado em 2025-10; v1.1 em 2025-10-31."
+  },
+  "fontes": [
+    "https://github.com/OpenImagingLab/FlashVSR",
+    "https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "title": "ComfyUI",
+  "description": "Interface/back-end em grafo de nós para modelos de difusão de imagem, vídeo, áudio e 3D, com API.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 146100,
+  "license": "GPL-3.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "A 'pilha generativa': montar workflows de B-roll, upscale, interpolação e edição com IA; automatizável via API/MCP.",
+    "Entrada → saída": "Workflows JSON + modelos → imagens/vídeos",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Roda no Apple Silicon (MPS) e tem app desktop. Imagens SD/Flux pequenas funcionam com 16 GB+; vídeo é lento e, no M1 8 GB, praticamente inviável.",
+    "Hardware": "NVIDIA 8–24 GB+ para vídeo; também AMD, Intel e Apple (MPS)",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "Cada modelo tem a sua licença",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.44.0 (2026-11-04)",
+    "Nível": "intermediario",
+    "Instalação": "comfy install (via pip install comfy-cli) ou app Comfy Desktop",
+    "Observações": "O repo migrou de comfyanonymous/ComfyUI para Comfy-Org/ComfyUI (redirect). v0.44.0 (2026-11-04), ~146k estrelas."
+  },
+  "fontes": [
+    "https://github.com/Comfy-Org/ComfyUI",
+    "https://docs.comfy.org"
+  ]
+}

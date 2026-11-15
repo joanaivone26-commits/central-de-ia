@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/hexgrad/kokoro",
+  "title": "Kokoro-82M",
+  "description": "TTS leve (82M) de alta qualidade com vozes prontas em vários idiomas, incluindo português do Brasil.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 10000,
+  "license": "Apache-2.0",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Narração offline rápida no M1 sem clonagem (vozes pf_dora, pm_alex, pm_santa).",
+    "Entrada → saída": "Texto → WAV 24 kHz.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "MPS com PYTORCH_ENABLE_MPS_FALLBACK=1; alternativas: mlx-audio e kokoro-onnx (0.6.1). Precisa de espeak-ng (brew install espeak-ng).",
+    "Hardware": "CPU ou GPU; muito leve.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "0.9.4 (2025-04)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install kokoro soundfile",
+    "Observações": "lang_code='p' (espeak-ng pt-br). O próprio VOICES.md alerta que idiomas não ingleses podem ter suporte 'fino'; só 3 vozes PT-BR. Requer Python <3.13."
+  },
+  "fontes": [
+    "https://github.com/hexgrad/kokoro",
+    "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md",
+    "https://pypi.org/project/kokoro",
+    "https://pypi.org/project/kokoro-onnx"
+  ]
+}

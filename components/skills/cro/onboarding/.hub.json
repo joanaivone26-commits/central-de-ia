@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": "Corey Haines · curadoria Trip Angle",
+  "tags": [
+    "marketing",
+    "cro"
+  ],
+  "featured": false,
+  "source": {
+    "kind": "github",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/onboarding",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding"
+  },
+  "addedAt": "2026-11-15",
+  "description": "Melhora a ativação de novos clientes: primeiros passos, momento de valor, e-mails e mensagens dentro do produto.",
+  "title": "Onboarding"
+}

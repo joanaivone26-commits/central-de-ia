@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Comfy-Org/ComfyUI-Manager",
+  "title": "ComfyUI-Manager",
+  "description": "Gerenciador de nós customizados, modelos e atualizações do ComfyUI.",
+  "tags": [
+    "ComfyUI"
+  ],
+  "stars": 16800,
+  "license": "GPL-3.0",
+  "subcategoria": "ComfyUI",
+  "detalhes": {
+    "Melhor uso": "Instalar os nós de vídeo (VHS, WanVideoWrapper, GGUF...) e resolver workflows com nós faltando.",
+    "Entrada → saída": "UI → instalação de nós/modelos",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Sem restrições conhecidas no Apple Silicon.",
+    "Hardware": "n/a",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "ver README (já vem no Comfy Desktop)",
+    "Observações": "Cuidado com nós de origem duvidosa: são código Python executado na sua máquina."
+  },
+  "fontes": [
+    "https://github.com/Comfy-Org/ComfyUI-Manager"
+  ]
+}

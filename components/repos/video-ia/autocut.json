@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/mli/autocut",
+  "title": "AutoCut",
+  "description": "Corta vídeo editando as legendas: o Whisper transcreve, você apaga frases no Markdown/SRT e ele gera o corte.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 7800,
+  "license": "Apache-2.0",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Vídeo falado: remover trechos pelo texto.",
+    "Entrada → saída": "Vídeo → SRT/MD → vídeo cortado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Whisper em CPU no Mac (lento com modelos grandes).",
+    "Hardware": "CPU ou GPU (Whisper)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-10",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "iniciante",
+    "Instalação": "pip install git+https://github.com/mli/autocut.git",
+    "Observações": "Sem commits desde 2024-10; hoje video-use e ffmpeg-skill fazem o mesmo com agentes."
+  },
+  "fontes": [
+    "https://github.com/mli/autocut"
+  ]
+}

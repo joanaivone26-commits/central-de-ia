@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/roboflow/rf-detr",
+  "title": "RF-DETR",
+  "description": "Detector e segmentador em tempo real baseado em transformer (DETR), da Roboflow.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 10000,
+  "license": "Apache-2.0",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Alternativa ao YOLO sem copyleft para detectar pessoas/objetos no reframe.",
+    "Entrada → saída": "Imagens/vídeo → caixas/máscaras",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "PyTorch; suporte a MPS não confirmado.",
+    "Hardware": "GPU recomendada; CPU possível",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (checkpoints principais; conferir variantes)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "1.12.0 (2026-11-06)",
+    "Nível": "intermediario",
+    "Instalação": "pip install rfdetr"
+  },
+  "fontes": [
+    "https://github.com/roboflow/rf-detr"
+  ]
+}

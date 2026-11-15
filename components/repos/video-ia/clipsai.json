@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ClipsAI/clipsai",
+  "title": "ClipsAI",
+  "description": "Biblioteca Python que encontra clipes em vídeos longos pela transcrição e reenquadra 16:9 → 9:16 seguindo quem fala.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 560,
+  "license": "MIT",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Estudar a lógica de 'clip finder' + reframe por diarização.",
+    "Entrada → saída": "Vídeo → clipes + crops 9:16",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Funciona em CPU; dependências pesadas.",
+    "Hardware": "CPU/GPU (WhisperX + pyannote)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "O pyannote exige aceitar os termos e um token do Hugging Face",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-01",
+    "Versão recente": "0.2.1 (PyPI, 2024-01-15)",
+    "Nível": "intermediario",
+    "Instalação": "pip install clipsai (+ whisperx)",
+    "Observações": "Sem manutenção desde 2024-01."
+  },
+  "fontes": [
+    "https://github.com/ClipsAI/clipsai",
+    "https://pypi.org/project/clipsai/"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/anothermartz/Easy-Wav2Lip",
+  "title": "Easy-Wav2Lip",
+  "description": "Fork \"fácil\" do Wav2Lip com Colab/instalador, máscara de boca melhorada e opções de qualidade (incl. upscale do rosto).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 849,
+  "license": "Sem arquivo LICENSE (herda restrições do Wav2Lip)",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Quem quer o Wav2Lip com menos atrito e bordas melhores, para testes pessoais.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "README lista \"macOS com MPS (Apple Silicon)\" como dispositivo suportado, mas marca a instalação Mac/Linux como não testada.",
+    "Hardware": "GPU NVIDIA modesta ou CPU (lento); VRAM não publicada.",
+    "Licença do código": "Sem arquivo LICENSE (herda restrições do Wav2Lip)",
+    "Licença dos pesos": "Pesos do Wav2Lip (não comercial)",
+    "Uso comercial": "nao",
+    "Status": "arquivado",
+    "Última atividade": "2024-05",
+    "Versão recente": "v8.3_release (2024-04)",
+    "Nível": "iniciante",
+    "Qualidade": "Mais prático e com bordas mais limpas que o Wav2Lip original, mas mesma limitação de resolução/dentes; repositório arquivado."
+  },
+  "fontes": [
+    "https://github.com/anothermartz/Easy-Wav2Lip",
+    "https://ungh.cc/repos/anothermartz/Easy-Wav2Lip"
+  ]
+}

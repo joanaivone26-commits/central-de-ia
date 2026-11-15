@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/modelscope/ClearerVoice-Studio",
+  "title": "ClearerVoice-Studio",
+  "description": "Toolkit da Alibaba: realce de voz (MossFormer2 48 kHz, FRCRN), separação de falantes, super-resolução e extração audiovisual de falante.",
+  "tags": [
+    "Realce de áudio"
+  ],
+  "stars": 4600,
+  "license": "Apache-2.0",
+  "subcategoria": "Realce de áudio",
+  "detalhes": {
+    "Melhor uso": "Realce de alta qualidade e separar duas vozes sobrepostas.",
+    "Entrada → saída": "Áudio/vídeo → áudio realçado/separado.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU.",
+    "Hardware": "GPU recomendada; CPU possível.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (ex.: alibabasglab/MossFormer2_SE_48K)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "v0.1.2 / pip clearvoice 0.1.2 (2025-07)",
+    "Nível": "intermediario",
+    "Português (BR)": "bom",
+    "Instalação": "pip install clearvoice",
+    "Observações": "Independe de idioma."
+  },
+  "fontes": [
+    "https://github.com/modelscope/ClearerVoice-Studio",
+    "https://huggingface.co/alibabasglab/MossFormer2_SE_48K",
+    "https://pypi.org/project/clearvoice"
+  ]
+}

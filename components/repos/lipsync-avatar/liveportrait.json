@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/KlingAIResearch/LivePortrait",
+  "title": "LivePortrait",
+  "description": "Animação de retrato por keypoints implícitos com stitching e retargeting de olhos/lábios, dirigida por vídeo, imagem ou edição manual (Kuaishou/Kling; antes KwaiVGI/LivePortrait).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 19400,
+  "license": "MIT",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "Transferir expressão/pose de um vídeo-guia para uma foto ou vídeo (inclusive animais); base de JoyVASA e FasterLivePortrait.",
+    "Entrada → saída": "foto ou vídeo + vídeo-guia (ou sliders de expressão) → vídeo animado",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Suporte oficial a macOS Apple Silicon (requirements_macOS.txt); ~20× mais lento que RTX 4090; modo Animais (X-Pose) não roda no Mac.",
+    "Hardware": "Muito leve: tempo real numa RTX 4090 e funciona em GPUs modestas.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (HF KlingTeam/LivePortrait); InsightFace e X-Pose com restrição não comercial",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-06",
+    "Versão recente": "modelo Animals atualizado (2025-01)",
+    "Nível": "iniciante",
+    "Qualidade": "Rápido e preserva identidade muito bem; não gera fala a partir de áudio sozinho (precisa de vídeo-guia ou JoyVASA) e quebra com rotações grandes da cabeça.",
+    "No ComfyUI": "kijai/ComfyUI-LivePortraitKJ"
+  },
+  "fontes": [
+    "https://github.com/KlingAIResearch/LivePortrait",
+    "https://ungh.cc/repos/KlingAIResearch/LivePortrait",
+    "https://huggingface.co/KlingTeam/LivePortrait",
+    "https://github.com/KwaiVGI/LivePortrait"
+  ]
+}

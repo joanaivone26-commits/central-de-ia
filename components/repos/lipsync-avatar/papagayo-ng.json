@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/morevnaproject-org/papagayo-ng",
+  "title": "Papagayo-NG",
+  "description": "Editor gráfico de lip sync 2D (fork do Papagayo) para alinhar texto/fonemas ao áudio e exportar para Moho, Synfig etc.",
+  "tags": [
+    "Visemas 2D"
+  ],
+  "stars": 294,
+  "license": "não confirmado (sem arquivo LICENSE detectado)",
+  "subcategoria": "Visemas 2D",
+  "detalhes": {
+    "Melhor uso": "Ensinar visemas manualmente/semiautomático em animação 2D.",
+    "Entrada → saída": "áudio + texto → arquivo de visemas (ex.: .dat do Moho)",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Há script setup_mac.py para gerar o app; release antiga (2017).",
+    "Hardware": "CPU.",
+    "Licença do código": "não confirmado (sem arquivo LICENSE detectado)",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-04",
+    "Versão recente": "v1.4.0 (2017-01)",
+    "Nível": "iniciante",
+    "Qualidade": "Didático, mas desatualizado e manual."
+  },
+  "fontes": [
+    "https://github.com/morevnaproject-org/papagayo-ng",
+    "https://ungh.cc/repos/morevnaproject-org/papagayo-ng",
+    "https://github.com/morevnaproject/papagayo-ng"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "title": "FFmpeg",
+  "description": "Ferramenta de linha de comando e bibliotecas (libav*) para decodificar, codificar, cortar, filtrar, mixar e transmitir áudio e vídeo.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 66800,
+  "license": "LGPL-2.1-or-later por padrão; builds com --enable-gpl viram GPL-2.0+ (o detector do GitHub mostra GPL-2.0)",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Base de toda a pilha: cortes sem recompressão (-c copy), concat, crop/scale para 9:16, legendas queimadas (filtros subtitles/ass), loudnorm, exportação H.264/HEVC/AV1.",
+    "Entrada → saída": "Quase qualquer formato de vídeo/áudio/imagem/legenda → idem",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "brew install ffmpeg; use h264_videotoolbox/hevc_videotoolbox para encode por hardware no M1.",
+    "Hardware": "CPU; aceleração opcional: VideoToolbox (Mac), NVENC/NVDEC (NVIDIA), QSV, VAAPI",
+    "Licença do código": "LGPL-2.1-or-later por padrão; builds com --enable-gpl viram GPL-2.0+ (o detector do GitHub mostra GPL-2.0)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "9.0.2 'Lei' (2026-09-18)",
+    "Nível": "intermediario",
+    "Instalação": "n/a (brew install ffmpeg); em Python use av ou typed-ffmpeg",
+    "Observações": "O repo no GitHub é espelho de git.ffmpeg.org. FFmpeg 9.0 'Lei': branch criado em 2026-06-26; 9.0.2 lançado em 2026-09-18 (bate com o 'FFmpeg 9' da aula). Atenção às licenças dos codecs (x264/x265 são GPL)."
+  },
+  "fontes": [
+    "https://github.com/FFmpeg/FFmpeg",
+    "https://ffmpeg.org/download.html",
+    "https://ffmpeg.org/legal.html"
+  ]
+}

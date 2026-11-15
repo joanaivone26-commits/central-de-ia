@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/yerfor/Real3DPortrait",
+  "title": "Real3DPortrait",
+  "description": "Talking portrait 3D one-shot (foto única) com reconstrução 3D, tronco e fundo (ICLR 2024).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1100,
+  "license": "MIT",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Foto falante com leve rotação 3D consistente, para pesquisa.",
+    "Entrada → saída": "foto + áudio (ou vídeo-guia) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; VRAM não publicada.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Requer 3DMM BFM (licença de pesquisa)",
+    "Uso comercial": "restrito",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-10",
+    "Versão recente": "sem releases (2024-10)",
+    "Nível": "avancado",
+    "Qualidade": "Consistência 3D boa, mas resolução e boca limitadas; parado."
+  },
+  "fontes": [
+    "https://github.com/yerfor/Real3DPortrait",
+    "https://ungh.cc/repos/yerfor/Real3DPortrait"
+  ]
+}

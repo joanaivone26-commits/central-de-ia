@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/imageio/imageio-ffmpeg",
+  "title": "imageio-ffmpeg",
+  "description": "Fornece um binário FFmpeg empacotado via pip e leitura/escrita de frames para imageio e MoviePy.",
+  "tags": [
+    "Base de edição"
+  ],
+  "stars": 300,
+  "license": "BSD-2-Clause (o binário FFmpeg embutido segue a licença do build)",
+  "subcategoria": "Base de edição",
+  "detalhes": {
+    "Melhor uso": "Garantir um ffmpeg funcional em ambientes Python (dependência do MoviePy).",
+    "Entrada → saída": "Vídeo ↔ frames NumPy",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Inclui binário para macOS arm64.",
+    "Hardware": "CPU",
+    "Licença do código": "BSD-2-Clause (o binário FFmpeg embutido segue a licença do build)",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v0.8.1 (2026-11-03)",
+    "Nível": "iniciante",
+    "Instalação": "pip install imageio-ffmpeg"
+  },
+  "fontes": [
+    "https://github.com/imageio/imageio-ffmpeg",
+    "https://pypi.org/project/imageio-ffmpeg/"
+  ]
+}

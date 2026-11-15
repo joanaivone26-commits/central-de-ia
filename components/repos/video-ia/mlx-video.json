@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Blaizzy/mlx-video",
+  "title": "mlx-video",
+  "description": "Geração de vídeo em MLX no Apple Silicon: LTX-2/LTX-2.3 (T2V, I2V, áudio→vídeo, áudio+vídeo) e Wan 2.1/2.2.",
+  "tags": [
+    "Apple Silicon"
+  ],
+  "stars": 320,
+  "license": "MIT",
+  "subcategoria": "Apple Silicon",
+  "detalhes": {
+    "Melhor uso": "Testar modelos de vídeo modernos nativamente em Macs com muita memória.",
+    "Entrada → saída": "Texto/imagem/áudio → vídeo",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Feito para Mac, mas no M1 8 GB só talvez o Wan 2.1 1.3B (não confirmado). Pesos FP8 não rodam em Metal.",
+    "Hardware": "Apple Silicon; RAM mínima não declarada (LTX-2 de 19B pede 32–64 GB na prática)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Licenças dos modelos (LTX-2 Community, Wan Apache-2.0)",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2026-05",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "pip install git+https://github.com/Blaizzy/mlx-video.git",
+    "Observações": "Sem releases; 137 commits; não menciona LTX-2.5."
+  },
+  "fontes": [
+    "https://github.com/Blaizzy/mlx-video"
+  ]
+}

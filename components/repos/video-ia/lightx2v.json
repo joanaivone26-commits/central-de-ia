@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/ModelTC/LightX2V",
+  "title": "LightX2V",
+  "description": "Framework de inferência acelerada para modelos de vídeo (Wan, HunyuanVideo etc.): destilação de passos, quantização, offload, paralelismo.",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 3000,
+  "license": "Apache-2.0",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Reduzir tempo/VRAM na geração local ou em servidor.",
+    "Entrada → saída": "Modelos de vídeo → inferência otimizada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA.",
+    "Hardware": "GPUs NVIDIA (de consumo a datacenter)",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Usa os pesos de cada modelo (licenças próprias); publica LoRAs/checkpoints destilados",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "0.6.0 (2026-10-12)",
+    "Nível": "avancado",
+    "Instalação": "git clone (ver docs)",
+    "Observações": "v0.6.0 (2026-10-12)."
+  },
+  "fontes": [
+    "https://github.com/ModelTC/LightX2V"
+  ]
+}

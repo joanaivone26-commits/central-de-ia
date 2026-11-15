@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/protyposis/AudioAlign",
+  "title": "AudioAlign",
+  "description": "App Windows (.NET) que sincroniza várias gravações de áudio/vídeo por fingerprints/correlação (alternativa livre ao PluralEyes).",
+  "tags": [
+    "Medição de sincronia"
+  ],
+  "stars": 212,
+  "license": "AGPL-3.0",
+  "subcategoria": "Medição de sincronia",
+  "detalhes": {
+    "Melhor uso": "Projetos multicâmera em Windows.",
+    "Entrada → saída": "várias mídias → linha do tempo alinhada / offsets",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Só Windows.",
+    "Hardware": "CPU.",
+    "Licença do código": "AGPL-3.0",
+    "Licença dos pesos": "N/A",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-01",
+    "Versão recente": "v1.7.0 (2024-01)",
+    "Nível": "intermediario",
+    "Qualidade": "Bom para multicâmera; só Windows e parado desde 2024."
+  },
+  "fontes": [
+    "https://github.com/protyposis/AudioAlign",
+    "https://ungh.cc/repos/protyposis/AudioAlign"
+  ]
+}

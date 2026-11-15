@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/Omni-Avatar/OmniAvatar",
+  "title": "OmniAvatar",
+  "description": "Avatar de corpo inteiro guiado por áudio com controle por prompt, sobre Wan2.1 (14B e 1.3B) (2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 1900,
+  "license": "Apache-2.0",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Corpo inteiro + gestos + fala a partir de uma foto, com licença permissiva.",
+    "Entrada → saída": "foto + áudio + prompt → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; sem suporte a Mac.",
+    "Hardware": "14B: 36 GB / 21 GB / 8 GB conforme offload (README); 1.3B mais leve.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF OmniAvatar/OmniAvatar-14B e -1.3B)",
+    "Uso comercial": "sim",
+    "Status": "estavel",
+    "Última atividade": "2025-08",
+    "Versão recente": "pesos 1.3B (2025-07-02)",
+    "Nível": "avancado",
+    "Qualidade": "Bons gestos e sincronia; lento. É a base do professor do Lip Forcing."
+  },
+  "fontes": [
+    "https://github.com/Omni-Avatar/OmniAvatar",
+    "https://ungh.cc/repos/Omni-Avatar/OmniAvatar",
+    "https://huggingface.co/OmniAvatar/OmniAvatar-14B"
+  ]
+}

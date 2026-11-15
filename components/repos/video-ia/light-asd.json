@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/Junhua-Liao/Light-ASD",
+  "title": "Light-ASD",
+  "description": "Active Speaker Detection leve (CVPR 2023), mais rápida que o TalkNet.",
+  "tags": [
+    "Visão e rostos"
+  ],
+  "stars": 200,
+  "license": "MIT",
+  "subcategoria": "Visão e rostos",
+  "detalhes": {
+    "Melhor uso": "Detectar quem fala em tempo quase real para o reframe.",
+    "Entrada → saída": "Vídeo → scores de fala por rosto",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "Não confirmado.",
+    "Hardware": "CPU/GPU",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "Pesos de pesquisa (verificar)",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2025-03",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone"
+  },
+  "fontes": [
+    "https://github.com/Junhua-Liao/Light-ASD"
+  ]
+}

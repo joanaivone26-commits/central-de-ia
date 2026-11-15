@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/SkyworkAI/SkyReels-V3",
+  "title": "SkyReels V3 (Skywork)",
+  "description": "Modelos multimodais de 2026: Reference-to-Video (14B), Video Extension (14B) e Talking Avatar áudio→vídeo (19B).",
+  "tags": [
+    "Geração de vídeo"
+  ],
+  "stars": 600,
+  "license": "Skywork Community License",
+  "subcategoria": "Geração de vídeo",
+  "detalhes": {
+    "Melhor uso": "Avatar falante a partir de áudio; manter personagem/produto consistente por referência.",
+    "Entrada → saída": "Imagens de referência/áudio/vídeo → vídeo 720p",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Inviável no Mac.",
+    "Hardware": "GPU de 24 GB+ (os exemplos usam até 4 GPUs com torchrun)",
+    "Licença do código": "Skywork Community License",
+    "Licença dos pesos": "Skywork Community License",
+    "Uso comercial": "restrito",
+    "Status": "estavel",
+    "Última atividade": "2026-01",
+    "Versão recente": "sem releases no GitHub (desenvolvimento na branch principal)",
+    "Nível": "avancado",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Lançado em 2026-01-19."
+  },
+  "fontes": [
+    "https://github.com/SkyworkAI/SkyReels-V3",
+    "https://huggingface.co/Skywork/SkyReels-V3-A2V-19B"
+  ]
+}

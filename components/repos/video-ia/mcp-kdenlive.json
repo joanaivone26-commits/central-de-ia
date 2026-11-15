@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/D-Ogi/mcp-kdenlive",
+  "title": "mcp-kdenlive (D-Ogi)",
+  "description": "Controle de NLE sobre um Kdenlive em execução via D-Bus: importar mídia, montar timeline, transições, marcadores, efeitos e render. Exige um FORK do Kdenlive com API de scripting D-Bus (não funciona no Kdenlive oficial).",
+  "tags": [
+    "MCP e skills",
+    "mcp"
+  ],
+  "stars": 48,
+  "license": "sem licença declarada",
+  "subcategoria": "MCP e skills",
+  "detalhes": {
+    "Licença": "sem licença declarada",
+    "Status": "pouca atividade (último push fev/2026)",
+    "Última atividade": "2026-02-04",
+    "Funciona no Claude": "sim (stdio)",
+    "Funciona no Codex": "sim (stdio: python -m mcp_kdenlive)",
+    "Ferramentas expostas": "build_timeline, replace_scene, get_timeline_summary, add_transitions_batch, render_video, get_project_info, save_project, load_project, import_media, insert_clip, append_clips, move_clip, trim_clip, add_transition, add_marker, checkpoint_save, checkpoint_restore",
+    "Requisitos": "Python 3.10+; kdenlive-api; Kdenlive 'patched' (D-Ogi/kdenlive) rodando com D-Bus (Linux)."
+  },
+  "fontes": [
+    "https://github.com/D-Ogi/mcp-kdenlive",
+    "https://github.com/D-Ogi/kdenlive-api"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
+  "title": "HunyuanVideo-Avatar",
+  "description": "Animação humana guiada por áudio, multipersonagem e com controle de emoção, sobre HunyuanVideo (Tencent, 2025).",
+  "tags": [
+    "Foto falante"
+  ],
+  "stars": 2200,
+  "license": "Tencent Hunyuan Community License",
+  "subcategoria": "Foto falante",
+  "detalhes": {
+    "Melhor uso": "Avatares de alta qualidade (inclusive estilos cartoon) quando há GPU grande.",
+    "Entrada → saída": "imagem + áudio (+ texto/emoção) → vídeo",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "CUDA; inviável no Mac.",
+    "Hardware": "Mínimo oficial 24 GB (704×768, 129 frames, muito lento); recomendado 96 GB; ~10 GB via Wan2GP/TeaCache.",
+    "Licença do código": "Tencent Hunyuan Community License",
+    "Licença dos pesos": "Tencent Hunyuan Community License",
+    "Uso comercial": "restrito",
+    "Status": "ativo",
+    "Última atividade": "2025-12",
+    "Versão recente": "pesos (2025-05-28)",
+    "Nível": "avancado",
+    "Qualidade": "Alta qualidade e estilos variados; muito pesado. A licença não vale na UE, Reino Unido e Coreia do Sul.",
+    "No ComfyUI": "smthemex/ComfyUI_HunyuanAvatar_Sm"
+  },
+  "fontes": [
+    "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "https://ungh.cc/repos/Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "https://huggingface.co/tencent/HunyuanVideo-Avatar"
+  ]
+}

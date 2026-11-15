@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/GVCLab/PersonaLive",
+  "title": "PersonaLive",
+  "description": "Animação de retrato em tempo real e streaming (vídeo-guia/webcam → foto animada) para live streaming (CVPR 2026).",
+  "tags": [
+    "Retrato animado"
+  ],
+  "stars": 4100,
+  "license": "Apache-2.0",
+  "subcategoria": "Retrato animado",
+  "detalhes": {
+    "Melhor uso": "VTuber/live com foto animada pela webcam; combine com TTS + lip sync para fala.",
+    "Entrada → saída": "foto + vídeo-guia (ou webcam) → vídeo em tempo real",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac confirmado.",
+    "Hardware": "Vídeos longos em streaming com 12 GB de VRAM (README).",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Apache-2.0 (HF huaichang/PersonaLive)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-08",
+    "Versão recente": "sucessor EditaLive (2026-08-28)",
+    "Nível": "intermediario",
+    "Qualidade": "Expressivo e em tempo real; dirigido por vídeo, não por áudio.",
+    "No ComfyUI": "okdalto/ComfyUI-PersonaLive"
+  },
+  "fontes": [
+    "https://github.com/GVCLab/PersonaLive",
+    "https://ungh.cc/repos/GVCLab/PersonaLive",
+    "https://huggingface.co/huaichang/PersonaLive"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/supertone-oss-archive/supertonic",
+  "title": "Supertonic",
+  "description": "TTS ONNX ultrarrápido em CPU com estilos de voz prontos; supertonic-2/3 incluem português.",
+  "tags": [
+    "Texto para fala"
+  ],
+  "stars": 13800,
+  "license": "MIT",
+  "subcategoria": "Texto para fala",
+  "detalhes": {
+    "Melhor uso": "Narração offline instantânea em CPU (sem clonagem).",
+    "Entrada → saída": "Texto → WAV.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "ONNX em CPU.",
+    "Hardware": "CPU (ONNX).",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "OpenRAIL-M (restrições de uso)",
+    "Uso comercial": "sim",
+    "Status": "arquivado",
+    "Última atividade": "2026-09",
+    "Versão recente": "v3.0.0 / pip supertonic 1.3.1 (2026-05)",
+    "Nível": "iniciante",
+    "Português (BR)": "regular",
+    "Instalação": "pip install supertonic",
+    "Observações": "Arquivado em 2026-09-09; supertone-inc/supertonic redireciona para supertone-oss-archive. Pesos migrados para supertone-oss-archive/* no HF."
+  },
+  "fontes": [
+    "https://github.com/supertone-oss-archive/supertonic",
+    "https://huggingface.co/supertone-oss-archive/supertonic-3",
+    "https://pypi.org/project/supertonic"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/krillinai/OpenCreator",
+  "title": "KrillinAI → OpenCreator",
+  "description": "Antes KrillinAI (tradução/dublagem de vídeo para plataformas); hoje workspace agêntico para criadores construído sobre o Codex CLI.",
+  "tags": [
+    "Dublagem"
+  ],
+  "stars": 14300,
+  "license": "Apache-2.0",
+  "subcategoria": "Dublagem",
+  "detalhes": {
+    "Melhor uso": "Tradução/dublagem para formatos verticais e fluxo agêntico (conecta com a aula de Codex).",
+    "Entrada → saída": "Vídeo → legendas/dublagem; tarefas agênticas.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Builds/instruções para macOS.",
+    "Hardware": "Desktop; APIs.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Depende dos modelos/APIs",
+    "Uso comercial": "verificar",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v3.3.1 (2026-11-08)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "N/A (binário/instalador)",
+    "Observações": "krillinai/KrillinAI redireciona para krillinai/OpenCreator; README em português; tradução de vídeo com 123 idiomas de origem/124 de destino."
+  },
+  "fontes": [
+    "https://github.com/krillinai/OpenCreator",
+    "https://github.com/krillinai/OpenCreator/releases"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/jianchang512/pyvideotrans",
+  "title": "pyVideoTrans",
+  "description": "Traduz vídeos entre idiomas com reconhecimento de fala, tradução, dublagem TTS e legendas embutidas.",
+  "tags": [
+    "Cortes automáticos"
+  ],
+  "stars": 19700,
+  "license": "GPL-3.0",
+  "subcategoria": "Cortes automáticos",
+  "detalhes": {
+    "Melhor uso": "Versões PT-BR/EN de aulas; legendas bilíngues.",
+    "Entrada → saída": "Vídeo → vídeo traduzido/legendado/dublado",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "O pacote pronto é para Windows; no Mac rode a partir do código-fonte.",
+    "Hardware": "CPU ou GPU NVIDIA",
+    "Licença do código": "GPL-3.0",
+    "Licença dos pesos": "n/a (sem pesos de IA)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-11",
+    "Versão recente": "v4.18 (2026-11-05)",
+    "Nível": "intermediario",
+    "Instalação": "git clone + uv sync (ver README)"
+  },
+  "fontes": [
+    "https://github.com/jianchang512/pyvideotrans"
+  ]
+}

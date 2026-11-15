@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/ZhengPeng7/BiRefNet",
+  "title": "BiRefNet",
+  "description": "Segmentação dicotômica em alta resolução (estado da arte aberto em remoção de fundo) com bordas finas.",
+  "tags": [
+    "Recorte de fundo"
+  ],
+  "stars": 4400,
+  "license": "MIT",
+  "subcategoria": "Recorte de fundo",
+  "detalhes": {
+    "Melhor uso": "Recortes de alta qualidade (cabelo, produtos); usado por rembg, ComfyUI e transformers.",
+    "Entrada → saída": "Imagem → máscara/alfa",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Roda em MPS/CPU (via transformers ou rembg).",
+    "Hardware": "GPU 4–8 GB (CPU possível)",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "sem release de código versionado (pesos no HF)",
+    "Nível": "intermediario",
+    "Instalação": "via rembg (modelo birefnet-*) ou transformers (ZhengPeng7/BiRefNet)",
+    "Observações": "Para vídeo, aplicar quadro a quadro pode tremer; prefira RVM/MatAnyone."
+  },
+  "fontes": [
+    "https://github.com/ZhengPeng7/BiRefNet",
+    "https://huggingface.co/ZhengPeng7/BiRefNet"
+  ]
+}

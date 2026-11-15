@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/adefossez/demucs",
+  "title": "Demucs (mantido, adefossez)",
+  "description": "Versão oficialmente mantida do Demucs v4 (htdemucs, htdemucs_ft, 6 stems) com empacotamento moderno.",
+  "tags": [
+    "Separação de faixas"
+  ],
+  "stars": 3500,
+  "license": "MIT",
+  "subcategoria": "Separação de faixas",
+  "detalhes": {
+    "Melhor uso": "Separar voz × música para remixar, legendar ou dublar mantendo a trilha.",
+    "Entrada → saída": "Áudio → stems (vocals, drums, bass, other) WAV/MP3; --two-stems=vocals.",
+    "Roda no Mac": "sim",
+    "Nota sobre o Mac": "Use -d mps (ou CPU); em 8 GB reduza --segment.",
+    "Hardware": "CPU ou GPU; MPS.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (modelos agora hospedados no HF; verificar card)",
+    "Uso comercial": "sim",
+    "Status": "ativo",
+    "Última atividade": "2026-10",
+    "Versão recente": "4.1.0 (2026-07-11)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install -U demucs",
+    "Observações": "README: 'This is the officially maintained Demucs' (Alexandre Défossez, agora na Kyutai). Independe de idioma."
+  },
+  "fontes": [
+    "https://github.com/adefossez/demucs",
+    "https://pypi.org/project/demucs"
+  ]
+}

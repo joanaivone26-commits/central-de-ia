@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/modelscope/3D-Speaker",
+  "title": "3D-Speaker",
+  "description": "Toolkit da Alibaba para verificação de locutor e diarização (CAM++, ERes2Net), inclusive multimodal.",
+  "tags": [
+    "Diarização"
+  ],
+  "stars": 3200,
+  "license": "Apache-2.0",
+  "subcategoria": "Diarização",
+  "detalhes": {
+    "Melhor uso": "Embeddings de voz leves (CAM++) para diarização própria; base do senko.",
+    "Entrada → saída": "Áudio → embeddings/segmentos por falante.",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU.",
+    "Hardware": "CPU ou GPU.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "não confirmado por modelo (ModelScope; maioria Apache-2.0)",
+    "Uso comercial": "verificar",
+    "Status": "estavel",
+    "Última atividade": "2025-12",
+    "Versão recente": "sem releases (último commit 2025-12)",
+    "Nível": "avancado",
+    "Português (BR)": "bom",
+    "Instalação": "git clone + pip install -r requirements.txt",
+    "Observações": "Embeddings treinados majoritariamente em zh/en; funciona em outras línguas por ser acústico."
+  },
+  "fontes": [
+    "https://github.com/modelscope/3D-Speaker"
+  ]
+}

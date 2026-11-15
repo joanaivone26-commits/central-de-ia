@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "agents/business-marketing/sales-automator",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/agents/business-marketing/sales-automator.md",
+    "commit": "1b48fe8a5a5d7c192bc2c8723e1702d2a373177d",
+    "url": "https://www.aitmpl.com/component/agents/business-marketing/sales-automator"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 9,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:36:45Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (agents/business-marketing/sales-automator)."
+}

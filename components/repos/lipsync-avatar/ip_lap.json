@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/Weizhi-Zhong/IP_LAP",
+  "title": "IP_LAP",
+  "description": "Lip sync em duas etapas (áudio→landmarks→renderização com prior de aparência) que preserva identidade (CVPR 2023).",
+  "tags": [
+    "Lip sync em vídeo"
+  ],
+  "stars": 733,
+  "license": "Apache-2.0",
+  "subcategoria": "Lip sync em vídeo",
+  "detalhes": {
+    "Melhor uso": "Comparar métodos baseados em landmarks; referência acadêmica de preservação de identidade.",
+    "Entrada → saída": "vídeo + áudio → vídeo com boca sincronizada",
+    "Roda no Mac": "nao",
+    "Nota sobre o Mac": "Sem suporte a Mac.",
+    "Hardware": "GPU NVIDIA; autores treinaram em 4× RTX 3090 24 GB; VRAM de inferência não publicada.",
+    "Licença do código": "Apache-2.0",
+    "Licença dos pesos": "Não declarada separadamente",
+    "Uso comercial": "verificar",
+    "Status": "sem-manutencao",
+    "Última atividade": "2024-01",
+    "Versão recente": "sem releases",
+    "Nível": "avancado",
+    "Qualidade": "Identidade e textura melhores que Wav2Lip na resolução de treino, mas resolução limitada e pipeline lento; parado desde 2024."
+  },
+  "fontes": [
+    "https://github.com/Weizhi-Zhong/IP_LAP",
+    "https://ungh.cc/repos/Weizhi-Zhong/IP_LAP"
+  ]
+}

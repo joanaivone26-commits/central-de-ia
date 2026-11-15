@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "skills/creative-design/frontend-design",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/skills/creative-design/frontend-design",
+    "commit": "7faa175714982142b40bceb2b5de881e3c93a778",
+    "url": "https://www.aitmpl.com/component/skills/creative-design/frontend-design"
+  },
+  "license": "Complete terms in LICENSE.txt",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 13,
+    "tool": "skillspector",
+    "scannedAt": "2026-10-17T20:30:55Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (skills/creative-design/frontend-design)."
+}

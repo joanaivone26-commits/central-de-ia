@@ -1,0 +1,31 @@
+{
+  "url": "https://github.com/m1guelpf/auto-subtitle",
+  "title": "auto-subtitle",
+  "description": "Gera legendas com Whisper e as queima no vídeo com FFmpeg em um único comando.",
+  "tags": [
+    "Legendas"
+  ],
+  "stars": 2300,
+  "license": "MIT",
+  "subcategoria": "Legendas",
+  "detalhes": {
+    "Melhor uso": "Exemplo didático mínimo de 'vídeo → vídeo legendado'.",
+    "Entrada → saída": "Vídeo → vídeo com legenda embutida (+ .srt).",
+    "Roda no Mac": "parcial",
+    "Nota sobre o Mac": "CPU (openai-whisper).",
+    "Hardware": "CPU/GPU.",
+    "Licença do código": "MIT",
+    "Licença dos pesos": "MIT (Whisper)",
+    "Uso comercial": "sim",
+    "Status": "sem-manutencao",
+    "Última atividade": "2023-11",
+    "Versão recente": "sem releases (último commit 2023-11)",
+    "Nível": "iniciante",
+    "Português (BR)": "bom",
+    "Instalação": "pip install git+https://github.com/m1guelpf/auto-subtitle.git",
+    "Observações": "Hoje é mais útil como referência de código; prefira faster-whisper/mlx-whisper + pysubs2 + FFmpeg."
+  },
+  "fontes": [
+    "https://github.com/m1guelpf/auto-subtitle"
+  ]
+}

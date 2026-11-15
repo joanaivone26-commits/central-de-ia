@@ -1,0 +1,20 @@
+{
+  "source": {
+    "kind": "aitmpl",
+    "id": "mcps/marketing/seo-aeo-geo",
+    "repo": "davila7/claude-code-templates",
+    "path": "cli-tool/components/mcps/marketing/seo-aeo-geo.json",
+    "commit": "facbf31070c07c7b4e30371bca3366e53e76240a",
+    "url": "https://www.aitmpl.com/component/mcps/marketing/seo-aeo-geo"
+  },
+  "license": "MIT",
+  "author": "claude-code-templates (aitmpl.com)",
+  "scan": {
+    "severity": "LOW",
+    "score": 0,
+    "tool": "skillspector",
+    "scannedAt": "2026-11-03T18:06:46Z"
+  },
+  "addedAt": "2026-11-15",
+  "notes": "Importado do aitmpl.com (mcps/marketing/seo-aeo-geo)."
+}
