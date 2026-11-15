@@ -3,7 +3,7 @@ description: "Cria conceitos visuais diferentes para um anúncio e escreve, para
 argument-hint: "[contexto_da_oferta] [conceito] [produto] [publico] [identidade_visual] [texto_na_imagem] [ferramenta] [formato_prompt] [quantidade] [pecas_anteriores] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/prompts-de-imagem-para-anuncio -->
+<!-- Central de IA Trip Angle · prompt criativos/prompts-de-imagem-para-anuncio -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: conceito (Conceito ou ângulo do anúncio e para onde o clique leva); produto (Produto e como ele aparece (físico, digital, app, curso, mockup)); publico (Persona e situação de uso). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); identidade_visual (Paleta, fontes, logo e estilo; com anexos, diga qual é qual (IMAGEM 1 = rosto, IMAGEM 2 = logo)); texto_na_imagem (Texto que aparece na arte; padrão: só a headline, aplicada na edição); ferramenta (Ferramenta de imagem (Gemini, GPT Image, Midjourney, Ideogram ou outra); padrão: Gemini); formato_prompt (ou JSON no padrão da casa; padrão: principal + negativo + configuração); quantidade (Número de conceitos; padrão: 6 conceitos visuais); pecas_anteriores (Artes já usadas, para não repetir); mercado_idioma (Idioma do texto da arte; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo (uma guia por conceito), Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

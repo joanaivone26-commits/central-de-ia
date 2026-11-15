@@ -3,7 +3,7 @@ description: "Três roteiros de UGC de 30 s para o mesmo produto, cada um com um
 argument-hint: "[contexto_da_oferta] [produto] [avatar] [angulo] [criador] [provas] [referencias] [mercado_idioma] [tom] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/roteiro-ugc-30s -->
+<!-- Central de IA Trip Angle · prompt criativos/roteiro-ugc-30s -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto e oferta, com preço, para quem é e para onde o clique leva); avatar (Quem é, em que situação o problema aparece e o que quer). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); angulo (Ângulo (situação, problema, mecanismo, prova, objeção, comparação); padrão: escolher pela evidência e declarar); criador (Perfil de quem grava e cenários disponíveis; padrão: creator comum, celular na mão, em casa); provas (Provas reais que podem aparecer (uso do produto, prints autorizados, números com fonte)); referencias (Links de UGCs que funcionam no nicho (só referência)); mercado_idioma (País e idioma da fala; padrão: Brasil, português); tom (Tom e intensidade; padrão: conversa de amiga, direto, com certeza, sem promessa garantida); destino (Onde entregar: aqui, Google Docs nativo (uma guia por roteiro), Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

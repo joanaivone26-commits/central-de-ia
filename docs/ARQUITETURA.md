@@ -1,4 +1,4 @@
-# Arquitetura da Central Trip Angle
+# Arquitetura da Central de IA Trip Angle
 
 Referência técnica para quem mantém a Central. O guia de uso está no `README.md`.
 
@@ -194,7 +194,7 @@ description: "<description>"
 argument-hint: "[transcricao] [nicho]"
 ---
 
-<!-- Central Trip Angle · prompt <cat>/<nome> -->
+<!-- Central de IA Trip Angle · prompt <cat>/<nome> -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira se você tem: transcricao (Transcrição completa da VSL); nicho (Nicho da oferta). Se faltar algum, pergunte ao usuário.

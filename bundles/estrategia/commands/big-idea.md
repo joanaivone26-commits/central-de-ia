@@ -3,7 +3,7 @@ description: "Mapeia o que o mercado já gastou, gera 10 candidatas em 5 territ�
 argument-hint: "[produto] [avatar] [mecanismo] [promessas_saturadas] [concorrentes] [contexto_atual] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/big-idea -->
+<!-- Central de IA Trip Angle · prompt estrategia/big-idea -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto e promessa); avatar (Avatar ou persona); mecanismo (Mecanismo do problema e da solução (ou handoff de estrategia/mecanismo-unico)). Opcionais: promessas_saturadas (Promessas e ângulos já gastos no mercado); concorrentes (Concorrentes e links de anúncios ativos); contexto_atual (Notícias, tendências e sazonalidade, com fonte); mercado_idioma (Mercado e idioma; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

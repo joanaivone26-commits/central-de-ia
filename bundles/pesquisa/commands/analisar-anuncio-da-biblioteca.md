@@ -3,7 +3,7 @@ description: "Decompõe um anúncio da Biblioteca da Meta (ou até 5 da mesma of
 argument-hint: "[anuncio] [dados_biblioteca] [destino_do_anuncio] [nicho] [mercado_idioma] [modo] [minha_oferta] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt pesquisa/analisar-anuncio-da-biblioteca -->
+<!-- Central de IA Trip Angle · prompt pesquisa/analisar-anuncio-da-biblioteca -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: anuncio (Link ou ID do anúncio na Biblioteca, com a transcrição, o texto ou a descrição do vídeo ou imagem). Opcionais: dados_biblioteca (Data de início, contagem 'N anúncios usam esse criativo', versões, plataformas e página anunciante); destino_do_anuncio (Link ou print da página para onde o anúncio leva, para medir a continuidade); nicho (Nicho da oferta); mercado_idioma (Mercado e idioma; padrão: país e idioma do anúncio; análise em português do Brasil); modo (diagnosticar (só a leitura) ou modelar (leitura + 3 adaptações para a sua oferta); padrão: diagnosticar); minha_oferta (Sua oferta (produto, público, promessa, mecanismo) para as adaptações); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

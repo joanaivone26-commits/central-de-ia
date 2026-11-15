@@ -3,7 +3,7 @@ description: "Transforma um roteiro em storyboard plano a plano, com tempo, enqu
 argument-hint: "[contexto_da_oferta] [roteiro] [formato] [duracao] [recursos] [identidade] [referencia] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/storyboard-de-anuncio -->
+<!-- Central de IA Trip Angle · prompt criativos/storyboard-de-anuncio -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: roteiro (Roteiro com fala, texto na tela e tempos (ou o Creative Card da peça)). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); formato (Proporções a entregar; padrão: Stories 1080×1920 como mestre + Feed 1080×1350 recomposto); duracao (Duração final; padrão: a do roteiro); recursos (Ator ou creator, locução, produto físico, gravação de tela, IA de imagem e vídeo, banco de imagens; padrão: misto); identidade (Cores, fontes, estilo de legenda e logo; com anexos, diga qual imagem é qual); referencia (Vídeo de referência com link (ritmo e enquadramento)); destino (Onde entregar: aqui, Google Docs nativo, Notion, CSV ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

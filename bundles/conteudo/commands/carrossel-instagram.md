@@ -3,7 +3,7 @@ description: "Escreve um carrossel completo, da capa ao CTA, com 10 capas pontua
 argument-hint: "[tema] [nicho] [objetivo] [numero_de_slides] [identidade] [ficha_de_voz] [fontes] [tom] [visual] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt conteudo/carrossel-instagram -->
+<!-- Central de IA Trip Angle · prompt conteudo/carrossel-instagram -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: tema (Tema do carrossel); nicho (Nicho e público); identidade (Identidade visual (paleta em HEX, fontes, foto ou só tipografia, logo)). Opcionais: objetivo (Objetivo (salvamento, compartilhamento, seguidores, lead, venda); padrão: salvamento); numero_de_slides (Número de slides (até 20); padrão: 8); ficha_de_voz (Como o perfil fala: traços, vocabulário e palavras proibidas); fontes (Dados, estudos ou exemplos com fonte que podem entrar nos slides); tom (Tom; padrão: direto, útil e específico); visual (Só texto e indicação visual, ou também o prompt de design de cada slide para Canva ou IA de imagem; padrão: texto e indicação visual); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma; padrão: Brasil em português); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

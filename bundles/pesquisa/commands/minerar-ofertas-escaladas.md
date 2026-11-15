@@ -3,7 +3,7 @@ description: "Rodada rápida num nicho e num país - malha de busca por mecanism
 argument-hint: "[nicho] [mercado_idioma] [janela_minima] [tipo_de_oferta] [sementes] [ofertas_coletadas] [historico] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt pesquisa/minerar-ofertas-escaladas -->
+<!-- Central de IA Trip Angle · prompt pesquisa/minerar-ofertas-escaladas -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: nicho (Nicho ou subnicho, com o que entra e o que fica fora). Opcionais: mercado_idioma (País do filtro e idioma dos termos; padrão: Brasil, português); janela_minima (Tempo mínimo no ar do anúncio ativo mais antigo; padrão: 14 dias); tipo_de_oferta (O que conta como oferta nesta rodada; padrão: infoproduto ou app digital); sementes (Termos já pensados, transcrição de um criativo escalado, mecanismos ou anunciantes de partida); ofertas_coletadas (Linhas já coletadas para pontuar (oferta, link, ativos, data de início, variações) - usado quando a ferramenta não navega); historico (Ofertas, marcas e domínios já minerados, para não repetir); destino (Onde entregar - aqui no chat, CSV, Notion, Google Docs nativo ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

@@ -1,4 +1,4 @@
-"""Núcleo da Central Trip Angle: tipos, leitura de componentes e montagem do catálogo.
+"""Núcleo da Central de IA Trip Angle: tipos, leitura de componentes e montagem do catálogo.
 
 Usado por build.py, admin.py e importers.py. Só usa a biblioteca padrão do Python 3.9+.
 """
@@ -484,7 +484,7 @@ def prompt_to_command(text, item):
     lines = ["---", "description: " + json.dumps(desc, ensure_ascii=False)]
     if variables:
         lines.append("argument-hint: " + json.dumps(" ".join(f"[{v['name']}]" for v in variables), ensure_ascii=False))
-    lines += ["---", "", f"<!-- Central Trip Angle · prompt {item.get('category')}/{item.get('name')} -->",
+    lines += ["---", "", f"<!-- Central de IA Trip Angle · prompt {item.get('category')}/{item.get('name')} -->",
               "Dados enviados pelo usuário: $ARGUMENTS", ""]
     if variables and any(v.get("required") is not None for v in variables):
         obr = "; ".join(f"{v['name']} ({v['label']})" for v in variables if v.get("required"))

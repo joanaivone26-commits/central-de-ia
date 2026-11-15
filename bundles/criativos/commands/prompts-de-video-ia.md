@@ -3,7 +3,7 @@ description: "Quebra um roteiro em cenas curtas com uma ação cada e escreve, p
 argument-hint: "[contexto_da_oferta] [roteiro_ou_conceito] [duracao] [ferramenta] [personagem] [produto] [estilo] [referencias_visuais] [formato_prompt] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/prompts-de-video-ia -->
+<!-- Central de IA Trip Angle · prompt criativos/prompts-de-video-ia -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: roteiro_ou_conceito (Roteiro com fala e tempos, ou conceito do vídeo). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); duracao (Duração total, proporção e resolução; padrão: 15 s em 9:16, 1080×1920, 30 fps); ferramenta (Ferramenta e modelo de vídeo (Kling, Veo, Runway ou outra); padrão: Kling); personagem (Personagem a manter (idade aparente, traços, roupa) ou foto de referência autorizada); produto (Produto que aparece, com fotos reais e detalhes que não podem mudar); estilo (Estilo visual; padrão: UGC realista de celular); referencias_visuais (Anexos com o papel de cada um (IMAGEM 1 = rosto, IMAGEM 2 = produto)); formato_prompt (ou texto com principal, negativo e configuração; padrão: JSON por cena); mercado_idioma (Idioma da fala; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo, Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

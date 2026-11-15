@@ -1,4 +1,4 @@
-/* Central Trip Angle — site do catálogo (sem framework, roteamento por hash) */
+/* Central de IA Trip Angle — site do catálogo (sem framework, roteamento por hash) */
 (() => {
   'use strict';
 
@@ -371,7 +371,7 @@
   function perfilMd() {
     const pf = perfil();
     return '# Perfil da oferta\n\n' + PERFIL.map(([k, l]) => `- **${l}:** ${(pf[k] || '').trim() || '—'}`).join('\n')
-      + '\n\nGerado na Central Trip Angle. Coloque em `.claude/oferta.md` no projeto e peça ao Claude para ler antes de cada tarefa.\n';
+      + '\n\nGerado na Central de IA Trip Angle. Coloque em `.claude/oferta.md` no projeto e peça ao Claude para ler antes de cada tarefa.\n';
   }
   function paginaPerfil() {
     const pf = perfil();
@@ -1117,7 +1117,7 @@
         <h1 class="titulo" style="font-size:clamp(36px,5vw,64px);margin:10px 0 24px">Como usar a <em>central</em></h1>
 
         <h2 id="comece">Comece aqui</h2>
-        <p>A ${esc(h.name || 'Central Trip Angle')} reúne componentes prontos para o <b>Claude Code</b>: skills, agentes, comandos, servidores MCP, hooks, configurações, plugins, templates e repositórios, organizados por área do mercado digital. Você escolhe no site, copia um comando e roda na pasta do projeto. Depois é só abrir o Claude Code ali.</p>
+        <p>A ${esc(h.name || 'Central de IA Trip Angle')} reúne componentes prontos para o <b>Claude Code</b>: skills, agentes, comandos, servidores MCP, hooks, configurações, plugins, templates e repositórios, organizados por área do mercado digital. Você escolhe no site, copia um comando e roda na pasta do projeto. Depois é só abrir o Claude Code ali.</p>
         <p><b>O caminho mais rápido:</b> abra <a href="#/jornadas">Comece aqui</a>, escolha o seu objetivo e siga os passos na ordem. Cada passo diz qual prompt mestre usar, o que dá apoio e o que levar para o passo seguinte. Os prompts funcionam em qualquer IA (Claude, ChatGPT, Gemini): é só preencher os campos e copiar. Para criar os seus próprios prompts no mesmo padrão, use o <a href="#/montador">montador</a>.</p>
         <p>Sem argumentos, o instalador abre um menu para escolher pelo terminal:</p>
         ${blocoCmd(py)}
@@ -1250,7 +1250,7 @@
     pos(caminho, p);
     if (!(caminho.startsWith('/explorar') || caminho.startsWith('/prompts')) || !p.toString()) window.scrollTo({ top: 0, behavior: 'instant' });
     const t = caminho.startsWith('/item/') ? (S.byId.get(decodeURIComponent(caminho.slice(6))) || {}).title : null;
-    document.title = (t ? t + ' · ' : '') + (hub().name || 'Central Trip Angle');
+    document.title = (t ? t + ' · ' : '') + (hub().name || 'Central de IA Trip Angle');
   }
 
   function pos(caminho, p) {

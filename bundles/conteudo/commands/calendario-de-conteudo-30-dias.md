@@ -3,7 +3,7 @@ description: "Planeja 30 dias de conteúdo que cabem na rotina real, com pilares
 argument-hint: "[nicho] [produto] [plataformas] [frequencia] [datas] [pilares] [recursos] [formatos_que_funcionam] [objetivo_do_mes] [metricas_do_perfil] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt conteudo/calendario-de-conteudo-30-dias -->
+<!-- Central de IA Trip Angle · prompt conteudo/calendario-de-conteudo-30-dias -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: nicho (Nicho e público); produto (Produto ou oferta que o conteúdo apoia, com preço e link quando houver); frequencia (Posts por semana que você consegue produzir e em quais formatos). Opcionais: plataformas (Plataformas; padrão: Instagram e TikTok); datas (Mês de referência e datas importantes (lançamento, promoção, datas comemorativas, lives); padrão: Dia 1 a Dia 30 sem data); pilares (Pilares de conteúdo que você já usa); recursos (Recursos de produção (quem grava, quantas horas por semana, edição, cenário)); formatos_que_funcionam (Formatos e posts que ficaram acima da média recentemente); objetivo_do_mes (Objetivo principal do mês; padrão: crescer e gerar leads para a oferta); metricas_do_perfil (Mediana de alcance, salvamentos e cliques dos últimos 10 a 20 posts); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma; padrão: Brasil em português); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion, CSV ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

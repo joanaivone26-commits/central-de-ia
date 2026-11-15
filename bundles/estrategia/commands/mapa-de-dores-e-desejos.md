@@ -3,7 +3,7 @@ description: "Organiza as dores em 4 camadas e os desejos em 5, cada item com fr
 argument-hint: "[avatar] [produto] [pesquisa] [solucoes_atuais] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/mapa-de-dores-e-desejos -->
+<!-- Central de IA Trip Angle · prompt estrategia/mapa-de-dores-e-desejos -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: avatar (Avatar ou persona (ficha ou handoff de estrategia/criar-avatar-completo)); produto (Produto, promessa e o que ele entrega de fato); pesquisa (Material com a voz do público (comentários, reviews, enquetes, entrevistas ou banco de frases)). Opcionais: solucoes_atuais (Soluções que o público já usa e como avalia cada uma); mercado_idioma (Mercado e idioma; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion, CSV ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

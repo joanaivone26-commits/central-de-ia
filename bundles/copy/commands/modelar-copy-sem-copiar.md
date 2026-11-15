@@ -3,7 +3,7 @@ description: "Extrai o DNA funcional de uma copy de referência, separa função
 argument-hint: "[copy_referencia] [sua_oferta] [formato] [objetivo_da_modelagem] [tamanho] [tom] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/modelar-copy-sem-copiar -->
+<!-- Central de IA Trip Angle · prompt copy/modelar-copy-sem-copiar -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: copy_referencia (Copy de referência (anúncio, página, e-mail ou transcrição de VSL) e de onde veio); sua_oferta (Sua oferta: produto, público, promessa, mecanismo, história verdadeira e provas disponíveis). Opcionais: formato (Formato da peça final (anúncio, página, e-mail, roteiro de vídeo, VSL); padrão: mesmo formato da referência); objetivo_da_modelagem (O que transferir: sequência de crenças, tipo de lead, arquitetura de prova, estrutura de oferta, CTA; padrão: sequência de crenças); tamanho (Tamanho da peça nova em palavras ou segundos (tolerância de 10%); padrão: mesmo tamanho da referência); tom (Tom; padrão: intenso e humanizado, sem promessa de ganho garantido); contexto_da_oferta (Bloco de contexto gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma da peça nova; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo, Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

@@ -3,7 +3,7 @@ description: "Desenha o quiz completo com 10 a 14 perguntas que mudam o resultad
 argument-hint: "[oferta] [avatar] [objetivo_do_quiz] [perfis] [para_onde_leva] [perguntas_quiz] [captura] [duracao_do_plano] [saida] [tom] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt funil/estrutura-de-quiz -->
+<!-- Central de IA Trip Angle · prompt funil/estrutura-de-quiz -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: oferta (Produto e oferta final, com planos, preços e o que cada plano entrega); avatar (Avatar por situação, com sinais do problema, tentativas, desejos e objeções). Opcionais: objetivo_do_quiz (Objetivo (segmentar, aquecer, captar lead, levar à VSL ou ao checkout); padrão: segmentar e levar à oferta certa); perfis (Perfis de resultado, se você já tiver); para_onde_leva (Para onde o quiz leva no fim (VSL, página, checkout, WhatsApp); padrão: página de oferta com os planos); perguntas_quiz (Número de perguntas (10 a 14); padrão: 12); captura (Pedir e-mail ou WhatsApp antes do resultado (sim ou não); padrão: sem captura); duracao_do_plano (Duração do plano que o resultado recomenda; padrão: 28 dias); saida (Tabelas e textos, configuração em JSON para o modelo de quiz ou prompt para Lovable; padrão: tabelas e textos); tom (Tom das telas; padrão: acolhedor e direto); contexto_da_oferta (Bloco de contexto gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma do quiz; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo, Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

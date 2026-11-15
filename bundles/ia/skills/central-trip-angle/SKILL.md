@@ -1,9 +1,9 @@
 ---
 name: central-trip-angle
-description: Busca e instala componentes da Central Trip Angle (prompts, skills, agentes, frameworks, comandos, MCPs, hooks, plugins e kits para o mercado digital). Use quando o usuário pedir um prompt, skill, agente ou MCP para uma tarefa de marketing digital (espionagem, avatar, oferta, copy, VSL, criativos, formatos, funil, tráfego, pós-venda, compliance), quiser saber "o que existe na central" ou pedir para instalar algo dela.
+description: Busca e instala componentes da Central de IA Trip Angle (prompts, skills, agentes, frameworks, comandos, MCPs, hooks, plugins e kits para o mercado digital). Use quando o usuário pedir um prompt, skill, agente ou MCP para uma tarefa de marketing digital (espionagem, avatar, oferta, copy, VSL, criativos, formatos, funil, tráfego, pós-venda, compliance), quiser saber "o que existe na central" ou pedir para instalar algo dela.
 ---
 
-# Central Trip Angle
+# Central de IA Trip Angle
 
 A Central é um catálogo estático. Tudo o que você precisa está em JSON e Markdown no endereço da Central (a URL do site). Se não souber o endereço, pergunte ao usuário ou procure `siteUrl` no `hub.config.json` do repositório da Central.
 

@@ -1,4 +1,4 @@
-# Pesquisa de referências para a Central Trip Angle
+# Pesquisa de referências para a Central de IA Trip Angle
 
 Pesquisa feita em 15/11/2026 com busca na web e leitura das páginas (WebSearch e WebFetch). Cada referência traz uma coluna **Verificação**:
 

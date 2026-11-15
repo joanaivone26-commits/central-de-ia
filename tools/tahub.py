@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Central Trip Angle: instalador de componentes para o Claude Code.
+"""Central de IA Trip Angle: instalador de componentes para o Claude Code.
 
 Um arquivo só. Python 3.9+ e só a biblioteca padrão.
 
@@ -123,7 +123,7 @@ def tag(t):
 
 
 def banner(sub="instalador"):
-    return red("▲") + " " + bold("CENTRAL TRIP ANGLE") + dim("  ·  " + sub)
+    return red("▲") + " " + bold("CENTRAL DE IA TRIP ANGLE") + dim("  ·  " + sub)
 
 
 def sym(s):
@@ -765,7 +765,7 @@ def prompt_to_command(text, item):
     lines = ["---", "description: " + json.dumps(desc, ensure_ascii=False)]
     if variables:
         lines.append("argument-hint: " + json.dumps(" ".join("[%s]" % v["name"] for v in variables), ensure_ascii=False))
-    lines += ["---", "", "<!-- Central Trip Angle · prompt %s/%s -->" % (item.get("category"), item.get("name")),
+    lines += ["---", "", "<!-- Central de IA Trip Angle · prompt %s/%s -->" % (item.get("category"), item.get("name")),
               "Dados enviados pelo usuário: $ARGUMENTS", ""]
     if variables and any(v.get("required") is not None for v in variables):
         obr = "; ".join("%s (%s)" % (v["name"], v["label"]) for v in variables if v.get("required"))
@@ -2478,7 +2478,7 @@ async function getJSON(u){const r=await fetch(u,{cache:'no-store'});if(!r.ok)thr
 
 def html_page(title, label, css, body, js, body_class=""):
     head = ('<header class="top"><a href="/" aria-label="Início">' + LOGO_SVG + '</a>'
-            '<div class="brand">Central Trip Angle</div><div class="lbl"><b>[</b> ' + label + ' <b>]</b></div>'
+            '<div class="brand">Central de IA Trip Angle</div><div class="lbl"><b>[</b> ' + label + ' <b>]</b></div>'
             '<div class="sp"></div><div class="live"><span class="dot off" id="dot"></span>'
             '<span id="st">carregando…</span></div></header>')
     return ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
@@ -2691,9 +2691,9 @@ def host_allowed(host):
 
 def make_handler(mode, index):
     if mode == "analytics":
-        page = html_page("Analytics · Central Trip Angle", "ANALYTICS", ANALYTICS_CSS, ANALYTICS_BODY, ANALYTICS_JS)
+        page = html_page("Analytics · Central de IA Trip Angle", "ANALYTICS", ANALYTICS_CSS, ANALYTICS_BODY, ANALYTICS_JS)
     else:
-        page = html_page("Chats · Central Trip Angle", "CHATS", CHATS_CSS, CHATS_BODY, CHATS_JS, "app")
+        page = html_page("Chats · Central de IA Trip Angle", "CHATS", CHATS_CSS, CHATS_BODY, CHATS_JS, "app")
     page_bytes = page.encode("utf-8")
 
     class Handler(BaseHTTPRequestHandler):
@@ -2838,7 +2838,7 @@ Ferramentas
 Outros
   --source URL|PASTA      origem do catálogo (ou variável TAHUB_SOURCE)
   --version  -h, --help
-""" % (bold("CENTRAL TRIP ANGLE"), dim("instalador para o Claude Code · tahub " + VERSION), site,
+""" % (bold("CENTRAL DE IA TRIP ANGLE"), dim("instalador para o Claude Code · tahub " + VERSION), site,
        ANALYTICS_PORT, CHATS_PORT)
 
 
@@ -2897,7 +2897,7 @@ def main(argv=None):
             print(help_text())
             return EXIT_OK
         if args.version:
-            print("tahub %s · Central Trip Angle · Python %s" % (VERSION, platform.python_version()))
+            print("tahub %s · Central de IA Trip Angle · Python %s" % (VERSION, platform.python_version()))
             return EXIT_OK
         if args.analytics and args.chats:
             raise HubError("use --analytics ou --chats, um de cada vez.", code=EXIT_USAGE)

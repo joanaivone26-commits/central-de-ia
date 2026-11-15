@@ -132,7 +132,7 @@ def write_bundles(cfg, cats, items, version, warnings):
             partes.append(f"{n_prompts} prompts")
         if n_fw:
             partes.append(f"{n_fw} frameworks")
-        desc = f"{label}: {', '.join(partes)} da {cfg.get('name', 'Central Trip Angle')}."
+        desc = f"{label}: {', '.join(partes)} da {cfg.get('name', 'Central de IA Trip Angle')}."
         hc.write_json(root / ".claude-plugin" / "plugin.json", {
             "name": name,
             "version": version,
@@ -227,7 +227,7 @@ def write_dist(cfg, cats, items, bundles, collections=(), journeys=()):
 
 
 def write_llms(cfg, catalog, dist):
-    lines = [f"# {cfg.get('name', 'Central Trip Angle')}", "", f"> {cfg.get('description', '')}", "",
+    lines = [f"# {cfg.get('name', 'Central de IA Trip Angle')}", "", f"> {cfg.get('description', '')}", "",
              "Catálogo em JSON: /api/catalog.json. Instalador: /tahub.py (Python 3.9+, sem dependências).", ""]
     for t in catalog["types"]:
         sub = [i for i in catalog["items"] if i["type"] == t["id"]]
@@ -247,7 +247,7 @@ def write_feed(cfg, catalog, dist):
     base = cfg.get("siteUrl") or ""
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
-    ET.SubElement(ch, "title").text = cfg.get("name", "Central Trip Angle")
+    ET.SubElement(ch, "title").text = cfg.get("name", "Central de IA Trip Angle")
     ET.SubElement(ch, "link").text = base + "/" if base else "./"
     ET.SubElement(ch, "description").text = cfg.get("description", "")
     ET.SubElement(ch, "language").text = "pt-BR"

@@ -3,7 +3,7 @@ description: "Extrai do material real do público as expressões exatas em 8 tem
 argument-hint: "[textos_do_cliente] [produto_ou_nicho] [jargao_do_especialista] [persona] [quantidade_frases_semente] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/linguagem-do-cliente -->
+<!-- Central de IA Trip Angle · prompt estrategia/linguagem-do-cliente -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: textos_do_cliente (Textos reais do público (comentários, reviews, respostas de pesquisa, DMs, transcrições de entrevistas)); produto_ou_nicho (Produto ou nicho). Opcionais: jargao_do_especialista (Termos técnicos que você e o especialista costumam usar); persona (Persona ou situação para filtrar o material); quantidade_frases_semente (Quantas frases-semente entregar; padrão: 20); mercado_idioma (Mercado e idioma (gíria regional conta); padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion, CSV ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

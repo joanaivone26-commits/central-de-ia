@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Importadores da Central Trip Angle: repositórios do GitHub, pastas locais e o catálogo do aitmpl.com.
+"""Importadores da Central de IA Trip Angle: repositórios do GitHub, pastas locais e o catálogo do aitmpl.com.
 
 Uso:
   python3 tools/importers.py scan <url-github-ou-pasta> [--json]
@@ -1374,7 +1374,7 @@ def _print_result(res):
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(prog="importers.py", description="Importa componentes para a Central Trip Angle.")
+    ap = argparse.ArgumentParser(prog="importers.py", description="Importa componentes para a Central de IA Trip Angle.")
     sub = ap.add_subparsers(dest="cmd")
     p = sub.add_parser("scan", help="lista candidatos de um repositório GitHub ou pasta")
     p.add_argument("source")

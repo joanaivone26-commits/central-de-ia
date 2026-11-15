@@ -3,7 +3,7 @@ description: "Descreve a persona em cada um dos 5 níveis de consciência, estim
 argument-hint: "[avatar] [produto] [mercado] [canal] [funil] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/niveis-de-consciencia-do-avatar -->
+<!-- Central de IA Trip Angle · prompt estrategia/niveis-de-consciencia-do-avatar -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: avatar (Avatar ou persona (ficha ou handoff de estrategia/avatar-e-pesquisa-de-publico)); produto (Produto, promessa e mecanismo); mercado (Concorrentes, promessas comuns e há quanto tempo o tema circula (ou links de 10 anúncios ativos do nicho)). Opcionais: canal (Canal principal de aquisição; padrão: Meta Ads); funil (Funil previsto (quiz, VSL, página, advertorial); padrão: página de vendas); mercado_idioma (Mercado e idioma; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

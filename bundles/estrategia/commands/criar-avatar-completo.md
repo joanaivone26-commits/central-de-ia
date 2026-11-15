@@ -3,7 +3,7 @@ description: "Transforma o material que você já tem na persona primária compl
 argument-hint: "[produto] [recorte] [material] [personas_secundarias] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/criar-avatar-completo -->
+<!-- Central de IA Trip Angle · prompt estrategia/criar-avatar-completo -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto (o que é, formato, promessa e preço)); recorte (Recorte do público e da situação de compra (ex. confeitaria caseira para vender por encomenda)); material (Material do público e do mercado (comentários, reviews, DMs, pesquisas, transcrições, anúncios e VSLs de referência)). Opcionais: personas_secundarias (Quantas personas secundárias em versão resumida; padrão: até 2); mercado_idioma (Mercado e idioma; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion, .md ou CSV); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Teste de ponta a ponta da Central Trip Angle (não altera o projeto).
+"""Teste de ponta a ponta da Central de IA Trip Angle (não altera o projeto).
 
 Copia o repositório para uma pasta temporária, gera o site, sobe o admin e um servidor
 estático, instala um componente de cada tipo num projeto vazio pelo HTTP (como um usuário

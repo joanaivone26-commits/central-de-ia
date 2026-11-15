@@ -3,7 +3,7 @@ description: "Encontra o mecanismo do problema (por que as tentativas falharam) 
 argument-hint: "[produto] [como_funciona] [avatar] [tentativas_anteriores] [concorrentes] [provas] [sofisticacao] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/mecanismo-unico -->
+<!-- Central de IA Trip Angle · prompt estrategia/mecanismo-unico -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto e promessa); como_funciona (Como o produto funciona de verdade (método, passos, ferramentas, diferencial)); avatar (Avatar ou persona); tentativas_anteriores (O que o público já tentou e por que não funcionou (ou o cemitério de soluções do dossiê de avatar)). Opcionais: concorrentes (Mecanismos e promessas que os concorrentes usam); provas (Provas disponíveis (demonstração, dados próprios, casos, credenciais)); sofisticacao (Estágio de sofisticação do mercado, de 1 a 5); mercado_idioma (Mercado e idioma; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

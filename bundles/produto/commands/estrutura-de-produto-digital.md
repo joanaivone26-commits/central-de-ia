@@ -3,7 +3,7 @@ description: "Desenha a arquitetura do produto que cumpre a promessa - transform
 argument-hint: "[promessa] [avatar] [formato] [ponto_de_partida] [tempo_disponivel] [preco] [promessas_da_copy] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt produto/estrutura-de-produto-digital -->
+<!-- Central de IA Trip Angle · prompt produto/estrutura-de-produto-digital -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: promessa (Promessa principal da oferta); avatar (Avatar - situação, ponto de partida e principais objeções); formato (Formato - curso, ebook, protocolo de N dias, desafio, comunidade, app ou combinação). Opcionais: ponto_de_partida (O que o aluno já sabe ou já tem quando compra; padrão: iniciante no tema); tempo_disponivel (Tempo que o aluno tem por dia ou por semana; padrão: 15 a 30 minutos por dia); preco (Preço do produto e da esteira, se houver); promessas_da_copy (Promessas, bônus e números da página ou VSL, para conferir a entrega); mercado_idioma (País e idioma do produto; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

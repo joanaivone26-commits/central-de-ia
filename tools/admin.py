@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Painel admin local da Central Trip Angle.
+"""Painel admin local da Central de IA Trip Angle.
 
 Uso:
   python3 tools/admin.py [--port N] [--no-open]
@@ -929,7 +929,7 @@ class Server(ThreadingHTTPServer):
 
 def main(argv=None):
     cfg = hc.load_json(hc.ROOT / "hub.config.json", {}) or {}
-    ap = argparse.ArgumentParser(prog="admin.py", description="Painel admin local da Central Trip Angle.")
+    ap = argparse.ArgumentParser(prog="admin.py", description="Painel admin local da Central de IA Trip Angle.")
     ap.add_argument("--port", type=int, default=int(cfg.get("adminPort") or 4545))
     ap.add_argument("--no-open", action="store_true", help="não abre o navegador")
     args = ap.parse_args(argv)

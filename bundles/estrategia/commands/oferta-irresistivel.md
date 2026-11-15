@@ -3,7 +3,7 @@ description: "Reconstrói o stack pela equação de valor, transformando cada ob
 argument-hint: "[produto] [avatar] [entregaveis] [preco] [provas] [concorrencia] [garantia_base] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt estrategia/oferta-irresistivel -->
+<!-- Central de IA Trip Angle · prompt estrategia/oferta-irresistivel -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto e promessa principal); avatar (Avatar com objeções (ficha ou handoff de estrategia/avatar-e-pesquisa-de-publico)); entregaveis (Entregáveis atuais (módulos, materiais, bônus, suporte, comunidade, ferramentas)); preco (Preço atual ou faixa desejada). Opcionais: provas (Provas disponíveis (demonstração, dados próprios, casos, depoimentos autorizados)); concorrencia (Ofertas concorrentes e seus preços); garantia_base (Garantia mínima; padrão: 7 dias); mercado_idioma (Mercado, idioma e moeda; padrão: Brasil, português, real); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

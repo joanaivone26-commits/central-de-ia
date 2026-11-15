@@ -3,7 +3,7 @@ description: "Cruza os anúncios de vários concorrentes por ângulo e família 
 argument-hint: "[nicho] [anuncios_concorrentes] [mercado_idioma] [minha_oferta] [contexto_da_oferta] [quantidade_angulos] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt pesquisa/matriz-de-angulos-dos-concorrentes -->
+<!-- Central de IA Trip Angle · prompt pesquisa/matriz-de-angulos-dos-concorrentes -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: nicho (Nicho analisado); anuncios_concorrentes (Anúncios coletados por concorrente - texto, transcrição ou descrição, com link ou ID da Biblioteca e data de início). Opcionais: mercado_idioma (Mercado dos anúncios e idioma da análise; padrão: Brasil, português do Brasil); minha_oferta (Sua oferta - produto, público, promessa e mecanismo); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta); quantidade_angulos (Ângulos a propor (2 disputados com diferença clara + o resto em espaço livre); padrão: 6); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion, CSV ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

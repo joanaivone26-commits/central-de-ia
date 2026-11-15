@@ -3,7 +3,7 @@ description: "Analisa uma página de vendas dobra a dobra com nota de 0 a 3, tes
 argument-hint: "[pagina] [nicho] [mercado_idioma] [modo] [anuncio_de_origem] [dados_de_conversao] [minha_pagina] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/destrinchar-pagina-de-vendas -->
+<!-- Central de IA Trip Angle · prompt copy/destrinchar-pagina-de-vendas -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: pagina (Link da página de vendas ou texto completo, com prints de celular e desktop se o link não abrir). Opcionais: nicho (Nicho da oferta); mercado_idioma (Mercado e idioma; padrão: idioma da página; análise em português do Brasil); modo (modelar (estrutura para a sua página), comparar (com a sua página) ou diagnosticar (por que a sua página não converte); padrão: modelar); anuncio_de_origem (Anúncio que leva à página, para medir a continuidade); dados_de_conversao (Métricas da página (visitas, cliques no CTA, início de checkout, vendas, retenção por rolagem)); minha_pagina (Link ou texto da sua página, para os modos comparar e diagnosticar); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

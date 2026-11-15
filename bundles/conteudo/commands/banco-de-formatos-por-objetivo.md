@@ -3,7 +3,7 @@ description: "Monta um banco de 25 a 30 formatos de conteúdo organizados por ob
 argument-hint: "[nicho] [plataformas] [objetivos] [recursos] [quantidade] [frequencia] [formatos_ja_usados] [metricas_do_perfil] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt conteudo/banco-de-formatos-por-objetivo -->
+<!-- Central de IA Trip Angle · prompt conteudo/banco-de-formatos-por-objetivo -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: nicho (Nicho, público e o problema principal que o perfil resolve); recursos (Recursos reais (aparece em vídeo? grava sozinho? tem produto para mostrar? tem clientes que autorizam depoimento? edita no celular?)). Opcionais: plataformas (Plataformas que você usa; padrão: Instagram, TikTok e YouTube Shorts); objetivos (Objetivos do momento (alcance, autoridade, conexão, conversão, retenção); padrão: alcance e conversão); quantidade (Quantos formatos no banco (25 a 30); padrão: 30); frequencia (Quantos posts por semana você consegue publicar; padrão: 5 posts por semana); formatos_ja_usados (Formatos que você já usa e como foram (acima ou abaixo da média)); metricas_do_perfil (Mediana de views, salvamentos e compartilhamentos dos últimos 10 a 20 posts); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma; padrão: Brasil em português); destino (Onde entregar (aqui no chat, Google Docs nativo, Notion, CSV ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

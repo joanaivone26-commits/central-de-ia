@@ -3,7 +3,7 @@ description: "Lê o export do Meta Ads na ordem certa (confiabilidade dos dados,
 argument-hint: "[metricas] [oferta] [periodo] [objetivo] [historico] [vendas_plataforma] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt trafego/diagnostico-de-metricas-de-campanha -->
+<!-- Central de IA Trip Angle · prompt trafego/diagnostico-de-metricas-de-campanha -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: metricas (Métricas por campanha, conjunto e anúncio - export CSV do Gerenciador ou prints com as colunas visíveis); oferta (Oferta, ticket médio e receita líquida por venda, ou CPA alvo e break-even já calculados). Opcionais: periodo (Período analisado, comparação e orçamento diário; padrão: últimos 7 dias contra os 7 anteriores); objetivo (Objetivo da campanha, evento de otimização e janela de atribuição; padrão: vendas, otimizando para compra); historico (Mudanças recentes - criativos novos, edições, público, lance, página, preço; padrão: nada mudou); vendas_plataforma (Vendas pagas na plataforma de checkout no mesmo período); mercado_idioma (País da campanha; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion, CSV ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

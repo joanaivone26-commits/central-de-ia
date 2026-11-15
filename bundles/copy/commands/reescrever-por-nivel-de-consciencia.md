@@ -3,7 +3,7 @@ description: "Diagnostica para qual nível de consciência um texto foi escrito,
 argument-hint: "[copy_original] [sua_oferta] [nivel_atual] [canal] [profundidade] [sofisticacao] [provas] [tom] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/reescrever-por-nivel-de-consciencia -->
+<!-- Central de IA Trip Angle · prompt copy/reescrever-por-nivel-de-consciencia -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: copy_original (Texto a adaptar (anúncio, headline, lead, e-mail ou seção de página)); sua_oferta (Oferta: produto, promessa, mecanismo, preço e condição atual). Opcionais: nivel_atual (Nível para o qual o texto foi escrito, se você souber; padrão: diagnosticar pelo texto); canal (Onde a copy vai rodar (anúncio frio, remarketing, e-mail para a base, página); padrão: anúncio para público frio); profundidade (O que reescrever em cada nível: só a abertura ou a peça inteira; padrão: headline, abertura de 3 a 5 linhas e CTA); sofisticacao (Estágio de sofisticação do mercado (1 a 5); padrão: diagnosticar pelos insumos); provas (Provas reais disponíveis para as versões de nível mais alto); tom (Tom; padrão: intenso e humanizado, sem promessa de ganho garantido); contexto_da_oferta (Bloco de contexto gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma das versões; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo (uma guia por nível), Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

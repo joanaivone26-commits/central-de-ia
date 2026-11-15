@@ -3,7 +3,7 @@ description: "Transforma comentários públicos, reviews e reclamações num map
 argument-hint: "[comentarios] [produto_ou_nicho] [fonte] [mercado_idioma] [quantidade_frases] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt pesquisa/extrair-dores-de-comentarios-e-reviews -->
+<!-- Central de IA Trip Angle · prompt pesquisa/extrair-dores-de-comentarios-e-reviews -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: comentarios (Comentários, reviews ou reclamações colados, separados por bloco de fonte); produto_ou_nicho (Produto, oferta ou nicho pesquisado). Opcionais: fonte (Onde foram coletados (comentários de anúncios, YouTube, TikTok, Reclame Aqui, marketplaces, fóruns públicos); padrão: a indicada em cada bloco colado); mercado_idioma (Mercado do público e idioma da análise; padrão: Brasil, português do Brasil); quantidade_frases (Tamanho do banco de frases do público; padrão: 30); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta, para apontar onde cada achado entra na oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion, CSV ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

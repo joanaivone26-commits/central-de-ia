@@ -3,7 +3,7 @@ description: "Monta o briefing que o editor entende de primeira, com objetivo, r
 argument-hint: "[contexto_da_oferta] [criativo] [material_bruto] [formato] [referencia] [identidade] [nome_base] [prazo] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/briefing-para-editor-de-video -->
+<!-- Central de IA Trip Angle · prompt criativos/briefing-para-editor-de-video -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: criativo (Roteiro, storyboard ou Creative Card da peça); material_bruto (Material disponível (takes, B-roll, gerações de IA, prints, trilha, logo, fontes) com nome do arquivo ou link). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); formato (Proporções e durações de entrega; padrão: Stories 1080×1920 + Feed 1080×1350); referencia (Vídeo de referência de edição com link (ritmo, legenda, estilo)); identidade (Cores, fontes, estilo de legenda e regras de logo); nome_base (Nome do arquivo na nomenclatura da casa; padrão: ÂNGULO__HOOK__FORMATO__PERSONA__VERSÃO__PROPORÇÃO); prazo (Prazo e número de versões; padrão: 48 h e 1 rodada de ajuste); mercado_idioma (Idioma da legenda; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo (uma guia por peça), Notion, Trello ou .md; padrão: aqui no chat, em texto limpo pronto para o WhatsApp). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

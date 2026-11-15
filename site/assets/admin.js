@@ -1,4 +1,4 @@
-/* Central Trip Angle — painel admin (só funciona com python3 tools/admin.py) */
+/* Central de IA Trip Angle — painel admin (só funciona com python3 tools/admin.py) */
 (() => {
   'use strict';
 

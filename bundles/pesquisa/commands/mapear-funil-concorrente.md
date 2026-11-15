@@ -3,7 +3,7 @@ description: "Segue o caminho público de uma oferta do anúncio até o checkout
 argument-hint: "[link_inicial] [nicho] [mercado_idioma] [persona_do_quiz] [materiais_funil] [minha_oferta] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt pesquisa/mapear-funil-concorrente -->
+<!-- Central de IA Trip Angle · prompt pesquisa/mapear-funil-concorrente -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: link_inicial (Link do anúncio, da pré-lander, do quiz ou da página de vendas). Opcionais: nicho (Nicho da oferta, para ler o funil no contexto certo); mercado_idioma (Mercado e idioma; padrão: país e idioma do link; análise em português do Brasil); persona_do_quiz (Respostas a usar se houver quiz; padrão: persona genérica coerente com o anúncio, sem dado real nem sensível); materiais_funil (Prints ou textos das etapas que não abrem pelo link); minha_oferta (Sua oferta em uma frase (produto, público, preço) para comparar); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion, arquivo .md ou CSV; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

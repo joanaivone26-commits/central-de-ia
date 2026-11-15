@@ -3,7 +3,7 @@ description: "Transforma headlines coletadas em fórmulas abstratas sem as palav
 argument-hint: "[headlines] [sua_oferta] [uso] [quantidade] [nivel_de_consciencia] [angulos] [tom] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/swipe-de-headlines -->
+<!-- Central de IA Trip Angle · prompt copy/swipe-de-headlines -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: headlines (Headlines coletadas, uma por linha, com a fonte (anúncio, página, VSL, e-mail) e o país); sua_oferta (Sua oferta: produto, público, promessa, mecanismo e provas disponíveis). Opcionais: uso (Onde as headlines novas vão rodar (página, VSL, anúncio, e-mail, título de vídeo); padrão: headline de página e hook de anúncio); quantidade (Quantas headlines novas gerar; padrão: 30); nivel_de_consciencia (Nível de consciência do público que vai ler; padrão: diagnosticar pela oferta); angulos (Ângulos que você quer cobrir (sem eles, uso pelo menos 5 diferentes)); tom (Tom; padrão: intenso e específico, sem promessa de ganho garantido); contexto_da_oferta (Bloco de contexto gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma das headlines novas; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo, Notion, CSV ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

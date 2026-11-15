@@ -3,7 +3,7 @@ description: "Escreve a régua de recuperação no WhatsApp para carrinho abando
 argument-hint: "[produto] [preco] [plataforma] [objecoes] [condicao_especial] [tom] [mercado_idioma] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt email-whatsapp/recuperacao-de-carrinho-whatsapp -->
+<!-- Central de IA Trip Angle · prompt email-whatsapp/recuperacao-de-carrinho-whatsapp -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: produto (Produto e oferta - nome, o que a pessoa recebe, garantia); preco (Preço e formas de pagamento aceitas (cartão, Pix, boleto) com parcelamento); plataforma (Plataforma de checkout, ferramenta de disparo, se é API oficial, prazo de expiração do Pix e vencimento do boleto). Opcionais: objecoes (Objeções e dúvidas mais comuns de quem abandona); condicao_especial (Condição real para o último toque (cupom, bônus, parcelamento) com prazo verdadeiro); tom (Tom da marca nas mensagens; padrão: próximo e direto, como gente ajudando); mercado_idioma (País e idioma das mensagens; padrão: Brasil, português); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo, Notion, CSV ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

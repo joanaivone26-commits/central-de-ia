@@ -3,7 +3,7 @@ description: "Escolhe os tipos de lead pela matriz consciência × sofisticaçã
 argument-hint: "[sua_oferta] [mecanismo] [avatar] [provas] [nivel_de_consciencia] [sofisticacao] [quantidade] [ponte] [anuncios] [tom] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/leads-de-vsl -->
+<!-- Central de IA Trip Angle · prompt copy/leads-de-vsl -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: sua_oferta (Oferta: produto, preço, promessa principal e big idea); mecanismo (Mecanismo do problema e mecanismo da solução); avatar (Avatar por situação, com dores, desejos, tentativas que falharam e frases reais). Opcionais: provas (Provas reais: dados próprios, depoimentos autorizados, demonstrações, credenciais, história verdadeira); nivel_de_consciencia (Nível de consciência do tráfego; padrão: diagnosticar pelos insumos); sofisticacao (Estágio de sofisticação do mercado (1 a 5); padrão: diagnosticar pelos insumos); quantidade (Quantos leads escrever (3 a 6, um tipo por lead); padrão: 5); ponte (Primeira frase do bloco seguinte da VSL atual, para os leads encaixarem nela); anuncios (Anúncios que levam tráfego para a VSL, para checar a congruência); tom (Tom; padrão: intenso e humanizado, sem promessa de ganho garantido); contexto_da_oferta (Bloco de contexto gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma dos leads; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo (uma guia por lead), Notion ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

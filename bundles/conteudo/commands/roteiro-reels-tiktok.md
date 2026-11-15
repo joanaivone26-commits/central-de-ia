@@ -3,7 +3,7 @@ description: "Escreve roteiros de vídeo curto com 5 ganchos pontuados, falas e 
 argument-hint: "[tema] [nicho] [objetivo] [duracao] [estilo] [quantidade] [ficha_de_voz] [referencia] [recursos] [tom] [intensidade] [contexto_da_oferta] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt conteudo/roteiro-reels-tiktok -->
+<!-- Central de IA Trip Angle · prompt conteudo/roteiro-reels-tiktok -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: tema (Tema do vídeo); nicho (Nicho e público). Opcionais: objetivo (Objetivo do vídeo (alcance, salvamento, seguidores, lead, venda); padrão: alcance); duracao (Duração (15, 30, 45, 60 ou 90 segundos); padrão: 30 s); estilo (Estilo (falando para a câmera, voz em off com B-roll, texto na tela, tutorial de tela); padrão: falando para a câmera); quantidade (Quantos roteiros diferentes sobre o tema; padrão: 1); ficha_de_voz (Como o perfil fala: traços, vocabulário e palavras proibidas); referencia (Link ou print de um vídeo de referência de formato (só referência)); recursos (O que você tem para gravar (celular, cenário, segunda pessoa, produto, tela do computador)); tom (Tom; padrão: direto e específico); intensidade (Intensidade de 1 (sóbrio) a 5 (provocativo); padrão: 3 de 5); contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); mercado_idioma (Mercado e idioma; padrão: Brasil em português); destino (Onde entregar (aqui no chat, Google Docs nativo com uma guia por roteiro, Notion ou .md); padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

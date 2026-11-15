@@ -3,7 +3,7 @@ description: "Lê as métricas do vencedor, separa suas variáveis e levanta hip
 argument-hint: "[contexto_da_oferta] [criativo_vencedor] [metricas] [oferta] [quantidade] [codigo_base] [historico_da_conta] [pecas_anteriores] [producao] [mercado_idioma] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt criativos/variacoes-de-criativo-vencedor -->
+<!-- Central de IA Trip Angle · prompt criativos/variacoes-de-criativo-vencedor -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: criativo_vencedor (Link, arquivo ou transcrição completa do vencedor, com texto na tela e legenda); metricas (Métricas do vencedor com período e gasto (hook rate, hold rate, CTR, CPA, ROAS, compras)); oferta (Oferta anunciada, com produto, preço, promessa e página do clique). Opcionais: contexto_da_oferta (Bloco gerado pelo prompt estrategia/contexto-da-oferta); quantidade (Quantas variações você consegue produzir agora; padrão: 10 variações); codigo_base (Nome do vencedor na sua nomenclatura; padrão: gerar no padrão ÂNGULO__HOOK__FORMATO__PERSONA__VERSÃO); historico_da_conta (Médias da conta para comparar o vencedor); pecas_anteriores (Variações já testadas e resultado, para não repetir); producao (Recursos disponíveis (creator, IA, B-roll, editor); padrão: mesmos recursos do vencedor); mercado_idioma (País e idioma; padrão: Brasil, português); destino (Onde entregar: aqui, Google Docs nativo, Notion, CSV ou .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.

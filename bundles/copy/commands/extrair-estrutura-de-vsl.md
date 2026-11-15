@@ -3,7 +3,7 @@ description: "Destrincha a transcrição de uma VSL em blocos com minutagem, fun
 argument-hint: "[transcricao] [duracao] [nicho] [mercado_idioma] [oferta_da_vsl] [modo] [duracao_alvo] [minha_oferta] [contexto_da_oferta] [destino]"
 ---
 
-<!-- Central Trip Angle · prompt copy/extrair-estrutura-de-vsl -->
+<!-- Central de IA Trip Angle · prompt copy/extrair-estrutura-de-vsl -->
 Dados enviados pelo usuário: $ARGUMENTS
 
 Antes de começar, confira os insumos. Obrigatórios: transcricao (Transcrição completa da VSL, de preferência com minutagem). Opcionais: duracao (Duração total da VSL (se não vier, calculo pela contagem de palavras)); nicho (Nicho da oferta); mercado_idioma (Mercado e idioma; padrão: idioma da VSL; análise em português do Brasil); oferta_da_vsl (Preço, bônus, garantia e link da página da VSL analisada); modo (estudar (só a leitura) ou modelar (leitura + esqueleto para a sua oferta); padrão: modelar); duracao_alvo (Duração do esqueleto para a sua VSL; padrão: mesma duração da original); minha_oferta (Sua oferta (produto, público, promessa, mecanismo, preço) para o esqueleto); contexto_da_oferta (Bloco do prompt estrategia/contexto-da-oferta); destino (Onde entregar - aqui no chat, Google Docs nativo (uma guia por seção), Notion ou arquivo .md; padrão: aqui no chat). Se faltar algum obrigatório, peça todos os que faltam numa única pergunta e espere.
