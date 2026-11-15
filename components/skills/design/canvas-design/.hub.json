@@ -7,8 +7,8 @@
     "commit": "20f38d42fb6a60d8937ba7c01adbac7b08e093d0",
     "url": "https://www.aitmpl.com/component/skills/creative-design/canvas-design"
   },
-  "license": "Complete terms in LICENSE.txt",
-  "author": "claude-code-templates (aitmpl.com)",
+  "license": "Apache-2.0",
+  "author": "Anthropic (anthropics/skills), via claude-code-templates",
   "scan": {
     "severity": "LOW",
     "score": 0,

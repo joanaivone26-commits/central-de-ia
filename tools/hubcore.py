@@ -181,11 +181,57 @@ def list_files(base):
     return out
 
 
+_GIT_DATES = None
+
+
+def _git_dates():
+    """Data em que cada arquivo entrou no git (o checkout do GitHub Actions zera as datas dos arquivos)."""
+    global _GIT_DATES
+    if _GIT_DATES is None:
+        _GIT_DATES = {}
+        try:
+            import subprocess
+            out = subprocess.run(["git", "-C", str(ROOT), "-c", "core.quotepath=off", "log", "--diff-filter=A",
+                                  "--format=@%cs", "--name-only", "--", "components"],
+                                 capture_output=True, text=True, timeout=60, check=True).stdout
+            dia = None
+            for linha in out.splitlines():  # do mais novo para o mais antigo: fica a primeira entrada
+                if linha.startswith("@"):
+                    dia = linha[1:].strip()
+                elif linha.strip() and dia:
+                    _GIT_DATES[linha.strip()] = dia
+        except Exception:  # noqa: BLE001  (sem git ou sem histórico: usa a data do arquivo)
+            pass
+    return _GIT_DATES
+
+
 def _date(path):
+    try:
+        rel = Path(path).resolve().relative_to(ROOT.resolve()).as_posix()
+        d = _git_dates().get(rel)
+        if d:
+            return d
+    except ValueError:
+        pass
     try:
         return datetime.date.fromtimestamp(Path(path).stat().st_mtime).isoformat()
     except OSError:
         return datetime.date.today().isoformat()
+
+
+def _url_ok(u):
+    return isinstance(u, str) and re.match(r"^https?://[^\s\"'<>]+$", u) is not None
+
+
+def _limpar_urls(item, warn):
+    """Endereço que não seja http(s) nunca chega ao site (evita javascript: e afins)."""
+    for chave in ("source", "site", "repo"):
+        obj = item.get(chave)
+        if isinstance(obj, dict) and "url" in obj and obj["url"] and not _url_ok(obj["url"]):
+            warn(f"endereço inválido removido de {item['id']} ({chave}.url)")
+            obj["url"] = ""
+    if isinstance(item.get("fontes"), list):
+        item["fontes"] = [u for u in item["fontes"] if _url_ok(u)]
 
 
 def _apply_side(item, side):
@@ -394,8 +440,11 @@ def scan_components(warn=None):
                                 else _json_item(t["id"], category, entry))
                         side = load_json(entry.with_name(entry.stem + SIDE))
                     _apply_side(item, side)
-                    if not NAME_RE.match(item["name"]):
-                        warn(f"nome fora do padrão (use minúsculas e hífens): {item['id']}")
+                    if not NAME_RE.match(item["name"]) or not NAME_RE.match(category):
+                        # o nome vai para comandos de terminal e caminhos: fora do padrão, fica fora do catálogo
+                        warn(f"ignorado, nome fora do padrão (use minúsculas e hífens): {item['id']}")
+                        continue
+                    _limpar_urls(item, warn)
                     items.append(item)
                     if t["id"] == "plugins":
                         items.extend(_plugin_children(item, entry, category))

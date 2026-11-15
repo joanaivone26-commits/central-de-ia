@@ -1,6 +1,6 @@
 # Identidade visual Trip Angle
 
-![Prancha da identidade Trip Angle](imagens/prancha-identidade.png)
+![Prancha da identidade Trip Angle](prancha-identidade.png)
 
 Este guia reúne o que define a cara da comunidade Trip Angle e como aplicar em documentos, thumbnails e vídeos. Ele foi montado a partir dos materiais oficiais já publicados (ícone de tripangle.com.br, artes "Call de hoje" e thumbnails "O novo nível da IA" e "Deixei a IA controlar meus ads").
 

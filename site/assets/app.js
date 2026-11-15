@@ -6,9 +6,21 @@
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const dec = (s) => { try { return decodeURIComponent(s); } catch (e) { return s; } };
+  const urlSegura = (u) => (/^https?:\/\//i.test(String(u || '')) ? String(u) : '');
   const norm = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const store = {
-    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+    get(k, d) {
+      try {
+        const v = localStorage.getItem(k);
+        if (!v) return d;
+        const x = JSON.parse(v);
+        // valor de outro formato (outro site no mesmo domínio, versão antiga) volta ao padrão
+        if (Array.isArray(d)) return Array.isArray(x) ? x : d;
+        if (d && typeof d === 'object') return x && typeof x === 'object' && !Array.isArray(x) ? x : d;
+        return x;
+      } catch (e) { return d; }
+    },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* sem armazenamento */ } },
   };
 
@@ -49,8 +61,12 @@
   const tipo = (id) => S.types[id] || { label: id, singular: id, flag: '--' + id };
   const catInfo = (id) => S.cats[id] || { id, label: id, icon: '•' };
   const ref = (it) => `${it.category}/${it.name}`;
-  const pyCmd = () => `python3 <(curl -fsSL ${S.origin}/tahub.py)`;
-  const cmdItem = (it) => (it.type === 'sites' ? ((it.site || {}).url || '') : `${pyCmd()} ${tipo(it.type).flag} ${ref(it)}`);
+  // macOS/Linux: process substitution do bash/zsh. Windows (PowerShell e cmd) não tem <(...): usa o py.
+  const ehWindows = /Windows/i.test(navigator.userAgent || '');
+  const pyUnix = () => `python3 <(curl -fsSL ${S.origin}/tahub.py)`;
+  const pyWin = () => `py -c "import urllib.request as u;exec(u.urlopen('${S.origin}/tahub.py').read())"`;
+  const pyCmd = () => (ehWindows ? pyWin() : pyUnix());
+  const cmdItem = (it) => (it.type === 'sites' ? urlSegura((it.site || {}).url) : `${pyCmd()} ${tipo(it.type).flag} ${ref(it)}`);
   const instalavel = (it) => it.type !== 'sites';
   function seloStatus(it) {
     const st = it.status;
@@ -63,7 +79,7 @@
   const mpNome = () => hub().marketplaceName || 'trip-angle';
   const mpAdd = () => (hub().githubRepo ? `/plugin marketplace add ${hub().githubRepo}` : null);
   const fmtBytes = (n) => (n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : n > 1024 ? Math.round(n / 1024) + ' KB' : (n || 0) + ' B');
-  const fmtData = (d) => { if (!d) return '—'; const [y, m, dd] = d.split('-'); return `${dd}/${m}/${y}`; };
+  const fmtData = (d) => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(d || '')); return m ? `${m[3]}/${m[2]}/${m[1]}` : '—'; };
 
   function origemTexto(it) {
     const s = it.source || {};
@@ -73,8 +89,8 @@
   }
   function origemUrl(it) {
     const s = it.source || {};
-    if (s.url) return s.url;
-    if (s.repo) return `https://github.com/${s.repo}`;
+    if (urlSegura(s.url)) return s.url;
+    if (s.repo && /^[\w.-]+\/[\w.-]+$/.test(s.repo)) return `https://github.com/${s.repo}`;
     return null;
   }
 
@@ -135,7 +151,8 @@
       (porFlag[f] = porFlag[f] || []).push(ref(it));
     });
     const partes = Object.entries(porFlag).map(([f, v]) => `  ${f} ${v.join(',')}`);
-    return partes.length ? `${pyCmd()} \\\n${partes.join(' \\\n')}` : '';
+    if (!partes.length) return '';
+    return ehWindows ? `${pyCmd()} ${partes.map((s) => s.trim()).join(' ')}` : `${pyCmd()} \\\n${partes.join(' \\\n')}`;
   }
   function desenharStack() {
     const lista = $('#stackLista');
@@ -168,6 +185,7 @@
     const g = $('#gaveta');
     g.classList.toggle('aberta', abrir);
     g.setAttribute('aria-hidden', String(!abrir));
+    g.inert = !abrir; // fechada, os botões dela saem da navegação pelo Tab
     $('#veu').classList.toggle('aberto', abrir);
     if (abrir) desenharStack();
   }
@@ -253,8 +271,8 @@
         <div class="previa-prompt"><pre id="promptFinal" class="cru">Carregando o prompt…</pre></div>
         <div class="acoes-prompt">
           <button class="btn vermelho" id="copiarPrompt">${I.copiar} Copiar prompt</button>
-          <a class="btn" id="abrirClaude" target="_blank" rel="noopener">Abrir no Claude ${I.ext}</a>
-          <a class="btn" id="abrirChatgpt" target="_blank" rel="noopener">Abrir no ChatGPT ${I.ext}</a>
+          <a class="btn" id="abrirClaude" href="https://claude.ai/new" target="_blank" rel="noopener" title="Copia o prompt e abre o Claude: é só colar">Copiar e abrir o Claude ${I.ext}</a>
+          <a class="btn" id="abrirChatgpt" href="https://chatgpt.com/" target="_blank" rel="noopener" title="Copia o prompt e abre o ChatGPT: é só colar">Copiar e abrir o ChatGPT ${I.ext}</a>
           ${vars.length ? '<button class="btn fantasma" id="limparVars" type="button">Limpar campos</button>' : ''}
         </div>
         <p class="nota" id="notaFaltando"></p>
@@ -265,30 +283,33 @@
   async function ligarPrompt(it) {
     const pre = $('#promptFinal');
     if (!pre) return;
+    const painel = pre.closest('.usar-prompt');
+    const no = (sel) => $(sel, painel);
     let corpo;
-    try { corpo = await textoPrompt(it); } catch (e) { pre.textContent = 'Não consegui carregar o prompt (' + e.message + ').'; return; }
-    const form = $('#formVars');
+    try { corpo = await textoPrompt(it); } catch (e) {
+      if (!pre.isConnected) return;
+      pre.textContent = 'Não consegui carregar o prompt (' + e.message + '). Confira a internet e recarregue a página.';
+      ['#copiarPrompt', '#abrirClaude', '#abrirChatgpt'].forEach((s) => { const b = no(s); if (b) { b.classList.add('desab'); b.setAttribute('aria-disabled', 'true'); b.removeAttribute('href'); b.addEventListener('click', (ev) => { ev.preventDefault(); toast('O prompt não carregou: recarregue a página'); }); } });
+      return;
+    }
+    // a pessoa pode ter mudado de página enquanto o arquivo chegava: não liga nada na página nova
+    if (!pre.isConnected) return;
+    const form = no('#formVars');
     const valores = () => { const v = {}; if (form) $$('input, textarea', form).forEach((el) => { v[el.name] = el.value; }); return v; };
     const atualizar = () => {
       const v = valores();
       const final = preencher(corpo, v, it.variables);
       pre.textContent = final;
       const faltam = (it.variables || []).filter((x) => x.required !== false && !(v[x.name] || '').trim()).map((x) => x.label);
-      $('#notaFaltando').innerHTML = faltam.length ? `Faltam ${faltam.length} obrigatório(s): ${faltam.map(esc).join(', ')}. Você pode copiar assim mesmo: o modelo pede o que faltar numa única pergunta. Campos opcionais vazios usam o padrão.` : '<span style="color:var(--verde)">● Obrigatórios preenchidos. Opcionais vazios usam o padrão.</span>';
-      const q = encodeURIComponent(final);
-      const longo = q.length > 7500;
-      [['#abrirClaude', 'https://claude.ai/new?q='], ['#abrirChatgpt', 'https://chatgpt.com/?q=']].forEach(([sel, base]) => {
-        const a = $(sel);
-        if (longo) { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); a.title = 'Texto longo demais para abrir pelo link: copie e cole.'; a.classList.add('desab'); }
-        else { a.href = base + q; a.removeAttribute('aria-disabled'); a.title = ''; a.classList.remove('desab'); }
-      });
-      if (longo) $('#notaFaltando').innerHTML += ' Texto longo: use <b>Copiar prompt</b> e cole no chat.';
+      no('#notaFaltando').innerHTML = faltam.length ? `Faltam ${faltam.length} obrigatório(s): ${faltam.map(esc).join(', ')}. Você pode copiar assim mesmo: o modelo pede o que faltar numa única pergunta. Campos opcionais vazios usam o padrão.` : '<span style="color:var(--verde)">● Obrigatórios preenchidos. Opcionais vazios usam o padrão.</span>';
       store.set('ta-vars-' + it.id, v);
       return final;
     };
     if (form) form.addEventListener('input', atualizar);
-    $('#copiarPrompt').addEventListener('click', (e) => copiar(atualizar(), e.currentTarget));
-    const lv = $('#limparVars');
+    no('#copiarPrompt').addEventListener('click', (e) => copiar(atualizar(), e.currentTarget));
+    // o prompt mestre é longo demais para ir no link: copia antes e o link só abre o chat
+    ['#abrirClaude', '#abrirChatgpt'].forEach((s) => no(s).addEventListener('click', () => copiar(atualizar(), null, 'Prompt copiado. No chat, cole com Ctrl+V (⌘V no Mac) e envie.')));
+    const lv = no('#limparVars');
     if (lv) lv.addEventListener('click', () => { $$('input, textarea', form).forEach((el) => { el.value = ''; }); atualizar(); });
     atualizar();
   }
@@ -325,7 +346,7 @@
           <label class="campo">${I.busca}<input id="filtroPrompts" type="search" value="${esc(q)}" placeholder="Buscar prompt: VSL, avatar, UGC, Biblioteca de Anúncios…" aria-label="Buscar prompt"></label>
           <select id="filtroFerr" aria-label="Ferramenta"><option value="">Qualquer ferramenta</option>${Object.keys(ferrs).sort().map((t) => `<option value="${esc(t)}" ${t === ferr ? 'selected' : ''}>${esc(nomeFerr(t))} (${ferrs[t]})</option>`).join('')}</select>
         </div>
-        <p class="resumo">${lista.length} prompt${lista.length === 1 ? '' : 's'}${q ? ` para “${esc(q)}”` : ''}</p>
+        <div class="resultados"><p class="resumo">${lista.length} prompt${lista.length === 1 ? '' : 's'}${q ? ` para “${esc(q)}”` : ''}</p>
         ${(() => {
           const mestres = lista.filter((i) => i.level === 'mestre');
           const modulos = lista.filter((i) => i.level !== 'mestre');
@@ -335,7 +356,7 @@
               <div class="grid">${mestres.map(card).join('')}</div>` : '')
             + (modulos.length ? `${mestres.length ? '<div class="cab" style="margin-top:36px"><div><span class="colchete">Módulos</span><h2 class="h2">Partes da missão <em>sob medida</em></h2><p>Para quando você precisa de uma etapa específica.</p></div></div>' : ''}
               <div class="grid">${modulos.map(card).join('')}</div>` : '');
-        })()}
+        })()}</div>
         ${frameworks.length ? `<div class="cab" style="margin-top:44px"><div><span class="colchete">Frameworks</span><h2 class="h2">Os métodos <em>por trás</em></h2>
           <p>Estruturas de copy, oferta e criativos explicadas com exemplo e prompt para aplicar. No Claude Code, cada framework vira uma skill.</p></div>
           <a class="btn" href="#/explorar?tipo=frameworks">Ver todos</a></div>
@@ -480,18 +501,19 @@
     atualizarFavs();
     toast(tinha ? 'Removido dos favoritos' : 'Salvo nos favoritos');
   }
-  function marcarFav(el) {
-    const on = favs().includes(el.dataset.fav);
+  function marcarFav(el, lista) {
+    const on = (lista || favs()).includes(el.dataset.fav);
     el.classList.toggle('fav-on', on);
     el.innerHTML = on ? I.estrelaCheia : I.estrela;
     el.title = on ? 'Nos seus favoritos (clique para tirar)' : 'Salvar nos favoritos';
     el.setAttribute('aria-label', el.title);
   }
   function atualizarFavs() {
-    const n = favs().filter((id) => S.byId.has(id)).length;
+    const lista = favs();
+    const n = lista.filter((id) => S.byId.has(id)).length;
     const b = $('#favBadge');
     if (b) { b.dataset.n = n; b.textContent = n || ''; }
-    $$('[data-fav]').forEach(marcarFav);
+    $$('[data-fav]').forEach((el) => marcarFav(el, lista));
   }
   function paginaFavoritos() {
     const lista = favs().map((id) => S.byId.get(id)).filter(Boolean);
@@ -505,7 +527,6 @@
   }
 
   // ---------------------------------------------------------------- repositórios: ficha técnica
-  const urlSegura = (u) => (/^https?:\/\//i.test(String(u || '')) ? String(u) : '');
   function fichaTecnica(it) {
     const d = it.detalhes || {};
     const fontes = (it.fontes || []).map(urlSegura).filter(Boolean);
@@ -554,10 +575,11 @@
 
   // ---------------------------------------------------------------- jornadas
   const jornadas = () => S.cat.journeys || [];
-  const progresso = (id) => store.get('ta-jornada-' + id, []);
+  // só conta passos que ainda existem (se a jornada encolher, o progresso não passa de 100%)
+  const progresso = (id, n = Infinity) => store.get('ta-jornada-' + id, []).filter((i) => Number.isInteger(i) && i >= 0 && i < n);
   function jornadaCard(j) {
     const n = (j.passos || []).length;
-    const feitos = progresso(j.id).length;
+    const feitos = progresso(j.id, n).length;
     return `<a class="kit jornada-card" href="#/jornada/${esc(j.id)}">
       <div style="display:flex;gap:8px;align-items:center">${selo(`${n} passos`, feitos ? 'cheio' : '')}${feitos ? `<span class="mono muted" style="font-size:12px">${feitos}/${n} feitos</span>` : ''}</div>
       <span class="ic-grande" aria-hidden="true">${esc(j.icone || '▲')}</span>
@@ -580,8 +602,8 @@
   function paginaJornada(id) {
     const j = jornadas().find((x) => x.id === id);
     if (!j) return '<div class="wrap" style="padding:60px 0"><div class="vazio"><p class="h3">Jornada não encontrada</p><p><a href="#/jornadas" style="color:var(--neon)">Ver todas</a></p></div></div>';
-    const feitos = progresso(j.id);
     const n = j.passos.length;
+    const feitos = progresso(j.id, n);
     const pct = Math.round((feitos.length / Math.max(n, 1)) * 100);
     const mini = (it) => `<a class="principal" href="${urlItem(it)}">${it.level === 'mestre' ? selo('Prompt mestre', 'cheio') : selo(tipo(it.type).singular, 'cinza')}<span><b>${esc(it.title)}</b><small>${esc(it.description || '')}</small></span><span class="abrir">Abrir →</span></a>`;
     return `<section class="hero" style="padding-bottom:16px">${TRI}<div class="wrap">
@@ -816,7 +838,7 @@
 
     ${kits.length ? `<section class="bloco"><div class="wrap">
       <div class="cab"><div><span class="colchete">Kits prontos</span><h2 class="h2">Instale uma <em>área inteira</em></h2>
-        <p>Cada kit é um plugin do Claude Code com as skills, agentes e comandos de uma área. Instala pelo marketplace e atualiza sozinho.</p></div>
+        <p>Cada kit é um plugin do Claude Code com as skills, agentes e comandos de uma área. Instala pelo marketplace; para receber as novidades, ligue a atualização automática (veja abaixo).</p></div>
         <a class="btn" href="#/kits">Ver todos</a></div>
       <div class="grid kits">${kits.map(kitCard).join('')}</div>
     </div></section>` : ''}
@@ -872,7 +894,7 @@
     const add = mpAdd();
     return `<section class="bloco"><div class="wrap">
       <div class="cab"><div><span class="colchete">Kits &amp; Plugins</span><h1 class="titulo" style="font-size:clamp(36px,5vw,64px)">Instale direto no <em>Claude Code</em></h1>
-      <p>Cada kit junta os prompts, skills, agentes e frameworks de uma área. Adicione a Central uma vez no Claude Code e instale quantos kits quiser; eles se atualizam sozinhos.</p></div></div>
+      <p>Cada kit junta os prompts, skills, agentes e frameworks de uma área. Adicione a Central uma vez no Claude Code e instale quantos kits quiser. Para os kits se atualizarem sozinhos, no Claude Code abra <b>/plugin</b> → Marketplaces → <b>trip-angle</b> → ative a atualização automática (ou rode <code>/plugin marketplace update trip-angle</code> de vez em quando).</p></div></div>
       <div class="painel" style="margin-bottom:24px"><header><span class="ponto"></span><span class="colchete">Passo 1 · adicionar o marketplace</span></header>
         <div class="corpo">${add ? blocoCmd(add) : `<div class="aviso">A central ainda não foi publicada no GitHub. Depois de publicar, este passo vira <b class="mono">/plugin marketplace add dono/repositorio</b>. Para testar no seu computador, use o caminho da pasta: <b class="mono">/plugin marketplace add /caminho/para/trip-angle-hub</b>.</div>`}
         <p class="nota">Digite dentro do Claude Code. Depois, <b>/plugin</b> mostra tudo o que está instalado.</p></div></div>
@@ -938,10 +960,10 @@
             <select data-param="mac" aria-label="Roda no Mac"><option value="">Mac: qualquer</option>${filtrosRepo.mac.map((v) => `<option value="${esc(v)}" ${v === macSel ? 'selected' : ''}>Mac: ${esc(v)}</option>`).join('')}</select>
             <select data-param="com" aria-label="Uso comercial"><option value="">Comercial: qualquer</option>${filtrosRepo.com.map((v) => `<option value="${esc(v)}" ${v === comSel ? 'selected' : ''}>Comercial: ${esc(v)}</option>`).join('')}</select>` : ''}
         </div>
-        <p class="resumo">${lista.length} resultado${lista.length === 1 ? '' : 's'}${q ? ` para “${esc(q)}”` : ''}</p>
+        <div class="resultados"><p class="resumo">${lista.length} resultado${lista.length === 1 ? '' : 's'}${q ? ` para “${esc(q)}”` : ''}</p>
         ${lista.length ? `<div class="grid" id="gridItens">${lista.slice(0, S.limite).map(card).join('')}</div>
           ${lista.length > S.limite ? `<div class="mais"><button class="btn" id="maisBtn">Mostrar mais (${lista.length - S.limite})</button></div>` : ''}`
-        : `<div class="vazio"><p class="h3">Nada encontrado</p><p>Tente outra palavra ou <a href="#/explorar" style="color:var(--neon)">limpe os filtros</a>.</p></div>`}
+        : `<div class="vazio"><p class="h3">Nada encontrado</p><p>Tente outra palavra ou <a href="#/explorar" style="color:var(--neon)">limpe os filtros</a>.</p></div>`}</div>
       </div>
     </div>`;
   }
@@ -957,16 +979,18 @@
     const corScan = { LOW: 'var(--verde)', MEDIUM: 'var(--amarelo)', HIGH: 'var(--neon)', CRITICAL: 'var(--neon)' }[scan] || 'var(--cinza)';
     const plugNome = it.type === 'plugins' ? (it.marketplaceName || it.pluginName || it.name) : (pai ? (pai.marketplaceName || pai.name) : it.bundle);
     const avisos = [];
-    if (scan === 'HIGH' || scan === 'CRITICAL') avisos.push(`<div class="aviso vermelho">Análise de segurança: <b>${scan}</b> (nota ${it.scan.score}). Leia todos os arquivos antes de instalar.</div>`);
+    if (scan === 'HIGH' || scan === 'CRITICAL') avisos.push(`<div class="aviso vermelho">Análise de segurança: <b>${esc(scan)}</b> (nota ${esc(it.scan.score)}). Leia todos os arquivos antes de instalar.</div>`);
     if (it.type === 'hooks') avisos.push('<div class="aviso">Hooks executam comandos na sua máquina em eventos do Claude Code. Leia o arquivo antes de instalar.</div>');
     if (it.type === 'mcps' && (it.requires || []).length) avisos.push(`<div class="aviso">Depois de instalar, preencha no <b class="mono">.mcp.json</b>: ${it.requires.map((r) => `<b class="mono">${esc(r)}</b>`).join(', ')}. Use variáveis de ambiente para chaves.</div>`);
 
     let instalar;
+    const siteUrl = urlSegura((it.site || {}).url);
+    const repoUrl = urlSegura((it.repo || {}).url);
     if (it.type === 'sites') {
-      instalar = `<a class="btn vermelho" style="width:100%" href="${esc((it.site || {}).url)}" target="_blank" rel="noopener">Abrir o site ${I.ext}</a>
-        ${blocoCmd((it.site || {}).url || '', false)}${(it.site || {}).pricing ? `<p class="nota">Preço: <b>${esc(it.site.pricing)}</b></p>` : ''}`;
+      instalar = `${siteUrl ? `<a class="btn vermelho" style="width:100%" href="${esc(siteUrl)}" target="_blank" rel="noopener">Abrir o site ${I.ext}</a>
+        ${blocoCmd(siteUrl, false)}` : '<p class="nota">Endereço indisponível.</p>'}${(it.site || {}).pricing ? `<p class="nota">Preço: <b>${esc(it.site.pricing)}</b></p>` : ''}`;
     } else if (it.type === 'repos') {
-      instalar = blocoCmd(`git clone ${(it.repo || {}).url || ''}`) + blocoCmd(cmdItem(it));
+      instalar = (repoUrl ? blocoCmd(`git clone ${repoUrl}`) : '') + blocoCmd(cmdItem(it));
     } else {
       const abas = [['cli', 'Instalador'], ...(plugNome ? [['mp', 'Marketplace']] : []), ['manual', 'Manual']];
       instalar = `<div class="seg" role="tablist">${abas.map(([k, l], i) => `<button role="tab" data-aba="${k}" class="${i === 0 ? 'ativo' : ''}">${l}</button>`).join('')}</div>
@@ -980,7 +1004,7 @@
     const arquivos = it.files || [];
     return `<div class="wrap detalhe">
       <div>
-        <nav class="trilha" aria-label="Trilha"><a href="#/explorar">Catálogo</a><i>/</i><a href="#/explorar?tipo=${it.type}">${esc(t.label)}</a><i>/</i><a href="#/explorar?cat=${it.category}">${esc(c.label)}</a></nav>
+        <nav class="trilha" aria-label="Trilha"><a href="#/explorar">Catálogo</a><i>/</i><a href="#/explorar?tipo=${encodeURIComponent(it.type)}">${esc(t.label)}</a><i>/</i><a href="#/explorar?cat=${encodeURIComponent(it.category)}">${esc(c.label)}</a></nav>
         <div style="display:flex;gap:8px;flex-wrap:wrap">${selo(t.singular, 'cheio')}${seloStatus(it)}${it.featured ? selo('Destaque', 'brilho') : ''}${pai ? `<a href="${urlItem(pai)}">${selo('Parte de ' + pai.title, 'cinza')}</a>` : ''}</div>
         <h1 class="titulo">${esc(it.title)}</h1>
         <p class="lead">${esc(it.description || 'Sem descrição.')}</p>
@@ -1004,7 +1028,7 @@
         <div class="painel"><header><span class="colchete">Detalhes</span></header><div class="corpo">
           <dl class="meta">
             <dt>ID</dt><dd class="mono" style="font-size:12px">${esc(ref(it))}</dd>
-            <dt>Categoria</dt><dd><a href="#/explorar?cat=${it.category}">${esc(c.label)}</a></dd>
+            <dt>Categoria</dt><dd><a href="#/explorar?cat=${encodeURIComponent(it.category)}">${esc(c.label)}</a></dd>
             <dt>Origem</dt><dd>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(origemTexto(it))}</a>` : esc(origemTexto(it))}</dd>
             ${it.author ? `<dt>Autor</dt><dd>${esc(it.author)}</dd>` : ''}
             <dt>Licença</dt><dd>${esc(it.license || '—')}</dd>
@@ -1017,7 +1041,7 @@
             ${it.origin ? `<dt>Crédito</dt><dd>${esc(it.origin)}</dd>` : ''}
             ${it.events && it.events.length ? `<dt>Eventos</dt><dd>${esc(it.events.join(', '))}</dd>` : ''}
             ${it.servers && it.servers.length ? `<dt>Servidores</dt><dd class="mono">${esc(it.servers.join(', '))}</dd>` : ''}
-            ${it.repo ? `<dt>GitHub</dt><dd><a href="${esc(it.repo.url)}" target="_blank" rel="noopener">${esc((it.repo.url || '').replace('https://github.com/', ''))}</a></dd>
+            ${it.repo ? `<dt>GitHub</dt><dd>${repoUrl ? `<a href="${esc(repoUrl)}" target="_blank" rel="noopener">${esc(repoUrl.replace('https://github.com/', ''))}</a>` : '—'}</dd>
               ${it.repo.stars != null ? `<dt>Estrelas</dt><dd>★ ${Number(it.repo.stars).toLocaleString('pt-BR')}</dd>` : ''}
               ${it.repo.language ? `<dt>Linguagem</dt><dd>${esc(it.repo.language)}</dd>` : ''}` : ''}
             ${scan ? `<dt>Segurança</dt><dd><span style="color:${corScan};font-weight:700">● ${esc(scan)}</span> <span class="muted">(${esc(it.scan.tool || 'scan')} ${esc(it.scan.score)})</span></dd>` : ''}
@@ -1057,9 +1081,11 @@
     })[it.type] || '';
   }
 
+  let pedidoArq = 0;
   async function abrirArquivo(it, caminho) {
     const v = $('#viewer');
     if (!v) return;
+    const pedido = ++pedidoArq;
     $$('#listaArq button').forEach((b) => b.classList.toggle('ativo', b.dataset.arq === caminho));
     const bx = $('#baixarArq');
     if (bx) { bx.href = caminho; bx.setAttribute('download', caminho.split('/').pop()); }
@@ -1067,11 +1093,18 @@
       v.innerHTML = `<div class="corpo"><img src="${esc(caminho)}" alt="${esc(caminho.split('/').pop())}" style="max-height:60vh;margin:auto"></div>`;
       return;
     }
+    if (/\.(ttf|otf|woff2?|eot|zip|gz|tar|pdf|mp3|mp4|mov|wav|ogg|webm|ico|bin|exe|dmg|pyc|db|sqlite|xlsx?|docx?|pptx?)$/i.test(caminho)) {
+      v.innerHTML = `<div class="corpo"><div class="aviso">Arquivo binário (${esc(caminho.split('.').pop().toUpperCase())}). Use <b>Baixar</b> para salvar.</div></div>`;
+      return;
+    }
     v.innerHTML = '<div class="esqueleto" style="margin:14px"></div>';
     try {
       const r = await fetch(caminho);
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const txt = await r.text();
+      if (/\.md$/i.test(caminho)) await carregarLibsMd();
+      // outro arquivo foi pedido (ou a página mudou) enquanto este chegava
+      if (pedido !== pedidoArq || !v.isConnected) return;
       if (/\.md$/i.test(caminho)) {
         const m = txt.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
         let fm = '';
@@ -1081,7 +1114,7 @@
           const linhas = m[1].split('\n').filter((l) => /^[A-Za-z0-9_-]+:/.test(l));
           fm = `<dl class="fm">${linhas.map((l) => { const i = l.indexOf(':'); return `<dt>${esc(l.slice(0, i))}</dt><dd>${esc(l.slice(i + 1).trim().replace(/^["']|["']$/g, ''))}</dd>`; }).join('')}</dl>`;
         }
-        v.innerHTML = fm + `<div class="md">${md(corpo)}</div>`;
+        v.innerHTML = fm + `<div class="md">${md(corpo, caminho.replace(/[^/]*$/, ''))}</div>`;
       } else if (/\.json$/i.test(caminho)) {
         let bonito = txt;
         try { bonito = JSON.stringify(JSON.parse(txt), null, 2); } catch (e) { /* mantém */ }
@@ -1090,12 +1123,66 @@
         v.innerHTML = `<pre class="cru">${esc(txt)}</pre>`;
       }
     } catch (e) {
+      if (pedido !== pedidoArq || !v.isConnected) return;
       v.innerHTML = `<div class="corpo"><div class="aviso">Não consegui abrir o arquivo (${esc(e.message)}).</div></div>`;
     }
   }
-  function md(texto) {
+
+  // Markdown: as bibliotecas só carregam quando a pessoa abre um .md (fora do caminho crítico),
+  // com hash de integridade. Se a CDN falhar, o arquivo aparece como texto puro.
+  const LIBS_MD = [
+    ['https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js', 'sha384-/TQbtLCAerC3jgaim+N78RZSDYV7ryeoBCVqTuzRrFec2akfBkHS7ACQ3PQhvMVi'],
+    ['https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js', 'sha384-+VfUPEb0PdtChMwmBcBmykRMDd+v6D/oFmB3rZM/puCMDYcIvF968OimRh4KQY9a'],
+  ];
+  let libsMd = null;
+  function carregarLibsMd() {
+    if (window.marked && window.DOMPurify) return Promise.resolve();
+    if (!libsMd) {
+      libsMd = Promise.all(LIBS_MD.map(([src, sri]) => new Promise((ok, falha) => {
+        const s = document.createElement('script');
+        s.src = src; s.integrity = sri; s.crossOrigin = 'anonymous'; s.referrerPolicy = 'no-referrer';
+        s.onload = ok; s.onerror = falha;
+        document.head.appendChild(s);
+      }))).then(prepararPurify).catch(() => { libsMd = null; });
+    }
+    return libsMd;
+  }
+  let baseMd = '';
+  function prepararPurify() {
+    const P = window.DOMPurify;
+    if (!P || P._taPronto) return;
+    P._taPronto = true;
+    // <item>, <tipo> e outros marcadores dos prompts não somem: viram texto
+    P.addHook('uponSanitizeElement', (node, data) => {
+      if (node.nodeType === 1 && !data.allowedTags[data.tagName] && /^[a-z_][\w-]*$/.test(data.tagName) && node.parentNode) {
+        node.parentNode.insertBefore(document.createTextNode('<' + data.tagName + '>'), node);
+      }
+    });
+    P.addHook('afterSanitizeAttributes', (node) => {
+      if (node.tagName === 'A' && node.hasAttribute('href')) {
+        const h = node.getAttribute('href');
+        if (h.startsWith('#')) { node.removeAttribute('href'); return; } // âncora interna mudaria a rota do site
+        if (!/^(https?:|mailto:)/i.test(h)) {
+          try { node.setAttribute('href', new URL(h, new URL(baseMd, location.href)).href); } catch (e) { node.removeAttribute('href'); return; }
+        }
+        node.setAttribute('target', '_blank');
+        node.setAttribute('rel', 'noopener noreferrer');
+      }
+      if (node.tagName === 'IMG' && node.hasAttribute('src') && !/^(https?:|data:image\/)/i.test(node.getAttribute('src'))) {
+        try { node.setAttribute('src', new URL(node.getAttribute('src'), new URL(baseMd, location.href)).href); } catch (e) { node.removeAttribute('src'); }
+      }
+    });
+  }
+  function md(texto, base = '') {
     if (window.marked && window.DOMPurify) {
-      try { return window.DOMPurify.sanitize(window.marked.parse(texto, { gfm: true })); } catch (e) { /* cai no texto puro */ }
+      try {
+        prepararPurify();
+        baseMd = base;
+        return window.DOMPurify.sanitize(window.marked.parse(texto, { gfm: true }), {
+          FORBID_TAGS: ['style', 'form', 'input', 'button', 'textarea', 'select', 'iframe', 'object', 'embed'],
+          FORBID_ATTR: ['style', 'class', 'id'],
+        });
+      } catch (e) { /* cai no texto puro */ }
     }
     return `<pre class="cru" style="padding:0">${esc(texto)}</pre>`;
   }
@@ -1123,7 +1210,7 @@
         ${blocoCmd(py)}
 
         <h2 id="requisitos">Requisitos</h2>
-        <ul><li><b>Python 3.9 ou mais novo</b> (já vem no macOS com as ferramentas de linha de comando; no Windows use o WSL ou instale o Python).</li>
+        <ul><li><b>Python 3.8 ou mais novo.</b> No macOS já vem com as ferramentas de linha de comando (o Mac oferece instalar na primeira vez). No Windows, instale pelo <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">python.org</a>.</li>
         <li><b>Claude Code</b> instalado (terminal, app desktop ou extensão).</li>
         <li>Nada é instalado no sistema: o comando baixa o instalador a cada uso.</li></ul>
 
@@ -1133,6 +1220,10 @@
         ${blocoCmd(`${py} --agent conteudo/content-marketer`)}
         <p>Use <code>--dry-run</code> para ver o que seria gravado sem mudar nada, e <code>--yes</code> para pular a confirmação. Buscar pelo terminal:</p>
         ${blocoCmd(`${py} --search "meta ads"`)}
+        <p><b>Rode dentro da pasta do projeto</b> (no Terminal, <code>cd nome-da-pasta</code>). Na pasta pessoal o instalador para e avisa, para não deixar tudo global sem querer.</p>
+        <p><b>Os comandos mudam conforme o sistema.</b> Este site detectou ${ehWindows ? '<b>Windows</b>' : '<b>macOS ou Linux</b>'} e mostra o comando certo em todas as páginas. Para o outro sistema:</p>
+        ${ehWindows ? `<p class="nota">macOS e Linux (Terminal):</p>${blocoCmd(`${pyUnix()} --skill copy/copywriting`)}` : `<p class="nota">Windows (PowerShell ou Prompt de Comando):</p>${blocoCmd(`${pyWin()} --skill copy/copywriting`)}`}
+        <p class="nota">Se o Windows disser que <code>py</code> não existe, troque <code>py</code> por <code>python</code>.</p>
 
         <h2 id="stack">Montar uma stack</h2>
         <p>Clique no <b>+</b> dos componentes. O botão <b>Stack</b> no topo junta tudo num comando só, com as vírgulas e flags certas. O botão <b>Link</b> copia um endereço para compartilhar a mesma stack com a equipe.</p>
@@ -1200,7 +1291,32 @@
   }
 
   // ---------------------------------------------------------------- roteador
-  function rota() {
+  // Troca a página inteira menos o bloco `sel` (os filtros), para o campo de busca não perder
+  // o foco, o cursor nem o teclado do celular enquanto a pessoa digita.
+  function trocarMantendo(app, html, sel) {
+    const vivo = $(sel, app);
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    const novo = $(sel, tmp);
+    if (!vivo || !novo) return false;
+    const cadeia = [];
+    let a = vivo;
+    let b = novo;
+    while (a !== app) {
+      if (!a.parentNode || !b.parentNode || a.parentNode.children.length !== b.parentNode.children.length) return false;
+      cadeia.push([a, b]);
+      a = a.parentNode; b = b.parentNode;
+    }
+    if (b !== tmp) return false;
+    cadeia.forEach(([x, y]) => {
+      const lx = Array.from(x.parentNode.children);
+      const ly = Array.from(y.parentNode.children);
+      lx.forEach((ch, i) => { if (ch !== x) ch.replaceWith(ly[i]); });
+    });
+    return true;
+  }
+
+  function rota(opts = {}) {
     const hash = location.hash.replace(/^#/, '') || '/';
     const [caminho, qs] = hash.split('?');
     const p = new URLSearchParams(qs || '');
@@ -1208,13 +1324,13 @@
     let html;
     let ativo = '';
     if (caminho.startsWith('/item/')) {
-      html = paginaItem(decodeURIComponent(caminho.slice(6)));
+      html = paginaItem(dec(caminho.slice(6)));
     } else if (caminho === '/explorar') {
       html = paginaExplorar(p); ativo = p.get('tipo') ? 'tipo:' + p.get('tipo') : 'explorar';
     } else if (caminho === '/jornadas') {
       html = paginaJornadas(); ativo = 'jornadas';
     } else if (caminho.startsWith('/jornada/')) {
-      html = paginaJornada(decodeURIComponent(caminho.slice(9))); ativo = 'jornadas';
+      html = paginaJornada(dec(caminho.slice(9))); ativo = 'jornadas';
     } else if (caminho === '/favoritos') {
       html = paginaFavoritos();
     } else if (caminho === '/montador') {
@@ -1230,32 +1346,38 @@
     } else if (caminho === '/como-usar') {
       html = paginaDocs(); ativo = 'como-usar';
     } else if (caminho === '/stack') {
-      const ids = (p.get('ids') || '').split(',').filter((id) => S.byId.has(id));
-      ids.forEach((id) => { if (!S.stack.includes(id)) S.stack.push(id); });
-      salvarStack();
+      // link de stack de outra pessoa: pergunta antes de mexer na stack de quem abriu
+      const novos = (p.get('ids') || '').split(',').filter((id) => S.byId.has(id) && !S.stack.includes(id));
       history.replaceState(null, '', '#/');
       html = paginaInicio();
-      setTimeout(() => { abrirGaveta(true); if (ids.length) toast(`${ids.length} componentes adicionados à stack`); }, 50);
+      setTimeout(() => {
+        if (novos.length && confirm(`Adicionar ${novos.length} componente(s) deste link compartilhado à sua stack?`)) {
+          S.stack.push(...novos); salvarStack(); toast(`${novos.length} componentes adicionados à stack`);
+        }
+        abrirGaveta(true);
+      }, 50);
     } else {
       html = paginaInicio();
     }
-    app.innerHTML = html;
+    if (!(opts.manter && trocarMantendo(app, html, opts.manter))) app.innerHTML = html;
     $$('#nav a').forEach((a) => {
       const on = (a.dataset.rota && a.dataset.rota === ativo) || (a.dataset.tipo && 'tipo:' + a.dataset.tipo === ativo);
       a.classList.toggle('ativo', !!on);
     });
     $('#nav').classList.remove('aberta');
+    $('#menuBtn').setAttribute('aria-expanded', 'false');
     $$('[data-stack]', app).forEach(marcarBotao);
-    $$('[data-fav]', app).forEach(marcarFav);
+    const fs = favs();
+    $$('[data-fav]', app).forEach((el) => marcarFav(el, fs));
     pos(caminho, p);
-    if (!(caminho.startsWith('/explorar') || caminho.startsWith('/prompts')) || !p.toString()) window.scrollTo({ top: 0, behavior: 'instant' });
-    const t = caminho.startsWith('/item/') ? (S.byId.get(decodeURIComponent(caminho.slice(6))) || {}).title : null;
+    if (!opts.manter && !opts.manterScroll) window.scrollTo({ top: 0, behavior: 'instant' });
+    const t = caminho.startsWith('/item/') ? (S.byId.get(dec(caminho.slice(6))) || {}).title : null;
     document.title = (t ? t + ' · ' : '') + (hub().name || 'Central de IA Trip Angle');
   }
 
   function pos(caminho, p) {
     if (caminho.startsWith('/item/')) {
-      const it = S.byId.get(decodeURIComponent(caminho.slice(6)));
+      const it = S.byId.get(dec(caminho.slice(6)));
       if (it && (it.files || []).length) abrirArquivo(it, it.files[principal(it)]);
       if (it && it.type === 'prompts') ligarPrompt(it);
       $$('[data-aba]').forEach((b) => b.addEventListener('click', () => {
@@ -1264,22 +1386,24 @@
       }));
       $$('#listaArq button').forEach((b) => b.addEventListener('click', () => abrirArquivo(it, b.dataset.arq)));
     }
+    // os filtros continuam na página quando a busca muda (trocarMantendo): liga uma vez só
+    const ligarUmaVez = (el) => { if (!el || el.dataset.ligado) return false; el.dataset.ligado = '1'; return true; };
     const fp = $('#filtroPrompts');
-    if (fp) {
+    if (ligarUmaVez(fp)) {
       let tp;
       const aplicarP = () => {
         const n = new URLSearchParams(p);
-        if (fp.value.trim()) n.set('q', fp.value.trim()); else n.delete('q');
+        if (fp.value.trim()) n.set('q', fp.value); else n.delete('q');
         if ($('#filtroFerr').value) n.set('ferramenta', $('#filtroFerr').value); else n.delete('ferramenta');
         const novo = '#/prompts' + (n.toString() ? '?' + n : '');
-        if (novo !== location.hash) { history.replaceState(null, '', novo); const y = window.scrollY; rota(); window.scrollTo(0, y); const f = $('#filtroPrompts'); f.focus(); f.setSelectionRange(f.value.length, f.value.length); }
+        if (novo !== location.hash) { history.replaceState(null, '', novo); rota({ manter: '.filtros' }); }
       };
       fp.addEventListener('input', () => { clearTimeout(tp); tp = setTimeout(aplicarP, 220); });
       $('#filtroFerr').addEventListener('change', aplicarP);
     }
     if (caminho === '/perfil') ligarPerfil();
     if (caminho === '/montador') ligarMontador();
-    $$('select[data-param]').forEach((sel) => sel.addEventListener('change', () => {
+    $$('select[data-param]').filter(ligarUmaVez).forEach((sel) => sel.addEventListener('change', () => {
       const n = new URLSearchParams(p);
       if (sel.value) n.set(sel.dataset.param, sel.value); else n.delete(sel.dataset.param);
       location.hash = '#/explorar?' + n;
@@ -1287,22 +1411,22 @@
     const hb = $('#heroBusca');
     if (hb) hb.addEventListener('submit', (e) => { e.preventDefault(); const q = hb.q.value.trim(); location.hash = '#/explorar' + (q ? '?q=' + encodeURIComponent(q) : ''); });
     const fq = $('#filtroQ');
-    if (fq) {
+    if (ligarUmaVez(fq)) {
       let tmr;
       const aplicar = () => {
         const n = new URLSearchParams(p);
-        if (fq.value.trim()) n.set('q', fq.value.trim()); else n.delete('q');
+        if (fq.value.trim()) n.set('q', fq.value); else n.delete('q');
         const o = $('#filtroOrdem').value;
         if (o && o !== 'destaque') n.set('ordem', o); else n.delete('ordem');
         S.limite = 60;
         const novo = '#/explorar' + (n.toString() ? '?' + n : '');
-        if (novo !== location.hash) { history.replaceState(null, '', novo); rota(); const f = $('#filtroQ'); f.focus(); f.setSelectionRange(f.value.length, f.value.length); }
+        if (novo !== location.hash) { history.replaceState(null, '', novo); rota({ manter: '.filtros' }); }
       };
       fq.addEventListener('input', () => { clearTimeout(tmr); tmr = setTimeout(aplicar, 220); });
       $('#filtroOrdem').addEventListener('change', aplicar);
-      const mb = $('#maisBtn');
-      if (mb) mb.addEventListener('click', () => { S.limite += 60; const y = window.scrollY; rota(); window.scrollTo(0, y); });
     }
+    const mb = $('#maisBtn');
+    if (mb) mb.addEventListener('click', () => { S.limite += 60; rota({ manter: '.filtros' }); });
     $$('[data-ancora]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); const el = document.getElementById(a.dataset.ancora); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
   }
 
@@ -1339,22 +1463,27 @@
     clearTimeout(tmrToast);
     tmrToast = setTimeout(() => t.classList.remove('on'), 1800);
   }
-  async function copiar(texto, btn) {
+  async function copiar(texto, btn, msg) {
+    let ok = false;
     try {
       await navigator.clipboard.writeText(texto);
+      ok = true;
     } catch (e) {
       const ta = document.createElement('textarea');
-      ta.value = texto; ta.style.position = 'fixed'; ta.style.opacity = '0';
-      document.body.appendChild(ta); ta.select();
-      try { document.execCommand('copy'); } catch (e2) { /* sem cópia */ }
+      ta.value = texto; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.top = '0'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.focus(); ta.select(); ta.setSelectionRange(0, texto.length);
+      try { ok = document.execCommand('copy'); } catch (e2) { ok = false; }
       ta.remove();
     }
-    toast('Copiado');
+    if (!ok) { toast('Não consegui copiar sozinho: selecione o texto e copie'); return; }
+    toast(msg || 'Copiado');
     if (btn) { btn.classList.add('ok'); setTimeout(() => btn.classList.remove('ok'), 1200); }
   }
 
   function ligar() {
     document.addEventListener('click', (e) => {
+      // "Pular para o conteúdo" leva o foco ao conteúdo sem mudar a rota
+      if (e.target.closest('a.sr-only[href="#app"]')) { e.preventDefault(); const a = $('#app'); a.setAttribute('tabindex', '-1'); a.focus(); return; }
       const c = e.target.closest('[data-copiar]');
       if (c) { e.preventDefault(); copiar(c.dataset.copiar, c); return; }
       const s = e.target.closest('[data-stack]');
@@ -1401,7 +1530,7 @@
       const atual = new Set(progresso(id));
       if (cb.checked) atual.add(i); else atual.delete(i);
       store.set('ta-jornada-' + id, [...atual]);
-      const y = window.scrollY; rota(); window.scrollTo(0, y);
+      rota({ manterScroll: true });
       if (cb.checked) toast('Passo concluído');
     });
     $('#fecharGaveta').addEventListener('click', () => abrirGaveta(false));
@@ -1448,6 +1577,7 @@
     const yt = (h.cta || {}).youtube;
     if (yt && urlSegura(yt.url)) { const yl = $('#ytLink'); yl.hidden = false; yl.href = yt.url; }
     atualizarFavs();
+    $('#gaveta').inert = true;
     ligar();
     salvarStack();
     rota();

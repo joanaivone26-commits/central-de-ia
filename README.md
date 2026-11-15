@@ -16,7 +16,7 @@ Tudo de IA que um projeto digital precisa, num lugar só, grátis e sem login: *
 | Importadores | `tools/importers.py` | GitHub, pasta local, aitmpl.com e cadastro de repositórios |
 | Build | `tools/build.py` | Gera catálogo, kits, marketplace e o site em `dist/` |
 
-Tudo roda com **Python 3.9+** e a biblioteca padrão. Não precisa de Node, pip nem build de front-end.
+Tudo roda com **Python 3.8+** e a biblioteca padrão. Não precisa de Node, pip nem build de front-end.
 
 ## Prompts mestres
 
@@ -89,13 +89,21 @@ python3 tools/build.py
 No site, cada componente mostra o comando. O formato:
 
 ```bash
-python3 <(curl -fsSL https://SEU-SITE/tahub.py) --skill copy/copywriting
+python3 <(curl -fsSL https://tripangledigitalltda-star.github.io/central-de-ia/tahub.py) --skill copy/copywriting
 ```
+
+No Windows (PowerShell ou Prompt de Comando), que não tem `<(...)`:
+
+```
+py -c "import urllib.request as u;exec(u.urlopen('https://tripangledigitalltda-star.github.io/central-de-ia/tahub.py').read())" --skill copy/copywriting
+```
+
+Rode dentro da pasta do projeto. Na pasta pessoal (`~`) o instalador para e avisa, para não deixar tudo global sem querer.
 
 Vários de uma vez (é o que o botão **Stack** do site monta):
 
 ```bash
-python3 <(curl -fsSL https://SEU-SITE/tahub.py) --skill copy/copywriting,estrategia/offers --agent conteudo/content-marketer --command copy/hooks-anuncio
+python3 <(curl -fsSL https://tripangledigitalltda-star.github.io/central-de-ia/tahub.py) --skill copy/copywriting,estrategia/offers --agent conteudo/content-marketer --command copy/hooks-anuncio
 ```
 
 Prompts viram comandos e frameworks viram skills: `--prompts estrategia/criar-avatar-completo`, `--framework copy/pas`. Para ver um prompt preenchido no terminal: `--show prompts/estrategia/big-idea --var produto="Curso X"`. Outras opções: `--search`, `--list`, `--info`, `--dry-run`, `--yes`, `--scope local|project|user`, `-d <pasta>`, `--prompt`, `--health-check`, `--analytics`, `--chats`. Sem argumentos abre um menu interativo. A lista completa está em **Como usar** no site.
@@ -103,9 +111,13 @@ Prompts viram comandos e frameworks viram skills: `--prompts estrategia/criar-av
 Kits pelo marketplace, dentro do Claude Code:
 
 ```
-/plugin marketplace add SEU-USUARIO/trip-angle-hub
+/plugin marketplace add tripangledigitalltda-star/central-de-ia
 /plugin install ta-copy@trip-angle
 ```
+
+Para os kits se atualizarem sozinhos, ative a atualização automática em `/plugin` → Marketplaces → trip-angle, ou rode `/plugin marketplace update trip-angle` de vez em quando. O `/plugin marketplace add` precisa do git instalado.
+
+Componentes de terceiros (MIT e Apache-2.0) são redistribuídos com os avisos de licença em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e dentro de cada kit.
 
 ## Publicar
 

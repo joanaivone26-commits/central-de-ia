@@ -7,8 +7,8 @@
     "commit": "13da94c06601e0ab89f3d9f5e584a10f13d0b945",
     "url": "https://www.aitmpl.com/component/skills/ai-research/deep-research"
   },
-  "license": "MIT",
-  "author": "claude-code-templates (aitmpl.com)",
+  "license": "Apache-2.0",
+  "author": "sanjay3290 (sanjay3290/ai-skills), via claude-code-templates",
   "scan": {
     "severity": "LOW",
     "score": 0,

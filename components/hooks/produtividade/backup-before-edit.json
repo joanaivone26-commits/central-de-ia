@@ -1,13 +1,13 @@
 {
-  "description": "Create automatic backup of files before any Edit operation for safety. This hook creates a timestamped backup copy (filename.backup.timestamp) of any existing file before Claude modifies it. Provides a safety net to recover previous versions if needed. Only backs up existing files, includes error suppression to handle edge cases gracefully.",
+  "description": "Antes de cada edição ou reescrita feita pelo Claude, guarda uma cópia do arquivo original em .claude/backups/ (nome do arquivo + data e hora). Só copia arquivos que já existem e nunca bloqueia a edição. Precisa de python3. Dica: adicione .claude/backups/ ao .gitignore.",
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Edit",
+        "matcher": "Edit|MultiEdit|Write",
         "hooks": [
           {
             "type": "command",
-            "command": "if [[ -f \"$CLAUDE_TOOL_FILE_PATH\" ]]; then cp \"$CLAUDE_TOOL_FILE_PATH\" \"$CLAUDE_TOOL_FILE_PATH.backup.$(date +%s)\" 2>/dev/null || true; fi"
+            "command": "python3 -c \"import json,os,shutil,sys,time; d=json.load(sys.stdin); p=(d.get('tool_input') or {}).get('file_path') or ''; b=os.path.join(os.environ.get('CLAUDE_PROJECT_DIR') or d.get('cwd') or '.','.claude','backups'); os.path.isfile(p) and (os.makedirs(b,exist_ok=True), shutil.copy2(p,os.path.join(b,os.path.basename(p)+'.'+time.strftime('%Y%m%d-%H%M%S'))))\" 2>/dev/null || true"
           }
         ]
       }

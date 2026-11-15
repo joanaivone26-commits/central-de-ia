@@ -21,7 +21,7 @@ trip-angle-hub/
     └── admin.py             servidor local do painel admin (http://localhost:4545)
 ```
 
-Tudo roda com Python 3.9+ e só a biblioteca padrão. Nada de pip, Node ou build de front-end.
+Tudo roda com Python 3.8+ e só a biblioteca padrão. Nada de pip, Node ou build de front-end.
 
 ## Tipos de componente
 

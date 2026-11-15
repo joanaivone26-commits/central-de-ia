@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Central de IA Trip Angle: instalador de componentes para o Claude Code.
 
-Um arquivo só. Python 3.9+ e só a biblioteca padrão.
+Um arquivo só. Python 3.8+ e só a biblioteca padrão.
 
     python3 tahub.py                              modo interativo
     python3 tahub.py --skill copy/copywriting     instala uma skill
@@ -28,12 +28,21 @@ import sys
 import tempfile
 import textwrap
 import threading
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
 import webbrowser
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+import zlib
+
+if sys.version_info < (3, 8):
+    sys.stderr.write("A Central de IA Trip Angle precisa do Python 3.8 ou mais novo (você tem %d.%d).\n"
+                     "Baixe em https://www.python.org/downloads/ e rode o comando de novo.\n" % sys.version_info[:2])
+    sys.exit(1)
+
+import http.client  # noqa: E402
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer  # noqa: E402
 from pathlib import Path, PurePosixPath
 
 VERSION = "1.0.0"
@@ -81,6 +90,19 @@ def _isatty(stream):
 
 def _color_ok(stream):
     return _isatty(stream) and not os.environ.get("NO_COLOR") and os.environ.get("TERM") != "dumb"
+
+
+if os.name == "nt":
+    try:  # liga as sequências de cor no console do Windows 10+; se falhar, sai sem cor
+        import ctypes
+        _k32 = ctypes.windll.kernel32
+        for _h in (-11, -12):
+            _hd = _k32.GetStdHandle(_h)
+            _modo = ctypes.c_uint32()
+            if not (_k32.GetConsoleMode(_hd, ctypes.byref(_modo)) and _k32.SetConsoleMode(_hd, _modo.value | 0x0004)):
+                os.environ.setdefault("NO_COLOR", "1")
+    except Exception:  # noqa: BLE001
+        os.environ.setdefault("NO_COLOR", "1")
 
 
 for _stream in (sys.stdout, sys.stderr):
@@ -251,6 +273,26 @@ def script_path():
         return None
 
 
+def limpar_caminho(d):
+    """Pasta arrastada para o Terminal vem como /a/Meu\\ Projeto ou entre aspas."""
+    d = d.strip()
+    if "\\" in d or d[:1] in ("'", '"'):
+        try:
+            partes = shlex.split(d, posix=os.name != "nt")
+            if len(partes) == 1:
+                d = partes[0].strip("'\"")
+        except ValueError:
+            pass
+    return d
+
+
+def pasta_pessoal(p):
+    try:
+        return os.path.realpath(str(p)) == os.path.realpath(os.path.expanduser("~"))
+    except OSError:
+        return False
+
+
 def project_dir(d):
     p = Path(os.path.abspath(os.path.expanduser(d or os.getcwd())))
     if os.path.realpath(str(p)) == os.path.abspath(os.sep):
@@ -262,29 +304,72 @@ def project_dir(d):
 
 # ================================================================ origem e catálogo
 
-def http_get(url, limit=MAX_FILE, timeout=TIMEOUT):
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
+class _Transitorio(Exception):
+    """Falha de rede que vale tentar de novo (corte, tempo esgotado, erro 5xx)."""
+
+
+def _baixar_uma_vez(url, limit, timeout):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*",
+                                               "Accept-Encoding": "gzip"})
     host = urllib.parse.urlsplit(url).netloc
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            data = resp.read(limit + 1)
+            esperado = (resp.headers.get("Content-Length") or "").strip()
+            gz = (resp.headers.get("Content-Encoding") or "").strip().lower() == "gzip"
+            buf = bytearray()
+            while True:
+                chunk = resp.read(65536)
+                if not chunk:
+                    break
+                buf += chunk
+                if len(buf) > limit:
+                    raise HubError("arquivo grande demais na origem: %s" % url)
+    except HubError:
+        raise
     except urllib.error.HTTPError as e:
+        if e.code >= 500:
+            raise _Transitorio("a origem respondeu HTTP %s" % e.code)
         if e.code == 404:
-            raise HubError("não encontrado na origem (HTTP 404): %s" % url)
+            raise HubError("não encontrado na origem (HTTP 404): %s" % url,
+                           "Se a central acabou de ser atualizada, tente de novo em alguns minutos.")
         raise HubError("a origem respondeu HTTP %s: %s" % (e.code, url))
     except urllib.error.URLError as e:
         reason = str(getattr(e, "reason", e))
-        hint = None
         if "CERTIFICATE_VERIFY_FAILED" in reason:
-            hint = "Faltam certificados SSL no Python. No macOS rode 'Install Certificates.command' da pasta do Python."
-        raise HubError("sem conexão com %s (%s)" % (host, reason), hint)
-    except socket.timeout:
-        raise HubError("tempo esgotado ao baixar %s" % url)
+            raise HubError("sem conexão com %s (%s)" % (host, reason),
+                           "Faltam certificados SSL no Python. No macOS rode 'Install Certificates.command' da pasta do Python.")
+        if isinstance(getattr(e, "reason", None), (socket.timeout, ConnectionError)):
+            raise _Transitorio(reason)
+        raise HubError("sem conexão com %s (%s)" % (host, reason),
+                       "Confira a internet (ou a VPN/proxy) e rode de novo.")
+    except (socket.timeout, ConnectionError, http.client.HTTPException) as e:
+        raise _Transitorio(str(e) or e.__class__.__name__)
     except OSError as e:
         raise HubError("falha de rede ao baixar %s: %s" % (url, e))
-    if len(data) > limit:
-        raise HubError("arquivo grande demais na origem: %s" % url)
+    # conexão que cai no meio pode devolver menos bytes sem erro: nunca grava arquivo pela metade
+    if esperado.isdigit() and len(buf) != int(esperado):
+        raise _Transitorio("download incompleto (%d de %s bytes)" % (len(buf), esperado))
+    data = bytes(buf)
+    if gz:
+        try:
+            d = zlib.decompressobj(16 + zlib.MAX_WBITS)
+            data = d.decompress(data, limit + 1)
+        except zlib.error:
+            raise _Transitorio("download corrompido")
+        if len(data) > limit or d.unconsumed_tail:
+            raise HubError("arquivo grande demais na origem: %s" % url)
     return data
+
+
+def http_get(url, limit=MAX_FILE, timeout=TIMEOUT, tentativas=3):
+    for n in range(1, tentativas + 1):
+        try:
+            return _baixar_uma_vez(url, limit, timeout)
+        except _Transitorio as e:
+            if n == tentativas:
+                raise HubError("não consegui baixar %s: %s" % (url, e),
+                               "A conexão caiu ou ficou lenta. Rode o mesmo comando de novo; nada foi gravado.")
+            time.sleep(1.5 * n)
 
 
 class Source:
@@ -417,8 +502,14 @@ def item_spec(it):
     return "%s/%s" % (it["category"], it["name"])
 
 
+def cli_windows(base):
+    return "py -c \"import urllib.request as u;exec(u.urlopen('%s/tahub.py').read())\"" % base
+
+
 def cli_prefix(src):
     if src.kind == "url":
+        if os.name == "nt":
+            return cli_windows(src.base)
         return "python3 <(curl -fsSL %s/tahub.py)" % src.base
     sp = script_path()
     if sp:
@@ -550,7 +641,7 @@ def strip_central(data):
     return {k: v for k, v in data.items() if k not in CENTRAL_KEYS}
 
 
-def merge_into(dst, src, changes, mode="settings", path=()):
+def merge_into(dst, src, changes, mode="settings", path=(), force=False):
     """Mescla src em dst (no lugar) e anota as mudanças como (símbolo, chave, nota)."""
     for key, val in src.items():
         p = path + (key,)
@@ -562,8 +653,12 @@ def merge_into(dst, src, changes, mode="settings", path=()):
             elif jeq(cur, val):
                 changes.append(("=", name, "igual"))
                 continue
+            elif not force:
+                changes.append(("!", name, "já existe com outra configuração (talvez com a sua chave): mantido. "
+                                           "Use --force para substituir"))
+                continue
             else:
-                changes.append(("!", name, "já existia com outra configuração e será substituído"))
+                changes.append(("~", name, "substituído (--force); o .mcp.json anterior vai para o backup"))
             dst[key] = copy.deepcopy(val)
             continue
         if len(p) == 2 and p[0] == "hooks" and isinstance(val, list):
@@ -596,12 +691,12 @@ def merge_into(dst, src, changes, mode="settings", path=()):
         replace_whole = len(p) == 3 and p[0] == "extraKnownMarketplaces" and key == "source"
         if isinstance(val, dict) and not replace_whole:
             if isinstance(cur, dict):
-                merge_into(cur, val, changes, mode, p)
+                merge_into(cur, val, changes, mode, p, force)
                 continue
             if cur is _MISSING:
                 if len(p) == 1 and key in DETAIL_KEYS and val:
                     dst[key] = {}
-                    merge_into(dst[key], val, changes, mode, p)
+                    merge_into(dst[key], val, changes, mode, p, force)
                 else:
                     dst[key] = copy.deepcopy(val)
                     changes.append(("+", name, _fmt(val)))
@@ -622,7 +717,7 @@ def merge_into(dst, src, changes, mode="settings", path=()):
 def read_json_file(path):
     """dict, None (não existe) ou HubError (inválido)."""
     try:
-        raw = Path(path).read_text(encoding="utf-8")
+        raw = Path(path).read_text(encoding="utf-8-sig")
     except FileNotFoundError:
         return None
     except UnicodeDecodeError:
@@ -844,6 +939,9 @@ class Ctx:
         self.args, self.src, self.cat = args, src, cat
         self.project = project_dir(args.directory)
         self.scope = scope or "local"
+        if self.scope != "user" and not args.directory and pasta_pessoal(self.project):
+            raise HubError("você está na sua pasta pessoal (~), não na pasta de um projeto: tudo viraria global.",
+                           hint="Entre na pasta do projeto (cd nome-da-pasta) e rode de novo, ou use -d com o caminho dela.")
         self.force = bool(args.force)
         self.user_dir = claude_user_dir()
         self.stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -929,7 +1027,7 @@ class Plan:
 
     def merge(self, entry, target, patch, mode):
         changes = []
-        merge_into(target.work, patch, changes, mode)
+        merge_into(target.work, patch, changes, mode, force=self.ctx.force)
         target.patches.append((patch, mode))
         entry.json.append((target.label, changes))
 
@@ -1085,6 +1183,7 @@ def plan_hook(plan, it):
     e = plan.entry("hooks", item_spec(it), "%s (escopo %s)" % (ctx.show(ctx.settings_path()), ctx.scope))
     plan_extras(plan, e, it, "hooks")
     plan.merge(e, plan.settings_target(), {"hooks": hooks}, "settings")
+    e.notes.extend(o_que_executa({"hooks": hooks}))
     ignored = [k for k in data if k != "hooks"]
     if ignored:
         e.notes.append("chaves ignoradas no hook: " + ", ".join(ignored))
@@ -1100,7 +1199,12 @@ def plan_setting(plan, it):
         raise HubError("o setting %s não tem nenhuma chave para mesclar" % item_spec(it))
     e = plan.entry("settings", item_spec(it), "%s (escopo %s)" % (ctx.show(ctx.settings_path()), ctx.scope))
     plan_extras(plan, e, it, "scripts")
+    if ctx.scope == "user" and it.get("extras"):
+        # no escopo user o script fica em ~/.claude/scripts: o comando precisa do caminho completo
+        alvo = str(ctx.scope_base() / "scripts") + os.sep
+        data = json.loads(json.dumps(data).replace(".claude/scripts/", alvo.replace("\\", "/").replace('"', '')))
     plan.merge(e, plan.settings_target(), data, "settings")
+    e.notes.extend(o_que_executa(data))
 
 
 def marketplace_source(ctx):
@@ -1167,7 +1271,7 @@ def plan_repo(plan, it):
     if not shutil.which("git"):
         raise HubError("git não encontrado no PATH (necessário para --repo).", hint="Instale o git e rode de novo.")
     plan.clones.append((url, dest))
-    e.lines.append(("$", "git clone %s %s" % (url, ctx.show(dest)), ""))
+    e.lines.append(("$", "git clone --depth 1 %s %s" % (url, ctx.show(dest)), ""))
 
 
 def build_plan(ctx, selection):
@@ -1200,7 +1304,34 @@ def build_plan(ctx, selection):
             plan_template(plan, obj)
         elif tid == "repos":
             plan_repo(plan, obj)
+        sev = str((obj.get("scan") or {}).get("severity") or "").upper()
+        if sev in ("MEDIUM", "HIGH", "CRITICAL") and plan.entries:
+            plan.entries[-1].notes.append("análise de segurança: %s. Leia os arquivos antes de confirmar (--dry-run mostra tudo)." % sev)
     return plan
+
+
+def o_que_executa(data):
+    """Linhas legíveis com tudo o que um hook ou setting faz rodar ou libera."""
+    out = []
+    hooks = data.get("hooks") if isinstance(data.get("hooks"), dict) else {}
+    for ev, entradas in hooks.items():
+        for ent in entradas if isinstance(entradas, list) else []:
+            if not isinstance(ent, dict):
+                continue
+            m = ent.get("matcher")
+            for h in ent.get("hooks") or []:
+                if isinstance(h, dict) and h.get("command"):
+                    out.append("roda no evento %s%s: %s" % (ev, " (%s)" % m if m else "", h["command"]))
+    for k in ("statusLine", "apiKeyHelper", "awsAuthRefresh", "awsCredentialExport", "otelHeadersHelper"):
+        v = data.get(k)
+        cmd = v.get("command") if isinstance(v, dict) else (v if isinstance(v, str) else None)
+        if cmd:
+            out.append("%s roda: %s" % (k, cmd))
+    perms = data.get("permissions") if isinstance(data.get("permissions"), dict) else {}
+    for k, rot in (("allow", "libera sem perguntar"), ("deny", "bloqueia"), ("ask", "sempre pergunta antes de")):
+        if isinstance(perms.get(k), list) and perms[k]:
+            out.append("%s: %s" % (rot, ", ".join(str(x) for x in perms[k])))
+    return out
 
 
 def print_plan(plan, full=False):
@@ -1254,17 +1385,28 @@ def print_plan(plan, full=False):
              % c["skip"])
 
 
-def backup_file(ctx, t):
-    d = Path(t.backup_root) / ".tahub-backups" / ctx.stamp
-    guard(d, [t.root])
+def copiar_backup(ctx, path, backup_root, root):
+    base = Path(backup_root) / ".tahub-backups"
+    d = base / ctx.stamp
+    guard(d, [root])
     d.mkdir(parents=True, exist_ok=True)
-    dest = d / t.path.name
+    gi = base / ".gitignore"
+    if not gi.exists():
+        try:  # backups podem ter chaves (settings.local.json, .mcp.json): nunca vão para o git
+            gi.write_text("# Cópias de segurança do instalador da Central de IA Trip Angle\n*\n", encoding="utf-8")
+        except OSError:
+            pass
+    dest = d / path.name
     n = 2
     while dest.exists():
-        dest = d / ("%s.%d" % (t.path.name, n))
+        dest = d / ("%s.%d" % (path.name, n))
         n += 1
-    shutil.copy2(str(t.path), str(dest))
+    shutil.copy2(str(path), str(dest))
     return dest
+
+
+def backup_file(ctx, t):
+    return copiar_backup(ctx, t.path, t.backup_root, t.root)
 
 
 def execute(plan):
@@ -1280,6 +1422,8 @@ def execute(plan):
             continue
         try:
             guard(op.dest, [op.root])
+            if op.status == "overwrite" and op.dest.is_file():
+                backups.append(copiar_backup(ctx, op.dest, ctx.scope_base(), ctx.scope_root()))
             write_atomic(op.dest, op.data, um, op.executable)
             written += 1
         except (OSError, HubError) as e:
@@ -1292,14 +1436,16 @@ def execute(plan):
         sys.stdout.flush()
         try:
             dest.parent.mkdir(parents=True, exist_ok=True)
-            r = subprocess.run(["git", "clone", "--", url, str(dest)], timeout=900)
+            r = subprocess.run(["git", "clone", "--depth", "1", "--", url, str(dest)], timeout=900)
             if r.returncode != 0:
                 errors += 1
+                shutil.rmtree(str(dest), ignore_errors=True)
                 print(red("✗") + " git clone falhou (código %d)" % r.returncode)
             else:
                 print(green("✓") + " clonado em %s" % ctx.show(dest))
         except (OSError, subprocess.TimeoutExpired) as e:
             errors += 1
+            shutil.rmtree(str(dest), ignore_errors=True)
             print(red("✗") + " git clone falhou: %s" % e)
     for cmd in plan.commands:
         print(dim("$ " + " ".join(["claude"] + [shlex.quote(c) for c in cmd[1:]])))
@@ -1316,7 +1462,7 @@ def execute(plan):
             cur = read_json_file(t.path)  # relê: o claude pode ter mexido no arquivo
             work = copy.deepcopy(cur) if cur is not None else {}
             for patch, mode in t.patches:
-                merge_into(work, patch, [], mode)
+                merge_into(work, patch, [], mode, force=ctx.force)
             if cur is not None and jeq(cur, work):
                 print(dim("= %s sem mudanças" % t.label))
                 continue
@@ -1579,7 +1725,13 @@ def cmd_interactive(args):
     if not args.directory:
         d = ask("Pasta do projeto [%s]: " % os.getcwd())
         if d:
-            args.directory = d
+            args.directory = limpar_caminho(d)
+        if not args.directory and pasta_pessoal(os.getcwd()):
+            warn("você está na sua pasta pessoal (~), não na pasta de um projeto.")
+            if not confirm("Instalar assim mesmo? Tudo vira global para todos os projetos"):
+                raise HubError("cancelado.", hint="Entre na pasta do projeto (cd nome-da-pasta) e rode de novo.",
+                               code=EXIT_CANCEL)
+            args.directory = os.getcwd()
     print()
     return run_install(args, src, cat, chosen, scope or "local")
 
@@ -1868,7 +2020,13 @@ def cmd_show(args):
         unused = [k for k in values if k not in used]
         if unused:
             print(paint("!", "33", ECOLOR) + " variável que não aparece no texto: " + ", ".join(unused), file=sys.stderr)
-    sys.stdout.write(text if text.endswith("\n") else text + "\n")
+    saida = text if text.endswith("\n") else text + "\n"
+    if not _isatty(sys.stdout) and hasattr(sys.stdout, "buffer"):
+        sys.stdout.flush()
+        sys.stdout.buffer.write(saida.encode("utf-8"))
+        sys.stdout.buffer.flush()
+    else:
+        sys.stdout.write(saida)
     sys.stdout.flush()
     if missing:
         print(paint("!", "33", ECOLOR) + " variáveis sem valor (ficaram como {{nome}}): " + ", ".join(missing)
@@ -1893,10 +2051,10 @@ def cmd_health(args):
         rows.append((kind, text, fix))
 
     pv = platform.python_version()
-    if sys.version_info >= (3, 9):
+    if sys.version_info >= (3, 8):
         add("ok", "Python %s" % pv)
     else:
-        add("bad", "Python %s (precisa 3.9 ou mais novo)" % pv, "instale o Python 3.9+ em python.org")
+        add("bad", "Python %s (precisa 3.8 ou mais novo)" % pv, "instale o Python mais novo em python.org")
     claude = shutil.which("claude")
     if claude:
         try:
@@ -2925,9 +3083,19 @@ def main(argv=None):
                 print(help_text())
                 return EXIT_OK
             return cmd_interactive(args)
-        if not tty:
+        if not tty and not args.yes and not args.dry_run:
+            arriscados = sorted({SINGULAR.get(tid, tid) for tid, _ in requests
+                                 if tid in ("hooks", "settings", "plugins", "repos")})
+            if arriscados:
+                raise HubError("sem terminal interativo, não instalo %s sem confirmação." % ", ".join(arriscados),
+                               hint="Veja o plano com --dry-run e, se estiver de acordo, rode de novo com -y.",
+                               code=EXIT_USAGE)
             args.yes = True
         if not requests:
+            if re.match(r"^(prompts/)?[a-z0-9-]+/[a-z0-9._-]+$", str(args.prompt).strip()):
+                raise HubError("--prompt (sem s) abre o Claude Code com um texto, não instala nada.",
+                               hint="Para instalar este prompt use --prompts %s" % str(args.prompt).strip(),
+                               code=EXIT_USAGE)
             return run_prompt(args.prompt, project_dir(args.directory))
         return cmd_install(args, requests)
     except HubError as e:

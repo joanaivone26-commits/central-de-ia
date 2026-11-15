@@ -16,5 +16,5 @@
     "scannedAt": "2026-10-17T20:36:45Z"
   },
   "addedAt": "2026-11-15",
-  "notes": "Importado do aitmpl.com (mcps/devtools/markitdown)."
+  "notes": "Importado do aitmpl.com (mcps/devtools/markitdown) e ajustado pela Trip Angle: o original rodava uma imagem Docker que cada pessoa teria de montar à mão; agora usa o pacote oficial markitdown-mcp pelo uvx."
 }

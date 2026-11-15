@@ -7,8 +7,8 @@
     "commit": "377b983e317059f18da0a3e3583c8fe75c919f8e",
     "url": "https://www.aitmpl.com/component/skills/business-marketing/lead-research-assistant"
   },
-  "license": "MIT",
-  "author": "claude-code-templates (aitmpl.com)",
+  "license": "Apache-2.0",
+  "author": "ComposioHQ (awesome-claude-skills), via claude-code-templates",
   "scan": {
     "severity": "LOW",
     "score": 0,

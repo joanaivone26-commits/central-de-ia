@@ -1,11 +1,10 @@
 {
-  "url": "https://github.com/mistralai/Voxtral-4B-TTS-2603",
+  "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
   "title": "Voxtral TTS (Mistral)",
   "description": "TTS 4B da Mistral (mar/2026) com 20 vozes prontas em 9 idiomas, incluindo português.",
   "tags": [
     "Texto para fala"
   ],
-  "stars": null,
   "license": "N/A (sem repo de código próprio)",
   "subcategoria": "Texto para fala",
   "detalhes": {
@@ -28,5 +27,6 @@
   "fontes": [
     "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
     "https://recipes.vllm.ai/mistralai/Voxtral-4B-TTS-2603"
-  ]
+  ],
+  "pricing": "grátis para uso não comercial (pesos CC-BY-NC-4.0)"
 }

@@ -7,8 +7,8 @@
     "commit": "7faa175714982142b40bceb2b5de881e3c93a778",
     "url": "https://www.aitmpl.com/component/skills/creative-design/frontend-design"
   },
-  "license": "Complete terms in LICENSE.txt",
-  "author": "claude-code-templates (aitmpl.com)",
+  "license": "Apache-2.0",
+  "author": "Anthropic (anthropics/skills), via claude-code-templates",
   "scan": {
     "severity": "LOW",
     "score": 13,

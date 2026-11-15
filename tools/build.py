@@ -72,8 +72,14 @@ def build(check_only=False, quiet=False):
         log(f"{len(items)} componentes lidos, {len(warnings)} avisos.")
         return {"items": items, "warnings": warnings}
 
-    version = "1." + datetime.date.today().strftime("%Y%m%d") + ".0"
+    agora = datetime.datetime.now()
+    # um número novo a cada publicação (até várias no mesmo dia), para o Claude Code oferecer a atualização
+    version = "1.%s.%d" % (agora.strftime("%Y%m%d"), agora.hour * 100 + agora.minute)
     bundles = write_bundles(cfg, cats, items, version, warnings)
+    redistribuidos = [i for i in items if i["type"] not in ("repos", "sites")]
+    aviso = avisos_de_terceiros(redistribuidos, "Avisos de terceiros · Central de IA Trip Angle")
+    if aviso and not check_only:
+        (hc.ROOT / "THIRD_PARTY_NOTICES.md").write_text(aviso + "\n", encoding="utf-8")
     write_marketplace(cfg, cats, items, bundles, version)
     catalog = write_dist(cfg, cats, items, bundles, collections, journeys)
     for w in warnings:
@@ -85,6 +91,66 @@ def build(check_only=False, quiet=False):
 
 
 # ---------------------------------------------------------------- bundles
+
+MIT_TEXTO = """Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."""
+
+# Avisos de copyright das origens MIT de onde a Central redistribui componentes.
+MIT_COPYRIGHT = {
+    "davila7/claude-code-templates": "Copyright (c) 2025 Daniel (San) Ávila",
+    "coreyhaines31/marketingskills": "Copyright (c) 2025 Corey Haines",
+    "obra/superpowers": "Copyright (c) 2025 Jesse Vincent",
+}
+
+
+def _terceiro(it):
+    s = it.get("source") or {}
+    return s.get("kind") in ("aitmpl", "github") and s.get("repo")
+
+
+def avisos_de_terceiros(itens, titulo):
+    """Markdown com a lista de componentes de terceiros e os textos de licença que precisam ir junto."""
+    terc = sorted((it for it in itens if _terceiro(it)), key=lambda i: i["id"])
+    if not terc:
+        return None
+    linhas = [f"# {titulo}", "",
+              "Esta pasta inclui componentes de terceiros, redistribuídos conforme as licenças deles. "
+              "O restante é conteúdo original da Trip Angle.", "",
+              "| Componente | Autor | Licença | Origem |", "|---|---|---|---|"]
+    origens = set()
+    for it in terc:
+        s = it["source"]
+        origens.add(s["repo"])
+        if "superpowers" in str(it.get("author") or ""):
+            origens.add("obra/superpowers")
+        url = s.get("url") or f"https://github.com/{s['repo']}"
+        autor = str(it.get("author") or s["repo"]).replace("|", "/")
+        linhas.append(f"| {it['type']}/{it['name']} | {autor} | {it.get('license') or 'ver origem'} | {url} |")
+    linhas += ["", "## Textos das licenças", ""]
+    for repo in sorted(origens):
+        if repo in MIT_COPYRIGHT:
+            linhas += [f"### {repo} (MIT)", "", "```", "MIT License", "", MIT_COPYRIGHT[repo], "", MIT_TEXTO, "```", ""]
+    if any(str(it.get("license")) == "Apache-2.0" for it in terc):
+        linhas += ["### Apache License 2.0", "",
+                   "Os componentes marcados Apache-2.0 trazem o texto completo da licença no arquivo LICENSE.txt "
+                   "dentro da própria pasta.", ""]
+    return "\n".join(linhas)
+
 
 def write_bundles(cfg, cats, items, version, warnings):
     """Um plugin por categoria com as skills, agentes e comandos soltos dela."""
@@ -133,6 +199,9 @@ def write_bundles(cfg, cats, items, version, warnings):
         if n_fw:
             partes.append(f"{n_fw} frameworks")
         desc = f"{label}: {', '.join(partes)} da {cfg.get('name', 'Central de IA Trip Angle')}."
+        aviso = avisos_de_terceiros([m for m in members if m.get("bundle") == name], f"Avisos de terceiros · {name}")
+        if aviso:
+            (root / "THIRD_PARTY_NOTICES.md").write_text(aviso + "\n", encoding="utf-8")
         hc.write_json(root / ".claude-plugin" / "plugin.json", {
             "name": name,
             "version": version,
@@ -180,6 +249,14 @@ def write_dist(cfg, cats, items, bundles, collections=(), journeys=()):
     if dist.exists():
         shutil.rmtree(dist)
     shutil.copytree(hc.SITE, dist, ignore=shutil.ignore_patterns("admin.html", "admin.js", ".DS_Store"))
+    idx = dist / "index.html"
+    base_url = (cfg.get("siteUrl") or "").rstrip("/")
+    html = idx.read_text(encoding="utf-8")
+    if base_url:
+        html = html.replace("%%SITE_URL%%", base_url)
+    else:  # sem endereço público, as tags de pré-visualização não teriam URL válida
+        html = "\n".join(l for l in html.split("\n") if "%%SITE_URL%%" not in l)
+    idx.write_text(html, encoding="utf-8")
     shutil.copytree(hc.COMPONENTS, dist / "components", ignore=shutil.ignore_patterns(".DS_Store", "__pycache__"))
     counts = {t["id"]: 0 for t in hc.TYPES}
     cat_counts = {}
@@ -227,8 +304,9 @@ def write_dist(cfg, cats, items, bundles, collections=(), journeys=()):
 
 
 def write_llms(cfg, catalog, dist):
+    base = (cfg.get("siteUrl") or "").rstrip("/")
     lines = [f"# {cfg.get('name', 'Central de IA Trip Angle')}", "", f"> {cfg.get('description', '')}", "",
-             "Catálogo em JSON: /api/catalog.json. Instalador: /tahub.py (Python 3.9+, sem dependências).", ""]
+             f"Catálogo em JSON: {base}/api/catalog.json. Instalador: {base}/tahub.py (Python 3.9+, sem dependências).", ""]
     for t in catalog["types"]:
         sub = [i for i in catalog["items"] if i["type"] == t["id"]]
         if not sub:

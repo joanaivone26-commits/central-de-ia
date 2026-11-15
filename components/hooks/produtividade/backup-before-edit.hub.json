@@ -16,5 +16,6 @@
     "scannedAt": "2026-10-17T20:36:45Z"
   },
   "addedAt": "2026-11-15",
-  "notes": "Importado do aitmpl.com (hooks/pre-tool/backup-before-edit)."
+  "notes": "Importado do aitmpl.com (hooks/pre-tool/backup-before-edit) e corrigido pela Trip Angle: o original lia $CLAUDE_TOOL_FILE_PATH, variável que o Claude Code não define, e nunca fazia backup. Agora lê o JSON do hook e cobre Edit, MultiEdit e Write.",
+  "title": "Backup antes de editar"
 }

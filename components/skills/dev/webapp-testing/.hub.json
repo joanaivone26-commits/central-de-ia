@@ -7,8 +7,8 @@
     "commit": "15e09b2214585976ae4073522192eb62d4dd4093",
     "url": "https://www.aitmpl.com/component/skills/development/webapp-testing"
   },
-  "license": "Complete terms in LICENSE.txt",
-  "author": "claude-code-templates (aitmpl.com)",
+  "license": "Apache-2.0",
+  "author": "Anthropic (anthropics/skills), via claude-code-templates",
   "scan": {
     "severity": "MEDIUM",
     "score": 49,

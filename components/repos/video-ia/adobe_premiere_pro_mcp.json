@@ -20,7 +20,6 @@
   },
   "fontes": [
     "https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP",
-    "https://www.npmjs.com/package/adobe-premiere-pro-mcp",
-    "https://premiere-mcp.com/"
+    "https://www.npmjs.com/package/adobe-premiere-pro-mcp"
   ]
 }

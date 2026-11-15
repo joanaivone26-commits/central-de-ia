@@ -1,14 +1,11 @@
 {
-  "description": "Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.",
+  "description": "Converte PDF, Word, Excel, PowerPoint, imagens e áudio em Markdown para o Claude ler. Precisa do uv instalado (docs.astral.sh/uv); o uvx baixa o servidor sozinho na primeira vez.",
   "mcpServers": {
     "markitdown": {
-      "description": "Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.",
-      "command": "docker",
+      "description": "Converte PDF, Word, Excel, PowerPoint, imagens e áudio em Markdown para o Claude ler. Precisa do uv instalado (docs.astral.sh/uv); o uvx baixa o servidor sozinho na primeira vez.",
+      "command": "uvx",
       "args": [
-        "run",
-        "--rm",
-        "-i",
-        "markitdown-mcp:latest"
+        "markitdown-mcp@0.0.1a8"
       ]
     }
   }
